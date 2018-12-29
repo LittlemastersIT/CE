@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/18/2016 20:24:46</entryDate>
+		<processDate>03/20/2016 13:12:06</processDate>
+		<contact>
+			<name>Pam</name>
+			<email>pam.leung@gmail.com</email>
+			<phone>917-592-3137</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Emily</firstName>
+				<lastName>Leung-Kaplan</lastName>
+				<chineseName></chineseName>
+				<birthday>06/18/2007</birthday>
+				<email>pam.leung@gmail.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual School</extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>emily.leung-kaplan.06-18-2007</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>HonorableMentioned</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/03/2016 21:17:16</entryDate>
+		<processDate>03/20/2016 12:25:26</processDate>
+		<contact>
+			<name>Cindy Liu</name>
+			<email>liu_cindy@outlook.com</email>
+			<phone>206-596-6887</phone>
+		</contact>
+		<competition teamName="">
+			<category>Drawing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Ziyu</firstName>
+				<lastName>Wang</lastName>
+				<chineseName></chineseName>
+				<birthday>08/06/2008</birthday>
+				<email>liu_cindy@outlook.com</email>
+				<academicSchool>Discovery Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>ziyu.wang.08-06-2008</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

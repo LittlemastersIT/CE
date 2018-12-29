@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/02/2016 22:17:56</entryDate>
+		<processDate>03/12/2016 16:40:29</processDate>
+		<contact>
+			<name>Iris</name>
+			<email>irisku@frontier.com</email>
+			<phone>206-683-6219</phone>
+		</contact>
+		<competition teamName="">
+			<category>Poetry</category>
+			<subcategory></subcategory>
+			<class>ClassB</class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Sofia</firstName>
+				<lastName>Rutishauser</lastName>
+				<chineseName></chineseName>
+				<birthday>11/02/2008</birthday>
+				<email>irisku@frontier.com</email>
+				<academicSchool>Melody Bilingual</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sofia.rutishauser.11-02-2008</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

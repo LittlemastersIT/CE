@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/28/2016 11:54:23</entryDate>
+		<processDate>03/20/2016 11:48:17</processDate>
+		<contact>
+			<name>weiying chen</name>
+			<email>weiyingchen@yahoo.com</email>
+			<phone>425-894-2462</phone>
+		</contact>
+		<competition teamName="">
+			<category>Speech</category>
+			<subcategory></subcategory>
+			<class>ClassA</class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Cindy</firstName>
+				<lastName>Kohlleppel</lastName>
+				<chineseName>陈心星</chineseName>
+				<birthday>07/09/1999</birthday>
+				<email>lamborghinimercy13@gmail.com</email>
+				<academicSchool>Skyline High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>11</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>cindy.kohlleppel.07-09-1999</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

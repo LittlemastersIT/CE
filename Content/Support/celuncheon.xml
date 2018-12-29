@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <page>
+    <articles>
+      <article title="Friendship Luncheon">
+        <paragraph>
+          <text>
+            <![CDATA[
+              <div style="margin:0 auto;">
+              <div style="text-aligh:center;">
+                <div style="font-size:bold;padding-top:20px;">Dear Friends:</div>
+                <div style="padding-top:20px;">CE concluded a very successful year with a well-attended friendship luncheon on Sunday, September 21st, 2014.
+                Over 180 guests attended the event and raised over $28,000 to fund CE.
+                 </br></br>
+                 CE guests arrived around 11:30 to meet CE teachers, browsed through teaching materials and learned about their 
+                 teaching plans. The program started with a brief CE introduction trivia. After a delicious lunch, the guests enjoyed 
+                 two outstanding performances by CE students Kei Imada & Nat Beaumon that showcased CE
+                 Competition conducted in March 2014. CE teachers Monica DeWald, Dana Radcliffe, Jeromie Heath & Bridget 
+                 Anderson shared their transformational journey and their plans to bring these experiences to the classrooms. The 
+                  program was successfully concluded around 2:30. Please check out these event images...
+                  </br></br>
+               </div>
+               <ul>
+                <li style="display:inline;"><img src="/images/support/2014luncheon1.jpg" width="300px" alt=""/></li>
+                <li style="display:inline;"><img src="/images/support/2014luncheon2.jpg" width="300px" alt=""/></li>            
+                <li style="display:inline;"><img src="/images/support/2014luncheon3.jpg" width="300px" alt=""/></li>
+                <li style="display:inline;"><img src="/images/support/2014luncheon4.jpg" width="300px" alt=""/></li> 
+                <li style="display:inline;"><img src="/images/support/2014luncheon5.jpg" width="300px" alt=""/></li>
+                <li style="display:inline;"><img src="/images/support/2014luncheon6.jpg" width="300px" alt=""/></li>            
+                <li style="display:inline;"><img src="/images/support/2014luncheon7.jpg" width="300px" alt=""/></li>
+                <li style="display:inline;"><img src="/images/support/2014luncheon8.jpg" width="300px" alt=""/></li> 
+                <li style="display:inline;"><img src="/images/support/2014luncheon9.jpg" width="300px" alt=""/></li>
+                <li style="display:inline;"><img src="/images/support/2014luncheon10.jpg" width="300px" alt=""/></li>            
+                <li style="display:inline;"><img src="/images/support/2014luncheon11.jpg" width="300px" alt=""/></li>
+                <li style="display:inline;"><img src="/images/support/2014luncheon12.jpg" width="300px" alt=""/></li> 
+                <li style="display:inline;"><img src="/images/support/2014luncheon13.jpg" width="300px" alt=""/></li>
+                <li style="display:inline;"><img src="/images/support/2014luncheon14.jpg" width="300px" alt=""/></li>            
+                <li style="display:inline;"><img src="/images/support/2014luncheon15.jpg" width="300px" alt=""/></li>
+                <li style="display:inline;"><img src="/images/support/2014luncheon16.jpg" width="300px" alt=""/></li> 
+              </ul>
+               
+              </div>
+              </div>
+            ]]>
+          </text>
+        </paragraph>
+      </article>
+    </articles>
+    <sideBar>
+      <relatedLinks header="2015 Events">
+        <relatedLink iconUrl="/Images/pin.png" title="2015 Friendship Luncheon Invitation Letter" linkUrl="/documents/support/2015 Friendship Luncheon.pdf" target="_blank" />
+      </relatedLinks>
+      <relatedLinks header="2014 Events">
+        <relatedLink iconUrl="/Images/pin.png" title="2014 Friendship Luncheon Invitation Letter" linkUrl="/documents/support/2014 Friendship Luncheon.pdf" target="_blank" />
+      </relatedLinks>
+    </sideBar>
+  </page>
+</ce>
+

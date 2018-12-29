@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/25/2016 22:05:35</entryDate>
+		<processDate>04/04/2016 13:33:04</processDate>
+		<contact>
+			<name>Jenny Cheng</name>
+			<email>quanxincheng@hotmail.com</email>
+			<phone>206-877-2860</phone>
+		</contact>
+		<competition teamName="">
+			<category>Chess</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Jason</firstName>
+				<lastName>Yang</lastName>
+				<chineseName>Yang, Zhenglong</chineseName>
+				<birthday>08/30/2000</birthday>
+				<email>quanxincheng@hotmail.com</email>
+				<academicSchool>Interlake High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jason.yang.08-30-2000</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

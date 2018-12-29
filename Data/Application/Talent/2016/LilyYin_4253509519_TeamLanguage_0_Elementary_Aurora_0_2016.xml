@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>30</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/24/2016 00:01:24</entryDate>
+		<processDate>03/20/2016 12:59:35</processDate>
+		<contact>
+			<name>Lily Yin</name>
+			<email>Lyin71@hotmail.com</email>
+			<phone>425-350-9519</phone>
+		</contact>
+		<competition teamName="Aurora">
+			<category>TeamLanguage</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Aiden</firstName>
+				<lastName>Yin</lastName>
+				<chineseName></chineseName>
+				<birthday>11/23/2007</birthday>
+				<email>lyin71@hotmail.com</email>
+				<academicSchool>Somerset Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>aiden.yin.11-23-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Corlie</firstName>
+				<lastName>Zhuang</lastName>
+				<chineseName></chineseName>
+				<birthday>01/28/2008</birthday>
+				<email>wlspore@hotmail.com</email>
+				<academicSchool>Somerset Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>corlie.zhuang.01-28-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Lexi</firstName>
+				<lastName>Liu</lastName>
+				<chineseName></chineseName>
+				<birthday>02/26/2007</birthday>
+				<email>rachelyuqian@gmail.com</email>
+				<academicSchool>Lakeridge Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>lexi.liu.02-26-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Andrea</firstName>
+				<lastName>Han</lastName>
+				<chineseName></chineseName>
+				<birthday>03/07/2007</birthday>
+				<email>feixuehan@hotmail.com</email>
+				<academicSchool>Medina Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>andrea.han.03-07-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Youyi</firstName>
+				<lastName>Li</lastName>
+				<chineseName></chineseName>
+				<birthday>09/18/2007</birthday>
+				<email>reneexie@yahoo.com</email>
+				<academicSchool>Endeavour Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>youyi.li.09-18-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Alieen</firstName>
+				<lastName>Liang</lastName>
+				<chineseName></chineseName>
+				<birthday>04/30/2006</birthday>
+				<email>ningying@yahoo.com</email>
+				<academicSchool>Medina Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>alieen.liang.04-30-2006</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

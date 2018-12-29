@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>FeeWaived</paymentMethod>
+		<paymentAmount>0</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/04/2016 22:52:48</entryDate>
+		<processDate>03/20/2016 12:06:59</processDate>
+		<contact>
+			<name>Katia Olvia</name>
+			<email>katiado1014@gmail.com</email>
+			<phone>206-446-9558</phone>
+		</contact>
+		<competition teamName="Team_Oompa_Loompa">
+			<category>TeamPoetry</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Katia</firstName>
+				<lastName>Oliva</lastName>
+				<chineseName></chineseName>
+				<birthday>10/14/1999</birthday>
+				<email>katiado1014@gmail.com</email>
+				<academicSchool>Chief Sealth IHS</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>11</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>katia.oliva.10-14-1999</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Kimseam</firstName>
+				<lastName>Chou</lastName>
+				<chineseName></chineseName>
+				<birthday>02/01/2000</birthday>
+				<email>kchou436@yahoo.com</email>
+				<academicSchool>Chief Sealth IHS</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>kimseam.chou.02-01-2000</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Zhen</firstName>
+				<lastName>Williams</lastName>
+				<chineseName></chineseName>
+				<birthday>06/14/2000</birthday>
+				<email>zrw321@gmail.com</email>
+				<academicSchool>Chief Sealth IHS</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>zhen.williams.06-14-2000</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Rumi</firstName>
+				<lastName>Conley</lastName>
+				<chineseName></chineseName>
+				<birthday>04/17/2000</birthday>
+				<email>rumi.conley@gmail.com</email>
+				<academicSchool>Chief Sealth IHS</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>rumi.conley.04-17-2000</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Zehao</firstName>
+				<lastName>Huang</lastName>
+				<chineseName></chineseName>
+				<birthday>10/10/2000</birthday>
+				<email>zehaohuang00@gmail.com</email>
+				<academicSchool>Chief Sealth IHS</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>zehao.huang.10-10-2000</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Ngan</firstName>
+				<lastName>Le</lastName>
+				<chineseName></chineseName>
+				<birthday>09/29/1998</birthday>
+				<email>ngaanle@gmail.com</email>
+				<academicSchool>Chief Sealth IHS</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>ngan.le.09-29-1998</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

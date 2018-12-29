@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>10</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/17/2016 13:45:18</entryDate>
+		<processDate>03/20/2016 13:26:08</processDate>
+		<contact>
+			<name>Shirley Cai</name>
+			<email>caixiaolai@hotmail.com</email>
+			<phone>425-891-3549</phone>
+		</contact>
+		<competition teamName="Buttlerfly">
+			<category>TeamTalent</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Jasmine</firstName>
+				<lastName>Zhang</lastName>
+				<chineseName>张思敏</chineseName>
+				<birthday>08/26/2001</birthday>
+				<email>jasminezhang@live.com</email>
+				<academicSchool>Redmond High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jasmine.zhang.08-26-2001</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Kevin</firstName>
+				<lastName>Cai</lastName>
+				<chineseName>蔡凯文</chineseName>
+				<birthday>05/01/2001</birthday>
+				<email>s-kcai@lwsd.org</email>
+				<academicSchool>Redmond High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>kevin.cai.05-01-2001</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

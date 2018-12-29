@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <albums title="..." rootUrl="/Album/...">
+    <album folder="..." title="..." tab="..." align="right">
+      <summary>optional; put text here to show when this album is selected</summary>
+    </album>
+    <album folder="..." title="..." tab="..." align="left">
+      <summary></summary>
+    </album>
+    <album folder="..." title="..." tab="..." align="middle">
+      <summary>optional; put text here to show when this album is selected</summary>
+    </album>
+  </albums>
+</ce>

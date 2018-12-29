@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>45</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/29/2016 22:42:09</entryDate>
+		<processDate>03/20/2016 11:46:02</processDate>
+		<contact>
+			<name>Iris Wang</name>
+			<email>irisku@frontier.com</email>
+			<phone>206-683-6219</phone>
+		</contact>
+		<competition teamName="happy_monkeys">
+			<category>TeamPoetry</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Lyra</firstName>
+				<lastName>Lin</lastName>
+				<chineseName></chineseName>
+				<birthday>03/26/2010</birthday>
+				<email>irisku@frontier.com</email>
+				<academicSchool>Evergreen Academy</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>lyra.lin.03-26-2010</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Aryl</firstName>
+				<lastName>Lin</lastName>
+				<chineseName></chineseName>
+				<birthday>03/26/2010</birthday>
+				<email>irisku@frontier.com</email>
+				<academicSchool>Evergreen Academy</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>aryl.lin.03-26-2010</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Lucas</firstName>
+				<lastName>Sun</lastName>
+				<chineseName></chineseName>
+				<birthday>05/16/2010</birthday>
+				<email>irisku@frontier.com</email>
+				<academicSchool>Melody Bilingual</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>lucas.sun.05-16-2010</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Sachiko</firstName>
+				<lastName>Akers</lastName>
+				<chineseName></chineseName>
+				<birthday>03/17/2010</birthday>
+				<email>irisku@frontier.com</email>
+				<academicSchool>Melody Bilingual</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sachiko.akers.03-17-2010</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Sofia</firstName>
+				<lastName>Rutishauser</lastName>
+				<chineseName></chineseName>
+				<birthday>11/02/2008</birthday>
+				<email>irisku@frontier.com</email>
+				<academicSchool>Bellevue Christian School</academicSchool>
+				<extracurricularSchool>Melody Bilingual</extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sofia.rutishauser.11-02-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Lucie</firstName>
+				<lastName>Rutishauser</lastName>
+				<chineseName></chineseName>
+				<birthday>08/29/2010</birthday>
+				<email>irisku@frontier.com</email>
+				<academicSchool>Bellevue Christian School</academicSchool>
+				<extracurricularSchool>Melody Bilingual</extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>lucie.rutishauser.08-29-2010</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Timothy</firstName>
+				<lastName>Chen</lastName>
+				<chineseName></chineseName>
+				<birthday>12/29/2009</birthday>
+				<email>irisku@frontier.com</email>
+				<academicSchool>Benjamin Franklin</academicSchool>
+				<extracurricularSchool>Melody Bilingual</extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>timothy.chen.12-29-2009</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Dayton</firstName>
+				<lastName>Burtram</lastName>
+				<chineseName></chineseName>
+				<birthday>08/01/2010</birthday>
+				<email>irisku@frontier.com</email>
+				<academicSchool>Cascade Ridge Elementary School</academicSchool>
+				<extracurricularSchool>Melody Bilingual</extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>dayton.burtram.08-01-2010</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Parth</firstName>
+				<lastName>Iyer</lastName>
+				<chineseName></chineseName>
+				<birthday>03/02/2010</birthday>
+				<email>irisku@frontier.com</email>
+				<academicSchool>Horace Mann Elementary School</academicSchool>
+				<extracurricularSchool>Melody Bilingual</extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>parth.iyer.03-02-2010</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

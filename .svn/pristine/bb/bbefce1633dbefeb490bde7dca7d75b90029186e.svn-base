@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <page>
+    <articles>
+      <article title="Friendship Luncheon">
+        <paragraph>
+          <text>
+            <![CDATA[
+              <div>2013 CE Friendship Luncheon was successfully concluded on Sunday, September 29th, 2013. Over 300 guests attended the event. 
+              Our team of volunteers, teachers and students presented 2013 accomplishments at the luncheon. With corporate sponsorship, 
+              table donations and live auctions, we raised over $25,000 to fund next year’s activities.</div>
+              <div style="padding-top:20px;padding-bottom:10px;">
+                <ul>
+                  <li style="display:inline;"><img src="/images/support/luncheon1.jpg" width="300px" /></li>
+                  <li style="display:inline;"><img src="/images/support/luncheon2.jpg" width="300px" /></li>
+                </ul>
+                <ul style="padding-top:10px;padding-bottom:20px;">
+                  <li style="display:inline;padding-left:90px;"><span style="width:300px;color:black;text-align:center;">Meet 2013 CE teachers</span></li>
+                  <li style="display:inline;padding-left:180px;"><span style="width:300px;color:black;text-align:center;">Over 300 guests attended</span></li>
+                </ul>
+                <ul>
+                  <li style="display:inline;"><img src="/images/support/luncheon3.jpg" width="300px" /></li>
+                  <li style="display:inline;"><img src="/images/support/luncheon4.jpg" width="300px" /></li>
+                </ul>
+                <ul style="padding-top:10px;padding-bottom:20px;">
+                  <li style="display:inline;padding-left:85px;"><span style="width:300px;color:black;text-align:center;">Showcase Talent Competition</span></li>
+                  <li style="display:inline;padding-left:175px;"><span style="width:300px;color:black;text-align:center;">Bid on auction items</span></li>
+                </ul>
+              </div>
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph>
+          <text>
+            <![CDATA[
+            <p style="padding-left:25px;"><img src="/images/support/luncheon.png" width="650px" alt="Live Auction and Fund Raising"/></p>
+            ]]>
+          </text>
+        </paragraph>
+      </article>
+    </articles>
+  </page>
+</ce>

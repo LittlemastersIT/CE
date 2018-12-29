@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/18/2016 07:52:48</entryDate>
+		<processDate>03/20/2016 12:04:50</processDate>
+		<contact>
+			<name>Ann Marie Clark</name>
+			<email>clark.annmarie@gmail.com</email>
+			<phone>425-652-1388</phone>
+		</contact>
+		<competition teamName="">
+			<category>Speech</category>
+			<subcategory></subcategory>
+			<class>ClassC</class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Ian</firstName>
+				<lastName>Clark</lastName>
+				<chineseName></chineseName>
+				<birthday>08/06/2003</birthday>
+				<email>clark.annmarie@gmail.com</email>
+				<academicSchool>Chinook Middle School</academicSchool>
+				<extracurricularSchool>Asia Pacific Language School</extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>ian.clark.08-06-2003</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

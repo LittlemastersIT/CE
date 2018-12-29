@@ -1,0 +1,27 @@
+﻿.ce-content-container {width:998px;padding-bottom:20px;border-left:1px solid lightgray;border-right:1px solid lightgray;border-bottom:1px solid lightgray;}
+#ce-album-content {width:100%;}
+#album-title-bar {width:968px;padding-left:15px;padding-bottom:30px;padding-top:10px;}
+.album-title {}
+.album-summary {padding-top:5px;}
+#album-tab {background-color:white;clear:both;padding-left:10px;}
+#album-tab ul {}
+#album-tab ul li {float:left;padding:2px 15px 2px 15px;margin-right:5px;border:2px solid lightgray;border-bottom:1px solid white;cursor:pointer;border-top-right-radius:10px;}
+#album-tab .selected {border:2px solid black;border-bottom:1px solid #eed994;background-color:#eed994;}
+
+/* swipeable content */
+#album0,#album1,#album2,#album3,#album4,#album5,#album6,#album7,#album8,#album9 {overflow:hidden;position:relative;clear:both;border-top:1px solid lightgray;}
+#gallery0,#gallery1,#gallery2,#gallery3,#gallery4,#gallery5,#gallery6,#gallery7,#gallery8,#gallery9 {width:8000px;height:auto;position:relative;overflow:hidden;} /* width is the total width of all viewable content pages */
+.ce-photo-view {width:998px;display:block;float:left;height:520px;overflow:hidden;position:relative;background-color:#ffffff;padding-bottom:0px;} /* width is the viewable width per content page */
+.ce-photo-view li {float:left;width:237px;height:160px;margin-top:10px;margin-left:10px;}
+.photo-tile img {width:237px;height:160px;}
+
+/* paging bar */
+#paging0,#paging1,#paging2,#paging3,#paging4,#paging5,#paging6,#paging7,#paging8,#paging9 {width:100%;height:64px;padding-right:5px;background-color:#000000;position:relative;}
+.photo-paging-list {line-height:72px;margin:0 auto;}
+.photo-paging-list > div {display:inline-block;margin:0 auto;}
+.photo-paging-item {width:20px;height:20px;border:none;background-color:#ffffff;cursor:pointer;} /* margin-top is for IE */
+.photo-paging-spacing {width:2px;}
+.button-left {position:absolute;top:0px;left:10px;}
+.button-right {position:absolute;top:0px;left:955px;} /* need to use absolute to make IE work; firefox and chrmoe can use float to right with relative positioning */
+.photo-paging-icon {width:32px;height:32px;padding-top:15px;cursor:pointer;}
+.pageSelected {background-color:#1AA4ED;}

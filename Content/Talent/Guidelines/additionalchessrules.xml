@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <page>
+    <articles>
+      <article title="Chinese Chess 中国象棋 - Rules &amp; Regulations">
+        <paragraph indent="false">
+          <text>
+            <![CDATA[
+            The Chinese Chess tournament is designed to showcase contestants’ skills in this strategy board game, a talent 
+            in which a gentleman scholar in ancient China was supposed to be proficient.
+            <br/><br/>
+            <b>Who is eligible?</b>
+            <br/><br/>
+            The Talent Show is open to K-12 students in Washington State. Students may participate in the following divisions:
+            <br/><br/>
+            <ul>
+              <li>Division One:  Grades K-5  小学组(含幼稚園)</li>
+              <li> Division Two:  Grades 6-12 中學组</li>
+            </ul>
+            <br/><br/>
+            <b>Competition Structure</b>
+            <br/><br/>
+            Chinese Chess board and pieces are provided by the event organizer. Referees are appointed by the event organizer. The competition
+            will be single round robin system. The general rules are:
+            <br/><br/>
+            <ul>
+              <li>The contestant that captures the opponent’s King first wins.</li>
+              <li>The contestant that surrounds the opponent’s pieces so that none can make any legal move wins.</li>
+              <li>The contestant that has 3 violations first loses. (Violation: the contestant who violates a rule and is asked by the referee to alter).</li>
+              <li>It is a draw when neither contestant wins, one contestant suggests a draw and the opponent agrees, or the referee declares it so.</li>
+              <li>It can be ruled a draw if both contestants repeat a sequence of moves that return to the same state without any violation, 
+              and both contestants refuse to change moves.</li>
+              <li>No "undo" in any match.</li>
+            </ul>
+            <br/>
+            Please refer to Chapter 4, <i>Asian Chinese Chess Rules</i> in <a style="color:black;text-decoration:underline;" href="http://www.clubxiangqi.com/rules/asiarule.htm#c2">this link</a> for the complete set of rules.
+            <br/><br/>
+            <b>Awards</b>
+            <br/><br/>
+            Awards will be given to the final three players of each division on the event day.  
+            ]]>
+          </text>
+        </paragraph>
+      </article>
+    </articles>
+    <sideBar includeLinks="true" includeTiles="false" includeVideos="false" includeTestimonies="false">
+      <includeLinks path="/content/talent/guidelines/relatedlinks.xml"/>
+    </sideBar>
+  </page>
+</ce>

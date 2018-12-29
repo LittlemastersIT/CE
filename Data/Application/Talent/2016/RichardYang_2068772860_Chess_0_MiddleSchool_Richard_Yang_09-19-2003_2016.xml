@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/25/2016 22:13:49</entryDate>
+		<processDate>03/12/2016 17:10:20</processDate>
+		<contact>
+			<name>Richard Yang</name>
+			<email>quanxincheng@hotmail.com</email>
+			<phone>206-877-2860</phone>
+		</contact>
+		<competition teamName="">
+			<category>Chess</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Richard</firstName>
+				<lastName>Yang</lastName>
+				<chineseName>Yang, Zhengfeng</chineseName>
+				<birthday>09/19/2003</birthday>
+				<email>quanxincheng@hotmail.com</email>
+				<academicSchool>Odle Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>richard.yang.09-19-2003</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

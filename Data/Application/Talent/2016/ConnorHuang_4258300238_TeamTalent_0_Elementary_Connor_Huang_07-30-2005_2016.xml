@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/28/2016 19:14:21</entryDate>
+		<processDate>03/20/2016 13:23:42</processDate>
+		<contact>
+			<name>Connor Huang</name>
+			<email>bonywlau@hotmail.com</email>
+			<phone>425-830-0238</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamTalent</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Connor</firstName>
+				<lastName>Huang</lastName>
+				<chineseName>黄晧</chineseName>
+				<birthday>07/30/2005</birthday>
+				<email>bonywlau@hotmail.com</email>
+				<academicSchool>Lakeside Middle School</academicSchool>
+				<extracurricularSchool>Karen Chong Music Studio</extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>connor.huang.07-30-2005</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

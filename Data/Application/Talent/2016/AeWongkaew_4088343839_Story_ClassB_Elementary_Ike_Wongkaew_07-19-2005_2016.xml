@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/08/2016 21:37:14</entryDate>
+		<processDate>03/20/2016 12:11:03</processDate>
+		<contact>
+			<name>Ae Wongkaew</name>
+			<email>nwongkaew@gmail.com</email>
+			<phone>408-834-3839</phone>
+		</contact>
+		<competition teamName="">
+			<category>Story</category>
+			<subcategory></subcategory>
+			<class>ClassB</class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Ike</firstName>
+				<lastName>Wongkaew</lastName>
+				<chineseName></chineseName>
+				<birthday>07/19/2005</birthday>
+				<email>nwongkaew@gmail.com</email>
+				<academicSchool>Puesta Del Sol Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>ike.wongkaew.07-19-2005</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

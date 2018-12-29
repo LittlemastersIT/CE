@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>25</paymentAmount>
+		<checkNumber>paypal</checkNumber>
+		<status>Approved</status>
+		<entryDate>02/10/2016 21:54:01</entryDate>
+		<processDate>03/20/2016 13:01:05</processDate>
+		<contact>
+			<name>Anna Ma</name>
+			<email>2002amah@gmail.com</email>
+			<phone>425-647-9293</phone>
+		</contact>
+		<competition teamName="GoingtoTheChineseRestaurant">
+			<category>TeamLanguage</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Emily</firstName>
+				<lastName>Leung-Kaplan</lastName>
+				<chineseName></chineseName>
+				<birthday>06/18/2007</birthday>
+				<email>pam.leung@gmail.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>emily.leung-kaplan.06-18-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Darrien</firstName>
+				<lastName>Liang</lastName>
+				<chineseName></chineseName>
+				<birthday>05/06/2006</birthday>
+				<email>wkl66@yahoo.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>darrien.liang.05-06-2006</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Francesca</firstName>
+				<lastName>Attar</lastName>
+				<chineseName></chineseName>
+				<birthday>12/27/2004</birthday>
+				<email>attars2013@gmail.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>francesca.attar.12-27-2004</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Akira</firstName>
+				<lastName>Junya</lastName>
+				<chineseName></chineseName>
+				<birthday>03/11/2005</birthday>
+				<email>akirajunya@gmail.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>akira.junya.03-11-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Eireen</firstName>
+				<lastName>Lee</lastName>
+				<chineseName></chineseName>
+				<birthday>12/10/2007</birthday>
+				<email>tkuei@yahoo.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>eireen.lee.12-10-2007</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

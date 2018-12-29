@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <page>
+    <articles>
+      <article title="2013 Cultural Exploration Tour Participants">
+        <paragraph indent="false">
+          <text>
+            <![CDATA[
+            <img src="/images/tours/2013/TourAparticipants.jpg" style="width:700px;padding-left:15px;" />
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph indent="false">
+          <text>
+          </text>
+        </paragraph>
+        <paragraph indent="true">
+          <item>Susan Kelly, Elementary School, 4th grade, Issaquah School District</item>
+          <item>Colleen Graham, Art, 6,7, and 8 grade, Tillicum Middle School, Bellevue School District</item>
+          <item>Trent Wieburg, Social Study, Mount Si High School, Snoqualmie School District</item>
+          <item>Annie John, Elementary School (gifted program), Federal Way School District</item>
+          <item>Siri Hulbert, language, Shorecrest High School, Shoreline School District</item>
+        </paragraph>
+        <paragraph indent="false">
+          <text>
+          </text>
+        </paragraph>
+      </article>
+    </articles>
+    <sideBar>
+      <relatedLinks header="More 2013 Tour...">
+        <relatedLink iconUrl="/Images/script.png" title="Tour Journey" linkUrl="/public/tours/journey/tourjourney.aspx?year=2013" />
+        <relatedLink iconUrl="/Images/world.png" title="Tour Places" linkUrl="/public/tours/plan/2013/tourplaces.html" />
+        <relatedLink iconUrl="/Images/pin_blue.png" title="Tour Schedule" linkUrl="/public/tours/plan/2013/tourschedule.html" />
+      </relatedLinks>
+      <barTiles>
+        <barTile caption="" imageUrl="/Content/Tours/Journey/2013/ColleenGraham/Photos/CE the WALL.jpg" linkUrl="" />
+        <barTile caption="" imageUrl="/Content/Tours/Journey/2013/ColleenGraham/Photos/IMG_2345.jpg" linkUrl="" />
+        <barTile caption="Tour photos" imageUrl="/Content/Tours/Journey/2013/ColleenGraham/Photos/IMG_1408.jpg" linkUrl="" captionPosition="bottom" />
+      </barTiles>
+    </sideBar>
+  </page>
+</ce>

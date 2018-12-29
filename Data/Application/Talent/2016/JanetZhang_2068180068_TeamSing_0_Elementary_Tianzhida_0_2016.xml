@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>15</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/29/2016 12:26:37</entryDate>
+		<processDate>03/20/2016 13:11:10</processDate>
+		<contact>
+			<name>Janet Zhang</name>
+			<email>qzups@yahoo.com</email>
+			<phone>206-818-0068</phone>
+		</contact>
+		<competition teamName="Tianzhida">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Chantelle</firstName>
+				<lastName>Ma</lastName>
+				<chineseName>马紫妍</chineseName>
+				<birthday>08/30/2006</birthday>
+				<email>qzups@yahoo.com</email>
+				<academicSchool>Medina Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>chantelle.ma.08-30-2006</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Gai Tung</firstName>
+				<lastName>Jiang</lastName>
+				<chineseName>蒋佳彤</chineseName>
+				<birthday>05/02/2006</birthday>
+				<email>gracefeng@gmail.com</email>
+				<academicSchool>Medina Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>gai tung.jiang.05-02-2006</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Emily</firstName>
+				<lastName>Chang</lastName>
+				<chineseName>昌思佳</chineseName>
+				<birthday>09/18/2005</birthday>
+				<email>qinzhilin1981@hotmail.com</email>
+				<academicSchool>Sacred Heart School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>emily.chang.09-18-2005</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

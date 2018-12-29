@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/09/2016 22:01:11</entryDate>
+		<processDate>03/20/2016 11:50:57</processDate>
+		<contact>
+			<name>Ellen Palmer</name>
+			<email>palmer.ellen@comcast.net</email>
+			<phone>253-293-8881</phone>
+		</contact>
+		<competition teamName="">
+			<category>Poetry</category>
+			<subcategory></subcategory>
+			<class>ClassC</class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Leah</firstName>
+				<lastName>Palmer</lastName>
+				<chineseName></chineseName>
+				<birthday>04/18/2008</birthday>
+				<email>palmer.ellen@comcast.net</email>
+				<academicSchool>Annie Wright School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>leah.palmer.04-18-2008</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>10</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/27/2016 13:33:27</entryDate>
+		<processDate>03/20/2016 13:13:44</processDate>
+		<contact>
+			<name>Mei Zhou</name>
+			<email>mzhou12@yahoo.com</email>
+			<phone>206-601-3497</phone>
+		</contact>
+		<competition teamName="KaiXinGuo">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Lepei</firstName>
+				<lastName>Zhao</lastName>
+				<chineseName>赵乐培</chineseName>
+				<birthday>07/30/2002</birthday>
+				<email>lepei.zhao@gmail.com</email>
+				<academicSchool>Chinook Middle School</academicSchool>
+				<extracurricularSchool>西北中文学校</extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>lepei.zhao.07-30-2002</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Sophie</firstName>
+				<lastName>Wu</lastName>
+				<chineseName>武佳文</chineseName>
+				<birthday>06/06/2006</birthday>
+				<email>cindyqw@yahoo.com</email>
+				<academicSchool>Medina Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sophie.wu.06-06-2006</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

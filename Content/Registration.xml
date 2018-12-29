@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <forms>
+    <form id="1" type="student" name="Student Registration Form" link="StudentRegistrationForm.aspx" required="true" />
+    <form id="2" type="immunization" name="Certificate of Immunization Status Form" link="ImmunizationForm.aspx" required="true" />
+    <form id="3" type="exemption" name="Certificate of Immunization Exemption Form" link="ExemptionForm.aspx" required="false" />
+  </forms>
+  <email host="smtp.comcast.net" port="465">
+    <sender sender="jimmyjou@comcast.net" subject="Cultural Exploration Site Registration" format="html" attachment="false" />
+  </email>
+  <security>
+    <questions>
+      <question text="What is your favorite city?" />
+      <question text="What is the first name of your favorite relative?"/>
+      <question text="What is the name of your favorite pet?" />
+      <question text="What is your favorite teacher's last name?" />
+      <question text="What is your passport/driver's license number?" />
+      <question text="What is the hospital name where you were born?" />
+      <question text="What is your favorite or least favorite food?" />
+      <question text="What is the make or model of your first car?" />
+      <question text="What is the name of the first school you attended?" />
+      <question text="In what city did you have your first job?" />
+      <question text="What was your childhood nickname?" />
+      <question text="What is your favorite movie?" />
+      <question text="What is the house number of the house your grew up in?" />
+      <question text="What is your dream vacation?" />
+      <question text="What is your favorite book?" />
+    </questions>
+  </security>
+  <grades>
+    <grade name="Pre-K" />
+    <grade name="Kindergarden" />
+    <grade name="Grade 1" />
+    <grade name="Grade 2" />
+    <grade name="Grade 3" />
+    <grade name="Grade 4" />
+    <grade name="Grade 5" />
+    <grade name="Grade 6" />
+    <grade name="Grade 7" />
+    <grade name="Grade 8" />
+    <grade name="Grade 9" />
+    <grade name="Grade 10" />
+    <grade name="Grade 11" />
+    <grade name="Grade 12" />
+    <grade name="College" />
+  </grades>
+  <messages>
+    <registration>
+      <message type="completion" text="Thank you for filling out the registration form. We will contact you shortly." />
+      <message type="confirmation" text="This is a confirmation email that the registration form has been submitted tp Cultural Exploration Administrator. We will inform you by email how to proceed once your application is processed. Thanks for registering." />
+    </registration>
+    <login>
+      <message type="password change" text="Your password has been changed." />
+      <message type="password reset" text="Your password has been reset." />
+      <message type="account" text="Your user name has been mailed to you." />
+    </login>
+  </messages>
+</ce>

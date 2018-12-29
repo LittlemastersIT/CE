@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>30</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/23/2016 13:57:52</entryDate>
+		<processDate>03/20/2016 11:44:20</processDate>
+		<contact>
+			<name>Sun Burford</name>
+			<email>teachersun@hotmail.com</email>
+			<phone>201-280-7108</phone>
+		</contact>
+		<competition teamName="Go_Thunderbird">
+			<category>TeamBowl</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Alex</firstName>
+				<lastName>Thai</lastName>
+				<chineseName></chineseName>
+				<birthday>06/28/2002</birthday>
+				<email>teachersun@hotmail.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>alex.thai.06-28-2002</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Aaron</firstName>
+				<lastName>Wu</lastName>
+				<chineseName></chineseName>
+				<birthday>08/15/2002</birthday>
+				<email>teachersun@hotmail.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>aaron.wu.08-15-2002</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Michael</firstName>
+				<lastName>Li</lastName>
+				<chineseName></chineseName>
+				<birthday>07/21/2002</birthday>
+				<email>teachersun@hotmail.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>michael.li.07-21-2002</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Nathan</firstName>
+				<lastName>Li</lastName>
+				<chineseName></chineseName>
+				<birthday>07/12/2002</birthday>
+				<email>teachersun@hotmail.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>nathan.li.07-12-2002</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Andrew</firstName>
+				<lastName>Wang</lastName>
+				<chineseName></chineseName>
+				<birthday>08/18/2003</birthday>
+				<email>teachersun@hotmail.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>andrew.wang.08-18-2003</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Bryan</firstName>
+				<lastName>Kim</lastName>
+				<chineseName></chineseName>
+				<birthday>01/24/2004</birthday>
+				<email>teachersun@hotmail.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>bryan.kim.01-24-2004</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

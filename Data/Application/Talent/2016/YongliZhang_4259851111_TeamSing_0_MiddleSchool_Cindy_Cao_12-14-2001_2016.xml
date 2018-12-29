@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/25/2016 20:40:24</entryDate>
+		<processDate>03/20/2016 13:13:00</processDate>
+		<contact>
+			<name>Yongli Zhang</name>
+			<email>yongli77@hotmail.com</email>
+			<phone>425-985-1111</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Cindy</firstName>
+				<lastName>Cao</lastName>
+				<chineseName>曹昕珩</chineseName>
+				<birthday>12/14/2001</birthday>
+				<email>cindycao1214@hotmail.com</email>
+				<academicSchool>Inglewood Middle School</academicSchool>
+				<extracurricularSchool>咏丽画室</extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>cindy.cao.12-14-2001</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/01/2016 14:02:24</entryDate>
+		<processDate>03/20/2016 12:03:40</processDate>
+		<contact>
+			<name>Angela Delahoz</name>
+			<email>angeladelahoz@gmail.com</email>
+			<phone>142-524-6654</phone>
+		</contact>
+		<competition teamName="">
+			<category>Speech</category>
+			<subcategory></subcategory>
+			<class>ClassC</class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Sofia</firstName>
+				<lastName>Yeates-Delahoz</lastName>
+				<chineseName></chineseName>
+				<birthday>10/31/2003</birthday>
+				<email>angeladelahoz@gmail.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool>Private tutoring</extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sofia.yeates-delahoz.10-31-2003</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

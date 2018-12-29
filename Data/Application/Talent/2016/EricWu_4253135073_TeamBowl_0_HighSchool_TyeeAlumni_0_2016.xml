@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>30</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>01/23/2016 11:00:08</entryDate>
+		<processDate>03/12/2016 17:51:57</processDate>
+		<contact>
+			<name>Eric Wu</name>
+			<email>TheRainyAsian@Hotmail.com</email>
+			<phone>425-313-5073</phone>
+		</contact>
+		<competition teamName="TyeeAlumni">
+			<category>TeamBowl</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Eric</firstName>
+				<lastName>Wu</lastName>
+				<chineseName>吴聪睿</chineseName>
+				<birthday>05/09/2001</birthday>
+				<email>TheRainyAsian@hotmail.com</email>
+				<academicSchool>Interlake High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>eric.wu.05-09-2001</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Liana</firstName>
+				<lastName>Wu</lastName>
+				<chineseName>武妍</chineseName>
+				<birthday>01/25/2001</birthday>
+				<email>lwu.@net1gmail.com</email>
+				<academicSchool>Newport High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>liana.wu.01-25-2001</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Monica</firstName>
+				<lastName>Chan</lastName>
+				<chineseName>陈美娜</chineseName>
+				<birthday>07/23/2001</birthday>
+				<email>monicac.5@hotmail.com</email>
+				<academicSchool>Newport High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>monica.chan.07-23-2001</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Casey</firstName>
+				<lastName>Lin</lastName>
+				<chineseName>林楷杰</chineseName>
+				<birthday>07/10/2001</birthday>
+				<email>maxcaseylin@hotmail.com</email>
+				<academicSchool>Interlake High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>casey.lin.07-10-2001</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Elena</firstName>
+				<lastName>Chiu</lastName>
+				<chineseName>邱心霓</chineseName>
+				<birthday>10/29/2000</birthday>
+				<email>elenachiu1@gmail.com</email>
+				<academicSchool>Newport High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>elena.chiu.10-29-2000</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Caleb</firstName>
+				<lastName>Fan</lastName>
+				<chineseName>翻永立</chineseName>
+				<birthday>08/24/2001</birthday>
+				<email>calebyfan@gmail.com</email>
+				<academicSchool>Newport High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>caleb.fan.08-24-2001</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

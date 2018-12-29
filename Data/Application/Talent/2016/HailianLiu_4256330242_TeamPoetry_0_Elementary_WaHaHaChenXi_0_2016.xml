@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>45</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>01/28/2016 22:55:23</entryDate>
+		<processDate>03/12/2016 17:50:04</processDate>
+		<contact>
+			<name>Hailian Liu</name>
+			<email>lian_lhl@hotmail.com</email>
+			<phone>425-633-0242</phone>
+		</contact>
+		<competition teamName="WaHaHaChenXi">
+			<category>TeamPoetry</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Jaret</firstName>
+				<lastName>Zhang</lastName>
+				<chineseName>张继宇</chineseName>
+				<birthday>08/03/2007</birthday>
+				<email>ky_xiao@yahoo.com</email>
+				<academicSchool>Creekside Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jaret.zhang.08-03-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Jingyi</firstName>
+				<lastName>Zhao</lastName>
+				<chineseName>赵婧颐</chineseName>
+				<birthday>06/24/2005</birthday>
+				<email>jianhong.yan@hotmail.com</email>
+				<academicSchool>Samantha Smith Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jingyi.zhao.06-24-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Daisy</firstName>
+				<lastName>Hu</lastName>
+				<chineseName>胡云霏</chineseName>
+				<birthday>02/04/2007</birthday>
+				<email>Cindy.daixin@gmail.com</email>
+				<academicSchool>Endeavour Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>daisy.hu.02-04-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Helena</firstName>
+				<lastName>Zheng</lastName>
+				<chineseName>郑芷睿</chineseName>
+				<birthday>11/01/2004</birthday>
+				<email>Ewangying@hotmail.com</email>
+				<academicSchool>Samantha Smith Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>helena.zheng.11-01-2004</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Yifan</firstName>
+				<lastName>Wang</lastName>
+				<chineseName>王亦凡</chineseName>
+				<birthday>02/10/2005</birthday>
+				<email>ye_wjc@hotmail.com</email>
+				<academicSchool>Endeavour Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>yifan.wang.02-10-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Richard</firstName>
+				<lastName>Tan</lastName>
+				<chineseName>谭程之</chineseName>
+				<birthday>09/01/2005</birthday>
+				<email>Sandrajialin@yahoo.com</email>
+				<academicSchool>Cascade Ridge Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>richard.tan.09-01-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Sunny</firstName>
+				<lastName>Cong</lastName>
+				<chineseName>丛雅晴</chineseName>
+				<birthday>06/28/2005</birthday>
+				<email>grace_zhangyu@hotmail.com</email>
+				<academicSchool>Challenger Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sunny.cong.06-28-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Karissa</firstName>
+				<lastName>Song</lastName>
+				<chineseName>宋家琪</chineseName>
+				<birthday>03/15/2006</birthday>
+				<email>treacysun@yahoo.com</email>
+				<academicSchool>Samantha Smith Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>karissa.song.03-15-2006</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Angela</firstName>
+				<lastName>Wu</lastName>
+				<chineseName></chineseName>
+				<birthday>11/08/2005</birthday>
+				<email>allytu@163.com</email>
+				<academicSchool>Creekside Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>angela.wu.11-08-2005</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

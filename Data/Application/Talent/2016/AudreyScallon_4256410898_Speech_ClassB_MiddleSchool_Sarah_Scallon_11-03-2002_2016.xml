@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/28/2016 15:11:39</entryDate>
+		<processDate>03/20/2016 12:02:56</processDate>
+		<contact>
+			<name>Audrey Scallon</name>
+			<email>sascallon@comcast.net</email>
+			<phone>425-641-0898</phone>
+		</contact>
+		<competition teamName="">
+			<category>Speech</category>
+			<subcategory></subcategory>
+			<class>ClassB</class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Sarah</firstName>
+				<lastName>Scallon</lastName>
+				<chineseName></chineseName>
+				<birthday>11/03/2002</birthday>
+				<email>sascallon@comcast.net</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sarah.scallon.11-03-2002</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

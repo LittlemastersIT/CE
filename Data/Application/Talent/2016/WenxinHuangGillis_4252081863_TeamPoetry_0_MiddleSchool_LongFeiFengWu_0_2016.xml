@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Pending</paymentMethod>
+		<paymentAmount>0</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/29/2016 22:59:21</entryDate>
+		<processDate>03/20/2016 12:08:08</processDate>
+		<contact>
+			<name>Wenxin Huang-Gillis</name>
+			<email>wenxinhg@hotmail.com</email>
+			<phone>425-208-1863</phone>
+		</contact>
+		<competition teamName="LongFeiFengWu">
+			<category>TeamPoetry</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Eric</firstName>
+				<lastName>He</lastName>
+				<chineseName>何思源</chineseName>
+				<birthday>08/22/2004</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Odle Middle School</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>eric.he.08-22-2004</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Brandon</firstName>
+				<lastName>Zuo</lastName>
+				<chineseName>左亮坤</chineseName>
+				<birthday>04/09/2004</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Odle Middle School</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>brandon.zuo.04-09-2004</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Carina</firstName>
+				<lastName>Sun</lastName>
+				<chineseName>孙悦晴</chineseName>
+				<birthday>11/17/2004</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Odle Middle School</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>carina.sun.11-17-2004</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Austin</firstName>
+				<lastName>Hong</lastName>
+				<chineseName>洪忆苏</chineseName>
+				<birthday>04/26/2005</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Alcott Elementary School</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>austin.hong.04-26-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Allen</firstName>
+				<lastName>Wu</lastName>
+				<chineseName>吴宇伦</chineseName>
+				<birthday>02/24/2005</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Spiritridge elementary school</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>allen.wu.02-24-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Alison</firstName>
+				<lastName>Xiao</lastName>
+				<chineseName>肖怡辰</chineseName>
+				<birthday>11/14/2015</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Spiritridge elementary school</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>alison.xiao.11-14-2015</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Jessica</firstName>
+				<lastName>Chen</lastName>
+				<chineseName>陈雨茗</chineseName>
+				<birthday>08/08/2005</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Spiritridge elementary school</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jessica.chen.08-08-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Maggie</firstName>
+				<lastName>Yan</lastName>
+				<chineseName>言家櫻</chineseName>
+				<birthday>06/21/2005</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Cherry Crest elementary school</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>maggie.yan.06-21-2005</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

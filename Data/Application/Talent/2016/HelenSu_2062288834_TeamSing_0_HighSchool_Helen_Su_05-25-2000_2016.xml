@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>HonorableMentioned</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/27/2016 12:34:52</entryDate>
+		<processDate>03/20/2016 13:16:03</processDate>
+		<contact>
+			<name>Helen Su</name>
+			<email>helensuxi@yahoo.com</email>
+			<phone>206-228-8834</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Helen</firstName>
+				<lastName>Su</lastName>
+				<chineseName>苏海伦</chineseName>
+				<birthday>05/25/2000</birthday>
+				<email>helensuxi@yahoo.com</email>
+				<academicSchool>Edmonds Woodway High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>helen.su.05-25-2000</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

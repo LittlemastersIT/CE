@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>15</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/27/2016 15:27:40</entryDate>
+		<processDate>03/20/2016 12:15:07</processDate>
+		<contact>
+			<name>Diana Frey</name>
+			<email>dfrey910@aol.com</email>
+			<phone>425-443-6472</phone>
+		</contact>
+		<competition teamName="Happy_Siblings">
+			<category>TeamTalent</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Hannah</firstName>
+				<lastName>Knauss</lastName>
+				<chineseName>海娜</chineseName>
+				<birthday>08/25/2003</birthday>
+				<email>dfrey910@aol.com</email>
+				<academicSchool>Tahoma Middle School</academicSchool>
+				<extracurricularSchool>Tzu Chi Academy</extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>hannah.knauss.08-25-2003</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Joseph</firstName>
+				<lastName>Knauss</lastName>
+				<chineseName>約瑟夫</chineseName>
+				<birthday>01/16/2006</birthday>
+				<email>dfrey910@aol.com</email>
+				<academicSchool>Shadow Lake Elementary School</academicSchool>
+				<extracurricularSchool>Tzu Chi Academy</extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>joseph.knauss.01-16-2006</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Maria</firstName>
+				<lastName>Knauss</lastName>
+				<chineseName>瑪莉亞</chineseName>
+				<birthday>10/29/2007</birthday>
+				<email>dfrey910@aol.com</email>
+				<academicSchool>Shadow Lake Elementary School</academicSchool>
+				<extracurricularSchool>Tzu Chi Academy</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>maria.knauss.10-29-2007</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/01/2016 13:29:56</entryDate>
+		<processDate>03/20/2016 13:06:55</processDate>
+		<contact>
+			<name>Zoe Jiang</name>
+			<email>jiangl@issaquah.wednet.edu</email>
+			<phone>425-269-4361</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamLanguage</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Byron</firstName>
+				<lastName>Jin</lastName>
+				<chineseName></chineseName>
+				<birthday>06/27/2001</birthday>
+				<email>byron27jin@gmail.com</email>
+				<academicSchool>Skyline High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>byron.jin.06-27-2001</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

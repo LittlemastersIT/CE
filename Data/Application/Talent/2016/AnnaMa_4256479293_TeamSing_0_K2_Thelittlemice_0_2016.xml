@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>15</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/18/2016 21:06:47</entryDate>
+		<processDate>03/20/2016 13:10:27</processDate>
+		<contact>
+			<name>Anna Ma</name>
+			<email>2002amah@gmail.com</email>
+			<phone>425-647-9293</phone>
+		</contact>
+		<competition teamName="Thelittlemice">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Kazuo</firstName>
+				<lastName>Farwell</lastName>
+				<chineseName></chineseName>
+				<birthday>11/05/2009</birthday>
+				<email>sharonandmusic@gmail.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>kazuo.farwell.11-05-2009</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Cooper</firstName>
+				<lastName>Barrysmith</lastName>
+				<chineseName></chineseName>
+				<birthday>10/08/2009</birthday>
+				<email>Fluffypup@mac.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>cooper.barrysmith.10-08-2009</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Aka</firstName>
+				<lastName>Heckman-May</lastName>
+				<chineseName></chineseName>
+				<birthday>01/24/2010</birthday>
+				<email>Skurvydogs@yahoo.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>aka.heckman-may.01-24-2010</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

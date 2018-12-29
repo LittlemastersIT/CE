@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>FeeWaived</paymentMethod>
+		<paymentAmount>0</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>01/23/2016 11:59:41</entryDate>
+		<processDate>03/20/2016 13:15:51</processDate>
+		<contact>
+			<name>Christin Lin</name>
+			<email>apiacere.cl@gmail.com</email>
+			<phone>510-270-8102</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Christin</firstName>
+				<lastName>Lin</lastName>
+				<chineseName>林思婷</chineseName>
+				<birthday>11/08/1999</birthday>
+				<email>apiacere.cl@gmail.com</email>
+				<academicSchool>Newport High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>11</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>christin.lin.11-08-1999</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>20</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/01/2016 13:49:37</entryDate>
+		<processDate>03/20/2016 12:07:11</processDate>
+		<contact>
+			<name>Zoe Jiang</name>
+			<email>jiangl@issaquah.wednet.edu</email>
+			<phone>425-269-4361</phone>
+		</contact>
+		<competition teamName="Skyline">
+			<category>TeamPoetry</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Tasha</firstName>
+				<lastName>Mok</lastName>
+				<chineseName></chineseName>
+				<birthday>07/12/1999</birthday>
+				<email>tashi_mok@hotmail.com</email>
+				<academicSchool>Skyline High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>11</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>tasha.mok.07-12-1999</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Dana M</firstName>
+				<lastName>McCaw</lastName>
+				<chineseName></chineseName>
+				<birthday>03/05/1999</birthday>
+				<email>danamccaw@comcast.net</email>
+				<academicSchool>Skyline High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>11</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>dana m.mccaw.03-05-1999</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Jaron</firstName>
+				<lastName>Jin</lastName>
+				<chineseName></chineseName>
+				<birthday>11/05/1998</birthday>
+				<email>jaronjin35@gmail.com</email>
+				<academicSchool>Skyline High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>11</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jaron.jin.11-05-1998</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Annie Y</firstName>
+				<lastName>Xia</lastName>
+				<chineseName></chineseName>
+				<birthday>10/11/1998</birthday>
+				<email>annieyxia@hotmail.com</email>
+				<academicSchool>Skyline High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>11</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>annie y.xia.10-11-1998</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

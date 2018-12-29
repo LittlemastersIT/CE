@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>01/20/2016 15:50:14</entryDate>
+		<processDate>03/20/2016 11:35:11</processDate>
+		<contact>
+			<name>Xin Ge</name>
+			<email>xinge2007@gmail.com</email>
+			<phone>425-868-7285</phone>
+		</contact>
+		<competition teamName="">
+			<category>Chess</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Patrick</firstName>
+				<lastName>Peng</lastName>
+				<chineseName>彭博远</chineseName>
+				<birthday>02/16/2003</birthday>
+				<email>xinge2007@gmail.com</email>
+				<academicSchool>Lakeside Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>patrick.peng.02-16-2003</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

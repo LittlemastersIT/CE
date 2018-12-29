@@ -1,0 +1,13 @@
+﻿html, body { height:100%;background-image: url('/Images/CEGreenBack.jpg');background-repeat: repeat-x;}
+.ce-headerContainer {background-color:#043501;}
+.ce-banner {background-color:#043501;}
+.ce-title {background-color:#043501;}
+.ce-article-title-divider {background-color:#799376;}
+.ce-divider-cell {background-image:url('/Images/greendiv.jpg');background-repeat:no-repeat;}
+.sidebar-divider {background-color:#799376;}
+#journey-tab .selected {background-color:#799376;border-bottom:1px solid #799376;color:white;}
+#journey-more-link a {color:#043501 !important;}
+.form-title-bar {background-color:#043501 !important;}
+#form-decline, #form-interview {background-color:#799376 !important;}
+.application-result-title {background-color:#043501;}
+.form-result-title {background-color:#043501;}

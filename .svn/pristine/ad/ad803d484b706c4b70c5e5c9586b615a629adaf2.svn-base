@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <page>
+    <articles>
+      <article title="Cultural Exploration Tour Focuses">
+        <paragraph indent="false">
+          <text>
+            To optimize the tour experience and align with the cultural exchange objective, the trip provides two distinct focuses:
+          </text>
+        </paragraph>
+        <paragraph indent="true">
+          <text>
+            <![CDATA[
+            <b>Managed Tour:</b> A commercially managed sightseeing tour to historical landmarks such as the Great Wall, the Forbidden City and the Terra Cotta Warriors 
+            and visits to modern cities such as Shanghai and Taipei. It is customized for CE, fast-paced and well structured. The tour guides provide 
+            informative narrations on history and geography.
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph indent="true">
+          <text>
+            <![CDATA[
+            <b>Local Host Family:</b> Host-family sponsored programs provide opportunities to interact with Chinese families, teachers and students on an informal basis. 
+            Unlike the sightseeing tour, this emphasizes the understanding of modern day Chinese family living, school systems and cultural exchange. This includes school 
+            visits in Beijing, Shanghai and Taipei. The participating teachers will have an opportunity to exchange teaching philosophies with Chinese educators and 
+            conduct teaching demonstration in local schools.
+            ]]>
+          </text>
+        </paragraph>
+      </article>
+      <article title="Cultural Exploration Tour Outline">
+        <paragraph indent="true">
+          <text>
+          <![CDATA[
+          <b>Time & Place:</b> The trip will take place in the summer of 2016: Tentatively from early July through mid July for about two weeks. While every year's 
+          trip is planned independently, the trip generally includes major cities such as Beijing, Xian, Shanghai, and Taipei. Other cities may be added 
+          depending on each year's focus.
+          ]]>
+          </text>
+        </paragraph>
+        <paragraph indent="true">
+          <text>
+          <![CDATA[
+          <b>Expenses covered by CE:</b> Airfare, land transportation, lodging & meals. Expenses not covered by CE: personal expenses including but 
+				  not limited to travel insurance, visa fee, excess baggage charge, telephone expenses, gifts for the host families and tips for tour guides and drivers.
+          ]]>
+          </text>
+        </paragraph>
+        <paragraph indent="true">
+          <text>
+            <![CDATA[
+            <b>Logistics:</b> Summer in these parts of Asia is extremely hot and humid. Average temperatures easily reach 100 F with 50% or
+            greater humidity. A typical day during the trip involves 12 to 14 hours of activities including travel from place to place on a
+            tour bus. Consideration for the physical and mental preparedness, key to a successful trip in a foreign land, is
+            highly encouraged.
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph indent="true">
+          <text>
+            <![CDATA[
+            <b>Continuing Education Credits:</b> Several teachers in the past have successfully applied and earned up to <u>70 clock hours</u> or <u>7
+            continuing education credits</u> for the CE Tour through Seattle University. Interested teachers will be responsible for
+            completing the necessary application form and coordinating with CE.
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph indent="true">
+          <text>
+            <![CDATA[
+            <b>Application:</b> Fill out the online application. Qualified applicants will be notified by email for interview. The application is
+            closed at the end of February each year. The interview is generally conducted in March with tour award decision made by April.
+            ]]>
+          </text>
+        </paragraph>
+      </article>
+    </articles>
+    <sideBar>
+      <relatedLinks header="Related Links">
+        <relatedLink iconUrl="/Images/pin_blue.png" title="2016 Tour Application" linkUrl="/public/tours/application/ceapplication.aspx" />
+      </relatedLinks>
+      <relatedLinks header="Tour Journey">
+        <relatedLink iconUrl="/Images/colorpen.png" title="Tour Journey" linkUrl="/public/tours/journey/tourjourney.aspx" />
+      </relatedLinks>
+      <barTiles title="Tour phtotos">
+        <barTile caption="" imageUrl="/content/tours/journey/2013/trentwieburg/photos/warriors for CE.jpg" linkUrl="" captionPosition="bottom" />
+        <barTile caption="" imageUrl="/content/tours/journey/2013/anniejohn/photos/IMG_0518.jpg" linkUrl="" captionPosition="bottom" />
+      </barTiles>
+    </sideBar>
+  </page>
+</ce>

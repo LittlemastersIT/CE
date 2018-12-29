@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Pending</paymentMethod>
+		<paymentAmount>0</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>01/15/2016 07:06:31</entryDate>
+		<processDate>03/14/2016 23:06:03</processDate>
+		<contact>
+			<name>windsky</name>
+			<email>1195314039@QQ.com</email>
+			<phone>206-788-5056</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Jiale</firstName>
+				<lastName>Lyu</lastName>
+				<chineseName>吕家乐</chineseName>
+				<birthday>08/23/1999</birthday>
+				<email>1195314039@QQ.com</email>
+				<academicSchool>Inglemoor High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>11</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jiale.lyu.08-23-1999</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

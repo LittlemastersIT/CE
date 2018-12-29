@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>50</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/29/2016 10:24:46</entryDate>
+		<processDate>03/20/2016 13:26:18</processDate>
+		<contact>
+			<name>Mindy Li</name>
+			<email>mindyli@yahoo.com</email>
+			<phone>425-590-7193</phone>
+		</contact>
+		<competition teamName="LingyuGuzhengEnsemble">
+			<category>TeamTalent</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Yihan</firstName>
+				<lastName>Zhang</lastName>
+				<chineseName></chineseName>
+				<birthday>03/28/2000</birthday>
+				<email>angiezhang328@gmail.com</email>
+				<academicSchool>Newport High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>yihan.zhang.03-28-2000</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Kenna</firstName>
+				<lastName>Samples</lastName>
+				<chineseName></chineseName>
+				<birthday>11/22/2005</birthday>
+				<email>leigh.samples@gmail.com</email>
+				<academicSchool>Sunrise Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>kenna.samples.11-22-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Ziyi</firstName>
+				<lastName>Wang</lastName>
+				<chineseName></chineseName>
+				<birthday>11/25/2000</birthday>
+				<email>gaofujie@hotmail.com</email>
+				<academicSchool>Inglemoor High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>ziyi.wang.11-25-2000</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Nuoyan</firstName>
+				<lastName>Zhang</lastName>
+				<chineseName></chineseName>
+				<birthday>03/21/2005</birthday>
+				<email>lian_lhl@hotmail.com</email>
+				<academicSchool>Endeavour Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>nuoyan.zhang.03-21-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Ellie</firstName>
+				<lastName>Liu</lastName>
+				<chineseName></chineseName>
+				<birthday>05/18/2004</birthday>
+				<email>yingyez@gmail.com</email>
+				<academicSchool>Odle Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>yuewei.liu.05-18-2004</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Yanheng</firstName>
+				<lastName>Lu</lastName>
+				<chineseName></chineseName>
+				<birthday>10/05/2002</birthday>
+				<email>yolanda2136@outlook.com</email>
+				<academicSchool>Chinook Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>yerik.lu.10-05-2002</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Yafei</firstName>
+				<lastName>Wang</lastName>
+				<chineseName></chineseName>
+				<birthday>06/15/2004</birthday>
+				<email>moon08788@126.com</email>
+				<academicSchool>Chinook Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>yafei.wang.06-15-2004</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Andrea</firstName>
+				<lastName>Han</lastName>
+				<chineseName></chineseName>
+				<birthday>03/07/2007</birthday>
+				<email>feixuehan@hotmail.com</email>
+				<academicSchool>Medina Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>andrea.han.03-07-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Xiaoqing</firstName>
+				<lastName>Yu</lastName>
+				<chineseName></chineseName>
+				<birthday>06/18/2002</birthday>
+				<email>may274514967@gmail.com</email>
+				<academicSchool>Chinook Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>xiaoqing.yu.06-18-2002</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Zekai</firstName>
+				<lastName>Xia</lastName>
+				<chineseName></chineseName>
+				<birthday>09/27/2001</birthday>
+				<email>lly0515@hotmail.com</email>
+				<academicSchool>Newport High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>zekai.xia.09-27-2001</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

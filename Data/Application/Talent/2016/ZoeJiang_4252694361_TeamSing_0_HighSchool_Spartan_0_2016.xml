@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>10</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/01/2016 14:03:15</entryDate>
+		<processDate>03/12/2016 16:56:42</processDate>
+		<contact>
+			<name>Zoe Jiang</name>
+			<email>jiangl@issaquah.wednet.edu</email>
+			<phone>425-269-4361</phone>
+		</contact>
+		<competition teamName="Spartan">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Kimberly R</firstName>
+				<lastName>Heitkamp</lastName>
+				<chineseName></chineseName>
+				<birthday>09/03/1999</birthday>
+				<email>kimberly@heitkamp.us</email>
+				<academicSchool>Skyline High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>kimberly r.heitkamp.09-03-1999</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Divyasai</firstName>
+				<lastName>Tanguturu</lastName>
+				<chineseName></chineseName>
+				<birthday>09/09/1998</birthday>
+				<email>dtanguturu@gmail.com</email>
+				<academicSchool>Skyline High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>12</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>divyasai.tanguturu.09-09-1998</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

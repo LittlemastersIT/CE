@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>FeeWaived</paymentMethod>
+		<paymentAmount>0</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/15/2016 16:35:08</entryDate>
+		<processDate>03/19/2016 10:58:15</processDate>
+		<contact>
+			<name>Yvette Lee</name>
+			<email>mydonsi@live.com</email>
+			<phone>555-555-5555</phone>
+		</contact>
+		<competition teamName="">
+			<category>Poetry</category>
+			<subcategory></subcategory>
+			<class>ClassB</class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>TestFirst</firstName>
+				<lastName>TestLast</lastName>
+				<chineseName>王小美</chineseName>
+				<birthday>03/14/2010</birthday>
+				<email>mydonsi@hotmail.com</email>
+				<academicSchool>Cherry Crest Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>1</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>testfirst.testlast.03-14-2010</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/22/2016 15:00:34</entryDate>
+		<processDate>03/20/2016 12:09:43</processDate>
+		<contact>
+			<name>Jason Tang</name>
+			<email>Jasontang501@hotmail.com</email>
+			<phone>425-753-8425</phone>
+		</contact>
+		<competition teamName="">
+			<category>Story</category>
+			<subcategory></subcategory>
+			<class>ClassA</class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Eason</firstName>
+				<lastName>Tang</lastName>
+				<chineseName>唐锦翼</chineseName>
+				<birthday>05/31/2007</birthday>
+				<email>Jasontang501@hotmail.com</email>
+				<academicSchool>Cascade Ridge Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>eason.tang.05-31-2007</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

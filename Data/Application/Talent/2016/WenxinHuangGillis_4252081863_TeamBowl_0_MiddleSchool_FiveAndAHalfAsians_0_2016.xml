@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>30</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/29/2016 13:32:17</entryDate>
+		<processDate>03/20/2016 11:43:59</processDate>
+		<contact>
+			<name>Wenxin Huang-Gillis</name>
+			<email>wenxinhg@hotmail.com</email>
+			<phone>425-208-1863</phone>
+		</contact>
+		<competition teamName="FiveAndAHalfAsians">
+			<category>TeamBowl</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Justin</firstName>
+				<lastName>Chen</lastName>
+				<chineseName>陈恺明</chineseName>
+				<birthday>09/07/2002</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Odle Middle School</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>justin.chen.09-07-2002</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Keven</firstName>
+				<lastName>Goh</lastName>
+				<chineseName>吴易繁</chineseName>
+				<birthday>12/21/2002</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Odle Middle School</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>keven.goh.12-21-2002</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Julie Jingjing</firstName>
+				<lastName>Gillis</lastName>
+				<chineseName>晶晶</chineseName>
+				<birthday>09/24/2002</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Forest Ridge School</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>julie jingjing.gillis.09-24-2002</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Evan</firstName>
+				<lastName>Zhu</lastName>
+				<chineseName>朱宇鹏</chineseName>
+				<birthday>06/12/2003</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Pine Lake Middle School</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>evan.zhu.06-12-2003</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Ethan</firstName>
+				<lastName>Zhu</lastName>
+				<chineseName>朱宇森</chineseName>
+				<birthday>10/17/2001</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Pine Lake Middle School</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>ethan.zhu.10-17-2001</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Jenna</firstName>
+				<lastName>Yuan</lastName>
+				<chineseName>袁晨</chineseName>
+				<birthday>04/02/2002</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Redmond Middle School</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jenna.yuan.04-02-2002</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

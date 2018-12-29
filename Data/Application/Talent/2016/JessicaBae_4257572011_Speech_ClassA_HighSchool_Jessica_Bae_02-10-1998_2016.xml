@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/15/2016 20:58:24</entryDate>
+		<processDate>03/12/2016 17:30:50</processDate>
+		<contact>
+			<name>Jessica Bae</name>
+			<email>jessicabae0210@gmail.com</email>
+			<phone>425-757-2011</phone>
+		</contact>
+		<competition teamName="">
+			<category>Speech</category>
+			<subcategory></subcategory>
+			<class>ClassA</class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Jessica</firstName>
+				<lastName>Bae</lastName>
+				<chineseName>裴余彬</chineseName>
+				<birthday>02/10/1998</birthday>
+				<email>jessicabae0210@gmail.com</email>
+				<academicSchool>Newport High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>12</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jessica.bae.02-10-1998</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

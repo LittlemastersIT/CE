@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>10</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/14/2016 15:29:46</entryDate>
+		<processDate>03/20/2016 13:10:57</processDate>
+		<contact>
+			<name>Hui Wang</name>
+			<email>huiwangwen@gmail.com</email>
+			<phone>206-979-5867</phone>
+		</contact>
+		<competition teamName="Angel">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Emily</firstName>
+				<lastName>Wen</lastName>
+				<chineseName>温冠美</chineseName>
+				<birthday>04/12/2006</birthday>
+				<email>huiwangwen@gmail.com</email>
+				<academicSchool>Norman Rockwell Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>emily.wen.04-12-2006</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Esther</firstName>
+				<lastName>Fang</lastName>
+				<chineseName>方一冰</chineseName>
+				<birthday>02/23/2006</birthday>
+				<email>fm1051@hotmail.com</email>
+				<academicSchool>Challenger Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>esther.fang.02-23-2006</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

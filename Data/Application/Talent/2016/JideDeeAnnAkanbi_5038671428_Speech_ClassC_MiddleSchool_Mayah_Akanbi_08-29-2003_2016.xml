@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>0</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/02/2016 22:52:28</entryDate>
+		<processDate>03/20/2016 12:04:33</processDate>
+		<contact>
+			<name>Jide DeeAnn Akanbi</name>
+			<email>Akanbi@aol.com</email>
+			<phone>503-867-1428</phone>
+		</contact>
+		<competition teamName="">
+			<category>Speech</category>
+			<subcategory></subcategory>
+			<class>ClassC</class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Mayah</firstName>
+				<lastName>Akanbi</lastName>
+				<chineseName></chineseName>
+				<birthday>08/29/2003</birthday>
+				<email>akanbi@aol.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>mayah.akanbi.08-29-2003</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

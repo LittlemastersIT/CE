@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <home>
+    <!-- overlay position can be: bottom-left, bottom-right, top-left, or top-right-->
+    <headline>
+      <images>
+        <image url="/Images/Home/Carousel/Add_this_for_2015_01.jpg" title="" position="bottom-left" expire="" />
+        <image url="/Images/Home/Carousel/Add_this_for_2015_02.jpg" title="" position="bottom-right" expire="" />
+        <image url="/Images/Home/Carousel/Add_this_for_2015_03.jpg" title="" position="bottom-left" expire="" />
+        <image url="/Images/Home/Carousel/Add_this_for_2015_04.jpg" title="" position="bottom-left" expire="" />
+        <image url="/Images/Home/Carousel/Add_this_for_2015_05.jpg" title="" position="bottom-right" expire="" />
+        <image url="/Images/Home/Carousel/Add_this_for_2015_06.jpg" title="" position="bottom-left" expire="" />
+        <image url="/Images/Home/Carousel/HomePageScrolling2015_01.jpg" title="" position="bottom-left" expire="" />
+        <image url="/Images/Home/Carousel/HomePageScrolling2015_02.jpg" title="" position="bottom-right" expire="" />
+        <image url="/Images/Home/Carousel/HomePageScrolling2015_03.jpg" title="" position="bottom-left" expire="" />
+        <image url="/Images/Home/Carousel/HomePageScrolling2015_04.jpg" title="" position="bottom-left" expire="" />
+        <image url="/Images/Home/Carousel/HomePageScrolling2015_05.jpg" title="" position="bottom-right" expire="" />
+        <image url="/Images/Home/Carousel/HomePageScrolling2015_06.jpg" title="" position="bottom-left" expire="" />
+        <image url="/Images/Home/Carousel/HomePageScrolling2015_07.jpg" title="" position="bottom-left" expire="" />
+        <image url="/Images/Home/Carousel/HomePageScrolling2015_08.jpg" title="" position="top-left" expire="" />
+        <image url="/Images/Home/Carousel/HomePageScrolling2015_09.jpg" title="" position="middle-left" expire="" />
+      </images>
+    </headline>
+    <announcements header="News &amp; Announcements">
+      <announcement expire="12/31/2050" title="CE Status August 2016" linkUrl="/Public/Articles/cearticle.aspx?theme=black&amp;path=/home/about&amp;content=ceabout" iconUrl="/Images/at.png">
+        <summary>
+          CE Mission for the last 16 years has come to a wonderful conclusion.
+        </summary>
+      </announcement>
+      <announcement expire="09/20/2015" title="Save the Date for CE Luncheon Fundraising" linkUrl="/Documents/Support/2015 Friendship Luncheon Reminder.pdf" iconUrl="/Images/at.png">
+        <summary>
+          Our worthy cultural exploration activities are made possible because of your gener­ous support. We cannot wait to share these accomplishments with you.
+          Please mark your calendar for Sunday, September 20th to attend.
+        </summary>
+      </announcement>
+      <announcement expire="03/02/2015" title="CE 2015 Talent Registration Ends Tomorrow" linkUrl="" iconUrl="/Images/script.png">
+        <summary>
+          2015 CE Talent Registration deadline is tomorrow March 2, 2015. The competition will be held on March 22 from 9am to 2pm followed by an one-hour awards ceremony at Chief Sealth International High School.
+        </summary>
+      </announcement>
+      <announcement expire="03/10/2015" title="CE 2015 Tour Application Deadline Is Near" linkUrl="" iconUrl="/Images/script.png">
+        <summary>
+          2015 CE Tour application deadline is March 10, 2015. We are planning on sending 4 teachers in the summer of 2015. All K-12 teachers from the Greater Seattle area interested in enhancing their China-related teaching components are welcome to apply.
+        </summary>
+      </announcement>
+      <announcement expire="01/31/2014" title="Welcome to the new CE Website!" linkUrl="" iconUrl="/Images/blueRibbon.png">
+        <summary>
+          Come tour the site and explore CE activities for students, teachers and the community! Check out the new contents, easy navigation and streamlined 
+          registration process!
+        </summary>
+      </announcement>
+      <announcement expire="03/01/2014" title="2014 CE Tour Application Starts on 01/15/2014" linkUrl="/public/tours/application/ceapplication.aspx" iconUrl="/Images/at.png">
+        <summary>
+          <![CDATA[
+          Please preview our 2014 tour application information. The online application will be open from 1/15/2014 through 2/28/2014.<br/><br/>
+          ]]>
+        </summary>
+      </announcement>
+      <announcement expire="03/31/2014" title="Language &amp; Talent Competition" linkUrl="/public/talent/registration/talentregistration.aspx" iconUrl="/Images/trophy.png" >
+        <summary>
+          <![CDATA[
+          The much appreciated Chinese Language and Talent Competition is scheduled for March 23, 2014. Use the newly improved online registration and reserve your 
+          spot early!<br/><br/>
+          ]]>
+        </summary>
+      </announcement>
+      <announcement expire="03/03/2014" title="Thank you for Supporting CE" linkUrl="/public/support/cesupport.html" iconUrl="/Images/love.png">
+        <summary>
+          <![CDATA[
+          The September CE Friendship Fundraising Luncheon was a sounding success. We raised over $25,000.  Please check out the different ways to support 
+          CE while making new friends, learning new skills and having fun!<br/><br/>
+          ]]>
+        </summary>
+      </announcement>
+      <announcement expire="11/31/2013" title="Resource Center" linkUrl="/public/resources/ceresources.html" iconUrl="/Images/search.png">
+        <summary>
+          <![CDATA[
+            Please check out the curriculum plans and tour experiences provided by the 2013 CE teachers.<br/><br/>
+          ]]>
+        </summary>
+      </announcement>
+      <announcement expire="12/01/2013" title="A teacher journey to China" linkUrl="http://www.shorelineschools.org/news/release.php?releasesid=1518" iconUrl="/Images/woman.png">
+        <summary>
+          Siri Hulbert, Shorecrest High School World Language teacher and department chair, is participating in a cultural-exchange trip sponsored by
+          the Cultural Exploration of Greater China Foundation. This is a community-based organization founded by the Seattle Chinese School.
+        </summary>
+      </announcement>
+    </announcements>
+    <tiles>
+      <tile imageUrl="/Images/Home/Tile/HomePageBottom2015_01.jpg" title="For Students">
+        <text>
+          <![CDATA[
+          <div style="padding-bottom:5px;"><div style="padding-bottom:5px;font-weight:bold;">Language and Talent Competition</div>Join us in March for this statewide event for K-12 students to share Chinese language learning &amp; cultural experience.<br/></div>
+          <a href="/public/talent/cetalent.html"><span style="color:navy;"><b>Learn more...</b></span></a>
+          ]]>
+        </text>
+      </tile>
+      <tile imageUrl="/Images/Home/Tile/HomePageBottom2015_02.JPG" title="For Teachers">
+        <text>
+          <![CDATA[
+          <div style="padding-bottom:5px;"><div style="padding-bottom:5px;font-weight:bold;">Cultural Exploration Tour Deadline:3/10/15</div>Devoted to promote better understanding of Greater China &amp; Chinese culture through educational tours in the summers.<br/></div>
+          <a href="/public/tours/cetour.html"><span style="color:navy;"><b>Learn more...</b></span></a>
+          ]]>
+        </text>
+      </tile>
+      <tile imageUrl="/Images/Home/Tile/HomePageBottom2015_03.JPG" title="For the Community">
+        <text>
+          <![CDATA[
+          <div style="padding-bottom:5px;"><div style="padding-bottom:5px;font-weight:bold;">Resource Center</div>Network communities to facilitate cultural exchange activities &amp; provide web-based repository of curriculum plans &amp; ideas.<br/></div>
+          <a href="/public/resources/ceresources.html"><span style="color:navy;"><b>Learn more...</b></span></a>
+          ]]>
+        </text>
+      </tile>
+    </tiles>
+  </home>
+</ce>

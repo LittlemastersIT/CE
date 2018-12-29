@@ -1,0 +1,92 @@
+﻿/* generic styles */
+* { margin: 0; }
+ul {padding: 0; list-style-type: none; }
+li { margin-left:0px; }
+a { text-decoration: none; }
+a:link { color:white; }
+a:visited { color:white; }
+.center, .middle { text-align:center; }
+.left { text-align:left; }
+.right { text-align:right; }
+.show { display:block; }
+.hide { display:none; }
+.bright {color:white;}
+.dim {color:lightgray;}
+.dark {color:black;}
+.clearfix { zoom: 1; }
+.bold {font-weight:bold;}
+span { color:black; font-family: arial,helvetica,'Tw Cen MT'; }
+div, div a {font-family: arial, helvetica, 'Tw Cen MT';font-size:14px;}
+.ce-font {font-family: arial,helvetica,'Tw Cen MT';font-size:12px;}
+.ce-h1 {font-size:30px;}
+.ce-h2 {font-size:24px;}
+.ce-h3 {font-size:20px;}
+.ce-h4 {font-size:16px;}
+.ce-h5, .ce-large {font-size:14px;}
+.ce-h6, .ce-normal {font-size:12px;}
+.ce-h7, .ce-small {font-size:10px;}
+.ce-ddbox {height:24px;}
+.ce-margin8 {margin-top:8px;}
+
+/* base theme: black */
+html, body { height:100%;background-image:url('/Images/CEBlackBack.jpg');background-repeat:repeat-x;}
+.ce-headerContainer {background-color:black;margin-left:10px;width:130px;height:130px;}
+.ce-banner {background-color:black;margin-left:130px;width:850px;height:130px;}
+.ce-title {background-color:black;width:850px;line-height:80px;max-height:80px;color:white;overflow:hidden;}
+.ce-article-title-divider {background-color:gray;height:2px;width:100%;}
+.ce-divider-cell {width:12px;background-image:url('/Images/divider.png');background-repeat:no-repeat;}
+.sidebar-divider {background-color:gray;height:2px;width:95%;margin-top:5px;margin-bottom:5px;}
+
+/* header, banner, and general layouts */
+#ce-page { margin:0 auto -30px;width:1000px;}
+.ce-login {width:100%;line-height:20px;background-color:#fff;text-align:right;}
+.ce-login span {margin-right:10px;color:dimgray;}
+.ce-login a {color:dimgray;}
+.ce-header {position:relative;background-color:white;margin:0 auto;width:1000px;}
+.ce-logo-container { }
+#ce-logo {position:absolute;margin-left:5px;margin-top:5px;width:120px;height:120px;background-color:white;}
+.ce-donate {position:absolute;top:106px;left:910px;color:white;font-weight:bold;}
+.ce-donate a {color:white !important;}
+.ce-facebook {position:absolute;top:106px;left:890px;color:white;font-weight:bold;}
+.ce-facebook img {position:relative;top:-2px;}
+.ce-facebook a {color:white !important;}
+#ce-maincontent {background-color:white; margin:0 auto; width:1000px;}
+
+/* breadcrumb */
+#ce-breadcrumb {left:0px;padding-left:15px;line-height:24px;height:24px;background-color:white;}
+#ce-breadcrumb a, #ce-breadcrumb span{color:darkgray;}
+
+/* CE Menu */
+#ce-nav-bar {position:absolute;top:80px;left:140px;}
+.ce-nav-container {position:relative;display:inline-block;color:white;height:24px;}
+#ce-top-nav {padding-top:24px;}
+#ce-top-nav ul {list-style-type:none;padding:0;margin:0;}
+#ce-top-nav ul li {float:left;height:24px;line-height:24px;text-align:center;cursor:pointer;margin-left:4px;margin-right:4px;}
+.ce-nav-item {line-height:24px;margin-top:2px;padding-left:5px;padding-right:5px;}
+.ce-nav-item:hover {color:black;background:white;}
+#ce-top-nav ul li div.highlight {color:black;background:white;border-left:1px solid white;border-top:1px solid white;border-right:1px solid white;}
+.ce-top-nav-selected {color:black;background:white;}
+.ce-nav-container li a {text-decoration:none;color:#333333;}
+#ce-sub-nav {position:relative;width:980px;left:-130px;top:26px;height:24px;padding-left:0px;background-color:white;z-index:10;border-bottom:1px solid lightgray;}
+#ce-sub-nav:hover {cursor:pointer;}
+.ce-sub-nav {position:absolute;height:24px;}
+.ce-sub-nav ul {list-style-type:none;padding:0px;margin:0px;}
+.ce-sub-nav ul li {line-height:24px;height:24px;float:left;margin-left:4px;margin-right:4px;}
+.ce-sub-nav ul li a:hover {font-style:italic;}
+
+/* footer */
+#ce-footer {}
+.footer-panel, .stickyFooter {height:30px;}
+#footer-copyright {padding-right:12px;text-align:right;background-color:white;line-height:40px;color:white;}
+.footer span {color:black;}
+
+/* miscellaneous */
+.ce-simple-content {padding:50px 0px 100px 0px;border-bottom:1px solid lightgray;}
+.ce-message {width:450px;border:1px solid black;padding:20px 20px 20px 20px;margin:0 auto;background-color:white;}
+.ce-icon-cell {width:120px;}
+.ce-text-cell {width:330px;}
+.ce-icon {width:100px;height:80px;margin-top:10px;}
+.ce-text {width:300px;padding-right:20px;color:black;}
+.ce-text a {color:black;text-decoration:underline;font-weight:bold;}
+.ce-text span {color:black !important;}
+.ce-dialog {background-color: white;border: 1px solid black;}

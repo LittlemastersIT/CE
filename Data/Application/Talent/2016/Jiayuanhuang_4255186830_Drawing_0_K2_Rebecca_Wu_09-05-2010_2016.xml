@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/02/2016 22:07:50</entryDate>
+		<processDate>03/20/2016 12:24:43</processDate>
+		<contact>
+			<name>Jiayuan huang</name>
+			<email>jiayuanhuang@hotmail.com</email>
+			<phone>425-518-6830</phone>
+		</contact>
+		<competition teamName="">
+			<category>Drawing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Rebecca</firstName>
+				<lastName>Wu</lastName>
+				<chineseName>吴康宁</chineseName>
+				<birthday>09/05/2010</birthday>
+				<email>jiayuanhuang@hotmail.com</email>
+				<academicSchool>Eton school</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>rebecca.wu.09-05-2010</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

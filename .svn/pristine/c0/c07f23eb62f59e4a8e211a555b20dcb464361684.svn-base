@@ -1,0 +1,9 @@
+﻿#sliderContainer {overflow:hidden;position:relative;clear:both;border-top:1px solid lightgray;}
+#slideGallery {width:8000px;height:auto;position:relative;overflow:hidden;} /* width is the total width of all viewable slide pages */
+.slide-view {width:998px;display:block;float:left;height:520px;overflow:hidden;position:relative;background-color:#ffffff;padding-bottom:0px;} /* width is the viewable width per slide page */
+.slide-view li {float:left;width:237px;height:160px;margin-top:10px;margin-left:10px;}
+.slide-view img {}
+#slidePaging {width:100%;height:64px;padding-right:5px;background-color:#000000;position:relative;}
+.slide-paging-list {line-height:72px;margin:0 auto;}
+.slide-paging-list > div {display:inline-block;margin:0 auto;}
+.slide-paging-item {width:20px;height:20px;border:none;background-color:#ffffff;cursor:pointer;} /* margin-top is for IE */

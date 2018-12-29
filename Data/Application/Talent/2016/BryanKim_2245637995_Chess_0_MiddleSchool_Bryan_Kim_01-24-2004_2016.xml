@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/14/2016 20:35:33</entryDate>
+		<processDate>03/20/2016 11:36:37</processDate>
+		<contact>
+			<name>Bryan Kim</name>
+			<email>bryankim1242004@gmail.com</email>
+			<phone>224-563-7995</phone>
+		</contact>
+		<competition teamName="">
+			<category>Chess</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Bryan</firstName>
+				<lastName>Kim</lastName>
+				<chineseName>金升弦</chineseName>
+				<birthday>01/24/2004</birthday>
+				<email>bryankim1242004@gmail.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>bryan.kim.01-24-2004</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

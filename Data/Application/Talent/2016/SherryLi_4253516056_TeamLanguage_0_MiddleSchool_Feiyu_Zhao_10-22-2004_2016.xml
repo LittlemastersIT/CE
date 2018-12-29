@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>01/18/2016 11:51:28</entryDate>
+		<processDate>03/20/2016 13:04:10</processDate>
+		<contact>
+			<name>Sherry Li</name>
+			<email>shuang_ju@hotmail.com</email>
+			<phone>425-351-6056</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamLanguage</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Feiyu</firstName>
+				<lastName>Zhao</lastName>
+				<chineseName>赵飞宇</chineseName>
+				<birthday>10/22/2004</birthday>
+				<email>shuang_ju@hotmail.com</email>
+				<academicSchool>Pacific Cascade Middle School</academicSchool>
+				<extracurricularSchool>Northwest Chinese School</extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>feiyu.zhao.10-22-2004</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

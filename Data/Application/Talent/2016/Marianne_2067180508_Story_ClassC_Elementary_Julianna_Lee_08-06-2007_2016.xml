@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/02/2016 19:05:23</entryDate>
+		<processDate>03/20/2016 12:12:14</processDate>
+		<contact>
+			<name>Marianne</name>
+			<email>mariannes@gmail.com</email>
+			<phone>206-718-0508</phone>
+		</contact>
+		<competition teamName="">
+			<category>Story</category>
+			<subcategory></subcategory>
+			<class>ClassC</class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Julianna</firstName>
+				<lastName>Lee</lastName>
+				<chineseName>Hsiao Ting</chineseName>
+				<birthday>08/06/2007</birthday>
+				<email>mariannes@gmail.com</email>
+				<academicSchool>Jing Mei Elementary School</academicSchool>
+				<extracurricularSchool>Anna Ma&#39;s Chinese School</extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>julianna.lee.08-06-2007</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

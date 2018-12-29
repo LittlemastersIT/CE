@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/16/2016 09:45:48</entryDate>
+		<processDate>03/12/2016 17:30:44</processDate>
+		<contact>
+			<name>Stella</name>
+			<email>guowei_stella@hotmail.com</email>
+			<phone>425-623-6782</phone>
+		</contact>
+		<competition teamName="">
+			<category>Poetry</category>
+			<subcategory></subcategory>
+			<class>ClassA</class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Ariel</firstName>
+				<lastName>Kam</lastName>
+				<chineseName></chineseName>
+				<birthday>10/10/2008</birthday>
+				<email>guowei_stella@hotmail.com</email>
+				<academicSchool>Medina School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>ariel.kam.10-10-2008</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

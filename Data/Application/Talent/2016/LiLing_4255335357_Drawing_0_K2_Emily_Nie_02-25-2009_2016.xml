@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/02/2016 14:30:38</entryDate>
+		<processDate>03/20/2016 12:24:55</processDate>
+		<contact>
+			<name>Li Ling</name>
+			<email>lingli0916@gmail.com</email>
+			<phone>425-533-5357</phone>
+		</contact>
+		<competition teamName="">
+			<category>Drawing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Emily</firstName>
+				<lastName>Nie</lastName>
+				<chineseName>聂莀</chineseName>
+				<birthday>02/25/2009</birthday>
+				<email>lingli0916@gmail.com</email>
+				<academicSchool>Sunny Hills Elementary</academicSchool>
+				<extracurricularSchool>none</extracurricularSchool>
+				<grade>1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>emily.nie.02-25-2009</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,13 @@
+﻿html, body { height:100%;background-image: url('/Images/CEGoldBack.jpg');background-repeat: repeat-x;}
+.ce-headerContainer {background-color:#8A7F01;}
+.ce-banner {background-color:#8A7F01;}
+.ce-title {background-color:#8A7F01;}
+.ce-article-title-divider {background-color:#C9C387;}
+.ce-divider-cell {background-image:url('/Images/golddiv.jpg');background-repeat:no-repeat;}
+.sidebar-divider {background-color:#C9C387;}
+#journey-tab .selected {background-color:#C9C387;border-bottom:1px solid #C9C387;color:white;}
+#journey-more-link a {color:#8A7F01 !important;}
+.form-title-bar {background-color:#8A7F01 !important;}
+#form-decline, #form-interview {background-color:#C9C387 !important;}
+.application-result-title {background-color:#8A7F01;}
+.form-result-title {background-color:#8A7F01;}

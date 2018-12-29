@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>FeeWaived</paymentMethod>
+		<paymentAmount>0</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/04/2016 22:13:24</entryDate>
+		<processDate>03/12/2016 16:35:01</processDate>
+		<contact>
+			<name>Katia</name>
+			<email>katiado1014@gmail.com</email>
+			<phone>206-446-9558</phone>
+		</contact>
+		<competition teamName="">
+			<category>Drawing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Katia</firstName>
+				<lastName>Oliva</lastName>
+				<chineseName></chineseName>
+				<birthday>10/14/1999</birthday>
+				<email>katiado1014@gmail.com</email>
+				<academicSchool>Chief Sealth IHS</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>11</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>katia.oliva.10-14-1999</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

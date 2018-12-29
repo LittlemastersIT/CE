@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>20</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/23/2016 00:07:44</entryDate>
+		<processDate>03/20/2016 11:44:36</processDate>
+		<contact>
+			<name>Lily Yin</name>
+			<email>Lyin71@hotmail.com</email>
+			<phone>425-350-9519</phone>
+		</contact>
+		<competition teamName="Third_Valor">
+			<category>TeamBowl</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Sarah</firstName>
+				<lastName>Quinn</lastName>
+				<chineseName></chineseName>
+				<birthday>11/02/2000</birthday>
+				<email>xuelingh@hotmail.com</email>
+				<academicSchool>Newport High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sarah.quinn.11-02-2000</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Evan</firstName>
+				<lastName>Tung</lastName>
+				<chineseName></chineseName>
+				<birthday>11/05/2000</birthday>
+				<email>dragonejt@gmail.com</email>
+				<academicSchool>Newport High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>evan.tung.11-05-2000</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Joshua</firstName>
+				<lastName>Wang</lastName>
+				<chineseName></chineseName>
+				<birthday>01/05/2004</birthday>
+				<email>lzhuang@gmail.com</email>
+				<academicSchool>Odle Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>joshua.wang.01-05-2004</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Edward</firstName>
+				<lastName>Xu</lastName>
+				<chineseName></chineseName>
+				<birthday>04/24/2003</birthday>
+				<email>liuyan518@yahoo.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>edward.xu.04-24-2003</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

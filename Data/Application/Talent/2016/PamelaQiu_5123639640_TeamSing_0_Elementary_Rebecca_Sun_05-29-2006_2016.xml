@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>01/24/2016 20:52:09</entryDate>
+		<processDate>03/12/2016 17:50:53</processDate>
+		<contact>
+			<name>Pamela Qiu</name>
+			<email>qpbackup@gmail.com</email>
+			<phone>512-363-9640</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Rebecca</firstName>
+				<lastName>Sun</lastName>
+				<chineseName>Mingke</chineseName>
+				<birthday>05/29/2006</birthday>
+				<email>qpbackup@gmail.com</email>
+				<academicSchool>Clark Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>rebecca.sun.05-29-2006</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

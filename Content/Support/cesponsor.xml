@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <page>
+    <articles>
+      <article title="Corporate Sponsorship">
+        <paragraph>
+          <text>
+            <![CDATA[
+            <div style="height:1px;width:960px;"></div>
+            <div style="padding-bottom:50px;padding-top:20px;">
+              <ul>
+                <li style="display:inline;"><img src="/images/support/sponsor1.png" width="300px" alt="China Harbor"/></li>
+                <li style="display:inline;"><img src="/images/support/sponsor2.png" width="300px" alt="Breffni House"/></li>
+                <li style="display:inline;"><img src="/images/support/sponsor3.jpg" width="300px" alt="Crowley"/></li>
+              </ul>
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph>
+          <text>
+            <![CDATA[
+              <div style="padding-top:5px;">
+              <div style="font-size:18px;font-weight:bold;padding-bottom:20px;">To become a 2014 CE Corporate Sponsor, please check out these options:</div>
+              <div style="font-size:14px;font-weight:bold;padding-top:5px;"><span style="color:black;padding-right:32px;">Cultural Exploration Founder Level</span> $4000</div>
+              </div>
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph indent="true">
+          <item>One Table at the Luncheon</item>
+          <item>Special Recognition by Speaker</item>
+          <item>Logo recognition – CE Website</item>
+          <item>Logo recognition – CE Luncheon Event Program</item>
+          <item>Logo recognition – CE Thank-you Letter</item>
+        </paragraph>
+        <paragraph indent="false">
+          <text>
+            <![CDATA[
+              <div style="font-size:14px;font-weight:bold;padding-top:15px;padding-bottom:5px;"><span style="color:black;padding-right:40px;">Cultural Exploration Partner Level</span> $2000</div>
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph indent="true">
+          <item>One Table at the Luncheon</item>
+          <item>Individual On-screen Recognition</item>
+          <item>Logo recognition – CE Website</item>
+          <item>Logo recognition – CE Luncheon Event Program</item>
+          <item>Logo recognition – CE Thank-you Letter</item>
+        </paragraph>
+        <paragraph>
+          <text>
+            <![CDATA[
+              <div style="font-size:14px;font-weight:bold;padding-top:15px;padding-bottom:5px;"><span style="color:black;padding-right:15px;">Cultural Exploration Community Level</span> $1000</div>
+              </div>
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph indent="true">
+          <item>One Table at the Luncheon</item>
+          <item>Group On-screen Recognition</item>
+          <item>Logo recognition – CE Website</item>
+          <item>Logo recognition – CE Luncheon Event Program</item>
+          <item>Logo recognition – CE Thank-you Letter</item>
+        </paragraph>
+      </article>
+    </articles>
+  </page>
+</ce>

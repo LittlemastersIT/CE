@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>45</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/01/2016 22:17:46</entryDate>
+		<processDate>03/20/2016 13:23:06</processDate>
+		<contact>
+			<name>Lucia Leung</name>
+			<email>leungluciah@yahoo.com</email>
+			<phone>206-973-6896</phone>
+		</contact>
+		<competition teamName="Northwestchineseschool_Childrendance">
+			<category>TeamTalent</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Amy</firstName>
+				<lastName>Leung</lastName>
+				<chineseName></chineseName>
+				<birthday>12/26/2007</birthday>
+				<email>leungluciah@yahoo.com</email>
+				<academicSchool>West Mercer Elementary School</academicSchool>
+				<extracurricularSchool>Northwest Chinese School</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>amy.leung.12-26-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Alexandra</firstName>
+				<lastName>Deschenes</lastName>
+				<chineseName></chineseName>
+				<birthday>11/28/2009</birthday>
+				<email>sassyhong@hotmail.com</email>
+				<academicSchool>Jing Mei Elementary School</academicSchool>
+				<extracurricularSchool>Northwest Chinese School</extracurricularSchool>
+				<grade>1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>alexandra.deschenes.11-28-2009</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Cindy</firstName>
+				<lastName>Chen</lastName>
+				<chineseName></chineseName>
+				<birthday>10/20/2008</birthday>
+				<email>hongxiaolin@hotmail.com</email>
+				<academicSchool>Canyon Creek Elementary School</academicSchool>
+				<extracurricularSchool>Northwest Chinese School</extracurricularSchool>
+				<grade>1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>cindy.chen.10-20-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Chloe</firstName>
+				<lastName>Wang</lastName>
+				<chineseName></chineseName>
+				<birthday>12/12/2006</birthday>
+				<email>michelle.yang2004@gmail.com</email>
+				<academicSchool>Chestnut Hill Academy</academicSchool>
+				<extracurricularSchool>Northwest Chinese School</extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>chloe.wang.12-12-2006</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Kayla</firstName>
+				<lastName>Li-Kaing</lastName>
+				<chineseName></chineseName>
+				<birthday>06/30/2008</birthday>
+				<email>mayfanna@yahoo.com</email>
+				<academicSchool>John Muir Elementary School in Kirkland</academicSchool>
+				<extracurricularSchool>Northwest Chinese School</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>kayla.li-kaing.06-30-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Emma</firstName>
+				<lastName>Shi</lastName>
+				<chineseName></chineseName>
+				<birthday>07/04/2008</birthday>
+				<email>bing.liu.bing@gmail.com</email>
+				<academicSchool>Somerset Elementary School</academicSchool>
+				<extracurricularSchool>Northwest Chinese School</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>emma.shi.07-04-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Rosalyn</firstName>
+				<lastName>He</lastName>
+				<chineseName></chineseName>
+				<birthday>03/15/2007</birthday>
+				<email>Lindacheng2000@yahoo.com</email>
+				<academicSchool>Cedar Wood Elementary</academicSchool>
+				<extracurricularSchool>Northwest Chinese School</extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>rosalyn.he.03-15-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Maiya</firstName>
+				<lastName>Clouse</lastName>
+				<chineseName></chineseName>
+				<birthday>08/20/2009</birthday>
+				<email>Huanzou@hotmail.com</email>
+				<academicSchool>Peter Kirk Elementary School</academicSchool>
+				<extracurricularSchool>Northwest Chinese School</extracurricularSchool>
+				<grade>1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>maiya.clouse.08-20-2009</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Yufei</firstName>
+				<lastName>Dai</lastName>
+				<chineseName></chineseName>
+				<birthday>04/16/2007</birthday>
+				<email>qihui.qi@gmail.com</email>
+				<academicSchool>Cascade Ridge Elementary School</academicSchool>
+				<extracurricularSchool>Northwest Chinese School</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>yufei.dai.04-16-2007</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>01/21/2016 16:52:27</entryDate>
+		<processDate>03/20/2016 13:11:39</processDate>
+		<contact>
+			<name>Sherry Wang</name>
+			<email>wangsherry@hotmail.com</email>
+			<phone>425-531-1662</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Annie</firstName>
+				<lastName>Li</lastName>
+				<chineseName>李嘉怡</chineseName>
+				<birthday>02/12/2006</birthday>
+				<email>wangsherry@hotmail.com</email>
+				<academicSchool>Blackwell Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>annie.li.02-12-2006</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

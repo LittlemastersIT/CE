@@ -1,0 +1,13 @@
+﻿html, body { height:100%;background-image: url('/Images/CERedBack.jpg');background-repeat: repeat-x;}
+.ce-headerContainer {background-color:#980B01;}
+.ce-banner {background-color:#980B01;}
+.ce-title {background-color:#980B01;}
+.ce-article-title-divider {background-color:#D49A96;}
+.ce-divider-cell {background-image:url('/Images/reddiv.jpg');background-repeat:no-repeat;}
+.sidebar-divider {background-color:#D49A96;}
+#journey-tab .selected {background-color:#D49A96;border-bottom:1px solid #D49A96;color:white;}
+#journey-more-link a {color:#980B01 !important;}
+.form-title-bar {background-color:#980B01 !important;}
+#form-decline, #form-interview {background-color:#D49A96 !important;}
+.application-result-title {background-color:#980B01;}
+.form-result-title {background-color:#980B01;}

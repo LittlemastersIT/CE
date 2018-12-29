@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>10</paymentAmount>
+		<checkNumber>Paypal</checkNumber>
+		<status>Approved</status>
+		<entryDate>02/15/2016 19:59:26</entryDate>
+		<processDate>03/12/2016 17:30:57</processDate>
+		<contact>
+			<name>Shaorong Jia</name>
+			<email>shaorongj@gmail.com</email>
+			<phone>425-440-1928</phone>
+		</contact>
+		<competition teamName="">
+			<category>Drawing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Queenie</firstName>
+				<lastName>Ding</lastName>
+				<chineseName>丁珮瑜</chineseName>
+				<birthday>12/02/2002</birthday>
+				<email>shaorongj@gmail.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>queenie.ding.12-02-2002</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

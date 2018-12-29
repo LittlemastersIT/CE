@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>10</paymentAmount>
+		<checkNumber>paypal</checkNumber>
+		<status>Approved</status>
+		<entryDate>03/01/2016 23:35:47</entryDate>
+		<processDate>03/12/2016 22:00:16</processDate>
+		<contact>
+			<name>Yaqi Bick</name>
+			<email>ray.yaqi@gmail.com</email>
+			<phone>206-354-9761</phone>
+		</contact>
+		<competition teamName="RisingStar">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Liliana</firstName>
+				<lastName>Mcpeck</lastName>
+				<chineseName>李诗恬</chineseName>
+				<birthday>02/25/2008</birthday>
+				<email>ray.yaqi@gmail.com</email>
+				<academicSchool>Jing Mei Elementary</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>liliana.mcpeck.02-25-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Faith</firstName>
+				<lastName>Haynes</lastName>
+				<chineseName></chineseName>
+				<birthday>07/13/2007</birthday>
+				<email>ray.yaqi@gmail.com</email>
+				<academicSchool>Newport Heights Elementary</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>faith.haynes.07-13-2007</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

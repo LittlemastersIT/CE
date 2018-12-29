@@ -1,0 +1,178 @@
+﻿div a {color:#666666 !important;}
+#ce-admin-content {width:998px;background-color:white;padding-top:20px;padding-bottom:50px;border:1px solid lightgray;border-top:none;}
+.ce-admin-page, .ce-login-page {width:460px;padding:15px;border:1px solid lightgray;margin:0 auto;}
+.ce-login-page {width:460px;}
+.page-section-divider, .page-section-divider2 {background:gray;width:450px;height:2px;margin:15px 0px 20px 0px;}
+.form-left-cell {width:130px;padding:5px;padding-top:10px;padding-bottom:10px;}
+.form-right-cell {width:300px;padding:5px;padding-top:10px;padding-bottom:10px;}
+.form-left-cell2 {width:110px;padding:5px;}
+.form-right-cell2 {width:320px;padding:5px;}
+.form-right-cell3 {width:320px;padding:5px;padding-top:0px;padding-bottom:0px;color:#666666;}
+.form-right-cell3 img {position:relative;top:2px;padding-left:3px;margin-right:3px;}
+.form-right-cell3 a:hover {text-decoration:underline;}
+.option-cell {padding-top:0px;}
+.form-right-cell div{width:300px;}
+.cell-button {padding-right:10px;color:black;}
+.cell-button.inactive {color:gray;}
+.action-button {margin-left:8px;margin-right:2px;cursor:pointer;}
+.action-button img {width:20px;height:20px;border:0;border-style:none;cursor:pointer;}
+.action-button span {color:black;font-weight:bold;line-height:20px;cursor:pointer;}
+.form-button-cell {text-align:right;padding-top:15px;padding-bottom:10px;}
+.form-note-cell{clear:both;text-align:right;padding-right:10px;padding-bottom:10px;}
+.form-message {color:black;padding-bottom:10px;padding-top:10px;}
+.form-message.red {color:red;}
+.form-message.blue {color:darkblue;}
+.form-cell-divider, .form-cell-divider2 {background:gray;width:450px;height:2px;margin:20px 0px 0px 0px;}
+.form-cell-divider2, .page-section-divider2 {width:450px;}
+.red {color:red;}
+
+/* tour application */
+.ce-application-page {width:650px;padding:15px;border:1px solid lightgray;margin:0 auto;}
+.form-input-note {float:right;color:#333333;padding-top:8px;margin-right:10px;}
+.page-section-divider600 {background:gray;width:640px;height:2px;margin:10px 0px 10px 0px;}
+.form-left-cell600 {width:150px;padding-top:5px;padding-bottom:5px;color:#333333;}
+.form-right-cell600 {width:470px;padding-top:5px;padding-bottom:5px;color:#333333;}
+.form-section-title {font-weight:bold;padding-left:5px;padding-top:10px;padding-bottom:15px;}
+.form-cell-title {padding-top:10px;padding-bottom:8px;}
+.form-note-text {padding-top:10px;padding-bottom:10px}
+.form-error-text {color:red;}
+.form-cell-text {padding-top:0px;padding-bottom:8px;}
+.form-cell-text img {border:none;text-decoration:none;}
+.form-cell-item {margin-bottom:10px;}
+.form-result-title {background-color:black;height:48px;width:100%;color:white;text-align:center;line-height:48px;}
+.form-result-title span {color:white;}
+.form-result-text {padding:15px;}
+.form-result-button {text-align:right;margin-right:30px;padding-top:10px;}
+.form-result-text a {color:black !important;text-decoration:underline;}
+#form-success-modal, #form-redirect-modal, #form-update-modal, #form-error-modal, #team-error-modal, #operation-error-modal {background-color:lightgray;height:220px;width:600px;border:1px solid gray;}
+.application-result-title {background-color:black;height:48px;width:100%;color:white;text-align:center;line-height:48px;}
+.application-result-title span {color:white;}
+.application-result-text {padding:15px;}
+.application-result-button {text-align:right;margin-right:30px;padding-top:10px;}
+.application-result-text a {color:black !important;text-decoration:underline;}
+
+.form-application-page {width:680px;border:1px solid lightgray;margin:0 auto;}
+.form-title-bar {height:36px;line-height:36px;width:100%;text-align:center;background-color:black;color:white;}
+.form-title-bar span {color:white;}
+.form-application-data {padding:15px;}
+.form-review-cell {text-align:left;padding-top:15px;padding-bottom:15px;}
+#form-review {background-color:lightgray;height:190px;width:600px;border:1px solid gray;}
+#review-panel {background-color:lightgray;padding-left:15px;padding-top:5px;}
+#decisionText span {color:black;}
+.resume-link {color:#050143 !important;text-decoration:underline;}
+
+/* talent competition registration */
+#search-box {border:1px solid lightgray;margin:10px 20px 0px 20px;padding:10px;background-color:lightgray;}
+.search-item-label {padding-bottom:5px;font-weight:bold;}
+.search-item-control {padding-right:20px;}
+.search-button img {position:relative;top:5px;border:0;border-style:none;}
+.search-button span {color:black;font-weight:bold;}
+#search-result {margin:10px 20px 0px 20px;border:1px solid #e0e0e0;}
+.search-grid-icon {height:16px;padding-bottom:3px;position:relative;top:2px;border:0;border-style:none;}
+#application-review-modal {background-color:white;border:2px solid gray;padding-bottom:20px;}
+.review-application-page {min-height:600px;}
+.review-title-bar {height:36px;line-height:36px;width:100%;text-align:center;background-color:black;color:white;}
+.review-title-bar span {color:white;}
+.review-exit-button {text-align:left;position:relative;top:-34px;left:864px;}
+.review-exit-button img {width:32px;height:32px;cursor:pointer;}
+.review-item {padding-right:20px;}
+.review-section-title {margin-top:20px;margin-bottom:15px;font-weight:bold;}
+.review-section-title span {color:black;}
+.review-item, .review-tour-item {height:40px;}
+.review-item span {color:black;padding-left:20px;}
+.review-tour-item span {color:black;padding-left:20px;}
+span.review-tour-item-text {font-weight:bold;padding-right:15px;}
+.payment-method {padding-bottom:10px;}
+.mailin-item {padding-left:15px;}
+.pagination span {color:black;font-size:16px;}
+.pagination, .pagination ul {display:inline-block;margin-top:5px;}
+.pagination ul li {float:left;display:inline-block;padding-left:5px;padding-right:5px;line-height:36px;vertical-align:middle;}
+.pagination ul li img {border:1px solid gray;border-style:solid;}
+.pagination ul li span.selected {font-weight:bold;text-decoration:underline;}
+.search-result-total {position:relative;margin-left:20px;margin-top:10px;}
+.search-note {width:830px;}
+.search-export {}
+.excel-export {color:blue !important;font-weight:bold;}
+.ui-autocomplete {max-height:200px;width:240px;overflow-y:scroll;overflow-x:hidden;background-color:white;border:1px solid gray;}
+
+.ce-registration-page {width:900px;padding:15px;border:1px solid lightgray;margin:0 auto;}
+.ce-temp-note {color:maroon; font-weight:bold;margin-bottom:20px;border:1px solid lightgray;padding:15px;}
+.reg-app-page table {width:100%;}
+.reg-input-note {float:right;color:#333333;padding-top:8px;margin-right:10px;}
+.reg-section-divider {background:gray;width:100%;height:2px;margin:10px 0px 10px 0px;}
+.reg-input-divider {background:gray;width:100%;height:1px;margin:10px 0px 10px 0px;}
+.reg-left-cell {width:170px;padding-top:5px;padding-bottom:5px;color:#333333;}
+.reg-right-cell {width:700px;padding-top:5px;padding-bottom:5px;color:#333333;}
+.reg-section-title {font-weight:bold;padding-left:5px;padding-top:10px;padding-bottom:15px;}
+.reg-cell-title {padding-top:10px;padding-bottom:8px;}
+.reg-cell-text {padding-top:0px;padding-bottom:8px;}
+.reg-cell-item {margin-bottom:10px;}
+#reg-participant-table {width:100%;}
+#reg-participant-table table {border:1px solid gray;}
+.reg-participant-cell {border:1px solid lightgray;}
+.reg-participant-cell.header {font-weight:600;}
+#reg-contestant-entry table {width:700px;}
+.reg-left-cell1 {padding-top:2px;padding-bottom:2px;}
+.reg-left-cell2 {padding-top:2px;padding-bottom:2px;padding-left:10px;width:200px;}
+.reg-right-cell1, .reg-right-cell2 {padding-top:2px;padding-bottom:2px;}
+.reg-right-cell2 {padding-left:10px;}
+.reg-button-cell {padding-top:5px;padding-bottom:20px;}
+.reg-left-cell3 {padding-top:2px;padding-bottom:2px;padding-left:10px;width:120px;}
+.reg-constant-list {font-weight:bold;padding-top:15px;padding-bottom:15px;}
+#reg-action-table {width:100%;margin-top:20px;border:none;}
+#reg-action-table td {border:none;}
+
+/* admin home page */
+#admin-home-page {width:900px;padding:20px;margin:0 auto;}
+#admin-home-page table {border:1px solid lightgray;padding:15px;}
+.admin-left-cell {width:150px;}
+.admin-right-cell {width:750px;vertical-align:top;padding-top:20px;}
+.admin-page-title {padding-bottom:10px;font-weight:bold;}
+.admin-page-title a {color:black !important;text-decoration:underline;}
+
+/* How To page */
+#admin-howto-page {width:800px;border:1px solid gray;padding:20px 20px 20px 20px;margin:0 auto;}
+.howto-header {padding-bottom:20px;}
+.howto-header div {color:gray;}
+.howto-divider {background-color:gray;height:2px;margin-bottom:20px;}
+.howto-title {padding-bottom:20px;width:750px;color:black;}
+.howto-title img {float:left;}
+.howto-title div {color:gray;}
+.howto-title a {font-weight:600;}
+.howto-title a:hover {text-decoration:underline;}
+
+/* file upload style */
+.form-upload {position:relative;height:50px;width:150px;padding:10px;cursor:pointer;display:inline;}
+.form-upload img {width:24px;height:24px;}
+.form-upload-file {float:left;width:400px;}
+.form-row-spacing {padding-top:15px;}
+
+#minimumContestants {color:red;font-weight:normal;}
+
+.paypal-button img {vertical-align:middle;border:0;border-style:none;margin-bottom:5px;}
+.online-payment-note {color:black;margin-bottom:5px;border:1px solid lightgray;padding:15px;}
+
+/* talent competition regisration */
+#competition-selection span {color:black;}
+#competition-selection ul {display:inline-block;margin-top:60px;margin-bottom:40px;}
+#competition-selection ul li {float:left;display:inline-block;vertical-align:middle;text-align:center;}
+.talent-competition-spacing {padding-right:80px;}
+.talent-competition-label {padding-right:60px;}
+.talent-competition-icon {width:100px;height:100px;text-decoration:none;border:none;}
+.talent-competition-caption {width:100px;}
+
+/* date picker */
+#ui-datepicker-div span {color:black;}
+.ui-datepicker-trigger {padding:0px;padding-left:5px;vertical-align:baseline;position:relative;top:4px;height:18px;}
+
+/* review application */
+#committee-roaster {min-width:800px;padding-left:0px;padding-right:15px;padding-bottom:20px;}
+.memeber-score-header {padding-top:10px;padding-bottom:5px;font-weight:bold;}
+.member-score-label {padding-right:10px;}
+.member-score-text {padding-right:20px;}
+.memeber-review-action {padding-top:20px;padding-bottom:10px;}
+
+/* grid column sorting */
+.ce-grid-header-asc {padding:0 4px 0 15px;color:#ffffff !important;background:url(/images/arrow_down.gif) no-repeat;}
+.ce-grid-header-desc {padding:0 4px 0 15px;color:#ffffff !important;background:url(/images/arrow_down.gif) no-repeat;}
+#search-result th a {color:#ffffff !important;}

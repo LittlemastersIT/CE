@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>50</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>01/28/2016 09:43:08</entryDate>
+		<processDate>03/20/2016 12:14:41</processDate>
+		<contact>
+			<name>Sherry Li</name>
+			<email>shuang_ju@hotmail.com</email>
+			<phone>425-351-6056</phone>
+		</contact>
+		<competition teamName="Wahaha_Peacock_Dance_Team">
+			<category>TeamTalent</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Daisy</firstName>
+				<lastName>Hu</lastName>
+				<chineseName></chineseName>
+				<birthday>02/04/2007</birthday>
+				<email>shuang_ju@hotmail.com</email>
+				<academicSchool>Endeavour Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>daisy.hu.02-04-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Amanda</firstName>
+				<lastName>Wu</lastName>
+				<chineseName></chineseName>
+				<birthday>01/06/2006</birthday>
+				<email>shuang_ju@hotmail.com</email>
+				<academicSchool>Samantha Smith Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>amanda.wu.01-06-2006</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Di</firstName>
+				<lastName>Mao</lastName>
+				<chineseName></chineseName>
+				<birthday>12/23/2005</birthday>
+				<email>shuang_ju@hotmail.com</email>
+				<academicSchool>Samantha Smith Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>di.mao.12-23-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Rena</firstName>
+				<lastName>Wang</lastName>
+				<chineseName></chineseName>
+				<birthday>12/15/2005</birthday>
+				<email>shuang_ju@hotmail.com</email>
+				<academicSchool>Endeavour Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>rena.wang.12-15-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Nicole</firstName>
+				<lastName>Chen</lastName>
+				<chineseName></chineseName>
+				<birthday>03/23/2005</birthday>
+				<email>shuang_ju@hotmail.com</email>
+				<academicSchool>Samantha Smith Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>nicole.chen.03-23-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Sunny</firstName>
+				<lastName>Cong</lastName>
+				<chineseName></chineseName>
+				<birthday>06/28/2005</birthday>
+				<email>shuang_ju@hotmail.com</email>
+				<academicSchool>Challenger Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sunny.cong.06-28-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Yifan</firstName>
+				<lastName>Wang</lastName>
+				<chineseName></chineseName>
+				<birthday>02/10/2005</birthday>
+				<email>shuang_ju@hotmail.com</email>
+				<academicSchool>Endeavour Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>yifan.wang.02-10-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Bolei</firstName>
+				<lastName>Wang</lastName>
+				<chineseName></chineseName>
+				<birthday>07/30/2004</birthday>
+				<email>shuang_ju@hotmail.com</email>
+				<academicSchool>Pacific Cascade Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>bolei.wang.07-30-2004</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Elaine</firstName>
+				<lastName>Gong</lastName>
+				<chineseName></chineseName>
+				<birthday>03/11/2004</birthday>
+				<email>shuang_ju@hotmail.com</email>
+				<academicSchool>Pacific Cascade Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>elaine.gong.03-11-2004</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Lenci</firstName>
+				<lastName>Ni</lastName>
+				<chineseName></chineseName>
+				<birthday>06/26/2004</birthday>
+				<email>shuang_ju@hotmail.com</email>
+				<academicSchool>Pine Lake Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>lenci.ni.06-26-2004</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

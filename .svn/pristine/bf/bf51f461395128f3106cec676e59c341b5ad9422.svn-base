@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <page>
+    <articles>
+      <article title="2013 Cultural Exploration Private Tour - 7/24/2013 Wednesday">
+        <paragraph indent="false">
+          <text>
+            <![CDATA[
+            <br/>
+            <b>Meet CE China  Coordinator 	Stephen Pan</b><br/><br/>
+            <ul>
+            <li>Phone: 13161424960</li>
+            <li>E-mail: stephenglpan@gmail.com</li>
+            <li>He will meet you at the hotel on  7/24 a.m. and travel with you throughout China</li>
+            <li>Stephen taught English in Beijing</li>
+            <li>He is a past CE host in Beijing (2011 & 2012)</li>
+            <br/><br/>
+            <b>Spend a Day in Beijing</b>
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph indent="true">
+          <text>
+            <![CDATA[
+            <b>9:00 – 11:30 Dandelion School</b> (it is >50 min from hotel including subway & bus, please allow enough travel time)<br/>
+            Dandelion School 蒲公英学校<br/>
+            地址：北京市大兴区西红门镇寿宝庄 电话：61288964、61286686<br/>
+            Principal - Hong Zheng		郑洪 校長	 zhxh321@yahoo.com<br/>
+            Phone: 13701377686<br/>
+            Officer - Kai Zhao 		赵凯	幹事	 zhaokai_pgy@163.com<br/>
+            Phone: 86-15001257340<br/>
+            Referred by Anna Wang (Shu-Hsien & Stephen Lee’s friend)<br/>
+            <br/>
+            <b>2: 00 – 5:00	Peking University</b><br/>
+            殷云剑 	Ph.D student of Andrew Zhou 	1581 0133217	yinyunjian1990@163.com<br/>
+            郑嘉寅 	Ph.D student of Andrew Zhou	1521 0623616	jyzheng@pku.edu.cn<br/>
+            Referred by Professor Andrew Zhou	azhou@u.washington.edu<br/>
+            <br/>
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph indent="false">
+          <text>
+            <![CDATA[
+            <b>Dinner with Stephen’s students and their families</b>
+            ]]>         
+          </text>
+        </paragraph>
+        <paragraph indent="false">
+          <text>
+          </text>
+        </paragraph>
+      </article>
+    </articles>
+    <sideBar>
+      <relatedLinks header="More 2013 Tour...">
+        <relatedLink iconUrl="/Images/world.png" title="2013 Tour Participlants" linkUrl="/public/tours/plan/2013/tourparticipants.html" />
+        <relatedLink iconUrl="/Images/pin_blue.png" title="2013 Tour Places" linkUrl="/public/tours/plan/2013/tourplaces.html" />
+        <relatedLink iconUrl="/Images/script.png" title="2013 Tour Schedule" linkUrl="/public/tours/plan/2013/tourschedule.html" />
+      </relatedLinks>
+      <barTiles>
+        <barTile caption="" imageUrl="/Content/Tours/Journey/2013/AnnieJohn/Photos/IMG_0184.jpg" linkUrl="" />
+        <barTile caption="" imageUrl="/Content/Tours/Journey/2013/AnnieJohn/Photos/IMG_0621.jpg" linkUrl="" />
+        <barTile caption="Tour photos" imageUrl="/Content/Tours/Journey/2013/AnnieJohn/Photos/IMG_0535.jpg" linkUrl="" captionPosition="bottom" />
+      </barTiles>
+    </sideBar>
+  </page>
+</ce>

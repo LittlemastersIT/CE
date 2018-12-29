@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>FeeWaived</paymentMethod>
+		<paymentAmount>0</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/04/2016 22:10:27</entryDate>
+		<processDate>03/20/2016 11:38:12</processDate>
+		<contact>
+			<name>Yea-Jae Wang</name>
+			<email>yeawan@yahoo.com</email>
+			<phone>425-281-6131</phone>
+		</contact>
+		<competition teamName="">
+			<category>Chess</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Austin</firstName>
+				<lastName>Burnham</lastName>
+				<chineseName></chineseName>
+				<birthday>03/01/1998</birthday>
+				<email>vanillakiwi509@yahoo.com</email>
+				<academicSchool>Chief Sealth IHS</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>12</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>austin.burnham.03-01-1998</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

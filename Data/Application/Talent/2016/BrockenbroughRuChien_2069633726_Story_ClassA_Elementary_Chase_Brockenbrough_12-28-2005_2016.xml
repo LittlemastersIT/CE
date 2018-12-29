@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/01/2016 11:59:03</entryDate>
+		<processDate>03/12/2016 16:58:18</processDate>
+		<contact>
+			<name>Brockenbrough Ru-Chien</name>
+			<email>rchi@u.washington.edu</email>
+			<phone>206-963-3726</phone>
+		</contact>
+		<competition teamName="">
+			<category>Story</category>
+			<subcategory></subcategory>
+			<class>ClassA</class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Chase</firstName>
+				<lastName>Brockenbrough</lastName>
+				<chineseName>紀漢</chineseName>
+				<birthday>12/28/2005</birthday>
+				<email>rchi@u.washington.edu</email>
+				<academicSchool>St. Anthony School</academicSchool>
+				<extracurricularSchool>Tzu Chi Academy</extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>chase.brockenbrough.12-28-2005</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

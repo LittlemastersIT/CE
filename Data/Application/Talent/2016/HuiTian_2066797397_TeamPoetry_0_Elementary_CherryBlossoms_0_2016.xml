@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>25</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/29/2016 14:07:10</entryDate>
+		<processDate>03/20/2016 12:13:31</processDate>
+		<contact>
+			<name>Hui Tian</name>
+			<email>hui_tian@hotmail.com</email>
+			<phone>206-679-7397</phone>
+		</contact>
+		<competition teamName="CherryBlossoms">
+			<category>TeamPoetry</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Amber</firstName>
+				<lastName>Zhu</lastName>
+				<chineseName></chineseName>
+				<birthday>01/23/2007</birthday>
+				<email>idazhu@yahoo.com</email>
+				<academicSchool>Cherry Crest Elementary</academicSchool>
+				<extracurricularSchool>Northwest Chinese School</extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>amber.zhu.01-23-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Katie</firstName>
+				<lastName>Hu</lastName>
+				<chineseName></chineseName>
+				<birthday>09/11/2007</birthday>
+				<email>yerong2000@hotmail.com</email>
+				<academicSchool>Cherry Crest Elementary</academicSchool>
+				<extracurricularSchool>Northwest Chinese School</extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>katie.hu.09-11-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Victor</firstName>
+				<lastName>Man</lastName>
+				<chineseName></chineseName>
+				<birthday>10/14/2007</birthday>
+				<email>hui_tian@hotmail.com</email>
+				<academicSchool>Cherry Crest Elementary</academicSchool>
+				<extracurricularSchool>Northwest Chinese School</extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>victor.man.10-14-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>John</firstName>
+				<lastName>Kim</lastName>
+				<chineseName></chineseName>
+				<birthday>08/02/2007</birthday>
+				<email>jianzhang_h@hotmail.com</email>
+				<academicSchool>Cherry Crest Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>john.kim.08-02-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Sichen</firstName>
+				<lastName>Luo</lastName>
+				<chineseName></chineseName>
+				<birthday>02/24/2007</birthday>
+				<email>chenjie1116@gmail.com</email>
+				<academicSchool>Spiritridge Elementary School</academicSchool>
+				<extracurricularSchool>Northwest Chinese School</extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sichen.luo.02-24-2007</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

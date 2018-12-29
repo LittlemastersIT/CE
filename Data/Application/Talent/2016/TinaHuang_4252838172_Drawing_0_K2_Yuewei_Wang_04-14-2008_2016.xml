@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>HonorableMentioned</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/16/2016 19:14:13</entryDate>
+		<processDate>03/20/2016 12:25:12</processDate>
+		<contact>
+			<name>Tina Huang</name>
+			<email>branchxi@hotmail.com</email>
+			<phone>425-283-8172</phone>
+		</contact>
+		<competition teamName="">
+			<category>Drawing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Yuewei</firstName>
+				<lastName>Wang</lastName>
+				<chineseName>王悦微</chineseName>
+				<birthday>04/14/2008</birthday>
+				<email>branchxi@hotmail.com</email>
+				<academicSchool>Christa McAuliffe</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>yuewei.wang.04-14-2008</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

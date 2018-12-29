@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <page>
+    <articles>
+      <article title="Background">
+        <paragraph>
+          <text>
+            <![CDATA[
+            <p>The Cultural Exploration(CE)of Greater China Foundation is a community-based non-profit organization dedicated to promote a
+            better understanding of greater China and Chinese culture through education by offering cultural learning opportunities to
+            schools or other educational institutions. In the past ten years, through generous donations from local communities and
+            businesses, CE has sponsored over 40 teachers to tour China, Hong Kong, and Taiwan. This year, through successful
+            fund-raising, we are pleased to offer this great travel opportunity again to teachers that are enthusiastic about
+            bringing China and Chinese culture to their classrooms.</p>
+            <br/>
+            <p>Unlike other cultural exchange programs sponsored by various governments or academic organizations, CE is a community-based
+            program. We believe that the most effective way to know modern day China, Chinese Culture and people is through pressure-free
+            interpersonal interactions.</p>
+            ]]>
+          </text>
+        </paragraph>
+      </article>
+      <article title="Objective">
+        <paragraph indent="false">
+          <text>
+            Today, Chinese people live in different parts of the world and Chinese culture is manifested in a variety of ways. The
+            objective of this program is to assist American teachers to:
+          </text>
+        </paragraph>
+        <paragraph indent="true">
+          <item>Introduce greater China to their students with accurate information, confidence and authority.</item>
+          <item>Develop teaching plans to enhance curriculum related to China, Pacific Rim and Asia.</item>
+          <item>Inspire students to learn about China and Chinese culture.</item>
+          <item>Have a better understanding of Americans with Chinese heritage.</item>
+        </paragraph>
+      </article>
+      <article title="Continuing Education Credits">
+        <paragraph indent="false">
+          <text>
+            Several teachers in the past have successfully applied and earned up to 70 clock hours or 7 continuing education credits 
+            for the CE Tour through Seattle University. Interested teachers will be responsible for completing the necessary application 
+            form and coordinating with CE.
+          </text>
+        </paragraph>
+      </article>
+      <article title="Application Process">
+        <paragraph indent="false">
+          <text>
+            Starting from 2014, teachers who are interested in our program can fill out application online. Qualified applicants will be notified by
+            email for interview. Normally the application time frame is around Feburary each year and interview is conducted the following March with
+            tour award decision made by April.
+          </text>
+        </paragraph>
+      </article>
+    </articles>
+    <sideBar>
+      <relatedLinks header="Tour Application Link">
+        <relatedLink iconUrl="/Images/colorpen.png" title="2015 Tour Application" linkUrl="/public/tours/application/ceapplication.aspx" />
+      </relatedLinks>
+      <relatedLinks header="Cultural Exploration Tour">
+        <relatedLink iconUrl="/Images/team-contestants.png" title="2014 Tour Participants" linkUrl="/public/tours/journey/tourjourney.aspx" />
+        <relatedLink iconUrl="/Images/team-contestants.png" title="2013 Tour Participants" linkUrl="/public/tours/journey/tourjourney.aspx?year=2013" />
+      </relatedLinks>
+      <!--videoClips header="Tour Videos">
+        <videoClip title="" clipUrl="https://www.youtube.com/embed/cnG_hEaQdgg" />
+      </videoClips>-->
+      <!--<barTiles>
+        <barTile caption="" imageUrl="/content/tours/journey/sirihulbert/photos/1 Siri at Dandelion school.jpg" linkUrl="" captionPosition="bottom" />
+        <barTile caption="" imageUrl="/content/tours/journey/susankelly/photos/IMG_0485.jpg" linkUrl="" captionPosition="bottom" />
+        <barTile caption="Tour phtotos" imageUrl="/content/tours/journey/colleengraham/photos/IMG_2345.jpg" linkUrl="" captionPosition="bottom" />
+      </barTiles>-->
+    </sideBar>
+  </page>
+</ce>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <journey title="..." align="left" rootUrl="/Content/Tours/Journey/...">
+    <bio>
+      <name first="..." last="..." display="..." />
+      <email></email>
+      <phone></phone>
+      <address></address>
+      <city></city>
+      <state></state>
+      <school></school>
+      <grade></grade>
+      <subject></subject>
+      <year></year>
+      <photo>/content/tours/journey/.../photos/...</photo>
+      <about>
+        <![CDATA[
+            put any text here including html tags or Chinese words.
+        ]]>
+      </about>
+    </bio>
+    <album folder="Photos" align="right">
+    </album>
+    <diary>
+      <articles>
+        <article title="...">
+          <paragraph>
+            <text>
+              <![CDATA[
+                put diart text here
+              ]]>
+            </text>
+          </paragraph>
+        </article>
+        <article title="...">
+          <paragraph>
+            <picture url="/content/tours/journey/.../photos/..." position="right" />
+            <text>
+              <![CDATA[
+                put diart text here
+              ]]>
+            </text>
+          </paragraph>
+        </article>
+      </articles>
+    </diary>
+    <testimony title="very short text">
+      <quote>
+        put quote text here
+      </quote>
+    </testimony>
+  </journey>
+</ce>

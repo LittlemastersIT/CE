@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <page>
+    <articles>
+      <article title="2013 Cultural Exploration Tour Schedule">
+        <paragraph indent="false">
+          <text>
+            <![CDATA[
+            <img src="/images/tours/2013/TourSchedule.jpg" style="width:700px;padding-left:15px;" />
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph indent="false">
+          <text>
+          </text>
+        </paragraph>
+      </article>
+    </articles>
+    <sideBar>
+      <relatedLinks header="More 2013 Tour...">
+        <relatedLink iconUrl="/Images/script.png" title="Tour Journey" linkUrl="/public/tours/journey/tourjourney.aspx?year=2013" />
+        <relatedLink iconUrl="/Images/team-contestants.png" title="Tour Participlants" linkUrl="/public/tours/plan/2013/tourparticipants.html" />
+        <relatedLink iconUrl="/Images/world.png" title="Tour Places" linkUrl="/public/tours/plan/2013/tourplaces.html" />
+      </relatedLinks>
+      <barTiles>
+        <barTile caption="" imageUrl="/Content/Tours/Journey/2013/SusanKelly/Photos/IMG_2297.jpg" linkUrl="" />
+        <barTile caption="" imageUrl="/Content/Tours/Journey/2013/SusanKelly/Photos/IMG_0138.jpg" linkUrl="" />
+        <barTile caption="Tour photos" imageUrl="/Content/Tours/Journey/2013/SusanKelly/Photos/IMG_0485.jpg" linkUrl="" captionPosition="bottom" />
+      </barTiles>
+    </sideBar>
+  </page>
+</ce>

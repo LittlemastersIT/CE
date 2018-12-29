@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <page>
+    <articles>
+      <article title="Support Us">
+        <paragraph>
+          <text>
+            <![CDATA[
+              <div>Cultural Exploration of Greater China Foundation completed two very successful events in 2013 thanks to many tireless volunteers 
+                   and generous donors.</div><br/>
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph indent="false">
+          <item>
+            <![CDATA[
+            <b>The Chinese Language and Talent Competition</b> in March was a sounding success. Over 480 students from 110 schools across Washington
+            State participated in this event. Superintendent Dorn attended the award ceremony praising this outstanding community effort
+            supporting education and cultural exchange.<div style="height:5px"></div>
+            ]]>
+          </item>
+          <item>
+            <![CDATA[
+            5 talented teachers from the greater Seattle area participated in this year’s <b>Cultural Exploration Tour</b>. They not only visited
+            experimental schools, traditional schools and schools for under-privileged students in Beijing, Shanghai and Taipei, they were able
+            to experience the daily lives in these modern cities with many host families.
+            ]]>
+          </item>
+        </paragraph>
+        <paragraph>
+          <text>
+            <![CDATA[
+              The students and teachers attended the Chinese Language & Talent Competition are preparing and looking forward to next year’s competition. 
+              The Cultural Exploration teachers are networking with their colleagues and schools to bring more teachers to take next year’s tour.
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph>
+          <text>
+            To continue these worthy activities, we need your continuing support. There are some options for your consideration:
+          </text>
+        </paragraph>
+        <paragraph indent="false">
+          <item>Volunteer your time, be part of the CE team</item>
+          <item>Make a personal donation online using PayPal</item>
+          <item>Check with your employer on Corporate Matching Fund</item>
+          <item>Become a Corporate Sponsor</item>
+          <item>Attend our annual Friendship Luncheon  Fundraiser in September</item>
+        </paragraph>
+      </article>
+    </articles>
+    <sideBar>
+      <relatedLinks header="2014 Events">
+        <relatedLink iconUrl="/Images/pin.png" title="2014 Friendship Luncheon Invitation Letter" linkUrl="/documents/support/2014 Fiendship Luncheon.pdf" target="_blank" />
+      </relatedLinks>
+      <videoClips header="Tour Videos">
+        <videoClip title="" clipUrl="https://www.youtube.com/embed/cnG_hEaQdgg" />
+      </videoClips>
+      <!--<barTiles>
+        <barTile caption="For Students" imageUrl="/images/home/tile/TalentAwardCeremony.jpg" linkUrl="/public/talent/cetalent.html" captionPosition="bottom" />
+        <barTile caption="For Teachers" imageUrl="/images/home/tile/DandelionSchool.jpg" linkUrl="/public/tours/cetour.html" captionPosition="bottom" />
+        <barTile caption="For the Community" imageUrl="/images/home/tile/DandelionschoolBeijing.jpg" linkUrl="" captionPosition="bottom" />
+      </barTiles>-->
+    </sideBar>
+  </page>
+</ce>

@@ -1,0 +1,14 @@
+﻿.ce-content-container {width:998px;padding-bottom:20px;border-left:1px solid lightgray;border-right:1px solid lightgray;border-bottom:1px solid lightgray;}
+#ce-video-content {width:100%;}
+#video-title-bar {width:100%;padding-left:0px;padding-bottom:30px;padding-top:10px;}
+.video-title {}
+.video-summary {padding-top:5px;}
+#video-tab {background-color:white;clear:both;padding-left:0px;}
+#video-tab ul {}
+#video-tab ul li {float:left;padding:2px 15px 2px 15px;margin-right:5px;border:2px solid lightgray;border-bottom:1px solid white;cursor:pointer;border-top-right-radius:10px;}
+#video-tab .selected {border:2px solid black;border-bottom:1px solid #eed994;background-color:#eed994;}
+
+.video-item {clear:both;height:300px;border-top:1px solid lightgray;}
+.video-item ul {margin-top:20px;}
+.video-item ul li {float:left;padding-right:20px;}
+.video-caption {text-align:center;padding-bottom:20px;}

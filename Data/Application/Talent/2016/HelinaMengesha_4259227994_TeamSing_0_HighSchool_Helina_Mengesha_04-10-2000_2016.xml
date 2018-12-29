@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/20/2016 11:46:22</entryDate>
+		<processDate>03/20/2016 13:15:38</processDate>
+		<contact>
+			<name>Helina Mengesha</name>
+			<email>mbhelina@gmail.com</email>
+			<phone>425-922-7994</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Helina</firstName>
+				<lastName>Mengesha</lastName>
+				<chineseName>孟好丽</chineseName>
+				<birthday>04/10/2000</birthday>
+				<email>mbhelina@gmail.com</email>
+				<academicSchool>Newport High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>helina.mengesha.04-10-2000</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

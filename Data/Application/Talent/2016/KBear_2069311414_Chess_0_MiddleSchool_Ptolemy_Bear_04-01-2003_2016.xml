@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/19/2016 06:54:08</entryDate>
+		<processDate>03/12/2016 17:22:34</processDate>
+		<contact>
+			<name>K Bear</name>
+			<email>kacy206@gmail.com</email>
+			<phone>206-931-1414</phone>
+		</contact>
+		<competition teamName="">
+			<category>Chess</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Ptolemy</firstName>
+				<lastName>Bear</lastName>
+				<chineseName></chineseName>
+				<birthday>04/01/2003</birthday>
+				<email>kacy206@gmail.com</email>
+				<academicSchool>Denny IMS</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>ptolemy.bear.04-01-2003</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

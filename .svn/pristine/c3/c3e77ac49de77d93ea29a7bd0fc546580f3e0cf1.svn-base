@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <messages>
+    <registration>
+      <message type="completion" text="Thank you for filling out the registration form. We will contact you shortly." />
+      <message type="confirmation" text="This is a confirmation email that the registration form has been submitted tp Cultural Exploration Administrator. We will inform you by email how to proceed once your application is processed. Thanks for registering." />
+    </registration>
+    <login>
+      <message type="password change" text="Your password has been changed." />
+      <message type="password reset" text="Your password has been reset." />
+      <message type="account" text="Your user name has been mailed to you." />
+    </login>
+  </messages>
+</ce>

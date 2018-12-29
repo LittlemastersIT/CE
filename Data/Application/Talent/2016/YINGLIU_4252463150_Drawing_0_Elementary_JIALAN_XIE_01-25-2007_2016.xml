@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/23/2016 09:58:25</entryDate>
+		<processDate>03/20/2016 12:26:43</processDate>
+		<contact>
+			<name>YING LIU</name>
+			<email>LIUYING0520@HOTMAIL.COM</email>
+			<phone>425-246-3150</phone>
+		</contact>
+		<competition teamName="">
+			<category>Drawing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>JIALAN</firstName>
+				<lastName>XIE</lastName>
+				<chineseName>谢笳兰</chineseName>
+				<birthday>01/25/2007</birthday>
+				<email>liuying0520@hotmail.com</email>
+				<academicSchool>Margaret Mead Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jialan.xie.01-25-2007</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

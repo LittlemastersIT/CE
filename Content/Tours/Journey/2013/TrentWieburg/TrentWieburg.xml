@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <journey title="Trent Wieburg 2013" align="left" rootUrl="/Content/Tours/Journey/2013/TrentWieburg">
+    <bio>
+      <name first="Trent" last="Wieburg" display="Trent Wieburg" />
+      <email></email>
+      <phone></phone>
+      <address></address>
+      <city>Snoqualmie</city>
+      <state>WA</state>
+      <school>Mount Si High School</school>
+      <grade>10</grade>
+      <subject>Social Studies</subject>
+      <year>2013</year>
+      <photo>/content/tours/journey/2013/TrentWieburg/photos/TrentWieburg.jpg</photo>
+      <about>
+        <![CDATA[
+        Born in central Illinois, Trent grew up in Silverdale, WA on the Kitsap Peninsula.  He developed his passion for Social Studies thanks to his 
+        fantastic Advanced Placement teachers at Central Kitsap High School- Pam Galvani and Sarah Fisher.  Trent continued his interest in Social 
+        Studies at the University of Washington where he earned two Bachelor of Arts degrees in History and Political Science with a minor in Art History.  
+        During his time at UW, Trent developed an interest for overseas travel while attending the Italian Studies program at the UW Rome Center in Italy.  
+        Trent decided to pursue a career in high school teaching during his experiences tutoring at Franklin and Garfield High Schools in Seattle.  
+        He graduated from the UW Masters in Teaching program in 2008.
+        <br/><br/>
+        After completing student teaching experiences at Lindbergh High School in Renton, Mountlake Terrace High School, and the Trondheim International 
+        School in Norway, Trent began his public school teaching career at Shelton High School.  Trent currently teaches Social Studies at Mount Si 
+        High School in Snoqualmie, WA.  His recent teaching assignments include: AP American Government and Politics, AP Comparative Government 
+        (China is one of the six focus countries), Contemporary World Problems, World History, World Geography, and Psychology.  In his free time, 
+        Trent enjoys traveling, attending UW football and Seattle Sounders soccer games, golfing, hiking, and spending time with friends and family.  
+        He is very excited and honored to be participating in the CE program and this will be his first travel experience in Asia.
+        ]]>
+      </about>
+    </bio>
+    <album folder="Photos" align="right">
+    </album>
+    <diary>
+      <articles>
+      </articles>
+    </diary>
+    <teachingPlan>
+      <articles>
+        <article title="Comparing US and Taiwan’s Secondary School Systems">
+          <paragraph>
+            <text>
+              <![CDATA[
+                <div><a style="color:blue;" href="/documents/tours/Trent Wieburg China Lesson Plans.pdf" target="_blank">Please click this link to see Trent's lesson plan.</a></div>
+              ]]>
+            </text>
+          </paragraph>
+        </article>
+      </articles>
+    </teachingPlan>
+  </journey>
+</ce>

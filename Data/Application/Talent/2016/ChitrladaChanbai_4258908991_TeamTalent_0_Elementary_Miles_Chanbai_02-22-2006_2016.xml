@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/06/2016 00:08:19</entryDate>
+		<processDate>03/12/2016 17:47:32</processDate>
+		<contact>
+			<name>Chitrlada Chanbai</name>
+			<email>cchanbai@gmail.com</email>
+			<phone>425-890-8991</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamTalent</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Miles</firstName>
+				<lastName>Chanbai</lastName>
+				<chineseName></chineseName>
+				<birthday>02/22/2006</birthday>
+				<email>cchanbai@gmail.com</email>
+				<academicSchool>Open Window School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>miles.chanbai.02-22-2006</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

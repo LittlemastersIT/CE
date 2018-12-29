@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>FeeWaived</paymentMethod>
+		<paymentAmount>0</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/04/2016 12:36:17</entryDate>
+		<processDate>03/12/2016 16:39:13</processDate>
+		<contact>
+			<name>Ngoc Nguyen</name>
+			<email>kellynguyen436@yahoo.com</email>
+			<phone>206-764-6221</phone>
+		</contact>
+		<competition teamName="">
+			<category>Drawing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Ngoc</firstName>
+				<lastName>Nguyen</lastName>
+				<chineseName></chineseName>
+				<birthday>07/13/2001</birthday>
+				<email>kellynguyen436@yahoo.com</email>
+				<academicSchool>Chief Sealth International High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>ngoc.nguyen.07-13-2001</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

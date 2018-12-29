@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>FeeWaived</paymentMethod>
+		<paymentAmount>0</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/16/2016 20:03:28</entryDate>
+		<processDate>03/20/2016 12:27:41</processDate>
+		<contact>
+			<name>Ivy Xu</name>
+			<email>katafura3@gmail.com</email>
+			<phone>206-372-9481</phone>
+		</contact>
+		<competition teamName="">
+			<category>Drawing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Ivy</firstName>
+				<lastName>Xu</lastName>
+				<chineseName>徐艾苇</chineseName>
+				<birthday>10/12/2001</birthday>
+				<email>katafura3@gmail.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>ivy.xu.10-12-2001</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

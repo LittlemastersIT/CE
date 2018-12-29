@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/18/2016 07:49:45</entryDate>
+		<processDate>03/12/2016 17:25:13</processDate>
+		<contact>
+			<name>Ann Marie Clark</name>
+			<email>clark.annmarie@gmail.com</email>
+			<phone>425-652-1388</phone>
+		</contact>
+		<competition teamName="">
+			<category>Story</category>
+			<subcategory></subcategory>
+			<class>ClassC</class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Tierney</firstName>
+				<lastName>Clark</lastName>
+				<chineseName></chineseName>
+				<birthday>05/25/2005</birthday>
+				<email>clark.annmarie@gmail.com</email>
+				<academicSchool>Woodridge elementary school</academicSchool>
+				<extracurricularSchool>Asia Pacific Language School</extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>tierney.clark.05-25-2005</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

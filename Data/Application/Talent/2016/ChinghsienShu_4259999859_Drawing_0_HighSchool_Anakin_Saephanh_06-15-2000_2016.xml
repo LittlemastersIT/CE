@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>HonorableMentioned</award>
+		<paymentMethod>FeeWaived</paymentMethod>
+		<paymentAmount>0</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/01/2016 09:43:31</entryDate>
+		<processDate>03/20/2016 12:30:25</processDate>
+		<contact>
+			<name>Ching-hsien Shu</name>
+			<email>chshu@seattleschools.org</email>
+			<phone>425-999-9859</phone>
+		</contact>
+		<competition teamName="">
+			<category>Drawing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Anakin</firstName>
+				<lastName>Saephanh</lastName>
+				<chineseName></chineseName>
+				<birthday>06/15/2000</birthday>
+				<email>chshu@seattleschools.org</email>
+				<academicSchool>Cleveland High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>11</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>anakin.saephanh.06-15-2000</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

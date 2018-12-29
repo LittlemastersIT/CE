@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>10</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/19/2016 10:47:35</entryDate>
+		<processDate>03/12/2016 17:22:17</processDate>
+		<contact>
+			<name>Wenqiu Wang</name>
+			<email>wangwenqiu@hotmail.com</email>
+			<phone>206-981-1292</phone>
+		</contact>
+		<competition teamName="2Girls">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Jingyue</firstName>
+				<lastName>Ma</lastName>
+				<chineseName>马菁跃</chineseName>
+				<birthday>11/15/2002</birthday>
+				<email>2621213979@qq.com</email>
+				<academicSchool>Eckstein Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jingyue.ma.11-15-2002</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Suqi</firstName>
+				<lastName>Guo</lastName>
+				<chineseName>郭苏琪</chineseName>
+				<birthday>01/02/2001</birthday>
+				<email>jessicasuqi@gmail.com</email>
+				<academicSchool>Roosevelt High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>suqi.guo.01-02-2001</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,916 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BC3F680C-67ED-41CC-B487-F8C638074CEB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CE.Application</RootNamespace>
+    <AssemblyName>CE.Application</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml">
+      <HintPath>packages\DocumentFormat.OpenXml.2.5\lib\DocumentFormat.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>packages\EPPlus.4.1.0\lib\net40\EPPlus.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\CompetitionReport.aspx" />
+    <Content Include="Admin\HowTo.aspx" />
+    <Content Include="Admin\ReviewApplications.aspx" />
+    <Content Include="Admin\ReviewRegistration.aspx" />
+    <Content Include="Admin\CEAdmin.aspx" />
+    <Content Include="Admin\CreatePage.aspx" />
+    <Content Include="bin\DocumentFormat.OpenXml.dll" />
+    <Content Include="bin\EPPlus.dll" />
+    <Content Include="bin\Microsoft.Office.Interop.Word.dll" />
+    <Content Include="Content\album-template.xml" />
+    <Content Include="Content\cemenu.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\article-template.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Home\About\ceabout.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Home\cecontact.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\journey-template.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Resources\cedonate.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Resources\Competition\cecompetition.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Resources\Fundraising\Luncheon_9_20_15.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Support\celuncheon.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Support\cesupport.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Support\cesponsor.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Support\ceauction.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Support\cevolunteer.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Talent\Guidelines\additionalchessrules.xml" />
+    <Content Include="Content\Talent\Guidelines\ceguidelines.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Talent\Guidelines\chessrules.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Talent\Guidelines\cn\chessrules.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Talent\Guidelines\cn\drawingrules.xml" />
+    <Content Include="Content\Talent\Guidelines\cn\grouppoetryrules.xml" />
+    <Content Include="Content\Talent\Guidelines\cn\knowledgerules.xml" />
+    <Content Include="Content\Talent\Guidelines\cn\poetryrules.xml" />
+    <Content Include="Content\Talent\Guidelines\cn\RelatedLinks.xml" />
+    <Content Include="Content\Talent\Guidelines\cn\singrules.xml" />
+    <Content Include="Content\Talent\Guidelines\cn\speechrules.xml" />
+    <Content Include="Content\Talent\Guidelines\cn\storyrules.xml" />
+    <Content Include="Content\Talent\Guidelines\cn\talentrules.xml" />
+    <Content Include="Content\Talent\Guidelines\drawingrules.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Talent\Guidelines\grouppoetryrules.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Talent\Guidelines\knowledgerules.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Talent\Guidelines\poetryrules.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Talent\Guidelines\RelatedLinks.xml" />
+    <Content Include="Content\Talent\Guidelines\singrules.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Talent\Guidelines\speechrules.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Talent\Guidelines\storyrules.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Talent\Guidelines\talentrules.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Talent\Results\2013\CEResults.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Talent\Results\2014\CEResults.xml" />
+    <Content Include="Content\Tours\Album\TourAlbum.xml" />
+    <Content Include="Content\Resources\CEResources.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Resources\Curriculum\CECurriculum.xml" />
+    <Content Include="Content\Resources\Fundraising\CEFundraising.xml" />
+    <Content Include="Content\Resources\Fundraising\Luncheon_9_29_13.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Talent\cetalent.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\SiteMap.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Talent\Registration\CERegistration.xml" />
+    <Content Include="Content\Talent\Results\CEResults.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Tours\Application\CEApplication.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Tours\cetour.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\cehome.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Registration.xml" />
+    <Content Include="Content\Tours\Outline\ceoutline.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Tours\Plan\2013\tourParticipants.xml" />
+    <Content Include="Content\Tours\Plan\2013\tourplaces.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Tours\Plan\2013\tourPlan_07_24_13.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Tours\Plan\2013\tourPlan_08_02_13.xml" />
+    <Content Include="Content\Tours\Plan\2013\tourschedule.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Tours\Testimonies\cetestimonies.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Code\Controls\AnnouncementControl.ascx" />
+    <Content Include="CSS\ceadmin.css" />
+    <Content Include="CSS\ceAlbum.css" />
+    <Content Include="CSS\colorbox.css" />
+    <Content Include="CSS\ceJourney.css" />
+    <Content Include="CSS\cevideo.css" />
+    <Content Include="CSS\ceTab.css" />
+    <Content Include="CSS\ceresults.css" />
+    <Content Include="CSS\youtube.css" />
+    <Content Include="CSS\images\animated-overlay.gif" />
+    <Content Include="CSS\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="CSS\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="CSS\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="CSS\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="CSS\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="CSS\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="CSS\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="CSS\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="CSS\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="CSS\images\ui-icons_222222_256x240.png" />
+    <Content Include="CSS\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="CSS\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="CSS\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="CSS\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="CSS\jquery-ui-1.10.3.custom.min.css" />
+    <Content Include="CSS\Themes\Gold\cepage.css" />
+    <Content Include="CSS\Themes\Maroon\cepage.css" />
+    <Content Include="CSS\Themes\Red\cepage.css" />
+    <Content Include="Data\Application\ceemail.xml" />
+    <Content Include="Data\Application\ceteam.xml" />
+    <Content Include="Data\Users\siteusers-production.xml" />
+    <Content Include="Data\Users\siteusers.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Images\Apply.png" />
+    <Content Include="Images\arrow_down.gif" />
+    <Content Include="Images\arrow_right.gif" />
+    <Content Include="Images\black_check.gif" />
+    <Content Include="Images\black_x.gif" />
+    <Content Include="Images\blueRibbon.png" />
+    <Content Include="Images\blue_check.gif" />
+    <Content Include="Images\calendar.png" />
+    <Content Include="Images\CEGoldBack.jpg" />
+    <Content Include="Images\CELogo.png" />
+    <Content Include="Images\CEMaroonBack.jpg" />
+    <Content Include="Images\CERedBack.jpg" />
+    <Content Include="Images\CE_logo_final.png" />
+    <Content Include="Images\close_gray.png" />
+    <Content Include="Images\colorbox\border.png" />
+    <Content Include="Images\colorbox\controls.png" />
+    <Content Include="Images\colorbox\loading.gif" />
+    <Content Include="Images\colorbox\loading_background.png" />
+    <Content Include="Images\colorbox\overlay.png" />
+    <Content Include="CSS\Themes\Black\cepage.css" />
+    <Content Include="CSS\Themes\Blue\cepage.css" />
+    <Content Include="CSS\Themes\Green\cepage.css" />
+    <Content Include="CSS\Themes\Orange\cepage.css" />
+    <Content Include="Images\arrowDown.png" />
+    <Content Include="Images\arrowUp.png" />
+    <Content Include="Images\at.png" />
+    <Content Include="Images\Back.png" />
+    <Content Include="Images\blueDiv.jpg" />
+    <Content Include="Images\CEBlackBack.jpg" />
+    <Content Include="Images\CEGreenBack.jpg" />
+    <Content Include="Images\coding.jpg" />
+    <Content Include="Images\colorpen.png" />
+    <Content Include="Images\confirm.png" />
+    <Content Include="Images\crossBlue.png" />
+    <Content Include="Images\device.png" />
+    <Content Include="Images\diamond.gif" />
+    <Content Include="Images\divider.gif" />
+    <Content Include="Images\edit.gif" />
+    <Content Include="Images\edit_add.png" />
+    <Content Include="Images\Erase.png" />
+    <Content Include="Images\eraser_big.png" />
+    <Content Include="Images\eraser_small.png" />
+    <Content Include="Images\error.jpg" />
+    <Content Include="Images\error.png" />
+    <Content Include="Images\FaceBook_32x32.png" />
+    <Content Include="Images\fillout.gif" />
+    <Content Include="Images\Forward.png" />
+    <Content Include="Images\golddiv.jpg" />
+    <Content Include="Images\gray_x.gif" />
+    <Content Include="Images\GreenBullet.gif" />
+    <Content Include="Images\greenDiv.jpg" />
+    <Content Include="Images\greenPlus.png" />
+    <Content Include="Images\green_check.gif" />
+    <Content Include="Images\Heart.png" />
+    <Content Include="Images\Home\2013 CE Tour Team.jpg" />
+    <Content Include="Images\Home\2013Friendship Luncheon.jpg" />
+    <Content Include="Images\Home\Carousel\2013FriendshipLuncheon.jpg" />
+    <Content Include="Images\Home\Carousel\BambooGarden.jpg" />
+    <Content Include="Images\Home\Carousel\CEGreatWall.jpg" />
+    <Content Include="Images\Home\Carousel\ElementarySchoolTaipei.jpg" />
+    <Content Include="Images\Home\Carousel\KiteRunnersTaipei.jpg" />
+    <Content Include="Images\Home\Carousel\KitesArt.jpg" />
+    <Content Include="Images\Home\Carousel\LongShangTempleTaipei.jpg" />
+    <Content Include="Images\Home\Carousel\MorningDanceTaipei.jpg" />
+    <Content Include="Images\Home\Carousel\Soldiers.jpg" />
+    <Content Include="Images\Home\Carousel\TalentParents.jpg" />
+    <Content Include="Images\Home\Carousel\TempleRoof.jpg" />
+    <Content Include="Images\Home\Carousel\Welcome.jpg" />
+    <Content Include="Images\Home\CE the WALL.jpg" />
+    <Content Include="Images\Home\CE warriors in Xian.jpg" />
+    <Content Include="Images\Home\cemission.png" />
+    <Content Include="Images\Home\Dandelionschool-Beijing.jpg" />
+    <Content Include="Images\Home\DandelionSchool.jpg" />
+    <Content Include="Images\Home\ElementarySchool-Taipei.JPG" />
+    <Content Include="Images\Home\IMG_0067.JPG" />
+    <Content Include="Images\Home\IMG_0537.jpg" />
+    <Content Include="Images\Home\IMG_0602.JPG" />
+    <Content Include="Images\Home\IMG_2304.jpg" />
+    <Content Include="Images\Home\IMG_3080.JPG" />
+    <Content Include="Images\Home\KiteRunners-Taipei.jpg" />
+    <Content Include="Images\Home\Kites-Art.jpg" />
+    <Content Include="Images\Home\Language &amp; Talent Competition - Knowledge Bowl.jpg" />
+    <Content Include="Images\Home\Meet the host family in Shanghai.jpg" />
+    <Content Include="Images\Home\School Visit in Shanghai.jpg" />
+    <Content Include="Images\Home\Talent-Parents.jpg" />
+    <Content Include="Images\Home\Talent-StoryTelling.jpg" />
+    <Content Include="Images\Home\TalentAwardCeremony.jpg" />
+    <Content Include="Images\Home\Thank you Dinner with the Taiwan Hosts.jpg" />
+    <Content Include="Images\Home\Tile\DandelionSchool.jpg" />
+    <Content Include="Images\Home\Tile\DandelionschoolBeijing.jpg" />
+    <Content Include="Images\Home\Tile\TalentAwardCeremony.jpg" />
+    <Content Include="Images\CEBlueBack.jpg" />
+    <Content Include="Images\howto.png" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\love.png" />
+    <Content Include="Images\mailin.png" />
+    <Content Include="Images\maroondiv.jpg" />
+    <Content Include="Images\mewa_leftb.gif" />
+    <Content Include="Images\mewa_leftPageb.gif" />
+    <Content Include="Images\mewa_rightb.gif" />
+    <Content Include="Images\mewa_rightPageb.gif" />
+    <Content Include="Images\Modify.png" />
+    <Content Include="Images\No.png" />
+    <Content Include="Images\orangeDiv.jpg" />
+    <Content Include="Images\OrangeDot.png" />
+    <Content Include="Images\Paypal_Donate.gif" />
+    <Content Include="Images\Paypal_Donate_CC.gif" />
+    <Content Include="Images\Paypal_Payment_Logo.gif" />
+    <Content Include="Images\Paypal_paynow_small.gif" />
+    <Content Include="Images\pdf.png" />
+    <Content Include="Images\pdf_48x48.png" />
+    <Content Include="Images\pending.png" />
+    <Content Include="Images\photoblue.png" />
+    <Content Include="Images\pin.png" />
+    <Content Include="Images\pin_blue.png" />
+    <Content Include="Images\plusBlue.png" />
+    <Content Include="Images\reddiv.jpg" />
+    <Content Include="Images\red_x.gif" />
+    <Content Include="Images\register.png" />
+    <Content Include="Images\Resources\buteohuang.png" />
+    <Content Include="Images\Resources\funsraising_09_20_2013 .png" />
+    <Content Include="Images\Resources\JerryLiu.jpg" />
+    <Content Include="Images\Resources\luncheon.jpg" />
+    <Content Include="Images\Resources\NetworkingCommunities.png" />
+    <Content Include="Images\Resources\RuRongLee.jpg" />
+    <Content Include="Images\Resources\stevenpan.png" />
+    <Content Include="Images\Resources\suya.jpg" />
+    <Content Include="Images\round.gif" />
+    <Content Include="Images\Script.png" />
+    <Content Include="Images\search.png" />
+    <Content Include="Images\single-constestant.png" />
+    <Content Include="Images\square.gif" />
+    <Content Include="Images\Support\luncheon.png" />
+    <Content Include="Images\Support\luncheon1.jpg" />
+    <Content Include="Images\Support\luncheon2.jpg" />
+    <Content Include="Images\Support\luncheon3.jpg" />
+    <Content Include="Images\Support\luncheon4.jpg" />
+    <Content Include="Images\Support\sponsor1.png" />
+    <Content Include="Images\Support\sponsor2.png" />
+    <Content Include="Images\Support\sponsor3.jpg" />
+    <Content Include="Images\Support\sponsor4.jpg" />
+    <Content Include="Images\Support\sponsor5.png" />
+    <Content Include="Images\talk.png" />
+    <Content Include="Images\team-contestants.png" />
+    <Content Include="Images\Thumbdown.png" />
+    <Content Include="Images\thumbup.png" />
+    <Content Include="Images\Tours\2013\TourAparticipants.jpg" />
+    <Content Include="Images\Tours\2013\TourPlaces.jpg" />
+    <Content Include="Images\Tours\2013\TourSchedule.jpg" />
+    <Content Include="Images\Tours\TourAparticipants.jpg" />
+    <Content Include="Images\Tours\TourPlaces.jpg" />
+    <Content Include="Images\Tours\TourSchedule.jpg" />
+    <Content Include="Images\travel.png" />
+    <Content Include="Images\trophy.png" />
+    <Content Include="Images\warning.gif" />
+    <Content Include="Images\woman.png" />
+    <Content Include="Images\word.png" />
+    <Content Include="Images\worker.png" />
+    <Content Include="Images\world.png" />
+    <Content Include="Images\Yes.png" />
+    <Content Include="JS\cealbum.js" />
+    <Content Include="JS\cemenu.js" />
+    <Content Include="JS\cetab.js" />
+    <Content Include="JS\cecookie.js" />
+    <Content Include="JS\cejson.js" />
+    <Content Include="JS\jquery\jquery.inputmask.js" />
+    <Content Include="JS\youtube.js" />
+    <Content Include="JS\swipe2.js" />
+    <Content Include="JS\jquery\jquery-1.9.1.min.js" />
+    <Content Include="JS\jquery\jquery.colorbox-min.js" />
+    <Content Include="JS\jquery\jquery.cookie.js" />
+    <Content Include="JS\jquery\jquery.easing.1.3.min.js" />
+    <Content Include="JS\swipe.js" />
+    <Content Include="Public\AccessDenied.aspx" />
+    <Content Include="Public\Articles\CEArticle.aspx" />
+    <Content Include="Public\Articles\CEBlank.aspx" />
+    <Content Include="Public\Articles\CEAlbum.aspx" />
+    <Content Include="Public\Articles\CEJourney.aspx" />
+    <Content Include="Public\Articles\CEPage.aspx" />
+    <Content Include="Public\Articles\CERules.aspx" />
+    <Content Include="Public\Articles\CETab.aspx" />
+    <Content Include="Public\Articles\CEVideo.aspx" />
+    <Content Include="Public\PostRequestTest.aspx" />
+    <Content Include="Public\Home\About\ceabout.html" />
+    <Content Include="Public\Home\cecontactus.aspx" />
+    <Content Include="Public\Problem.aspx" />
+    <Content Include="Public\Error.aspx" />
+    <Content Include="Public\Maintenance.aspx" />
+    <Content Include="Public\Resources\cedonate.html" />
+    <Content Include="Public\Resources\CEResources.html" />
+    <Content Include="Public\Resources\Competition\cecompetition.html" />
+    <Content Include="Public\Support\cedonate.aspx" />
+    <Content Include="Public\Resources\Curriculum\CECurriculum.html" />
+    <Content Include="Public\Resources\Forms\CEForms.html" />
+    <Content Include="Public\Resources\Fundraising\CEFundraising.html" />
+    <Content Include="Public\Support\cesponsor.aspx" />
+    <Content Include="Public\Support\cesupport.html" />
+    <Content Include="Public\Support\ceauction.html" />
+    <Content Include="Public\Support\cevolunteer.aspx" />
+    <Content Include="Public\Talent\cetalent.html" />
+    <Content Include="Public\Talent\Guidelines\additionalchessrules.html" />
+    <Content Include="Public\Talent\Guidelines\cn\chessrules.html" />
+    <Content Include="Public\Talent\Guidelines\cn\drawingrules.html" />
+    <Content Include="Public\Talent\Guidelines\cn\grouppoetryrules.html" />
+    <Content Include="Public\Talent\Guidelines\cn\knowledgerules.html" />
+    <Content Include="Public\Talent\Guidelines\cn\poetryrules.html" />
+    <Content Include="Public\Talent\Guidelines\cn\singrules.html" />
+    <Content Include="Public\Talent\Guidelines\cn\speechrules.html" />
+    <Content Include="Public\Talent\Guidelines\cn\storyrules.html" />
+    <Content Include="Public\Talent\Guidelines\cn\talentrules.html" />
+    <Content Include="Public\Talent\Guidelines\competitionRules.html" />
+    <Content Include="Public\Talent\Guidelines\ceguidelines.html" />
+    <Content Include="Public\Talent\Guidelines\chessrules.html" />
+    <Content Include="Public\Talent\Guidelines\poetryrules.html" />
+    <Content Include="Public\Talent\Guidelines\storyrules.html" />
+    <Content Include="Public\Talent\Guidelines\speechrules.html" />
+    <Content Include="Public\Talent\Guidelines\drawingrules.html" />
+    <Content Include="Public\Talent\Guidelines\grouppoetryrules.html" />
+    <Content Include="Public\Talent\Guidelines\singrules.html" />
+    <Content Include="Public\Talent\Guidelines\knowledgerules.html" />
+    <Content Include="Public\Talent\Guidelines\talentrules.html" />
+    <Content Include="Public\Talent\Registration\IndividualRegistration.aspx" />
+    <Content Include="Public\Talent\Registration\Schools.aspx" />
+    <Content Include="Public\Talent\Registration\TalentRegistration.aspx" />
+    <Content Include="Public\Talent\Registration\TeamRegistration.aspx" />
+    <Content Include="Public\Talent\Results\2014\ceresults.html" />
+    <Content Include="Public\Talent\Results\2015\ceresults.html" />
+    <Content Include="Public\Talent\Results\ceresults.html" />
+    <Content Include="Public\Talent\Results\2013\ceresults.html" />
+    <Content Include="Public\Tours\Album\TourAlbum.html" />
+    <Content Include="Public\Tours\Application\CEApplication.aspx" />
+    <Content Include="Public\Tours\Journey\TourJourney.aspx" />
+    <Content Include="Public\Tours\Outline\ceoutline.html" />
+    <Content Include="Public\Tours\Plan\2013\TourParticipants.html" />
+    <Content Include="Public\Tours\Plan\2013\tourplaces.html" />
+    <Content Include="Public\Tours\Plan\2013\tourplan_07_24_13.html" />
+    <Content Include="Public\Tours\Plan\2013\tourplan_08_02_13.html" />
+    <Content Include="Public\Tours\Plan\2013\tourschedule.html" />
+    <Content Include="Public\Tours\Plan\TourParticipants.html" />
+    <Content Include="Public\Tours\Plan\tourplaces.html" />
+    <Content Include="Public\Tours\Plan\tourschedule.html" />
+    <Content Include="Public\Tours\Testimonies\cetestimonies.html" />
+    <Content Include="Public\CELogin.aspx" />
+    <Content Include="CSS\cemain.css" />
+    <Content Include="CSS\ceArticle.css" />
+    <Content Include="CSS\cehome.css" />
+    <Content Include="Public\Tours\CETour.aspx" />
+    <Content Include="Public\Home.aspx" />
+    <Content Include="Images\divider.png" />
+    <Content Include="JS\cemain.js" />
+    <Content Include="JS\cepages.js" />
+    <Content Include="packages.config" />
+    <Content Include="CESimple.Master" />
+    <Content Include="Documents\Talent\Final Flyer Format Chinese.pdf" />
+    <Content Include="Documents\Talent\Final Flyer Format English.pdf" />
+    <Content Include="Documents\Tours\2013 CE Commercial Tour.pdf" />
+    <Content Include="Documents\Tours\2013 CE Private Tour.pdf" />
+    <Content Include="Documents\Tours\2013 CE Tour  Plan_Summary.pdf" />
+    <Content Include="Documents\Tours\2013 CE-Private Tour - Taiwan.pdf" />
+    <Content Include="Documents\Tours\Prelim Plan - Annie John - FULL UNIT.pdf" />
+    <Content Include="Documents\Tours\Trent Wieburg China Lesson Plans.pdf" />
+    <Content Include="Documents\Talent\2013\2013 Competition Winner List.xlsx" />
+    <Content Include="Public\Resources\CEResources.aspx" />
+    <Content Include="JS\jquery\jquery-ui-1.10.3.min.js" />
+    <Content Include="Public\Tours\cetour.html" />
+    <Content Include="Public\UnderConstruction.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\CEAdmin.aspx.cs">
+      <DependentUpon>CEAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CEAdmin.aspx.designer.cs">
+      <DependentUpon>CEAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CompetitionReport.aspx.cs">
+      <DependentUpon>CompetitionReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CompetitionReport.aspx.designer.cs">
+      <DependentUpon>CompetitionReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CreatePage.aspx.cs">
+      <DependentUpon>CreatePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CreatePage.aspx.designer.cs">
+      <DependentUpon>CreatePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\HowTo.aspx.cs">
+      <DependentUpon>HowTo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\HowTo.aspx.designer.cs">
+      <DependentUpon>HowTo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ReviewApplications.aspx.cs">
+      <DependentUpon>ReviewApplications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ReviewApplications.aspx.designer.cs">
+      <DependentUpon>ReviewApplications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ReviewRegistration.aspx.cs">
+      <DependentUpon>ReviewRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ReviewRegistration.aspx.designer.cs">
+      <DependentUpon>ReviewRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CESimple.Master.cs">
+      <DependentUpon>CESimple.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CESimple.Master.designer.cs">
+      <DependentUpon>CESimple.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Code\CEExport.cs" />
+    <Compile Include="Code\CEHelper.cs" />
+    <Compile Include="CEMain.Master.cs">
+      <DependentUpon>CEMain.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CEMain.Master.designer.cs">
+      <DependentUpon>CEMain.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Code\CERule.cs" />
+    <Compile Include="Code\CETourApplicants.cs" />
+    <Compile Include="Code\Controls\AnnouncementControl.ascx.cs">
+      <DependentUpon>AnnouncementControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Code\Controls\AnnouncementControl.ascx.designer.cs">
+      <DependentUpon>AnnouncementControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Controls\CEMenuControl.cs" />
+    <Compile Include="Code\Controls\SecurityTrimControl.cs" />
+    <Compile Include="Code\Controls\SiteMapControl.cs" />
+    <Compile Include="Code\CEHome.cs" />
+    <Compile Include="Code\CEArticle.cs" />
+    <Compile Include="Code\CEMenu.cs" />
+    <Compile Include="Code\CEAlbum.cs" />
+    <Compile Include="Code\CEJourney.cs" />
+    <Compile Include="Code\CEUsers.cs" />
+    <Compile Include="Code\CETalentApplciants.cs" />
+    <Compile Include="Code\CEVideo.cs" />
+    <Compile Include="Code\CETab.cs" />
+    <Compile Include="Code\CETeam.cs" />
+    <Compile Include="Code\CEChampionList.cs" />
+    <Compile Include="Code\GridPager.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\AccessDenied.aspx.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\AccessDenied.aspx.designer.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Articles\CEArticle.aspx.cs">
+      <DependentUpon>CEArticle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Articles\CEArticle.aspx.designer.cs">
+      <DependentUpon>CEArticle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Articles\CEBlank.aspx.cs">
+      <DependentUpon>CEBlank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Articles\CEBlank.aspx.designer.cs">
+      <DependentUpon>CEBlank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Articles\CEAlbum.aspx.cs">
+      <DependentUpon>CEAlbum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Articles\CEAlbum.aspx.designer.cs">
+      <DependentUpon>CEAlbum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Articles\CEJourney.aspx.cs">
+      <DependentUpon>CEJourney.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Articles\CEJourney.aspx.designer.cs">
+      <DependentUpon>CEJourney.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Articles\CEPage.aspx.cs">
+      <DependentUpon>CEPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Articles\CEPage.aspx.designer.cs">
+      <DependentUpon>CEPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Articles\CERules.aspx.cs">
+      <DependentUpon>CERules.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Articles\CERules.aspx.designer.cs">
+      <DependentUpon>CERules.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Articles\CETab.aspx.cs">
+      <DependentUpon>CETab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Articles\CETab.aspx.designer.cs">
+      <DependentUpon>CETab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Articles\CEVideo.aspx.cs">
+      <DependentUpon>CEVideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Articles\CEVideo.aspx.designer.cs">
+      <DependentUpon>CEVideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\CELogin.aspx.designer.cs">
+      <DependentUpon>CELogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\PostRequestTest.aspx.cs">
+      <DependentUpon>PostRequestTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\PostRequestTest.aspx.designer.cs">
+      <DependentUpon>PostRequestTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Home\cecontactus.aspx.cs">
+      <DependentUpon>cecontactus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Home\cecontactus.aspx.designer.cs">
+      <DependentUpon>cecontactus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Problem.aspx.cs">
+      <DependentUpon>Problem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Problem.aspx.designer.cs">
+      <DependentUpon>Problem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Maintenance.aspx.cs">
+      <DependentUpon>Maintenance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Maintenance.aspx.designer.cs">
+      <DependentUpon>Maintenance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Support\cedonate.aspx.cs">
+      <DependentUpon>cedonate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Support\cedonate.aspx.designer.cs">
+      <DependentUpon>cedonate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Support\cesponsor.aspx.cs">
+      <DependentUpon>cesponsor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Support\cesponsor.aspx.designer.cs">
+      <DependentUpon>cesponsor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Support\cevolunteer.aspx.cs">
+      <DependentUpon>cevolunteer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Support\cevolunteer.aspx.designer.cs">
+      <DependentUpon>cevolunteer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Talent\Registration\IndividualRegistration.aspx.cs">
+      <DependentUpon>IndividualRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Talent\Registration\IndividualRegistration.aspx.designer.cs">
+      <DependentUpon>IndividualRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Talent\Registration\Schools.aspx.cs">
+      <DependentUpon>Schools.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Talent\Registration\Schools.aspx.designer.cs">
+      <DependentUpon>Schools.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Talent\Registration\TalentRegistration.aspx.cs">
+      <DependentUpon>TalentRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Talent\Registration\TalentRegistration.aspx.designer.cs">
+      <DependentUpon>TalentRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Talent\Registration\TeamRegistration.aspx.cs">
+      <DependentUpon>TeamRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Talent\Registration\TeamRegistration.aspx.designer.cs">
+      <DependentUpon>TeamRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Tours\Application\CEApplication.aspx.cs">
+      <DependentUpon>CEApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Tours\Application\CEApplication.aspx.designer.cs">
+      <DependentUpon>CEApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Tours\CETour.aspx.cs">
+      <DependentUpon>CETour.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Tours\CETour.aspx.designer.cs">
+      <DependentUpon>CETour.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Public\Resources\CEResources.aspx.cs">
+      <DependentUpon>CEResources.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Resources\CEResources.aspx.designer.cs">
+      <DependentUpon>CEResources.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\Tours\Journey\TourJourney.aspx.cs">
+      <DependentUpon>TourJourney.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Tours\Journey\TourJourney.aspx.designer.cs">
+      <DependentUpon>TourJourney.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\UnderConstruction.aspx.cs">
+      <DependentUpon>UnderConstruction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\UnderConstruction.aspx.designer.cs">
+      <DependentUpon>UnderConstruction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Public\CELogin.aspx.cs">
+      <DependentUpon>CELogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CEMain.Master" />
+    <Content Include="Admin\References\CE Tour Application Online Process.pdf" />
+    <Content Include="Admin\References\CE Web Hosting Server Connection.pdf" />
+    <Content Include="Admin\References\CE Web Page Creation for Content.pdf" />
+    <Content Include="Admin\References\CE Web Site Album Content Authoring.pdf" />
+    <Content Include="Admin\References\CE Web Site Article Content Authoring.pdf" />
+    <Content Include="Admin\References\CE Web Site Content Creation Guide.pdf" />
+    <Content Include="Admin\References\CE Web Site Content File Structure.pdf" />
+    <Content Include="Admin\References\CE Web Site Content Update Tool.pdf" />
+    <Content Include="Admin\References\CE Web Site Journey Content Authoring.pdf" />
+    <Content Include="Admin\References\CE Talent Competition Online Process.pdf" />
+    <Content Include="Documents\Talent\2015 assigned_poems_poetry_recitation.pdf" />
+    <Content Include="Documents\Talent\2015 China Knowledge Bowl Study Guide.pdf" />
+    <Content Include="Documents\Talent\2015 Chinese Chess-Rules.pdf" />
+    <Content Include="Documents\Talent\2015 Fee Waiver.pdf" />
+    <Content Include="Documents\Talent\2015 General Information_English version - final.pdf" />
+    <Content Include="Documents\Talent\2015 Rules and Regulations_Chinese version.pdf" />
+    <Content Include="Documents\Talent\2015 Rules and Regulations_English version.pdf" />
+    <Content Include="Documents\Talent\2015GeneralInformation_Chinese version - final.pdf" />
+    <Content Include="Documents\Talent\2015_Chinese_Scholastic_Competition_Schedule.pdf" />
+    <Content Include="Documents\Talent\2015_Frequently_Asked_Questions.pdf" />
+    <Content Include="Data\Report\2015\2015TalentRegistration.xlsx" />
+    <Content Include="Data\Report\2015\ScoreSheetTemplate.xlsx" />
+    <Content Include="Data\Report\2015\ScoreSheetTemplate3.xlsx" />
+    <Content Include="Data\Report\2015\ScoreSheetTemplate4.xlsx" />
+    <Content Include="Data\Report\2015\ScoreSheetTemplate5.xlsx" />
+    <Content Include="Data\Report\2015\StudentSignInSheetTemplate.xlsx" />
+    <Content Include="Data\Report\2015\TalentCompetitionSchedule.xlsx" />
+    <Content Include="Data\Report\2015\ContestantParticipatedEventsTemplate.xlsx" />
+    <Content Include="Data\Report\2015\HeadCountTemplate.xlsx" />
+    <Content Include="Data\Report\2015\StudentTallySheetTemplate.xlsx" />
+    <Content Include="Documents\Talent\2015\2015 Competition Winner List.xlsx" />
+    <Content Include="Admin\References\How to Update Tour Journey for New Program Year.pdf" />
+    <Content Include="Data\Report\2016\AwardPresentationTemplate.xlsx" />
+    <Content Include="Data\Report\2016\CompetitionWinnerCertificateTemplate.docx" />
+    <Content Include="Data\Report\2016\ContestantParticipatedEventsTemplate.xlsx" />
+    <Content Include="Data\Report\2016\ContestantsWithConflictScheduleTemplate.xlsx" />
+    <Content Include="Data\Report\2016\HeadCountTemplate.xlsx" />
+    <Content Include="Data\Report\2016\ScoreSheetTemplate.xlsx" />
+    <Content Include="Data\Report\2016\ScoreSheetTemplate3.xlsx" />
+    <Content Include="Data\Report\2016\ScoreSheetTemplate4.xlsx" />
+    <Content Include="Data\Report\2016\ScoreSheetTemplate5.xlsx" />
+    <Content Include="Data\Report\2016\StudentSignInSheetTemplate.xlsx" />
+    <Content Include="Data\Report\2016\TalentCompetitionSchedule.xlsx" />
+    <Content Include="Data\Report\2016\TalentCompetitionWinnerTemplate.xlsx" />
+    <Content Include="Data\Report\2016\TrophyTemplate.xlsx" />
+    <Content Include="Data\Report\2019\AwardPresentationTemplate.xlsx" />
+    <Content Include="Data\Report\2019\CompetitionWinnerCertificateTemplate.docx" />
+    <Content Include="Data\Report\2019\ContestantParticipatedEventsTemplate.xlsx" />
+    <Content Include="Data\Report\2019\ContestantsWithConflictScheduleTemplate.xlsx" />
+    <Content Include="Data\Report\2019\HeadCountTemplate.xlsx" />
+    <Content Include="Data\Report\2019\ScoreSheetTemplate.xlsx" />
+    <Content Include="Data\Report\2019\ScoreSheetTemplate3.xlsx" />
+    <Content Include="Data\Report\2019\ScoreSheetTemplate4.xlsx" />
+    <Content Include="Data\Report\2019\ScoreSheetTemplate5.xlsx" />
+    <Content Include="Data\Report\2019\StudentSignInSheetTemplate.xlsx" />
+    <Content Include="Data\Report\2019\TalentCompetitionSchedule.xlsx" />
+    <Content Include="Data\Report\2019\TalentCompetitionWinnerTemplate.xlsx" />
+    <Content Include="Data\Report\2019\TrophyTemplate.xlsx" />
+    <None Include="Properties\PublishProfiles\Cultural Exploration.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Album\Talent\" />
+    <Folder Include="Album\Tours\" />
+    <Folder Include="Content\Tours\Journey\2014\" />
+    <Folder Include="Controls\" />
+    <Folder Include="Data\Application\Talent\2019\" />
+    <Folder Include="Documents\Resources\" />
+    <Folder Include="Images\TalentShow\" />
+    <Folder Include="Public\Resources\Video\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>28981</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:57023/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

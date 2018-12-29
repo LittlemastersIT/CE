@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>70</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/28/2016 16:25:35</entryDate>
+		<processDate>03/20/2016 13:22:56</processDate>
+		<contact>
+			<name>Lu He</name>
+			<email>luhesalskov@hotmail.com</email>
+			<phone>425-289-9133</phone>
+		</contact>
+		<competition teamName="Jinting_Dance_School">
+			<category>TeamTalent</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Chloe</firstName>
+				<lastName>Zhan</lastName>
+				<chineseName>詹均意</chineseName>
+				<birthday>03/31/2006</birthday>
+				<email>weiyunhuang@hotmail.com</email>
+				<academicSchool>Cherry Crest Elementary</academicSchool>
+				<extracurricularSchool>Jinting Dance School</extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>chloe.zhan.03-31-2006</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Angelika</firstName>
+				<lastName>Lu</lastName>
+				<chineseName>呂孝恩</chineseName>
+				<birthday>02/26/2007</birthday>
+				<email>jjlalu@hotmail.com</email>
+				<academicSchool>Forestview  elementary (Everett SD)</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>angelika.lu.02-26-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Angela</firstName>
+				<lastName>Liu</lastName>
+				<chineseName>刘佳宁</chineseName>
+				<birthday>04/27/2009</birthday>
+				<email>LXIAMAIL@hotmail.com</email>
+				<academicSchool>Norman Rockwell Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>angela.liu.04-27-2009</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Stephanie</firstName>
+				<lastName>Ma</lastName>
+				<chineseName>马若妍</chineseName>
+				<birthday>11/06/2006</birthday>
+				<email>minqi.lu@gmail.com</email>
+				<academicSchool>Benjamin Rush Elementary in lake washington school district</academicSchool>
+				<extracurricularSchool>晋婷舞蹈学校</extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>stephanie.ma.11-06-2006</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Tanya</firstName>
+				<lastName>Eccles</lastName>
+				<chineseName></chineseName>
+				<birthday>03/03/2008</birthday>
+				<email>cathyeccles@hotmail.com</email>
+				<academicSchool>Cascade Ridge Elementary School</academicSchool>
+				<extracurricularSchool>regular school</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>tanya.eccles.03-03-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Iris</firstName>
+				<lastName>Feng</lastName>
+				<chineseName>冯雨晴</chineseName>
+				<birthday>01/17/2008</birthday>
+				<email>a.feng@icloud.com</email>
+				<academicSchool>Jing Mei Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>iris.feng.01-17-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Ingrid</firstName>
+				<lastName>Olson</lastName>
+				<chineseName>曹詠惠</chineseName>
+				<birthday>11/27/2007</birthday>
+				<email>arolah@yahoo.com</email>
+				<academicSchool>Evergreen Academy</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>ingrid.olson.11-27-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Chantelle</firstName>
+				<lastName>Ma</lastName>
+				<chineseName>马紫妍</chineseName>
+				<birthday>08/30/2006</birthday>
+				<email>qzups@yahoo.com</email>
+				<academicSchool>Medina Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>chantelle.ma.08-30-2006</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Blythe</firstName>
+				<lastName>Chen</lastName>
+				<chineseName>陈焕琳</chineseName>
+				<birthday>09/20/2008</birthday>
+				<email>karenahe@hotmail.com</email>
+				<academicSchool>Sunset Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>blythe.chen.09-20-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Sara</firstName>
+				<lastName>Toy Ninke</lastName>
+				<chineseName>鉅 鉅</chineseName>
+				<birthday>01/07/2008</birthday>
+				<email>usstoy@aol.com</email>
+				<academicSchool>Challenger Elementary School</academicSchool>
+				<extracurricularSchool>Abacus West, Brain Child, Gymnastics East, NW Chinese School</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sara.toy ninke.01-07-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Sarina</firstName>
+				<lastName>Zhang</lastName>
+				<chineseName></chineseName>
+				<birthday>04/16/2008</birthday>
+				<email>mzhang4@gmail.com</email>
+				<academicSchool>Sunset Elementary school</academicSchool>
+				<extracurricularSchool>JInting Dance School</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sarina.zhang.04-16-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Elizabeth</firstName>
+				<lastName>Wang</lastName>
+				<chineseName>王一斌</chineseName>
+				<birthday>01/18/2007</birthday>
+				<email>jessietx2@yahoo.com</email>
+				<academicSchool>Moorland Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>elizabeth.wang.01-18-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Nancy</firstName>
+				<lastName>Zou</lastName>
+				<chineseName>Wenjuan Zou</chineseName>
+				<birthday>09/25/2007</birthday>
+				<email>wisedeng@gmail.com</email>
+				<academicSchool>Mark Twain Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>nancy.zou.09-25-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Cecilia</firstName>
+				<lastName>Wang</lastName>
+				<chineseName>Xixi Wang</chineseName>
+				<birthday>04/20/2007</birthday>
+				<email>liu_com007@sina.com</email>
+				<academicSchool>Island Park Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>cecilia.wang.04-20-2007</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

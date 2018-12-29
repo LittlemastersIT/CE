@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/02/2016 17:01:45</entryDate>
+		<processDate>03/20/2016 12:27:26</processDate>
+		<contact>
+			<name>Irene Yang</name>
+			<email>iyang@universityprep.org</email>
+			<phone>206-681-8775</phone>
+		</contact>
+		<competition teamName="">
+			<category>Drawing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Jasmine</firstName>
+				<lastName>Kuo</lastName>
+				<chineseName>郭华骊</chineseName>
+				<birthday>04/18/2002</birthday>
+				<email>jakuo@universityprep.org</email>
+				<academicSchool>University Prep</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jasmine.kuo.04-18-2002</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

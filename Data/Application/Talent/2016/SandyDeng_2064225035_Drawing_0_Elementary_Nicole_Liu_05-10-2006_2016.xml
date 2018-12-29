@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/29/2016 15:11:08</entryDate>
+		<processDate>03/12/2016 17:02:30</processDate>
+		<contact>
+			<name>Sandy  Deng</name>
+			<email>sandydeng06@gmail.com</email>
+			<phone>206-422-5035</phone>
+		</contact>
+		<competition teamName="">
+			<category>Drawing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Nicole</firstName>
+				<lastName>Liu</lastName>
+				<chineseName>刘美华</chineseName>
+				<birthday>05/10/2006</birthday>
+				<email>sandydeng06@gmail.com</email>
+				<academicSchool>Clark elementary Issaquah</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>nicole.liu.05-10-2006</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

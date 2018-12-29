@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  For more information on how to configure your ASP.NET application, please visit
+  http://go.microsoft.com/fwlink/?LinkId=169433
+  -->
+
+<configuration>
+  <system.web>
+    <customErrors mode="Off" />
+    <compilation targetFramework="4.5" />
+    <httpRuntime maxRequestLength="10240" targetFramework="4.5" />
+  </system.web>
+  <appSettings>
+    <add key="VisualStudioDesignTime:Enabled" value="true" />
+    <add key="ValidationSettings:UnobtrusiveValidationMode" value="None" />
+    <add key="token" value="PW1BDVNqVPVanwduF_Tb2Ey91aT1Uhx1kL7HPc-7e8S-6AnUwSSHyasolSe" />
+    <add key="PaypalUrl" value="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick" />
+    <add key="PaypalBusiness" value="culturalexploration@hotmail.com" />
+    <add key ="RegistrationDate" value ="01/04/2016" />
+    <add key ="RegistrationEndDate" value ="03/01/2016" />
+    <add key ="CompetitionDate" value ="03/20/2016" />
+    <add key ="CECompetitionYear" value ="2016" />
+    <add key ="ApplicationDate" value ="01/04/2016" />
+    <add key ="ApplicationEndDate" value ="03/08/2016" />
+    <add key ="CEProgramYear" value ="2015" />
+    <add key="CreateMasterRegistrationFile" value="0" />
+    <add key="AllowReviewBackflow" value="1" />
+    <add key="EmailHost" value ="snare.arvixe.com" />
+    <add key="EmailPort" value ="26" />
+    <add key="EmailSender" value ="ce@culturalexploration.org" />
+    <add key="EmailCode" value ="Bellevue2014" />
+    <add key ="SendEmailFromReport" value ="false" />
+  </appSettings>
+  <system.webServer>
+    <directoryBrowse enabled="false" />
+    <defaultDocument>
+      <files>
+        <clear />
+        <add value="public/home.aspx" />
+        <add value="index.php" />
+        <add value="Default.htm" />
+        <add value="Default.asp" />
+        <add value="index.htm" />
+        <add value="index.html" />
+        <add value="iisstart.htm" />
+        <add value="default.aspx" />
+      </files>
+    </defaultDocument>
+    <httpProtocol>
+      <customHeaders>
+        <clear />
+        <add name="X-Powered-By" value="ASP.NET" />
+      </customHeaders>
+    </httpProtocol>
+    <rewrite>
+      <rules>
+        <rule name="Redirect to HTTPS" stopProcessing="true">
+          <match url="(.*)" />
+          <conditions logicalGrouping="MatchAny">
+            <add input="{HTTPS}" pattern="off" ignoreCase="true" />
+          </conditions>
+          <action type="Redirect" url="https://{HTTP_HOST}/{R:1}" redirectType="Found" />
+        </rule>
+      </rules>
+    </rewrite>
+  </system.webServer>
+</configuration>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber>paypal</checkNumber>
+		<status>Approved</status>
+		<entryDate>02/08/2016 10:07:48</entryDate>
+		<processDate>03/12/2016 17:47:08</processDate>
+		<contact>
+			<name>Jie Shen</name>
+			<email>jie_shen2001@yahoo.com</email>
+			<phone>206-265-0213</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Katie</firstName>
+				<lastName>Murray</lastName>
+				<chineseName></chineseName>
+				<birthday>08/07/2008</birthday>
+				<email>jie_shen2001@yahoo.com</email>
+				<academicSchool>Cougar Ridge Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>katie.murray.08-07-2008</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+
+	<team name="Jimmy Group" category="TeamTalent" division="MiddleSchool" />
+	<team name="JimmyGroup" category="TeamTalent" division="MiddleSchool" />
+	<team name="hello" category="TeamSing" division="Elementary" />
+	<team name="QingHuaCi" category="TeamTalent" division="Elementary" />
+</ce>
+

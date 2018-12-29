@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber>paypal</checkNumber>
+		<status>Approved</status>
+		<entryDate>02/18/2016 21:11:19</entryDate>
+		<processDate>03/20/2016 11:49:04</processDate>
+		<contact>
+			<name>Victoria Pao</name>
+			<email>victoriapao0214@gmail.com</email>
+			<phone>425-516-2523</phone>
+		</contact>
+		<competition teamName="">
+			<category>Speech</category>
+			<subcategory></subcategory>
+			<class>ClassA</class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Victoria</firstName>
+				<lastName>pao</lastName>
+				<chineseName>保妙萱</chineseName>
+				<birthday>02/14/1999</birthday>
+				<email>victoriapao0214@gmail.com</email>
+				<academicSchool>Skyline High School</academicSchool>
+				<extracurricularSchool>Northwest Chinese School</extracurricularSchool>
+				<grade>11</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>victoria.pao.02-14-1999</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

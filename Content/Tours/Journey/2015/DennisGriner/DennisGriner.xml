@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <journey title="Dennis Griner 2015" align="left" rootUrl="/Content/Tours/Journey/2015/DennisGriner">
+    <bio>
+      <name first="Dennis" last="Griner" display="Dennis Griner" />
+      <email>dennis.griner@shorelineschools.org</email>
+      <phone></phone>
+      <address></address>
+      <city></city>
+      <state></state>
+      <school>Highland Terrace, Shoreline</school>
+      <grade>6th</grade>
+      <subject>All General Education Subjects</subject>
+      <year>2015</year>
+      <photo>/content/tours/journey/2015/DennisGriner/photos/DennisGriner.jpg</photo>
+      <about>
+        <![CDATA[
+        My name is Dennis Griner and I am extremely honored and humbled to have been selected as an ambassador through the Cultural Explorations Organization. This is an experience of a lifetime that will help me grow culturally, personally and professionally./br></br>
+		This is my 13th year of teaching and I have been a 7 and 8th grade social studies teacher, but for the past 11 years I have been teaching 6th grade at Highland Terrace Elementary in the Shoreline School district. My teaching philosophy is to deliver quality and engaging instruction to my student’s allowing them to learn the most and be their best selves. It has been my practice to incorporate my life’s experiences into the classroom to augment my lessons and share/generate enthusiasm for learning amongst my students. As I teach about the ancient Chinese civilization to my 6th graders this trip will prove invaluable to my instruction./br></br>
+		In addition to my classroom position I am also the Weblos den leader for my son’s cub-scout pack./br></br>
+		When I am not in my classroom I enjoy spending time with my wife of 18 years and my 4 year old daughter and 11 year old son. I am also enjoy astronomy and taking my motorcycle out for a cruise in the beautiful Pacific Northwest scenery. 
+        ]]>
+      </about>
+    </bio>
+    <album folder="Photos" align="right">
+      <summary>
+      </summary>
+    </album>
+    <diary>
+      <articles>
+      </articles>
+    </diary>
+    <teachingPlan>
+      <articles>
+      </articles>
+    </teachingPlan>
+    <testimony title="">
+    </testimony>
+    <videoClips>
+    </videoClips>
+  </journey>
+</ce>

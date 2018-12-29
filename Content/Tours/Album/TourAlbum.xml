@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <albums title="Journey for Cultural Exploration" rootUrl="/Album/Tours/Journey">
+    <album folder="journey" title="Journey to China" tab="My Journey" align="right">
+      <summary>I took the cultural exchange trip to China the past summer. What an experience that was!</summary>
+    </album>
+    <album folder="Tea Party" title="The Art of Tea Drinking in Taiwan" tab="Tea Party" align="center">
+      <summary>Tea in Taiwan is just like coffee in Seattle. Tea drinking has became an art form and part of the rejuvenated culcure phenomena. There is professional procedure as well as amateur way depending upon how serious the tea drinking is to be.</summary>
+    </album>
+    <album folder="Competition" title="Friendly Competition" tab="Competition" align="left">
+      <summary>Competition is the ultimate tool to improve self-esteem. We provide several categories of friendly competition related to Chinese culture and artistic skills. These competitions provide a way to improve the inner and mental skills and strength to pave way to handle every aspect of life.</summary>
+    </album>
+  </albums>
+</ce>

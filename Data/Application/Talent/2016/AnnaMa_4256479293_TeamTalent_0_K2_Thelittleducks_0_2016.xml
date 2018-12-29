@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>50</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/09/2016 21:23:39</entryDate>
+		<processDate>03/20/2016 13:22:26</processDate>
+		<contact>
+			<name>Anna Ma</name>
+			<email>2002amah@gmail.com</email>
+			<phone>425-647-9293</phone>
+		</contact>
+		<competition teamName="Thelittleducks">
+			<category>TeamTalent</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Blake</firstName>
+				<lastName>Thomas</lastName>
+				<chineseName></chineseName>
+				<birthday>02/12/2008</birthday>
+				<email>shrmet@yahoo.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>blake.thomas.02-12-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Christina</firstName>
+				<lastName>Thomas</lastName>
+				<chineseName></chineseName>
+				<birthday>04/12/2008</birthday>
+				<email>shrmet@yahoo.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>christina.thomas.04-12-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Monet</firstName>
+				<lastName>Pelluer</lastName>
+				<chineseName></chineseName>
+				<birthday>07/27/2008</birthday>
+				<email>madeline.wong@apmortgage.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>monet.pelluer.07-27-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Wari</firstName>
+				<lastName>Junya</lastName>
+				<chineseName></chineseName>
+				<birthday>02/08/2008</birthday>
+				<email>warijunya@gmail.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>wari.junya.02-08-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Ruby</firstName>
+				<lastName>Anderson</lastName>
+				<chineseName></chineseName>
+				<birthday>11/08/2007</birthday>
+				<email>evie.anderson@hotmail.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>ruby.anderson.11-08-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Lana</firstName>
+				<lastName>LaCasse</lastName>
+				<chineseName></chineseName>
+				<birthday>02/06/2009</birthday>
+				<email>wen@lacasse.org</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>lana.lacasse.02-06-2009</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Vivian</firstName>
+				<lastName>Yi</lastName>
+				<chineseName></chineseName>
+				<birthday>12/03/2007</birthday>
+				<email>helene.lei@gmail.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>vivian.yi.12-03-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Meriel</firstName>
+				<lastName>Seu</lastName>
+				<chineseName></chineseName>
+				<birthday>06/11/2008</birthday>
+				<email>mujimelon@gmail.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>meriel.seu.06-11-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Risa</firstName>
+				<lastName>Sinthunava</lastName>
+				<chineseName></chineseName>
+				<birthday>10/23/2008</birthday>
+				<email>aboonyatarp@gmail.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>risa.sinthunava.10-23-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Katie</firstName>
+				<lastName>Murray</lastName>
+				<chineseName></chineseName>
+				<birthday>08/07/2008</birthday>
+				<email>jie_shen2001@yahoo.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>katie.murray.08-07-2008</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

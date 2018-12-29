@@ -1,0 +1,45 @@
+﻿.ce-content-container {width:998px;padding-bottom:20px;border-left:1px solid lightgray;border-right:1px solid lightgray;border-bottom:1px solid lightgray;}
+.ce-content-cell {vertical-align:top;padding-left:20px;padding-right:20px;}
+.ce-divider-cell {width:12px;background-image:url('/Images/blueDiv.jpg');background-repeat:no-repeat;}
+.ce-sidebar-cell {width:200px;padding-left:10px;padding-top:10px;vertical-align:top;}
+.ce-content-zone {}
+.ce-sidebar-zone {}
+.ce-page-articles {}
+.ce-article-divider {}
+.ce-sidebar-image {width:185px;height:auto;border:1px solid lightgray;}
+.ce-page-sidebar-tile a {outline:none;}
+.ce-sidebar-caption {padding-right:10px;}
+.ce-caption-top-show {padding-bottom:5px;}
+.ce-bartile-spacing {height:20px;}
+.sidebar-icon-cell {width:24px;height:24px;}
+.sidebar-smallicon-cell {width:20px;height:20px;}
+.sidebar-link-cell {height:30px;}
+.sidebar-link-cell a span:hover {text-decoration:underline;}
+.sidebar-link-cell span {color:black;}
+.sidebar-caption-cell {width:178px;}
+.sidebar-caption-cell span {color:black;}
+.sidebar-icon {max-width:20px;max-height:20px;}
+.sidebar-icon-small {max-width:16px;max-height:16px;}
+.sidebar-testimony-text {font-style:italic;padding-right:10px;}
+.sidebar-testimony-text a {font-style:italic;color:black;}
+.sidebar-header {color:black;font-weight:bold;}
+.ce-article-title {padding-top:15px;padding-bottom:5px;font-weight:bold;}
+.ce-article-text {padding-top:5px;}
+.ce-article-paragraph {padding-top:5px;padding-bottom:5px;}
+.ce-article-paragraph img {border-style:none;border:0;}
+.ce-article-paragraph ul {}
+.ce-article-paragraph ul li {list-style-position:inside;padding-left:30px;text-indent:-15px;}
+.ce-indent {padding-left:15px;}
+.ce-article-paragraph ul {list-style-type:square;list-style-position:inside;}
+.ce-article-paragraph ul li {}
+.ce-paragraph-picture-left {max-width:160px;max-height:120px;padding:5px 10px 5px 0px;}
+.ce-paragraph-picture-right {max-width:160px;max-height:120px;padding:0px 0px 5px 10px;}
+
+.related-link-header {margin-top:20px;}
+.related-link-header:first-child {margin-top:0px;}
+.related-link-cell {height:20px;}
+.related-link-cell a span:hover {text-decoration:underline;}
+.related-link-cell span {color:black;}
+
+#ce-language-link {float:right;}
+#ce-language-link a {color:maroon;text-decoration:underline;font-size:16px;font-weight:bold;}

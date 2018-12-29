@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>30</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/28/2016 19:50:57</entryDate>
+		<processDate>03/12/2016 17:04:44</processDate>
+		<contact>
+			<name>Liying Tan</name>
+			<email>liyingtan@hotmail.com</email>
+			<phone>425-283-3197</phone>
+		</contact>
+		<competition teamName="SomersetBuddies">
+			<category>TeamBowl</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Justin</firstName>
+				<lastName>Zhu</lastName>
+				<chineseName></chineseName>
+				<birthday>07/30/2003</birthday>
+				<email>liyingtan@hotmail.com</email>
+				<academicSchool>Bellevue International School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>justin.zhu.07-30-2003</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Chris</firstName>
+				<lastName>Shang</lastName>
+				<chineseName></chineseName>
+				<birthday>04/28/2004</birthday>
+				<email>zhihuijudy@hotmail.com</email>
+				<academicSchool>Somerset Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>chris.shang.04-28-2004</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Matthew</firstName>
+				<lastName>Zhou</lastName>
+				<chineseName></chineseName>
+				<birthday>09/18/2005</birthday>
+				<email>gaifang@yahoo.com</email>
+				<academicSchool>Somerset Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>matthew.zhou.09-18-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>David</firstName>
+				<lastName>Liang</lastName>
+				<chineseName></chineseName>
+				<birthday>06/12/2004</birthday>
+				<email>wli200@yahoo.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>david.liang.06-12-2004</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Ethan</firstName>
+				<lastName>Bai</lastName>
+				<chineseName></chineseName>
+				<birthday>07/30/2004</birthday>
+				<email>ivyw2012@gmail.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>ethan.bai.07-30-2004</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Sophia</firstName>
+				<lastName>Bai</lastName>
+				<chineseName></chineseName>
+				<birthday>06/02/2006</birthday>
+				<email>ivyw2012@gmail.com</email>
+				<academicSchool>Somerset Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sophia.bai.06-02-2006</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

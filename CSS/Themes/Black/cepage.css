@@ -1,0 +1,13 @@
+﻿html, body { height:100%;background-image: url('/Images/CEBlackBack.jpg');background-repeat: repeat-x;}
+.ce-headerContainer {background-color:black;}
+.ce-banner {background-color:black;}
+.ce-title {background-color:black;}
+.ce-article-title-divider {background-color:gray;}
+.ce-divider-cell {background-image:url('/Images/divider.png');background-repeat:no-repeat;}
+.sidebar-divider {background-color:gray;}
+#journey-tab .selected {background-color:gray;border-bottom:1px solid gray;color:white;}
+#journey-more-link a {color:black !important;}
+.form-title-bar {background-color:black !important;}
+#form-decline, #form-interview {background-color:gray !important;}
+.application-result-title {background-color:black;}
+.form-result-title {background-color:black;}

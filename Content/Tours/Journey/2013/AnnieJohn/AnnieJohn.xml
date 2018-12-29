@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <journey title="Annie John 2013" align="left" rootUrl="/Content/Tours/Journey/2013/AnnieJohn">
+    <bio>
+      <name first="Annie" last="John" display="Annie John" />
+      <email></email>
+      <phone></phone>
+      <address></address>
+      <city></city>
+      <state></state>
+      <school>Federal Way</school>
+      <grade>2/3</grade>
+      <subject>General</subject>
+      <year>2013</year>
+      <photo>/content/tours/journey/2013/AnnieJohn/photos/AnnieJohn.jpg</photo>
+      <about>
+        <![CDATA[
+        Hello!  I am Annie John, and I am blessed to have the opportunity to represent the CE Foundation on this journey.  It is an experience that 
+        I will carry with me in both my personal and professional life.
+        <br/><br/>
+        I currently teach a 2/3 Highly Capable class in the Federal Way School District, and truly love my job.  I am fortunate to be able to have a 
+        huge impact on these future leaders of America.  Prior to leading the HiCap program, I taught fifth grade for five years.  In addition to my 
+        classroom position, I also serve on the school and district leadership boards.  Through the Highly Capable leadership team, I am able to serve 
+        students on a larger scale and impact the educational community from within. 
+        <br/><br/>
+        Over the past few years, our schools have become more culturally diverse, and will continue to grow in this direction.  Building relationships 
+        with students is one of the core focuses of my teaching philosophy – and I believe that we must understand a child’s cultural background in order 
+        to fully bridge together the relationship.  Having little background in Chinese culture, I am thrilled to have the opportunity to learn through 
+        experience, the impact Chinese history and culture has on daily life.
+        <br/><br/>
+        When I am not in my classroom, I am working on my PhD at the University of Washington.  In addition, my daughter and I love to take day trips to 
+        obscure farmers markets, hike, travel, and read.  I am looking forward to sharing this summer’s experiences with my students in hopes that it 
+        inspires them to learn more about the remarkable Chinese culture
+        ]]>
+      </about>
+    </bio>
+    <album folder="Photos" align="right">
+    </album>
+    <diary>
+      <articles>
+      </articles>
+    </diary>
+    <teachingPlan>
+      <articles>
+        <article title="The MYSTERY of HISTORY - A unit on China">
+          <paragraph>
+            <text>
+              <![CDATA[
+                <div><a style="color:blue;" href="/Documents/Tours/Prelim Plan - Annie John - FULL UNIT.pdf" target="_blank">Please click this link to see Annie's preliminary lesson plan.</a></div>
+              ]]>
+            </text>
+          </paragraph>
+        </article>
+      </articles>
+    </teachingPlan>
+    <testimony title="What an experience!">
+    </testimony>
+    <videoClips>
+    </videoClips>
+  </journey>
+</ce>

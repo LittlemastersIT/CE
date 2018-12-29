@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>20</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/02/2016 22:18:05</entryDate>
+		<processDate>03/12/2016 16:40:21</processDate>
+		<contact>
+			<name>Yifei.Xu</name>
+			<email>Yifei.xu1999@gmail.com</email>
+			<phone>425-533-6650</phone>
+		</contact>
+		<competition teamName="asianriceguy">
+			<category>TeamBowl</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>haohan</firstName>
+				<lastName>Wang</lastName>
+				<chineseName></chineseName>
+				<birthday>05/09/2003</birthday>
+				<email>yifei.xu1999@gmail.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>haohan.wang.05-09-2003</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Yifei</firstName>
+				<lastName>xu</lastName>
+				<chineseName></chineseName>
+				<birthday>09/07/1999</birthday>
+				<email>yifei.xu1999@gmail.com</email>
+				<academicSchool>Newport High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>yifei.xu.09-07-1999</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Kevin</firstName>
+				<lastName>Liu</lastName>
+				<chineseName>刘元凯</chineseName>
+				<birthday>09/28/2000</birthday>
+				<email>Kevinlyk2000@gmail.com</email>
+				<academicSchool>Mercer island HighSchool</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>kevin.liu.09-28-2000</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Yiqi</firstName>
+				<lastName>Xu</lastName>
+				<chineseName>徐一齐</chineseName>
+				<birthday>09/07/1999</birthday>
+				<email>Yifei.xu1999@gmail.com</email>
+				<academicSchool>Newport High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>yiqi.xu.09-07-1999</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

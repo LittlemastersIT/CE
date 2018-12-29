@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>20</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/02/2016 15:17:14</entryDate>
+		<processDate>03/12/2016 16:51:30</processDate>
+		<contact>
+			<name>Rachel</name>
+			<email>rachelyuqian@gmail.com</email>
+			<phone>206-226-4977</phone>
+		</contact>
+		<competition teamName="SilverStar">
+			<category>TeamPoetry</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>evan</firstName>
+				<lastName>liu</lastName>
+				<chineseName>刘朴元</chineseName>
+				<birthday>12/27/2004</birthday>
+				<email>rachelyuqian@gmail.com</email>
+				<academicSchool>Island Park Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>evan.liu.12-27-2004</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Matt</firstName>
+				<lastName>yang</lastName>
+				<chineseName>杨清宇</chineseName>
+				<birthday>07/08/2004</birthday>
+				<email>rachelyuqian@gmail.com</email>
+				<academicSchool>St. Monica</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>matt.yang.07-08-2004</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Eric</firstName>
+				<lastName>hao</lastName>
+				<chineseName>郝雨森</chineseName>
+				<birthday>02/04/2005</birthday>
+				<email>rachelyuqian@gmail.com</email>
+				<academicSchool>Island Park Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>eric.hao.02-04-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Steven</firstName>
+				<lastName>Zhang</lastName>
+				<chineseName>张敬晗</chineseName>
+				<birthday>12/08/2004</birthday>
+				<email>rachelyuqian@gmail.com</email>
+				<academicSchool>Eton School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>steven.zhang.12-08-2004</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

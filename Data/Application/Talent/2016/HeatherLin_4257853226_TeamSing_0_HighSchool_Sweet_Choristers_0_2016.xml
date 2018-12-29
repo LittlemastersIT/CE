@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>15</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>01/19/2016 09:35:01</entryDate>
+		<processDate>03/20/2016 13:14:27</processDate>
+		<contact>
+			<name>Heather Lin</name>
+			<email>linhai87@gmail.com</email>
+			<phone>425-785-3226</phone>
+		</contact>
+		<competition teamName="Sweet_Choristers">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Allison</firstName>
+				<lastName>Chen</lastName>
+				<chineseName>陈蕾</chineseName>
+				<birthday>03/20/2000</birthday>
+				<email>allylchen27@gmail.com</email>
+				<academicSchool>International community school</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>allison.chen.03-20-2000</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Jingying</firstName>
+				<lastName>Pang</lastName>
+				<chineseName>庞晶莹</chineseName>
+				<birthday>09/03/1999</birthday>
+				<email>625789865@qq.com</email>
+				<academicSchool>Issaquah high School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jingying.pang.09-03-1999</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Melody</firstName>
+				<lastName>Zhu</lastName>
+				<chineseName></chineseName>
+				<birthday>07/29/2002</birthday>
+				<email>wulian@gmail.com</email>
+				<academicSchool>Redmond Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>melody.zhu.07-29-2002</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

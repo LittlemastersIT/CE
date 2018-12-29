@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>FeeWaived</paymentMethod>
+		<paymentAmount>0</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/04/2016 20:17:22</entryDate>
+		<processDate>03/12/2016 16:35:24</processDate>
+		<contact>
+			<name>Yea-Jae Wang</name>
+			<email>yeawan@yahoo.com</email>
+			<phone>425-281-6131</phone>
+		</contact>
+		<competition teamName="">
+			<category>Drawing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Leah</firstName>
+				<lastName>Ward</lastName>
+				<chineseName></chineseName>
+				<birthday>03/24/2000</birthday>
+				<email>hoosie2000@gmail.com</email>
+				<academicSchool>Chief Sealth IHS</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>leah.ward.03-24-2000</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

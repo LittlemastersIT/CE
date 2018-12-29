@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>30</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/01/2016 21:51:51</entryDate>
+		<processDate>03/20/2016 11:45:33</processDate>
+		<contact>
+			<name>Wenxin Huang-Gillis</name>
+			<email>wenxinhg@hotmail.com</email>
+			<phone>425-208-1863</phone>
+		</contact>
+		<competition teamName="YuHuaTangYun">
+			<category>TeamPoetry</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Ellie</firstName>
+				<lastName>Yan</lastName>
+				<chineseName>言家橙</chineseName>
+				<birthday>05/31/2008</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Cherry Crest Elementary</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>ellie.yan.05-31-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Christina</firstName>
+				<lastName>Zhuang</lastName>
+				<chineseName>庄子桐</chineseName>
+				<birthday>07/09/2008</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Bellevue Children&#39;s Academy</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>christina.zhuang.07-09-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Sophia</firstName>
+				<lastName>Xu</lastName>
+				<chineseName>徐睿之</chineseName>
+				<birthday>09/24/2008</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Medina Elementary School</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sophia.xu.09-24-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Carol</firstName>
+				<lastName>Gong</lastName>
+				<chineseName>龚希媛</chineseName>
+				<birthday>09/16/2008</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Samantha Smith Elementary School</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>carol.gong.09-16-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Iris</firstName>
+				<lastName>Zuo</lastName>
+				<chineseName>左思蕊</chineseName>
+				<birthday>04/04/2008</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Medina Elementary School</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>iris.zuo.04-04-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Audrey</firstName>
+				<lastName>Hong</lastName>
+				<chineseName>徐欣恬</chineseName>
+				<birthday>12/02/2007</birthday>
+				<email>wenxinhg@hotmail.com</email>
+				<academicSchool>Alcott Elementary School</academicSchool>
+				<extracurricularSchool>Wenxin Chinese Studio</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>audrey.hong.12-02-2007</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

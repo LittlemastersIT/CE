@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/18/2016 20:28:43</entryDate>
+		<processDate>03/12/2016 17:23:36</processDate>
+		<contact>
+			<name>Anna</name>
+			<email>2002amah@gmail.com</email>
+			<phone>425-647-9293</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Lana</firstName>
+				<lastName>LaCasse</lastName>
+				<chineseName></chineseName>
+				<birthday>02/06/2009</birthday>
+				<email>wen@lacasse.org</email>
+				<academicSchool>Jing Mei Elementary</academicSchool>
+				<extracurricularSchool>Anna Bilingual Education</extracurricularSchool>
+				<grade>1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>lana.lacasse.02-06-2009</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

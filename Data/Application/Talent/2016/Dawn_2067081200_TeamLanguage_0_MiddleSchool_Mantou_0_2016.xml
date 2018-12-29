@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>15</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/29/2016 20:59:53</entryDate>
+		<processDate>03/20/2016 13:04:58</processDate>
+		<contact>
+			<name>Dawn</name>
+			<email>Dawnrgardner@gmail.com</email>
+			<phone>206-708-1200</phone>
+		</contact>
+		<competition teamName="Mantou">
+			<category>TeamLanguage</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Madalyn</firstName>
+				<lastName>Gardner</lastName>
+				<chineseName></chineseName>
+				<birthday>12/06/2002</birthday>
+				<email>Xixigardner@gmail.com</email>
+				<academicSchool>Denny IMS</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>madalyn.gardner.12-06-2002</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Calvin</firstName>
+				<lastName>Jones</lastName>
+				<chineseName></chineseName>
+				<birthday>08/24/2003</birthday>
+				<email>Calvintdm@gmail.com</email>
+				<academicSchool>Denny IMS</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>calvin.jones.08-24-2003</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Owen</firstName>
+				<lastName>Christensen</lastName>
+				<chineseName></chineseName>
+				<birthday>12/29/2002</birthday>
+				<email>Chrstnsnjp@gmail.com</email>
+				<academicSchool>Denny IMS</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>owen.christensen.12-29-2002</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

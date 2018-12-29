@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>20</paymentAmount>
+		<checkNumber>paypal</checkNumber>
+		<status>Approved</status>
+		<entryDate>03/01/2016 22:57:25</entryDate>
+		<processDate>03/20/2016 12:13:22</processDate>
+		<contact>
+			<name>Lily Yin</name>
+			<email>lyin71@hotmail.com</email>
+			<phone>425-350-9519</phone>
+		</contact>
+		<competition teamName="Aurora">
+			<category>TeamPoetry</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Aiden</firstName>
+				<lastName>Yin</lastName>
+				<chineseName></chineseName>
+				<birthday>11/23/2007</birthday>
+				<email>Lyin71@hotmail.com</email>
+				<academicSchool>Somerset Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>aiden.yin.11-23-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Lexi</firstName>
+				<lastName>Liu</lastName>
+				<chineseName></chineseName>
+				<birthday>02/26/2007</birthday>
+				<email>rachelyuqian@gmail.com</email>
+				<academicSchool>Lakeridge Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>lexi.liu.02-26-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Andrea</firstName>
+				<lastName>Han</lastName>
+				<chineseName></chineseName>
+				<birthday>03/07/2007</birthday>
+				<email>feixuehan@hotmail.com</email>
+				<academicSchool>Medina Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>andrea.han.03-07-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Youyi</firstName>
+				<lastName>Li</lastName>
+				<chineseName></chineseName>
+				<birthday>09/18/2007</birthday>
+				<email>reneexie@yahoo.com</email>
+				<academicSchool>Endeavor Elementary school</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>youyi.li.09-18-2007</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

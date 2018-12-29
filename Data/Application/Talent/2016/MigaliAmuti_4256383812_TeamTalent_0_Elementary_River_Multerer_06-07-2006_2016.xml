@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>01/23/2016 20:43:33</entryDate>
+		<processDate>03/20/2016 13:23:57</processDate>
+		<contact>
+			<name>Migali Amuti</name>
+			<email>chinesedanceacademy@gmail.com</email>
+			<phone>425-638-3812</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamTalent</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>River</firstName>
+				<lastName>Multerer</lastName>
+				<chineseName></chineseName>
+				<birthday>06/07/2006</birthday>
+				<email>keri@multerer.com</email>
+				<academicSchool>Chinese Dance Academy</academicSchool>
+				<extracurricularSchool>Home School</extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>river.multerer.06-07-2006</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

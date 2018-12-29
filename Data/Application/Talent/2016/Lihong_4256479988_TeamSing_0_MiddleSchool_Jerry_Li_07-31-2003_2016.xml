@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/10/2016 16:21:53</entryDate>
+		<processDate>03/20/2016 13:12:48</processDate>
+		<contact>
+			<name>Lihong</name>
+			<email>lihongtang@gmail.com</email>
+			<phone>425-647-9988</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Jerry</firstName>
+				<lastName>Li</lastName>
+				<chineseName>李思远</chineseName>
+				<birthday>07/31/2003</birthday>
+				<email>jerrysli@gmail.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jerry.li.07-31-2003</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

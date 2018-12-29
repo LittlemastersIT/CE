@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>01/10/2016 21:36:00</entryDate>
+		<processDate>03/20/2016 12:26:02</processDate>
+		<contact>
+			<name>Grace Zhang</name>
+			<email>grace_zhangyu@hotmail.com</email>
+			<phone>425-891-6671</phone>
+		</contact>
+		<competition teamName="">
+			<category>Drawing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Sunny</firstName>
+				<lastName>Cong</lastName>
+				<chineseName>YaQing</chineseName>
+				<birthday>06/28/2005</birthday>
+				<email>grace_zhangyu@hotmail.com</email>
+				<academicSchool>Challenger Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sunny.cong.06-28-2005</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

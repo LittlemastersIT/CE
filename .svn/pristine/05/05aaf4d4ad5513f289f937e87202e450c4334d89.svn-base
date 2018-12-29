@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <page>
+    <articles>
+      <article title="Background">
+        <paragraph>
+          <text>
+            <![CDATA[
+            <p>More than 10 years ago, at a corner of a Bellevue middle school cafeteria, a few parents of Chinese Americans 
+               after dropping off their kids to the Saturday Chinese language porgam, often sit together and brainstormed on 
+               how to bridge cultural gaps for young generations.  As the result, CE was born in 2000 and started offering Greater Seattle area 
+               teachers a 2-weeks long summer trip each year to China, Hong Kong and Taiwan.  As we established into an 
+               independent non-profit organization in 2008, we also expanded our efforts to other activity in a hope to 
+               promote a better understanding of Chinese culture and language.</p>
+            <br/>
+            <p>Today we are happy to announce our fourth annual Washington State Chinese Language and Talent Competition. All
+               K-12 students in this state from public and private schools as well as students from Chinese heritage schools
+               and home tutoring institutes are welcome to participate.  We hope this event will provide a venue where
+               students with diverse cultural background can come together to share their knowledge and experience.</p>
+            ]]>
+          </text>
+        </paragraph>
+      </article>
+      <article title="Objective">
+        <paragraph indent="false">
+          <item>To acknowledge and reward student and teacher achievements.</item>
+          <item>To help inspire further interests in the teaching and learning of Chinese language and culture.</item>
+          <item>To provide a positive venue for students with diverse background to come together to share knowledge and learning experience.</item>
+        </paragraph>
+      </article>
+      <article title="Competition Levels &amp; Categories">
+        <paragraph indent="false">
+          <text>
+            <![CDATA[
+                <p><b>We divide the Chinese Talent Competition into following grade levels:</b></p>
+                <br />
+                <p>Lower Elementary (Grades K-2) 小学低年级组</p>
+                <p>Upper Elementary (Grades 3-5) 小学中高年级组</p>
+                <p>Middle School (Grades 6-8) 初中组</p>
+                <p>High School (Grades 9-12) 高中组</p>
+                <br />
+                <p><b>Here is a list of the availabe competitions:</b></p>
+                <br />
+                <p>Group Poetry Recitation 團體詩詞朗誦</p>
+                <p>Individual Poetry Recitation 個人詩詞朗誦</p>
+                <p>Story Telling 說故事</p>
+                <p>Public Speaking 演講</p>
+                <p>Talent Show  才藝競賽</p>
+                <p>Chinese Singing  歌唱比賽</p>
+                <p>Drawing 繪畫比賽</p>
+                <p>Chinese Chess 象棋</p>
+                <p>China Knowledge Bowl  中國常識競答</p>
+                <br />
+            ]]>
+          </text>
+        </paragraph>
+      </article>
+      <article title="Awards">
+        <paragraph indent="false">
+          <text>
+            <![CDATA[
+              The winners will receive certificates from Office of Superintendent of Public Instructions, as well as cash rewards - $50 for individuals and $100 for teams. 
+              This event is to provide a venue where students with diverse backgrounds can come together to share their knowledge and learning experience. 
+            ]]>
+          </text>
+        </paragraph>
+      </article>
+    </articles>
+    <sideBar>
+      <videoClips header="Competition Videos">
+        <videoClip title="" clipUrl="https://www.youtube.com/embed/OHzx9QaPPDQ" />
+        <videoClip title="" clipUrl="https://www.youtube.com/embed/NLXBOQO-qnc" />
+      </videoClips>
+      <relatedLinks header="2014 Event Organizers&lt;br/&gt;主辦單位">
+        <relatedLink iconUrl="/Images/pin.png" title="Cultural Exploration of Greater China Foundation&lt;br/&gt;中華文化之旅基金會" linkUrl="/public/home.aspx" />
+        <relatedLink iconUrl="/Images/pin.png" title="Confucius Institute of the State of Washington&lt;br/&gt;華州孔子學院" linkUrl="http://confucius.washington.edu" target="_blank" />
+        <relatedLink iconUrl="/Images/pin.png" title="Chinese Language Teachers Association Washington State&lt;br/&gt;華州中文教師學會" linkUrl="http://www.clta-wa.org" target="_blank" />
+        <relatedLink iconUrl="/Images/pin.png" title="Office of Superintendent of Public Instruction World Languages Program&lt;br/&gt;華州教育部世界語言組" linkUrl="http://www.k12.wa.us/WorldLanguages/" target="_blank" />
+      </relatedLinks>
+    </sideBar>
+  </page>
+</ce>

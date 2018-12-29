@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/01/2016 19:28:30</entryDate>
+		<processDate>03/12/2016 17:49:18</processDate>
+		<contact>
+			<name>Crystal</name>
+			<email>c11weston@hotmail.com</email>
+			<phone>503-481-6207</phone>
+		</contact>
+		<competition teamName="">
+			<category>Poetry</category>
+			<subcategory></subcategory>
+			<class>ClassC</class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Aaliyah</firstName>
+				<lastName>Weston</lastName>
+				<chineseName>Xiao tong</chineseName>
+				<birthday>10/21/2008</birthday>
+				<email>c11weston@hotmail.con</email>
+				<academicSchool>Naselle-Gray Rivers School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>aaliyah.weston.10-21-2008</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

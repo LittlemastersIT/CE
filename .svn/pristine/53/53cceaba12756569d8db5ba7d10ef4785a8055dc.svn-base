@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <page>
+    <articles>
+      <article title="...">
+        <paragraph>
+          <text>
+            <![CDATA[
+            put any text here including html tags or Chinese words.
+            ]]>
+          </text>
+        </paragraph>
+      </article>
+      <article title="...">
+        <paragraph indent="false">
+          <text>
+            put any text here if you don't have html tags in the text.
+          </text>
+        </paragraph>
+        <paragraph indent="true">
+          <item>any text here will has sqaure bullet and indented.</item>
+          <item>repeat as needed</item>
+        </paragraph>
+      </article>
+    </articles>
+    <sideBar>
+      <relatedLinks header="Related Links">
+        <relatedLink iconUrl="/Images/at.png" title="2012 Tours" linkUrl="/public/articles/cearticle.aspx?theme=...&amp;path=/...&amp;content=..." />
+      </relatedLinks>
+      <barTiles>
+        <barTile caption="caption text" imageUrl="/Images/..." linkUrl="/public/..." captionPosition="bottom" />
+      </barTiles>
+      <testimonies header="Testimonies">
+        <testimory caption="testimony title" text="testimony text goes here." iconUrl="/Images/..." linkUrl="/public/..." captionPosition="top" />
+      </testimonies>
+    </sideBar>
+  </page>
+</ce>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>20</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/01/2016 14:11:13</entryDate>
+		<processDate>03/12/2016 16:56:31</processDate>
+		<contact>
+			<name>Zoe Jiang</name>
+			<email>jiangl@issaquah.wednet.edu</email>
+			<phone>425-269-4361</phone>
+		</contact>
+		<competition teamName="Sparton">
+			<category>TeamBowl</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Divyasai</firstName>
+				<lastName>Tanguturu</lastName>
+				<chineseName></chineseName>
+				<birthday>09/09/1998</birthday>
+				<email>dtanguturu@gmail.com</email>
+				<academicSchool>Skyline High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>12</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>divyasai.tanguturu.09-09-1998</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Kimberly R</firstName>
+				<lastName>Heitkamp</lastName>
+				<chineseName></chineseName>
+				<birthday>09/03/1999</birthday>
+				<email>kimberly@heitkamp.us</email>
+				<academicSchool>Skyline High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>kimberly r.heitkamp.09-03-1999</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Rick T</firstName>
+				<lastName>Kagoro</lastName>
+				<chineseName></chineseName>
+				<birthday>04/18/2000</birthday>
+				<email>triivcoky@hotmail.com</email>
+				<academicSchool>Skyline High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>rick t.kagoro.04-18-2000</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Presley</firstName>
+				<lastName>Knox</lastName>
+				<chineseName></chineseName>
+				<birthday>01/28/1999</birthday>
+				<email>pk.knox@yahoo.com</email>
+				<academicSchool>Skyline High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>11</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>presley.knox.01-28-1999</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

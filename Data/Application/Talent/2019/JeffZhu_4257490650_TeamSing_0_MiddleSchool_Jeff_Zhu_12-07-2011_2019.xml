@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Apply</status>
+		<entryDate>12/19/2018 23:25:13</entryDate>
+		<processDate></processDate>
+		<contact>
+			<name>Jeff Zhu</name>
+			<email>zhujianjun@hotmail.com</email>
+			<phone>425-749-0650</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Jeff</firstName>
+				<lastName>Zhu</lastName>
+				<chineseName></chineseName>
+				<birthday>12/07/2011</birthday>
+				<email>zhujianjun@hotmail.com</email>
+				<academicSchool>Somerset</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jeff.zhu.12-07-2011</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

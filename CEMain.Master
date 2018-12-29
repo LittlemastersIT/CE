@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CEMain.master.cs" Inherits="CE.Pages.CEMain" %>
+<%@ Register TagPrefix="CE" Namespace="CE.Controls" Assembly="CE.Application" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Cutural Exploration</title>
+    <link type="text/css" rel="stylesheet" href="/CSS/cemain.css" media="all" />
+    <script type="text/javascript" src="/JS/jquery/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/JS/jquery/jquery.easing.1.3.min.js"></script>
+    <script type="text/javascript" src="/JS/jquery/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/JS/cemenu.js"></script>
+    <script type="text/javascript" src="/JS/cemain.js"></script>
+    <asp:ContentPlaceHolder ID="PlaceHolderScript" runat="server" />
+</head>
+<body>
+    <form id="form1" enctype="multipart/form-data" runat="server">
+    <asp:scriptmanager id="ScriptManager1" runat="server" enablepagemethods="true" EnablePartialRendering="true" EnableScriptGlobalization="false" EnableScriptLocalization="true" />
+    <div class="ce-security"><CE:SecurityTrimControl Mode="live" runat="server" /></div>
+    <div id="ce-page">
+        <!-- header and banner area -->
+        <div id="ce-sign-in" class="ce-login"><span><a href="/public/celogin.aspx">Login</a></span></div>
+        <div class="ce-header">
+            <div class="ce-header">
+                <div class="ce-headerContainer">
+                    <div class="ce-logo-container">
+                        <img id="ce-logo" src="/Images/CE_logo_final.png"/>
+                    </div>
+                    <div class="ce-banner">
+                        <div class="ce-title ce-h1 center">CULTURAL EXPLORATION OF GREATER CHINA</div>              
+<%--                        <div class="ce-facebook" style="display:block;"><img src="/Images/FaceBook_32x32.png" width="16" /><a href="https://www.facebook.com/groups/224549771000190/" target="_blank">Facebook</a></div>--%>
+                        <div id="ce-nav-bar">
+                            <div class="ce-nav-container">
+                                <CE:MenuControl ID="CEMenu" runat="server" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--breadcrumb area -->
+            <div id="ce-breadcrumb">
+                <CE:SiteMapControl ID="SiteMapControl1" runat="server" />
+            </div>
+        </div>
+
+        <!-- pag conent area -->
+        <div id="ce-maincontent">
+            <asp:ContentPlaceHolder ID="PlaceHolderMain" runat="server">      
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!-- footer area -->
+        <div id="ce-footer">
+            <div class="footer-panel">
+                <div class="footer center">
+                    <div id="footer-copyright"> <span>&copy; 2013 Cultural Exploration. All rights reserved.</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var ie = getInternetExplorerVersion();
+            if (ie != -1 && ie <= 7) {
+                $('#ce-sub-nav').css('top', '0px');
+            }
+
+            showTopMenu();
+            adjustSignIn();
+        });
+    </script>
+</body>
+</html>

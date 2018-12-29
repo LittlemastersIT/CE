@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>30</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/01/2016 12:24:16</entryDate>
+		<processDate>03/20/2016 13:13:29</processDate>
+		<contact>
+			<name>Brockenbrough Ru-Chien</name>
+			<email>rchi@u.washington.edu</email>
+			<phone>206-963-3726</phone>
+		</contact>
+		<competition teamName="HarmonySingers">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Hannah</firstName>
+				<lastName>Knauss</lastName>
+				<chineseName>海 娜</chineseName>
+				<birthday>08/25/2003</birthday>
+				<email>dfrey910@aol.com</email>
+				<academicSchool>Tahoma Middle School</academicSchool>
+				<extracurricularSchool>Tzu Chi Academy</extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>hannah.knauss.08-25-2003</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Joseph</firstName>
+				<lastName>Knauss</lastName>
+				<chineseName>約瑟夫</chineseName>
+				<birthday>01/16/2006</birthday>
+				<email>dfrey910@aol.com</email>
+				<academicSchool>Shadow Lake Elementary School</academicSchool>
+				<extracurricularSchool>Tzu Chi Academy</extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>joseph.knauss.01-16-2006</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Maria</firstName>
+				<lastName>Knauss</lastName>
+				<chineseName>瑪 莉 亞</chineseName>
+				<birthday>10/29/2007</birthday>
+				<email>dfrey910@aol.com</email>
+				<academicSchool>Shadow Lake Elementary School</academicSchool>
+				<extracurricularSchool>Tzu Chi Academy</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>maria.knauss.10-29-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Sydney</firstName>
+				<lastName>Brockenbrough</lastName>
+				<chineseName>紀琳</chineseName>
+				<birthday>04/12/2004</birthday>
+				<email>rchi@u.washington.edu</email>
+				<academicSchool>St. Anthony School</academicSchool>
+				<extracurricularSchool>Tzu Chi Academy</extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sydney.brockenbrough.04-12-2004</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Chase</firstName>
+				<lastName>Brockenbrough</lastName>
+				<chineseName>紀漢</chineseName>
+				<birthday>12/28/2005</birthday>
+				<email>rchi@u.washington.edu</email>
+				<academicSchool>St. Anthony School</academicSchool>
+				<extracurricularSchool>Tzu Chi Academy</extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>chase.brockenbrough.12-28-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Jean</firstName>
+				<lastName>Brockenbrough</lastName>
+				<chineseName>紀梅</chineseName>
+				<birthday>10/13/2008</birthday>
+				<email>rchi@u.washington.edu</email>
+				<academicSchool>St. Anthony School</academicSchool>
+				<extracurricularSchool>Tzu Chi Academy</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jean.brockenbrough.10-13-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Sophia</firstName>
+				<lastName>Hafner</lastName>
+				<chineseName></chineseName>
+				<birthday>08/06/2005</birthday>
+				<email>miller.leigh@gmail.com</email>
+				<academicSchool>St. Anthony School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sophia.hafner.08-06-2005</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

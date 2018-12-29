@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>45</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/21/2016 18:07:26</entryDate>
+		<processDate>03/20/2016 13:26:28</processDate>
+		<contact>
+			<name>Melody Xie</name>
+			<email>melody.xie@gmail.com</email>
+			<phone>206-365-3146</phone>
+		</contact>
+		<competition teamName="Melody_Dance_Institute">
+			<category>TeamTalent</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Madeleine</firstName>
+				<lastName>Clore</lastName>
+				<chineseName></chineseName>
+				<birthday>01/05/2005</birthday>
+				<email>katharine.angell@gmail.com</email>
+				<academicSchool>Washington Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>madeleine.clore.01-05-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Angeline</firstName>
+				<lastName>Phan</lastName>
+				<chineseName>潘凯媛</chineseName>
+				<birthday>06/10/1999</birthday>
+				<email>Angeline.phan@yahoo.com</email>
+				<academicSchool>Kamiak High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>11</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>angeline.phan.06-10-1999</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Jianna</firstName>
+				<lastName>Almquist</lastName>
+				<chineseName></chineseName>
+				<birthday>01/24/2005</birthday>
+				<email>mralmquist@yahoo.com</email>
+				<academicSchool>Beacon Hill International School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jianna.almquist.01-24-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Maia</firstName>
+				<lastName>Ali</lastName>
+				<chineseName></chineseName>
+				<birthday>05/26/2005</birthday>
+				<email>robyn.ingham.ali@gmail.com</email>
+				<academicSchool>Maplewood Parent Coop.</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>maia.ali.05-26-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Ariana</firstName>
+				<lastName>Brown</lastName>
+				<chineseName></chineseName>
+				<birthday>07/18/2005</birthday>
+				<email>karenbaberfeld@gmail.com</email>
+				<academicSchool>Viewridge Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>ariana.brown.07-18-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Sage</firstName>
+				<lastName>Choi</lastName>
+				<chineseName></chineseName>
+				<birthday>02/26/2000</birthday>
+				<email>stacyannachoi@gmail.com</email>
+				<academicSchool>Roosevelt High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sage.choi.02-26-2000</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Karina</firstName>
+				<lastName>Lee</lastName>
+				<chineseName></chineseName>
+				<birthday>10/14/2001</birthday>
+				<email>ray_man@msn.com</email>
+				<academicSchool>Nathan Eckstein Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>karina.lee.10-14-2001</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Carolyn</firstName>
+				<lastName>Yee</lastName>
+				<chineseName></chineseName>
+				<birthday>07/01/2003</birthday>
+				<email>tourdargent123@gmail.com</email>
+				<academicSchool>French American School of Puget Sound</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>carolyn.yee.07-01-2003</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Zhaohui</firstName>
+				<lastName>Grubb</lastName>
+				<chineseName></chineseName>
+				<birthday>12/21/1999</birthday>
+				<email>donaldjgx@gmail.com</email>
+				<academicSchool>Lakeside High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>zhaohui.grubb.12-21-1999</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

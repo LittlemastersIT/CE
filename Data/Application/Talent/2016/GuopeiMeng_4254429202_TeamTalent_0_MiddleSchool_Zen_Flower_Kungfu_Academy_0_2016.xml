@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>65</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/01/2016 21:02:42</entryDate>
+		<processDate>03/12/2016 16:55:32</processDate>
+		<contact>
+			<name>Guopei Meng</name>
+			<email>guopei963@gmail.com</email>
+			<phone>425-442-9202</phone>
+		</contact>
+		<competition teamName="Zen_Flower_Kungfu_Academy">
+			<category>TeamTalent</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Patrick</firstName>
+				<lastName>Peng</lastName>
+				<chineseName>彭博远</chineseName>
+				<birthday>02/16/2003</birthday>
+				<email>xinge2007@gmail.com</email>
+				<academicSchool>Lakeside Middle School</academicSchool>
+				<extracurricularSchool>Zen Flower Kung Fu Academy</extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>patrick.peng.02-16-2003</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Brandon</firstName>
+				<lastName>Peng</lastName>
+				<chineseName>彭博涯</chineseName>
+				<birthday>03/11/2006</birthday>
+				<email>xinge2007@gmail.com</email>
+				<academicSchool>Blackwell Elementary School</academicSchool>
+				<extracurricularSchool>Zen Flower Kung Fu Academy</extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>brandon.peng.03-11-2006</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Christopher</firstName>
+				<lastName>Peng</lastName>
+				<chineseName>彭博乐</chineseName>
+				<birthday>12/18/2008</birthday>
+				<email>xinge2007@gmail.com</email>
+				<academicSchool>Medina Elementary School</academicSchool>
+				<extracurricularSchool>Zen Flower Kung Fu Academy</extracurricularSchool>
+				<grade>1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>christopher.peng.12-18-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>YingQiao</firstName>
+				<lastName>Li</lastName>
+				<chineseName>A fu</chineseName>
+				<birthday>05/13/2012</birthday>
+				<email>171356004@qq.com</email>
+				<academicSchool>Home School</academicSchool>
+				<extracurricularSchool>Zen Flower Kung Fu Academy</extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>yingqiao.li.05-13-2012</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Sophia</firstName>
+				<lastName>Li</lastName>
+				<chineseName>Li Shufei</chineseName>
+				<birthday>01/18/2010</birthday>
+				<email>sheliashi@hotmail.com</email>
+				<academicSchool>Home School</academicSchool>
+				<extracurricularSchool>Zen Flower Kung Fu Academy</extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sophia.li.01-18-2010</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Mutian</firstName>
+				<lastName>Tao</lastName>
+				<chineseName></chineseName>
+				<birthday>12/10/2007</birthday>
+				<email>zhou_ybb@hotmail.com</email>
+				<academicSchool>Home School</academicSchool>
+				<extracurricularSchool>Zen Flower Kung Fu Academy</extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>mutian.tao.12-10-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Morris</firstName>
+				<lastName>Liu</lastName>
+				<chineseName>刘墨瀚</chineseName>
+				<birthday>01/29/2010</birthday>
+				<email>liujingchun2006@163.com</email>
+				<academicSchool>Home School</academicSchool>
+				<extracurricularSchool>Zen Flower Kung Fu Academy</extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>morris.liu.01-29-2010</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Joey</firstName>
+				<lastName>Ku</lastName>
+				<chineseName>顧喬宇</chineseName>
+				<birthday>07/02/2009</birthday>
+				<email>mrkuchen@yahoo.com</email>
+				<academicSchool>Home School</academicSchool>
+				<extracurricularSchool>Zen Flower Kung Fu Academy</extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>joey.ku.07-02-2009</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Tim</firstName>
+				<lastName>Zhang</lastName>
+				<chineseName>张修远</chineseName>
+				<birthday>06/27/2007</birthday>
+				<email>kitty_hu@hotmail.com</email>
+				<academicSchool>Samantha Smith Elementry</academicSchool>
+				<extracurricularSchool>Zen Flower Kung Fu Academy</extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>tim.zhang.06-27-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Larry</firstName>
+				<lastName>Zhang</lastName>
+				<chineseName>张修阳</chineseName>
+				<birthday>12/04/2008</birthday>
+				<email>kitty_hu@hotmail.com</email>
+				<academicSchool>Samantha Smith Elementry</academicSchool>
+				<extracurricularSchool>Zen Flower Kung Fu Academy</extracurricularSchool>
+				<grade>1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>larry.zhang.12-04-2008</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Anna</firstName>
+				<lastName>Augustine</lastName>
+				<chineseName></chineseName>
+				<birthday>10/25/2007</birthday>
+				<email>Jolfy2003@yahoo.com</email>
+				<academicSchool>Redmond Elementary School</academicSchool>
+				<extracurricularSchool>Zen Flower Kung Fu Academy</extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>anna.augustine.10-25-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Angela</firstName>
+				<lastName>Augustine</lastName>
+				<chineseName></chineseName>
+				<birthday>08/01/2009</birthday>
+				<email>Jolfy2003@yahoo.com</email>
+				<academicSchool>Redmond Elementary School</academicSchool>
+				<extracurricularSchool>Zen Flower Kung Fu Academy</extracurricularSchool>
+				<grade>1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>angela.augustine.08-01-2009</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Caroline</firstName>
+				<lastName>Pang</lastName>
+				<chineseName>庞若琳</chineseName>
+				<birthday>10/02/2008</birthday>
+				<email>zhangjingf@gmail.com</email>
+				<academicSchool>Horace Mann prime school</academicSchool>
+				<extracurricularSchool>Zen Flower Kung Fu Academy</extracurricularSchool>
+				<grade>1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>caroline.pang.10-02-2008</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/28/2016 21:59:43</entryDate>
+		<processDate>03/20/2016 12:59:06</processDate>
+		<contact>
+			<name>Zhenhua Yu</name>
+			<email>zhenhua.yu@gmail.com</email>
+			<phone>425-213-0372</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamLanguage</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Rena</firstName>
+				<lastName>Wang</lastName>
+				<chineseName></chineseName>
+				<birthday>12/15/2005</birthday>
+				<email>zhenhua.yu@gmail.com</email>
+				<academicSchool>Endeavour Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>rena.wang.12-15-2005</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

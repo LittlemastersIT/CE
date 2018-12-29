@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>FeeWaived</paymentMethod>
+		<paymentAmount>0</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/04/2016 22:38:40</entryDate>
+		<processDate>03/15/2016 15:27:13</processDate>
+		<contact>
+			<name>Zhen Williams</name>
+			<email>zrw321@gmail.com</email>
+			<phone>206-446-9558</phone>
+		</contact>
+		<competition teamName="">
+			<category>Drawing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Zhen</firstName>
+				<lastName>Williams</lastName>
+				<chineseName></chineseName>
+				<birthday>06/14/2000</birthday>
+				<email>katiado1014@gmail.com</email>
+				<academicSchool>Chief Sealth IHS</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>zhen.williams.06-14-2000</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

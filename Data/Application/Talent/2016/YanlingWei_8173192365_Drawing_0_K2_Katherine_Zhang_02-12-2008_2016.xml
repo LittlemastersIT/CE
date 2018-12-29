@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/17/2016 20:53:25</entryDate>
+		<processDate>03/20/2016 12:30:54</processDate>
+		<contact>
+			<name>Yanling Wei</name>
+			<email>weiling0856@gmail.com</email>
+			<phone>817-319-2365</phone>
+		</contact>
+		<competition teamName="">
+			<category>Drawing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Katherine</firstName>
+				<lastName>Zhang</lastName>
+				<chineseName></chineseName>
+				<birthday>02/12/2008</birthday>
+				<email>weiling0856@gmail.com</email>
+				<academicSchool>Discovery Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>katherine.zhang.02-12-2008</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>01/19/2016 18:45:07</entryDate>
+		<processDate>03/20/2016 13:11:53</processDate>
+		<contact>
+			<name>Yaqin Tao</name>
+			<email>yaqintao@gmail.com</email>
+			<phone>425-246-6778</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Eddie</firstName>
+				<lastName>Yin</lastName>
+				<chineseName>殷起舞</chineseName>
+				<birthday>05/16/2006</birthday>
+				<email>yaqintao@gmail.com</email>
+				<academicSchool>Sunset Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>eddie.yin.05-16-2006</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

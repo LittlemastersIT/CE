@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/25/2016 21:39:51</entryDate>
+		<processDate>03/12/2016 17:10:37</processDate>
+		<contact>
+			<name>yekaterina</name>
+			<email>elvira-ganieva@mail.ru</email>
+			<phone>509-859-3008</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamLanguage</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>yekaterina</firstName>
+				<lastName>Zhirnova</lastName>
+				<chineseName></chineseName>
+				<birthday>02/09/2002</birthday>
+				<email>elvira-ganieva@mail.ru</email>
+				<academicSchool>Denny IMS</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>yekaterina.zhirnova.02-09-2002</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

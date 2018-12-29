@@ -1,0 +1,559 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text;
+using System.Xml;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.Script.Serialization;
+using System.Xml.Serialization;
+using System.Runtime.Serialization.Json;
+using CE.Data;
+
+namespace CE.Pages
+{
+    public partial class TeamRegistrationPage : System.Web.UI.Page
+    {
+        private const int MAX_CONTESTANTS = 20;
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            Response.Redirect("TalentRegistration.aspx");
+            if (!IsPostBack)
+            {
+                bool initialized = false;
+
+                CompetitionCategoryList.DataTextField = "Key";
+                CompetitionCategoryList.DataValueField = "Value";
+                CompetitionDivisionList.DataTextField = "Key";
+                CompetitionDivisionList.DataValueField = "Value";
+                ContestantGradeList.DataTextField = "Key";
+                ContestantGradeList.DataValueField = "Value";
+                TalentShowSubCategory.Value = string.Empty;
+                TalentShowSubCategoryList.Value = string.Join(",", CompetitionControlData.TalentShowTypes.ToArray());
+
+                string payment = Request.QueryString["payment"];
+                string category = Request.QueryString["category"];
+                string team = Request.QueryString["team"];
+                if (payment == "1" || payment == "0") // payment cancel or went-through
+                {
+                    CECompetitionEntry competitionEntry = (CECompetitionEntry)Session[CEConstants.CE_PAYMENT_COOKIE_ID];
+                    if (competitionEntry != null)
+                    {
+                        initialized = true;
+                        CompetitionCategoryList.DataSource = CompetitionControlData.TeamCategories;
+                        CompetitionCategoryList.DataBind();
+                        CompetitionCategoryList.SelectedValue = category;
+                        OnCategorySelectionChanged(CompetitionCategoryList, null); // this will initialize division list
+
+                        ReloadCompetitionData(competitionEntry, false);
+
+                        if (payment == "1") // paypal successes
+                        {
+                            // we save the registration here in case the user forgot to click the completion button after Paypal returns
+                            competitionEntry.ExportRegistration(PaymentType.Paypal);
+                            SendConfirmationEmail(competitionEntry, false, false);
+                            ReloadCompetitionData(competitionEntry, true);
+
+                            // trigger the javascript function to go to the registration completion page
+                            ScriptManager.RegisterStartupScript(
+                                this,
+                                this.GetType(),
+                                "TalentRegistration",
+                                "paymentReceived();",
+                                true);
+
+                        }
+                        else if (payment == "0")// paypal cancelled or fails
+                        {
+                            CETalentApplciants.RemoveTalentApplicant(competitionEntry.ContestantFile);
+
+                            // trigger the javascript function to go to the payment page
+                            ScriptManager.RegisterStartupScript(
+                                this,
+                                this.GetType(),
+                                "TalentRegistration",
+                                "paymentCancel();",
+                                true);
+                        }
+                    }
+                }
+                else if (payment == "2" || payment== "3") // mailin or fee waived
+                {
+                    CECompetitionEntry competitionEntry = (CECompetitionEntry)Session[CEConstants.CE_FEEWAIVED_COOKIE_ID];
+                    if (competitionEntry != null)
+                    {
+                        initialized = true;
+
+                        CompetitionCategoryList.SelectedValue = competitionEntry.Contact.Category;
+                        OnCategorySelectionChanged(CompetitionCategoryList, null); // this will initialize division list
+
+                        ReloadCompetitionData(competitionEntry, true);
+
+                        Session[CEConstants.CE_FEEWAIVED_COOKIE_ID] = null;
+                    }
+                }
+
+                // disable payment buttons when the registration is closed for general users except for site admin
+                bool hasCookie = false;
+                string ceCookie = CEHelper.GetCookie(CEConstants.CE_ADMIN_COOKIE_ID, CEConstants.CE_ADMIN_COOKIE_NAME);
+                if (ceCookie == CEConstants.CE_ADMIN_COOKIE_VALUE) hasCookie = true;
+                string regisrationEndDate = CEHelper.GetConfiguration(CEConstants.REGISTRATION_ENDDATE_KEY, "01/01/2000");
+                
+                DateTime endDate;
+                if (DateTime.TryParse(regisrationEndDate, out endDate) == true)
+                {
+                    if (endDate < DateTime.Now && !hasCookie)
+                    {
+                        Response.Redirect(CEConstants.CE_TALENT_COMPETITION_PAGE);
+                        return;
+                    }
+                }
+
+                if (!initialized)
+                {
+                    Session[CEConstants.CE_PAYMENT_COOKIE_ID] = null;
+                    Session[CEConstants.CE_FEEWAIVED_COOKIE_ID] = null;
+                    List<CEContestant> contestants = new List<CEContestant>();
+                    for (int i = 0; i < MAX_CONTESTANTS; i++) contestants.Add(new CEContestant(i + 1)); // create 20 empty contestant rows
+                    ContestantList.DataSource = contestants;
+                    ContestantList.DataBind();
+
+                    CompetitionCategoryList.DataSource = CompetitionControlData.TeamCategories;
+                    CompetitionCategoryList.DataBind();
+                    CompetitionCategoryList.SelectedIndex = 0;
+                    OnCategorySelectionChanged(CompetitionCategoryList, null); // this will initialize division list
+                    //OnCategorySelectionChanged(this, null);
+
+                    ContestantGradeList.DataSource = CompetitionControlData.K12Grades;
+                    ContestantGradeList.DataBind();
+                    ContestantGradeList.SelectedIndex = 0;
+
+                    // if form data cookie presents, we initialize category/subcategory/class if they have values
+                    HttpCookie cookie = Request.Cookies[CEConstants.CE_TEAM_ENTRY_COOKIE_ID];
+                    if (cookie != null)
+                    {
+                        string savedForm = cookie.Value;
+                        savedForm = HttpUtility.UrlDecode(savedForm);
+                        JavaScriptSerializer jsonSerializer = new JavaScriptSerializer();
+                        IDictionary<string, object> savedFormJson = (IDictionary<string, object>)jsonSerializer.DeserializeObject(savedForm);
+                        object formDivision = CEHelper.GetSafeDictionary(savedFormJson, "division");
+                        object formCategory = CEHelper.GetSafeDictionary(savedFormJson, "category");
+                        TalentShowSubCategory.Value = CEHelper.GetSafeDictionary(savedFormJson, "subcategory", string.Empty).ToString();
+
+                        if (formCategory != null && !string.IsNullOrEmpty(formCategory.ToString()))
+                        {
+                            CompetitionCategoryList.SelectedValue = formCategory.ToString();
+                            //OnCategorySelectionChanged(null, null);
+                        }
+                        if (formDivision != null && !string.IsNullOrEmpty(formDivision.ToString()))
+                        {
+                            CompetitionDivisionList.SelectedValue = formDivision.ToString();
+                            //OnDivisionSelectionChanged(null, null);
+                        }
+                    }
+                }
+
+                string regisrationDate = CEHelper.GetConfiguration(CEConstants.REGISTRATION_DATE_KEY);
+                bool registrationStarted = false;
+                DateTime startDate;
+                if (DateTime.TryParse(regisrationDate, out startDate) == true) registrationStarted = startDate <= DateTime.Now;
+                if (registrationStarted || hasCookie)
+                {
+                    FeeWaiverButton.Enabled = true;
+                    PaypalPaymentButton.Enabled = true;
+                    DoneRegistration.Enabled = true;
+                    if (!hasCookie) RegistationStartFlag.Value = "1"; // admin can see all pages after application has closed
+                }
+                else
+                {
+                    Response.Redirect(CEConstants.CE_TALENT_COMPETITION_PAGE);
+                }
+            }
+        }
+
+        protected void OnCategorySelectionChanged(object sender, EventArgs e)
+        {
+            bool talentShowSelected = false;
+
+            // default to all division
+            CompetitionDivisionList.DataSource = CompetitionControlData.AllDivisions;
+            CompetitionDivisionList.DataBind();
+            MinimumContestantProxy.Value = "1";
+            MaximumContestantProxy.Value = "0";
+
+            if (CompetitionCategoryList.SelectedValue == CompetitionControlData.TEAM_KNOWLEGE_BOWL)
+            {
+                MinimumContestantProxy.Value = "4";
+                MaximumContestantProxy.Value = "6";
+                CompetitionDivisionList.DataSource = CompetitionControlData.HighSchoolDivisions;
+                CompetitionDivisionList.DataBind();
+                CompetitionDivisionList.SelectedIndex = 0;
+            }
+            else if (CompetitionCategoryList.SelectedValue == CompetitionControlData.TEAM_POETRY)
+            {
+                MinimumContestantProxy.Value = "4";
+                CompetitionDivisionList.SelectedIndex = 0;
+            }
+            else if (CompetitionCategoryList.SelectedValue == CompetitionControlData.POETRY) // individual poetry
+            {
+                CompetitionDivisionList.DataSource = CompetitionControlData.LowerElementaryDivisions;
+                CompetitionDivisionList.DataBind();
+                CompetitionDivisionList.SelectedIndex = 0;
+            }
+            else if (CompetitionCategoryList.SelectedValue == CompetitionControlData.STORY) // individual story telling
+            {
+                CompetitionDivisionList.DataSource = CompetitionControlData.UpperElementaryDivisions;
+                CompetitionDivisionList.DataBind();
+                CompetitionDivisionList.SelectedIndex = 0;
+            }
+            else if (CompetitionCategoryList.SelectedValue == CompetitionControlData.SPEECH) // individual public speech
+            {
+                CompetitionDivisionList.DataSource = CompetitionControlData.HighSchoolDivisions;
+                CompetitionDivisionList.DataBind();
+                CompetitionDivisionList.SelectedIndex = 0;
+            }
+            else if (CompetitionCategoryList.SelectedValue == CompetitionControlData.TEAM_TALENT) // talent show
+            {
+                talentShowSelected = true;
+            }
+
+            MinimumContestants.Text = MinimumContestantProxy.Value;
+
+            string birthday = Request.Form[ContestantBirthday.UniqueID];
+            if (!string.IsNullOrEmpty(birthday)) ContestantBirthday.Text = birthday;
+
+            RebindJqueryControls(talentShowSelected);
+        }
+
+        protected void OnDivisionSelectionChanged(object sender, EventArgs e)
+        {
+            // tighten up grade selection for the division
+            if (CompetitionDivisionList.SelectedValue == string.Empty)
+            {
+                SyncContestantGradeList(CompetitionControlData.ALL_GRADES);
+            }
+            else
+            {
+                SyncContestantGradeList(CompetitionDivisionList.SelectedValue);
+            }
+            ContestantGradeList.SelectedIndex = 0;
+
+            // check the team name duplication
+            if (!string.IsNullOrEmpty(TeamNameBox.Text.Trim()) && CompetitionCategoryList.SelectedIndex > 0 && CompetitionDivisionList.SelectedIndex > 0)
+            {
+                if (CETeams.TeamExist(TeamNameBox.Text.Trim(), CompetitionCategoryList.SelectedValue, CompetitionDivisionList.SelectedValue))
+                    ShowDuplicateTeamName();
+            }
+
+            string birthday = Request.Form[ContestantBirthday.UniqueID];
+            if (!string.IsNullOrEmpty(birthday)) ContestantBirthday.Text = birthday;
+
+            RebindJqueryControls(CompetitionCategoryList.SelectedValue == CompetitionControlData.TEAM_TALENT);
+        }
+
+        protected void OnPaypalPayment(object sender, EventArgs e)
+        {
+            //Paypal querystring parameters reference: http://www.paypalobjects.com/IntegrationCenter/ic_std-variable-ref-buy-now.html
+
+            string existedCategory;
+            CECompetitionEntry competitionEntry = PopulateCompetitionEntry();
+            if (CETeams.TeamExist(competitionEntry.Contact.TeamName, competitionEntry.Contact.Category, competitionEntry.Contact.Division))
+            {
+                ShowDuplicateTeamName();
+            }
+            else if (!CETalentApplciants.TalentApplicantExist(competitionEntry, out existedCategory))
+            {
+                CETeams.InsertTeam(competitionEntry.Contact.TeamName, competitionEntry.Contact.Category, competitionEntry.Contact.Division);
+                // save current input to session so that we can get them after Paypal returns
+                competitionEntry.PaymentMethod = PaymentType.Pending;
+                competitionEntry.PaymentAmount = double.Parse(RegistrationFee.Value); // set the amount when Paypal returns
+
+                // we save the registration here in case the user forgot to come back to CE site after paypal session
+                competitionEntry.ExportRegistration(PaymentType.Pending);
+
+                competitionEntry.PaymentMethod = PaymentType.Paypal;
+                Session[CEConstants.CE_PAYMENT_COOKIE_ID] = competitionEntry;
+                Session[CEConstants.CE_FEEWAIVED_COOKIE_ID] = null;
+
+                string responseUrlTemplate = "?payment={0}&team={1}&category={2}";
+                string category = CompetitionCategoryList.SelectedValue;
+
+                string redirecturl = CEHelper.GetConfiguration("PaypalUrl", CEConstants.PAYPAL_PAYMENT_URL);
+                redirecturl += "&business=" + CEHelper.GetConfiguration("PaypalBusiness", CEConstants.CE_PAYPAL_EMAIL);
+                redirecturl += "&item_name=Registration Fee";
+                redirecturl += "&item_number=" + competitionEntry.Contact.TeamName;
+                redirecturl += "&amount=" + RegistrationFee.Value;
+                redirecturl += "&quantity=1";
+                redirecturl += "&currency=USD";
+                redirecturl += "&return=" + HttpContext.Current.Server.UrlEncode(CEHelper.GetPageUrl() + string.Format(responseUrlTemplate, "1", "1", category));
+                redirecturl += "&cancel_return=" + HttpContext.Current.Server.UrlEncode(CEHelper.GetPageUrl() + string.Format(responseUrlTemplate, "0", "1", category));
+                Response.Redirect(redirecturl);
+            }
+            else
+            {
+                ShowDuplicateEntry();
+            }
+        }
+
+        protected void OnFeeWaiverPayment(object sender, EventArgs e)
+        {
+            string existedCategory;
+            CECompetitionEntry currentApplicant = PopulateCompetitionEntry();
+            if (CETeams.TeamExist(currentApplicant.Contact.TeamName, currentApplicant.Contact.Category, currentApplicant.Contact.Division))
+            {
+                ShowDuplicateTeamName();
+            }
+            else if (!CETalentApplciants.TalentApplicantExist(currentApplicant, out existedCategory))
+            {
+                CETeams.InsertTeam(currentApplicant.Contact.TeamName, currentApplicant.Contact.Category, currentApplicant.Contact.Division);
+                currentApplicant.PaymentMethod = PaymentType.FeeWaived;
+                Session[CEConstants.CE_PAYMENT_COOKIE_ID] = null;
+                Session[CEConstants.CE_FEEWAIVED_COOKIE_ID] = currentApplicant;
+                if (currentApplicant.ExportRegistration(PaymentType.FeeWaived) == true)
+                {
+                    SendConfirmationEmail(currentApplicant, true, true);
+                }
+            }
+            else
+            {
+                ShowDuplicateEntry();
+            }
+        }
+
+        protected void OnCompetitionRegistration(object sender, EventArgs e)
+        {
+            ScriptManager.RegisterStartupScript(
+                this,
+                this.GetType(),
+                "TalentRegistration",
+                "registrationCompleted();",
+                true);
+        }
+
+        private void SyncContestantGradeList(string grade)
+        {
+            if (ContestantGradeList.Items.Count <= 0) return;
+
+            int start = 1, end = ContestantGradeList.Items.Count - 1;
+            for (int i = start; i <= end; i++)
+            {
+                ContestantGradeList.Items[i].Enabled = false;
+            }
+
+            string range;
+            try
+            {
+                range = CompetitionControlData.GradeRange[grade];
+                if (!string.IsNullOrEmpty(range))
+                {
+                    string[] tokens = range.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+                    if (tokens.Length == 2)
+                    {
+                        Int32.TryParse(tokens[0], out start);
+                        Int32.TryParse(tokens[1], out end);
+                    }
+                }
+            }
+            catch
+            {
+                start = 1;
+                end = ContestantGradeList.Items.Count - 1;
+            }
+
+            for (int i = start; i <= end; i++)
+            {
+                ContestantGradeList.Items[i].Enabled = true;
+            }
+        }
+
+        private bool SendConfirmationEmail(CECompetitionEntry currentApplicant, bool redirect, bool showDialog)
+        {
+            bool emailSent = false;
+            EmailInfo emailInfo = CEHelper.GetEmailConfiguration("talent", currentApplicant.Status.ToString().ToLower());
+            if (emailInfo != null && !string.IsNullOrEmpty(emailInfo.Message))
+            {
+                string formattedCategory = CEHelper.FormatCategory(currentApplicant.Contact.Category, currentApplicant.Contact.SubCategory);
+                StringBuilder sb = new StringBuilder(emailInfo.Message);
+                sb.Replace("{%contact%}", currentApplicant.Contact.ContactName);
+                sb.Replace("{%type%}", "Team competition; Tam name = " + currentApplicant.Contact.TeamName);
+                sb.Replace("{%studentId%}", currentApplicant.Contact.TeamName);
+                sb.Replace("{%category%}", formattedCategory);
+                sb.Replace("{%division%}", currentApplicant.Contact.Division);
+                sb.Replace("{%class%}", string.IsNullOrEmpty(currentApplicant.Contact.Class) ? "n/a" : currentApplicant.Contact.Class);
+                sb.Replace("{%contestants%}", MakeCotestantString(currentApplicant.Contestants));
+                sb.Replace("{%payment%}", currentApplicant.PaymentMethod.ToString());
+                if (currentApplicant.PaymentMethod == PaymentType.Paypal)
+                    sb.Replace("{%amount%}", "$" + currentApplicant.PaymentAmount.ToString());
+                //else if (currentApplicant.PaymentMethod == PaymentType.MailIn)
+                //    sb.Replace("{%amount%}", "$" + RegistrationFee.Value.ToString() + " (to be paid by mail-in check)");
+                else
+                    sb.Replace("{%amount%}", "$0");
+                CEHelper.SendEmail(emailInfo.SmtpHost, emailInfo.SmtpPort, emailInfo.Sender, new string[] { currentApplicant.Contact.ContactEmail }, emailInfo.CCs, emailInfo.Subject, sb.ToString(), emailInfo.IsHtml, null);
+                emailSent = true;
+            }
+
+            if (emailSent && showDialog)
+            {
+                // uncomment out this line if the registration input is to be cleared
+                //Session[CEConstants.CE_PAYMENT_COOKIE_ID] = null; // done with registration
+
+                // trigger the javascript function to acknlowdge the completion of talent registration
+                if (!redirect)
+                {
+                    ScriptManager.RegisterStartupScript(
+                        this,
+                        this.GetType(),
+                        "TalentRegistration",
+                        "registrationSubmitted();",
+                        true);
+                }
+                else
+                {
+                    ScriptManager.RegisterStartupScript(
+                        this,
+                        this.GetType(),
+                        "TalentRegistration",
+                        "registrationCompleted();",
+                        true);
+                }
+            }
+
+            return emailSent;
+        }
+
+        private bool IsNoEntry(string firstName, string lastName, string birthday, string email, string school1, string school2, string lunchProgram)
+        {
+            return string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName) || string.IsNullOrEmpty(birthday);
+        }
+
+        private CECompetitionEntry PopulateCompetitionEntry()
+        {
+            CECompetitionEntry compeititonEntry = new CECompetitionEntry();
+
+            compeititonEntry.AddContact(ContactNameBox.Text.Trim(), ContactEmailBox.Text.Trim(), ContactPhoneBox.Text.Trim());
+
+            compeititonEntry.AddCompetition(CompetitionCategoryList.SelectedItem.Value, string.Empty, CompetitionDivisionList.SelectedItem.Value, TeamNameBox.Text.Trim(), TalentShowSubCategory.Value);
+
+            compeititonEntry.AddStatus(RegistrationStatus.Apply);
+
+            int row = 1;
+            foreach (RepeaterItem item in ContestantList.Items)
+            {
+                string lastName = string.Empty;
+                string firstName = string.Empty;
+                string chineseName = string.Empty;
+                string email = string.Empty;
+                string birthday = string.Empty;
+                string school1 = string.Empty;
+                string school2 = string.Empty;
+                string grade = string.Empty;
+                string lunchProgram = "No";
+                string id = string.Empty;
+
+                foreach (Control control in item.Controls)
+                {
+                    if (control is TextBox)
+                    {
+                        TextBox tb = (TextBox)control;
+                        switch (control.ID)
+                        {
+                            case "LastName": lastName = tb.Text; break;
+                            case "FirstName": firstName = tb.Text; break;
+                            case "ChineseName": chineseName = tb.Text; break;
+                            case "Email": email = tb.Text; break;
+                            case "Birthday": birthday = tb.Text; break;
+                            case "School1": school1 = tb.Text; break;
+                            case "School2": school2 = tb.Text; break;
+                            case "Grade": grade = tb.Text; break;
+                            case "LunchProgram": lunchProgram = tb.Text; break;
+                            case "ID": id = tb.Text; break;
+                        }
+                    }
+                    //else if (control is RadioButton)
+                    //{
+                    //    if (control.ID == "YesLunch" && ((RadioButton)control).Checked)
+                    //    {
+                    //        lunchProgram = "Yes";
+                    //    }
+                    //}
+                }
+
+                if (!IsNoEntry(firstName, lastName, birthday, email, school1, school2, lunchProgram))
+                {
+                    compeititonEntry.AddContestant(row, id, firstName, lastName, chineseName, birthday, email, school1, school2, grade, lunchProgram);
+                    row++;
+                }
+            }
+            return compeititonEntry;
+        }
+
+        private void ReloadCompetitionData(CECompetitionEntry competitionEntry, bool removeContestants)
+        {
+            if (competitionEntry != null)
+            {
+                if (competitionEntry.Contact != null)
+                {
+                    ContactNameBox.Text = competitionEntry.Contact.ContactName;
+                    ContactEmailBox.Text = competitionEntry.Contact.ContactEmail;
+                    ContactPhoneBox.Text = competitionEntry.Contact.ContactPhone;
+                    TeamNameBox.Text = competitionEntry.Contact.TeamName;
+                    CompetitionCategoryList.SelectedValue = competitionEntry.Contact.Category;
+                    CompetitionDivisionList.SelectedValue = competitionEntry.Contact.Division;
+                }
+
+                if (removeContestants) competitionEntry.Contestants.Clear();
+                List<CEContestant> contestants = new List<CEContestant>();
+                for (int i = 0; i < competitionEntry.Contestants.Count; i++) contestants.Add(competitionEntry.Contestants[i]);
+                for (int i = competitionEntry.Contestants.Count; i < MAX_CONTESTANTS; i++) contestants.Add(new CEContestant(i + 1)); // create 20 empty contestant rows
+                ContestantList.DataSource = contestants;
+                ContestantList.DataBind();
+            }
+        }
+
+        private string MakeCotestantString(List<CEContestant> contestants)
+        {
+            string entries = string.Empty;
+            foreach (CEContestant contestant in contestants)
+            {
+                if (string.IsNullOrEmpty(contestant.FirstName) && string.IsNullOrEmpty(contestant.LastName)) break;
+                if (!string.IsNullOrEmpty(entries)) entries += ", ";
+                entries += contestant.FirstName + " " + contestant.LastName;
+            }
+            return entries;
+        }
+
+        private void ShowDuplicateTeamName()
+        {
+            ScriptManager.RegisterStartupScript(
+                this,
+                this.GetType(),
+                "DuplicateTeamName",
+                "DuplicateTeamName();",
+                true);
+        }
+
+        private void ShowDuplicateEntry()
+        {
+            ScriptManager.RegisterStartupScript(
+                this,
+                this.GetType(),
+                "DuplicateRegistration",
+                "duplicatedRegistration();",
+                true);
+        }
+
+        private void RebindJqueryControls(bool talentShowSelected)
+        {
+            ScriptManager.RegisterStartupScript(
+                        this,
+                        this.GetType(),
+                        "RebindJqueryControls",
+                        "rebindJqueryControls(" + (talentShowSelected ? "1" : "0") + ");",
+                        true);
+        }
+    }
+
+}

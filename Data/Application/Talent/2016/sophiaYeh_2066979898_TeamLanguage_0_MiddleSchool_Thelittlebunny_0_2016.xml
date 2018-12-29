@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>10</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/26/2016 14:33:44</entryDate>
+		<processDate>03/20/2016 13:05:16</processDate>
+		<contact>
+			<name>sophia Yeh</name>
+			<email>sophiachenod@yahoo.com</email>
+			<phone>206-697-9898</phone>
+		</contact>
+		<competition teamName="Thelittlebunny">
+			<category>TeamLanguage</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Charlize</firstName>
+				<lastName>Yeh</lastName>
+				<chineseName></chineseName>
+				<birthday>08/08/2003</birthday>
+				<email>Sophiachenod@yahoo.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>charlize.yeh.08-08-2003</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Joshua</firstName>
+				<lastName>Yeh</lastName>
+				<chineseName></chineseName>
+				<birthday>02/11/2005</birthday>
+				<email>Sophiachenod@yahoo.com</email>
+				<academicSchool>Anna Bilingual School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>joshua.yeh.02-11-2005</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

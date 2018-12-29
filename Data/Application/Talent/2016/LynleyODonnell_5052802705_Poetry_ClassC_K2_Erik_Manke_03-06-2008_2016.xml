@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/28/2016 19:31:36</entryDate>
+		<processDate>03/12/2016 17:05:00</processDate>
+		<contact>
+			<name>Lynley O'Donnell</name>
+			<email>lynley@earthlink.net</email>
+			<phone>505-280-2705</phone>
+		</contact>
+		<competition teamName="">
+			<category>Poetry</category>
+			<subcategory></subcategory>
+			<class>ClassC</class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Erik</firstName>
+				<lastName>Manke</lastName>
+				<chineseName>Meng Ke</chineseName>
+				<birthday>03/06/2008</birthday>
+				<email>lynley@earthlink.net</email>
+				<academicSchool>Naselle-Gray Rivers School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>erik.manke.03-06-2008</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

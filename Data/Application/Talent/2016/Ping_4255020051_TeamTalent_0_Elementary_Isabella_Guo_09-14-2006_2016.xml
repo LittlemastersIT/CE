@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/19/2016 14:12:57</entryDate>
+		<processDate>03/12/2016 17:22:02</processDate>
+		<contact>
+			<name>Ping</name>
+			<email>v-piyin@microsoft.com</email>
+			<phone>425-503-0051</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamTalent</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Isabella</firstName>
+				<lastName>Guo</lastName>
+				<chineseName>Yuzhu Guo</chineseName>
+				<birthday>09/14/2006</birthday>
+				<email>v-piyin@microsoft.com</email>
+				<academicSchool>John James Audubon Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>isabella.guo.09-14-2006</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

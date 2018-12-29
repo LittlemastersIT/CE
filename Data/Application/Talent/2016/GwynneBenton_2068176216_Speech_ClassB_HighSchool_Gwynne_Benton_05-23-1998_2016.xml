@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>FeeWaived</paymentMethod>
+		<paymentAmount>0</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/04/2016 13:01:31</entryDate>
+		<processDate>03/12/2016 16:38:12</processDate>
+		<contact>
+			<name>Gwynne Benton</name>
+			<email>varjak21@gmail.com</email>
+			<phone>206-817-6216</phone>
+		</contact>
+		<competition teamName="">
+			<category>Speech</category>
+			<subcategory></subcategory>
+			<class>ClassB</class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Gwynne</firstName>
+				<lastName>Benton</lastName>
+				<chineseName></chineseName>
+				<birthday>05/23/1998</birthday>
+				<email>varjak21@gmail.com</email>
+				<academicSchool>Chief Sealth International High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>12</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>gwynne.benton.05-23-1998</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

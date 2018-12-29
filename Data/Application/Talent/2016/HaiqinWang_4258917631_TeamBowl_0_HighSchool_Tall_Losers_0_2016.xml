@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>20</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/29/2016 15:42:41</entryDate>
+		<processDate>03/20/2016 11:44:48</processDate>
+		<contact>
+			<name>Haiqin Wang</name>
+			<email>haiqin.wang001@gmail.com</email>
+			<phone>425-891-7631</phone>
+		</contact>
+		<competition teamName="Tall_Losers">
+			<category>TeamBowl</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>David</firstName>
+				<lastName>Wang</lastName>
+				<chineseName>王达维</chineseName>
+				<birthday>04/02/2001</birthday>
+				<email>david.m.wang@gmail.com</email>
+				<academicSchool>Tesla STEM High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>david.wang.04-02-2001</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Ethan</firstName>
+				<lastName>Ma</lastName>
+				<chineseName>马逸申</chineseName>
+				<birthday>09/25/2000</birthday>
+				<email>Ethanma@gmail.com</email>
+				<academicSchool>Tesla STEM High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>ethan.ma.09-25-2000</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Osbert</firstName>
+				<lastName>Lee</lastName>
+				<chineseName></chineseName>
+				<birthday>05/29/2001</birthday>
+				<email>Osbert.Lee629@gmail.com</email>
+				<academicSchool>Tesla STEM High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>osbert.lee.05-29-2001</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Jevin</firstName>
+				<lastName>Gu</lastName>
+				<chineseName></chineseName>
+				<birthday>09/10/2000</birthday>
+				<email>Gu.jevin@gmail.com</email>
+				<academicSchool>Tesla STEM High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jevin.gu.09-10-2000</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>FeeWaived</paymentMethod>
+		<paymentAmount>0</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/29/2016 10:53:50</entryDate>
+		<processDate>03/20/2016 13:08:59</processDate>
+		<contact>
+			<name>Toni Fest</name>
+			<email>sgtgmom@gmail.com</email>
+			<phone>360-465-2393</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Lilliana</firstName>
+				<lastName>Fest</lastName>
+				<chineseName>mei xin</chineseName>
+				<birthday>07/07/2008</birthday>
+				<email>sgtgmom@gmail.com</email>
+				<academicSchool>Naselle-Gray Rivers School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>2</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>lilliana.fest.07-07-2008</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

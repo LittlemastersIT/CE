@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <users>
+    <user name="benchao" displayName="Ben" password="Bellevue2014" role="talent" expired="false" since="1/1/2014" />
+    <user name="iriswang" displayName="Iris" password="12345678" role="talent" expired="false" since="1/1/2014" />
+    <user name="justinelee" displayName="Justine" password="12345678" role="talent" expired="false" since="1/1/2014" />
+    <user name="joycewang" displayName="Joyce" password="12345678" role="talent" expired="false" since="1/1/2014" />
+    <user name="ireneyang" displayName="Irene" password="12345678" role="talent" expired="false" since="1/1/2014" />
+    <user name="sonialee" displayName="Sonia" password="Bellevue2014" role="talent" expired="false" since="10/26/2013" />
+    <user name="susanyen" displayName="Susan" password="Bellevue2014" role="tour" expired="true" since="01/01/2014" />
+    <user name="trfu" displayName="T.R." password="Bellevue2014" role="tour" expired="false" since="09/16/2013" />
+    <user name="roberttung" displayName="Robert" password="Bellevue2014" role="tour" expired="false" since="09/16/2013" />
+    <user name="nancywebster" displayName="Nancy" password="Bellevue2014" role="tour" expired="true" since="01/25/2014" />
+    <user name="jjlee" displayName="J.J." password="Bellevue2014" role="tour" expired="true" since="01/25/2014" />
+    <user name="anthonychen" displayName="Anthony" password="Bellevue2014" role="admin" expired="false" since="09/16/2013" />
+    <user name="kathychen" displayName="Kathy" password="Bellevue2014" role="admin,talent" expired="false" since="09/16/2013" />
+    <user name="sandyteng" displayName="Sandy" password="Bellevue2014" role="admin,talent,tour" expired="false" since="09/16/2013" />
+    <user name="yvettelee" displayName="Yvette" password="Bellevue2015" role="admin" expired="false" since="09/16/2013" />
+    <user name="jimmyjou" displayName="Jimmy" password="Bellevue2014" role="admin" expired="false" since="09/16/2013" />
+    <user name="bSheeAnderson" displayName="Bridget" password="CETour2015" role="tour" expired="false" since="09/16/2013" />
+    <user name="pollyanna" displayName="Bridget" password="Bellevue2015" role="tour" expired="false" since="03/06/2015" />
+  </users>
+</ce>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <page>
+    <articles>
+      <article title="CE Luncheon Fundraising">
+        <paragraph indent="false">
+          <text>
+            <![CDATA[
+                 <br/><b>Dear friends:</b>
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph indent="false">
+          <text>
+            <![CDATA[
+                Thank you for supporting Cultural Exploration of Greater China Foundation! We are glad to report that our 2013 activities are progressing well!
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph indent="true">
+          <item>
+            <![CDATA[
+            The Chinese Language and Talent Competition in March was a sounding suc­cess. Over 480 students from 110 schools across Washington State 
+            participated in this event. Superintendent Dorn attended the award ceremony praising this out­standing community effort supporting education and 
+            cultural exchange.<br/><br/>
+            ]]>
+          </item>
+          <item>
+            Cultural  Exploration Tour. They are scheduled to visit an experimental school in Shanghai, a school for under-privileged students in Beijing as well as
+            a vocational high school in Taipei. They will experience the daily lives in Beijing, Shanghai and Taipei with many host families in these modern cities.
+          </item>
+        </paragraph>
+        <paragraph indent="false">
+          <text>
+            <![CDATA[
+              These worthy cultural exploration activities are made possible because of your gener­ous support. We cannot wait to share these accomplishments with you.  
+              Please mark your calendar for Sunday, September 29th to attend this annual Friendship Luncheon Fundraiser. Our Cultural Exploration volunteers will follow 
+              up with you in the next few weeks. In the meantime, have a wonderful summer!
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph indent="false">
+          <text>
+            <![CDATA[
+              <br/>
+              <b>Cultural Exploration of Greater China Foundation<br/>
+              Friendship Luncheon Committee</b>
+            ]]>
+          </text>
+        </paragraph>
+      </article>
+    </articles>
+    <sideBar>
+      <barTiles header="Related Images">
+        <barTile caption="Join us for a fabulous lunch!" imageUrl="/Images/resources/luncheon.jpg" linkUrl="/Public/Articles/cearticle.aspx?theme=green&amp;tag=luncheon&amp;path=/Resources/Fundraising&amp;content=luncheon_9_29_13.xml&amp;page=luncheon_9_29_13.html" captionPosition="bottom" />
+      </barTiles>
+    </sideBar>
+  </page>
+</ce>

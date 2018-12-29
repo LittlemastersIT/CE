@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>10</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>01/23/2016 11:11:32</entryDate>
+		<processDate>03/12/2016 17:51:39</processDate>
+		<contact>
+			<name>Eric Wu</name>
+			<email>TheRainyAsian@hotmail.com</email>
+			<phone>425-313-5073</phone>
+		</contact>
+		<competition teamName="TyeeAlumni">
+			<category>TeamLanguage</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Eric</firstName>
+				<lastName>Wu</lastName>
+				<chineseName>吴聪睿</chineseName>
+				<birthday>05/09/2001</birthday>
+				<email>TheRainyAsian@hotmail.com</email>
+				<academicSchool>Interlake High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>eric.wu.05-09-2001</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Casey</firstName>
+				<lastName>Lin</lastName>
+				<chineseName>林楷杰</chineseName>
+				<birthday>07/10/2001</birthday>
+				<email>maxcaseylin@hotmail.com</email>
+				<academicSchool>Interlake High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>casey.lin.07-10-2001</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Pending</paymentMethod>
+		<paymentAmount>0</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/29/2016 22:23:48</entryDate>
+		<processDate>03/14/2016 23:04:56</processDate>
+		<contact>
+			<name>Monica Chan</name>
+			<email>monicac.5@hotmail.com</email>
+			<phone>425-204-0583</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamTalent</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Monica</firstName>
+				<lastName>Chan</lastName>
+				<chineseName></chineseName>
+				<birthday>07/23/2001</birthday>
+				<email>monicac.5@hotmail.com</email>
+				<academicSchool>Newport High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>monica.chan.07-23-2001</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

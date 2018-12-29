@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/16/2016 09:49:14</entryDate>
+		<processDate>03/20/2016 12:09:09</processDate>
+		<contact>
+			<name>P.M.</name>
+			<email>pmkam@hotmail.com.hk</email>
+			<phone>425-623-6650</phone>
+		</contact>
+		<competition teamName="">
+			<category>Story</category>
+			<subcategory></subcategory>
+			<class>ClassA</class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Angelina</firstName>
+				<lastName>Kam</lastName>
+				<chineseName>甘一然</chineseName>
+				<birthday>12/15/2006</birthday>
+				<email>pmkam@hotmail.com.hk</email>
+				<academicSchool>Medina School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>angelina.kam.12-15-2006</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

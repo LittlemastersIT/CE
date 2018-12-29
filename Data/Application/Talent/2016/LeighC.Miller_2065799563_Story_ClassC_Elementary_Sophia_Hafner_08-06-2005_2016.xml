@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/08/2016 13:34:39</entryDate>
+		<processDate>03/12/2016 17:46:44</processDate>
+		<contact>
+			<name>Leigh C. Miller</name>
+			<email>miller.leigh@gmail.com</email>
+			<phone>206-579-9563</phone>
+		</contact>
+		<competition teamName="">
+			<category>Story</category>
+			<subcategory></subcategory>
+			<class>ClassC</class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Sophia</firstName>
+				<lastName>Hafner</lastName>
+				<chineseName></chineseName>
+				<birthday>08/06/2005</birthday>
+				<email>miller.leigh@gmail.com</email>
+				<academicSchool>St. Anthony School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sophia.hafner.08-06-2005</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber>paypal</checkNumber>
+		<status>Approved</status>
+		<entryDate>02/22/2016 11:11:15</entryDate>
+		<processDate>03/20/2016 12:06:05</processDate>
+		<contact>
+			<name>Tasha Mok</name>
+			<email>tasha_mok@outlook.com</email>
+			<phone>425-435-1413</phone>
+		</contact>
+		<competition teamName="">
+			<category>Speech</category>
+			<subcategory></subcategory>
+			<class>ClassC</class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Tasha</firstName>
+				<lastName>Mok</lastName>
+				<chineseName></chineseName>
+				<birthday>07/12/1999</birthday>
+				<email>tasha_mok@outlook.com</email>
+				<academicSchool>Skyline High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>11</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>tasha.mok.07-12-1999</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

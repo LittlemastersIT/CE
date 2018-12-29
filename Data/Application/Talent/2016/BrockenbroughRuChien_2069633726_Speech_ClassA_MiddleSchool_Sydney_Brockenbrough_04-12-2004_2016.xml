@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>FirstPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/01/2016 12:01:51</entryDate>
+		<processDate>03/20/2016 11:47:17</processDate>
+		<contact>
+			<name>Brockenbrough Ru-Chien</name>
+			<email>rchi@u.washington.edu</email>
+			<phone>206-963-3726</phone>
+		</contact>
+		<competition teamName="">
+			<category>Speech</category>
+			<subcategory></subcategory>
+			<class>ClassA</class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Sydney</firstName>
+				<lastName>Brockenbrough</lastName>
+				<chineseName>紀琳</chineseName>
+				<birthday>04/12/2004</birthday>
+				<email>rchi@u.washington.edu</email>
+				<academicSchool>St. Anthony School</academicSchool>
+				<extracurricularSchool>Tzu Chi Academy</extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sydney.brockenbrough.04-12-2004</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

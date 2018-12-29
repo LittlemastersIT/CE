@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <users>
+    <user name="sonialee" displayName="Sonia" password="Bellevue2014" role="talent" expired="false" since="10/26/2013" />
+    <user name="trfu" displayName="T.R." password="Bellevue2014" role="tour" expired="false" since="09/16/2013" />
+    <user name="roberttung" displayName="Robert" password="Bellevue2014" role="tour" expired="false" since="09/16/2013" />
+    <user name="nancywebster" displayName="Nancy" password="Bellevue2014" role="user" expired="false" since="01/25/2013" />
+    <user name="jjlee" displayName="J.J." password="Bellevue2014" role="user" expired="false" since="01/25/2013" />
+    <user name="anthonychen" displayName="Anthony" password="Bellevue2014" role="user" expired="false" since="09/16/2013" />
+    <user name="kathychen" displayName="Kathy" password="Bellevue2014" role="talent" expired="false" since="09/16/2013" />
+    <user name="sandyteng" displayName="Sandy" password="Bellevue2014" role="tour,talent" expired="false" since="09/16/2013" />
+    <user name="yvettelee" displayName="Yvette" password="Bellevue2014" role="admin" expired="false" since="09/16/2013" />
+    <user name="jimmyjou" displayName="Jimmy" password="Bellevue2014" role="admin,tour" expired="false" since="09/16/2013" />
+    <user name="jeffreyjou" displayName="Jeffrey" password="Bellevue2014" role="admin" expired="false" since="09/16/2013" />
+    <user name="jcubictech" displayName="JcubicTech" password="Bellevue2014" role="admin" expired="false" since="09/16/2013" />
+    <user name="jcubic" displayName="Jcubic" password="Bellevue2014" role="admin" expired="false" since="09/16/2013" />
+    <user name="jcubictech@hotmail.com" displayName="Jimmy Hotmail" password="Redmond2014" role="user" expired="false" since="09/16/2013" />
+    <user name="jcubic@comcast.net" displayName="Jimmy Cable" password="Redmond2014" role="user" expired="false" since="09/16/2013" />
+    <user name="benchao" displayName="Ben" password="Bellevue2014" role="talent" expired="false" since="01/01/2014" />
+    <user name="bSheeAnderson" displayName="Bridget" password="CETour2015" role="tour" expired="false" since="09/16/2013" />
+    <user name="pollyanna" displayName="Pollyanna" password="Bellevue2015" role="tour" expired="false" since="03/05/2015" />
+  </users>
+</ce>

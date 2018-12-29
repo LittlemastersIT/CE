@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/28/2016 22:00:26</entryDate>
+		<processDate>03/12/2016 17:04:20</processDate>
+		<contact>
+			<name>Yuxin Chen</name>
+			<email>yuxinchen2000@gmail.com</email>
+			<phone>425-985-9310</phone>
+		</contact>
+		<competition teamName="">
+			<category>Drawing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Ashley</firstName>
+				<lastName>Chen</lastName>
+				<chineseName>陈佳荃</chineseName>
+				<birthday>08/11/2009</birthday>
+				<email>yuxinchen2000@gmail.com</email>
+				<academicSchool>Discovery Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>ashley.chen.08-11-2009</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

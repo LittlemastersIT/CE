@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>FeeWaived</paymentMethod>
+		<paymentAmount>0</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/04/2016 12:59:36</entryDate>
+		<processDate>03/12/2016 16:38:20</processDate>
+		<contact>
+			<name>Nollen Paltep</name>
+			<email>nolpal451208@gmail.com</email>
+			<phone>206-856-4623</phone>
+		</contact>
+		<competition teamName="">
+			<category>Chess</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Nollen</firstName>
+				<lastName>Paltep</lastName>
+				<chineseName></chineseName>
+				<birthday>10/03/2001</birthday>
+				<email>nolpal451208@gmail.com</email>
+				<academicSchool>Chief Sealth International High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>nollen.paltep.10-03-2001</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

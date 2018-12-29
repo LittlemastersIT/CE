@@ -1,0 +1,36 @@
+<div class="samplearea">
+<style type="text/css">table.tableizer-table{border:1px solid #ccc;font-family:Arial,Helvetica,sans-serif;font-size:12px}.tableizer-table td{padding:4px;margin:3px;border:1px solid #ccc}.tableizer-table th{background-color:#104e8b;color:#fff;font-weight:bold}</style>
+<table class="tableizer-table">
+<tr class="tableizer-firstrow"><th>First Name</th><th>School</th><th>School Address</th><th>Second Award</th><th>Second Topic</th><th>Team Name</th></tr>
+<tr><td>Claire</td><td>Alcott Elementary School</td><td>4213 228th Ave. NE,Redmond,WA 98053</td><td>Third Place &#31532;&#19977;&#21517;</td><td>Talent Show &#25165;&#34269;&#31478;&#36093;</td><td>XiaoMing</td></tr>
+<tr><td>Allen</td><td>Alcott Elementary School</td><td>4213 228th Ave. NE,Redmond,WA 98053</td><td>First Place &#31532;&#19968;&#21517;</td><td>Group Poetry Recitation &#22242;&#20307;&#35799;&#27468;&#26391;&#35829;</td><td>Wenxin Chinese Team 10</td></tr>
+<tr><td>Isabella</td><td>Bellevue Children's Academy</td><td>14600 NE 24th St Bellevue, WA 98007</td><td>Third Place &#31532;&#19977;&#21517;</td><td>Group Poetry Recitation &#22242;&#20307;&#35799;&#27468;&#26391;&#35829;</td><td>XiChengHuaYi</td></tr>
+<tr><td>Mingda</td><td>Bellevue High School</td><td>10416 SE Wolverine Way Bellevue, WA 98004</td><td>Second Place &#31532;&#20108;&#21517;</td><td>Drawing &#32362;&#30059;&#27604;&#36093;</td><td>&nbsp;</td></tr>
+<tr><td>Kaitlyn</td><td>Ben Rush Elementary School</td><td>6101 152nd Ave NE,Redmond,WA 98052</td><td>Third Place &#31532;&#19977;&#21517;</td><td>Chinese Singing &#27468;&#21809;&#27604;&#36187;</td><td>QianHua</td></tr>
+<tr><td>Jennifer</td><td>Ben Rush Elementary School</td><td>6101 152nd Ave NE,Redmond,WA 98052</td><td>Third Place &#31532;&#19977;&#21517;</td><td>Group Poetry Recitation &#22242;&#20307;&#35799;&#27468;&#26391;&#35829;</td><td>&nbsp;</td></tr>
+<tr><td>Albert</td><td>Cascade Ridge Elementary</td><td>2020 Trossachs Blvd SE Sammamish, WA 98075</td><td>First Place &#31532;&#19968;&#21517;</td><td>Drawing &#32362;&#30059;&#27604;&#36093;</td><td>&nbsp;</td></tr>
+<tr><td>Maggie</td><td>Cedar Crest Academy</td><td>10406 NE 37th Cir Kirkland, WA 98033</td><td>Honorable Mention</td><td>Individual Poetry Recitation&#20491;&#20154;&#35433;&#35422;&#26391;&#35494;</td><td>&nbsp;</td></tr>
+<tr><td>Eric</td><td>Chief Sealth International High School</td><td>2600 SW Thistle St,Seattle,WA 98126</td><td>First Place &#31532;&#19968;&#21517;</td><td>Group Poetry Recitation &#22242;&#20307;&#35799;&#27468;&#26391;&#35829;</td><td>Chief Sealth Chinese 6</td></tr>
+<tr><td>Jiayi (Gary)</td><td>Chinook Middle School</td><td>11650 SE 60th St Bellevue, WA 98006</td><td>First Place &#31532;&#19968;&#21517;</td><td>Group Poetry Recitation &#22242;&#20307;&#35799;&#27468;&#26391;&#35829;</td><td>Thunder</td></tr>
+<tr><td>Sklyar</td><td>Creekside Elementary</td><td>2077 SE 16th Street,Sammamish,WA 98075</td><td>Second Place &#31532;&#20108;&#21517;</td><td>Talent Show &#25165;&#34269;&#31478;&#36093;</td><td>Wahaha</td></tr>
+<tr><td>Bruce</td><td>Creekside Elementary School</td><td>2077 SE 16th Street,Sammamish,WA 98075</td><td>First Place &#31532;&#19968;&#21517;</td><td>Group Poetry Recitation &#22242;&#20307;&#35799;&#27468;&#26391;&#35829;</td><td>Wenxin Chinese Team 3</td></tr>
+<tr><td>Julie</td><td>Eton School</td><td>2701 Bellevue-Redmond Rd,Bellevue,WA 98008</td><td>First Place &#31532;&#19968;&#21517;</td><td>Drawing &#32362;&#30059;&#27604;&#36093;</td><td>&nbsp;</td></tr>
+<tr><td>Raymond</td><td>Grand Ridge Elementrary School</td><td>1739 NE Park Drive,Issaquah,WA 98029</td><td>Third Place &#31532;&#19977;&#21517;</td><td>Drawing &#32362;&#30059;&#27604;&#36093;</td><td>&nbsp;</td></tr>
+<tr><td>Nuoyan</td><td>Grand Ridge Elementrary School</td><td>1739 NE Park Drive,Issaquah,WA 98029</td><td>Second Place &#31532;&#20108;&#21517;</td><td>Talent Show &#25165;&#34269;&#31478;&#36093;</td><td>Wahaha</td></tr>
+<tr><td>YuFan</td><td>Michael T. Simmons Elementary School</td><td>1205 S 2nd Ave SW Tumwater, WA 98512</td><td>Second Place &#31532;&#20108;&#21517;</td><td>Group Poetry Recitation &#22242;&#20307;&#35799;&#27468;&#26391;&#35829;</td><td>QingChunDui</td></tr>
+<tr><td>Sarah</td><td>Newport High School</td><td>4333 Factoria Blvd SE Bellevue, WA 98006</td><td>Third Place &#31532;&#19977;&#21517;</td><td>China Knowledge Bowl &#20013;&#22283;&#24120;&#35672;&#25654;&#31572;</td><td>Lanmei (Blueberry)</td></tr>
+<tr><td>Sonia</td><td>Newport High School</td><td>4333 Factoria Blvd SE Bellevue, WA 98006</td><td>Third Place &#31532;&#19977;&#21517;</td><td>China Knowledge Bowl &#20013;&#22283;&#24120;&#35672;&#25654;&#31572;</td><td>Lanmei (Blueberry)</td></tr>
+<tr><td>Hanna</td><td>Sacred Heart</td><td>50 Northeast 14th Street,Bellevue,WA 98004</td><td>Second Place &#31532;&#20108;&#21517;</td><td>Talent Show &#25165;&#34269;&#31478;&#36093;</td><td>Wahaha</td></tr>
+<tr><td>Amanda</td><td>Samantha Smith Elementary School</td><td>23305 NE 14th St Sammamish, WA 98074</td><td>Second Place &#31532;&#20108;&#21517;</td><td>Talent Show &#25165;&#34269;&#31478;&#36093;</td><td>Wahaha</td></tr>
+<tr><td>Jiahui</td><td>Sammamish High School</td><td>100 140th Ave SE Bellevue, WA 98005</td><td>Second Place &#31532;&#20108;&#21517;</td><td>Chinese Chess &#20013;&#22283;&#35937;&#26827;</td><td>&nbsp;</td></tr>
+<tr><td>Youyi</td><td>SnoSprings School</td><td>25237 S.E. Issaquah-Fall City Road, Issaquah, WA 98029</td><td>Third Place &#31532;&#19977;&#21517;</td><td>Chinese Singing &#27468;&#21809;&#27604;&#36187;</td><td>Kong Cheng JI</td></tr>
+<tr><td>Joy</td><td>Spiritridge Elementary School</td><td>&nbsp;</td><td>First Place &#31532;&#19968;&#21517;</td><td>Chinese Singing &#27468;&#21809;&#27604;&#36187;</td><td>Ding Ding Dang Dang</td></tr>
+<tr><td>Laurent</td><td>Spiritridge Elementary School</td><td>16401 SE 24th St,Bellevue,WA 98008</td><td>Third Place &#31532;&#19977;&#21517;</td><td>Group Poetry Recitation &#22242;&#20307;&#35799;&#27468;&#26391;&#35829;</td><td>XiChengHuaYi</td></tr>
+<tr><td>Kailee</td><td>Spiritridge Elementary School</td><td>16401 SE 24th St,Bellevue,WA 98008</td><td>Third Place &#31532;&#19977;&#21517;</td><td>Group Poetry Recitation &#22242;&#20307;&#35799;&#27468;&#26391;&#35829;</td><td>Wenxin Chinese Team 9</td></tr>
+<tr><td>Feiyu</td><td>Sunny Hills Elementary</td><td>200 Issaquah-Pine Lake Road SE,Sammamish,WA 98075</td><td>First Place &#31532;&#19968;&#21517;</td><td>Group Poetry Recitation &#22242;&#20307;&#35799;&#27468;&#26391;&#35829;</td><td>Wahaha</td></tr>
+<tr><td>Jocelyn</td><td>Tyee Middle School</td><td>11656 SE 60th. Bellevue, WA 98006</td><td>Second Place &#31532;&#20108;&#21517;</td><td>Chinese Singing &#27468;&#21809;&#27604;&#36187;</td><td>Rambumtious Turtles</td></tr>
+<tr><td>Janet</td><td>Tyee Middle School</td><td>11651 SE 60th. Bellevue, WA 98006</td><td>Second Place &#31532;&#20108;&#21517;</td><td>Chinese Singing &#27468;&#21809;&#27604;&#36187;</td><td>Rambumtious Turtles</td></tr>
+<tr><td>Michelle</td><td>Olympia High School</td><td>1302 North Street SE Olympia, WA 98501</td><td>"Second Place &#31532;&#20108;&#21517;</td></tr>
+<tr><td>"</td><td>Group Poetry Recitation &#22242;&#20307;&#35799;&#27468;&#26391;&#35829;</td><td>QingChunDui</td></tr>
+</table>
+</div>

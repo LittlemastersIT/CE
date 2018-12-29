@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>FeeWaived</paymentMethod>
+		<paymentAmount>0</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/26/2016 13:23:33</entryDate>
+		<processDate>03/12/2016 17:10:08</processDate>
+		<contact>
+			<name>Katie</name>
+			<email>Kylin@seattleschool.org</email>
+			<phone>206-290-7431</phone>
+		</contact>
+		<competition teamName="">
+			<category>Speech</category>
+			<subcategory></subcategory>
+			<class>ClassC</class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Monita</firstName>
+				<lastName>Meng</lastName>
+				<chineseName></chineseName>
+				<birthday>08/27/2003</birthday>
+				<email>monitaeng@gmail.com</email>
+				<academicSchool>Denny International Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>Yes</lunchProgram>
+				<studentId>monita.meng.08-27-2003</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

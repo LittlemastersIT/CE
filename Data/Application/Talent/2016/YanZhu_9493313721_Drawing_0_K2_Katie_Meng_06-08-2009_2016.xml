@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber>paypal</checkNumber>
+		<status>Approved</status>
+		<entryDate>02/17/2016 11:40:28</entryDate>
+		<processDate>03/12/2016 17:28:58</processDate>
+		<contact>
+			<name>Yan Zhu</name>
+			<email>julyan_2001@hotmail.com</email>
+			<phone>949-331-3721</phone>
+		</contact>
+		<competition teamName="">
+			<category>Drawing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Katie</firstName>
+				<lastName>Meng</lastName>
+				<chineseName></chineseName>
+				<birthday>06/08/2009</birthday>
+				<email>julyan_2001@hotmail.com</email>
+				<academicSchool>Bellevue Children&#39;s Academy</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>katie.meng.06-08-2009</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

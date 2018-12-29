@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/05/2016 22:59:21</entryDate>
+		<processDate>03/20/2016 12:11:18</processDate>
+		<contact>
+			<name>Kit Junya</name>
+			<email>kitjunya@gmail.com</email>
+			<phone>425-243-2020</phone>
+		</contact>
+		<competition teamName="">
+			<category>Story</category>
+			<subcategory></subcategory>
+			<class>ClassB</class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Akira</firstName>
+				<lastName>Junya</lastName>
+				<chineseName></chineseName>
+				<birthday>03/11/2005</birthday>
+				<email>akirajunya@gmail.com</email>
+				<academicSchool>Somerset Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>akira.junya.03-11-2005</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

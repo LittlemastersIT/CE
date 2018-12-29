@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>25</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/02/2016 17:43:49</entryDate>
+		<processDate>03/12/2016 16:44:50</processDate>
+		<contact>
+			<name>Irene Yang</name>
+			<email>iyang@universityprep.org</email>
+			<phone>425-246-6093</phone>
+		</contact>
+		<competition teamName="TeamMasterMinds">
+			<category>TeamBowl</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Michael</firstName>
+				<lastName>Ollee</lastName>
+				<chineseName>欧虎克</chineseName>
+				<birthday>10/01/1997</birthday>
+				<email>mollee@universityprep.org</email>
+				<academicSchool>University Prep</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>12</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>michael.ollee.10-01-1997</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Justin</firstName>
+				<lastName>Ting</lastName>
+				<chineseName>丁宽人</chineseName>
+				<birthday>03/26/1998</birthday>
+				<email>jting@universityprep.org</email>
+				<academicSchool>University Prep</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>12</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>justin.ting.03-26-1998</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Hyunrae</firstName>
+				<lastName>Kim</lastName>
+				<chineseName>金知玄</chineseName>
+				<birthday>09/19/1997</birthday>
+				<email>hkim@universityprep.org</email>
+				<academicSchool>University Prep</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>12</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>hyunrae.kim.09-19-1997</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Jack</firstName>
+				<lastName>Schubert</lastName>
+				<chineseName>舒文智</chineseName>
+				<birthday>10/16/1998</birthday>
+				<email>jschubert@universityprep.org</email>
+				<academicSchool>University Prep</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>11</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jack.schubert.10-16-1998</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Anthony</firstName>
+				<lastName>Michelman</lastName>
+				<chineseName>爱瑞儿</chineseName>
+				<birthday>12/09/2000</birthday>
+				<email>amichelman@universityprep.org</email>
+				<academicSchool>University Prep</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>9</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>anthony.michelman.12-09-2000</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

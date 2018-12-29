@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/17/2016 18:47:01</entryDate>
+		<processDate>03/20/2016 12:03:04</processDate>
+		<contact>
+			<name>Yi  Taing</name>
+			<email>yeetaingaca@yahoo.com</email>
+			<phone>206-763-1476</phone>
+		</contact>
+		<competition teamName="">
+			<category>Speech</category>
+			<subcategory></subcategory>
+			<class>ClassB</class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Aaron</firstName>
+				<lastName>Burnham</lastName>
+				<chineseName></chineseName>
+				<birthday>12/24/2002</birthday>
+				<email>yeetaingaca@yahoo.com</email>
+				<academicSchool>Denny IMS</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>aaron.burnham.12-24-2002</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/01/2016 13:54:33</entryDate>
+		<processDate>03/12/2016 16:57:00</processDate>
+		<contact>
+			<name>Angela Delahoz</name>
+			<email>angeladelahoz@gmail.com</email>
+			<phone>425-644-2116</phone>
+		</contact>
+		<competition teamName="">
+			<category>Story</category>
+			<subcategory></subcategory>
+			<class>ClassC</class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Samantha</firstName>
+				<lastName>Yeates-Delahoz</lastName>
+				<chineseName></chineseName>
+				<birthday>01/25/2005</birthday>
+				<email>angeladelahoz@gmail.com</email>
+				<academicSchool>Eastgate Elementary School</academicSchool>
+				<extracurricularSchool>Private tutoring</extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>samantha.yeates-delahoz.01-25-2005</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <registration>
+    <contact>
+      <name></name>
+      <email></email>
+      <phone></phone>
+    </contact>
+    <competition teamName="">
+      <category></category>
+      <class></class>
+      <division></division>
+    </competition>
+    <contestants>
+      <constestant>  
+        <firstName></firstName>
+        <lastName></lastName>
+        <birthday></birthday>
+        <email></email>
+        <academicSchool></academicSchool>
+        <extracurricularSchool></extracurricularSchool>
+      </constestant>
+    </contestants>
+  </registration>
+</ce>

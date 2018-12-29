@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>40</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/29/2016 18:27:54</entryDate>
+		<processDate>03/20/2016 12:13:47</processDate>
+		<contact>
+			<name>Sheue - Lan Shyu</name>
+			<email>LeeAndShyu@gmail.com</email>
+			<phone>360-754-0973</phone>
+		</contact>
+		<competition teamName="Huan_Le">
+			<category>TeamPoetry</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Alina</firstName>
+				<lastName>Li</lastName>
+				<chineseName></chineseName>
+				<birthday>08/26/2009</birthday>
+				<email>LeeAndShyu@gmail.com</email>
+				<academicSchool>McKenny Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>alina.li.08-26-2009</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Estela</firstName>
+				<lastName>Chavez</lastName>
+				<chineseName></chineseName>
+				<birthday>10/19/2009</birthday>
+				<email>LeeAndShyu@gmail.com</email>
+				<academicSchool>Home School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>K1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>estela.chavez.10-19-2009</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Matthew</firstName>
+				<lastName>Huang</lastName>
+				<chineseName></chineseName>
+				<birthday>04/03/2007</birthday>
+				<email>LeeAndShyu@gmail.com</email>
+				<academicSchool>Lake Elementary Lacey</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>matthew.huang.04-03-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Jamie</firstName>
+				<lastName>Cherrett</lastName>
+				<chineseName></chineseName>
+				<birthday>07/10/2006</birthday>
+				<email>LeeAndShyu@gmail.com</email>
+				<academicSchool>Rainier Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jamie.cherrett.07-10-2006</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Austin</firstName>
+				<lastName>Tran - Struthers</lastName>
+				<chineseName></chineseName>
+				<birthday>08/22/2006</birthday>
+				<email>LeeAndShyu@gmail.com</email>
+				<academicSchool>Black Lake Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>austin.tran - struthers.08-22-2006</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Sky</firstName>
+				<lastName>Lin</lastName>
+				<chineseName></chineseName>
+				<birthday>01/16/2006</birthday>
+				<email>LeeAndShyu@gmail.com</email>
+				<academicSchool>Centennial Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>sky.lin.01-16-2006</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Jack</firstName>
+				<lastName>Mou</lastName>
+				<chineseName></chineseName>
+				<birthday>04/11/2005</birthday>
+				<email>LeeAndShyu@gmail.com</email>
+				<academicSchool>McKenny Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jack.mou.04-11-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Logan</firstName>
+				<lastName>Damneun</lastName>
+				<chineseName></chineseName>
+				<birthday>02/24/2007</birthday>
+				<email>LeeAndShyu@gmail.com</email>
+				<academicSchool>Pioneer Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>logan.damneun.02-24-2007</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

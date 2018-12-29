@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/02/2016 22:22:17</entryDate>
+		<processDate>03/12/2016 16:40:10</processDate>
+		<contact>
+			<name>Yifei.Xu</name>
+			<email>Yifei.xu1999@gmail.com</email>
+			<phone>425-533-6650</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamLanguage</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>yifei</firstName>
+				<lastName>xu</lastName>
+				<chineseName>徐一斐</chineseName>
+				<birthday>09/07/1999</birthday>
+				<email>yifei.xu1999@gmail.com</email>
+				<academicSchool>Newport High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>yifei.xu.09-07-1999</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

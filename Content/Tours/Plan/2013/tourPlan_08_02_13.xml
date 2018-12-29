@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <page>
+    <articles>
+      <article title="2013 Cultural Exploration Private Tour - 8/2/2013 Friday">
+        <paragraph indent="false">
+          <text>
+            <![CDATA[
+            <br/>
+            <b>Meet your Shanghai Host  Bolun Jerry Liu</b><br/><br/>
+            <ul>
+            <li>Bolun Liu	刘伯伦	 13301904866	LIUB@my.erau.edu</li>
+            <li>Amy Zhang	Bolun’s mother	13509686651	sinoaviation1@126.com</li>
+            <li>Bolun Jerry will meet you at the Shanghai Hotel Holiday Inn Express</li>
+            <li>He is a student at Aerospace and Occupational Safety Class at Embry Riddle Aeronautical University, Daytona, FL, class of 2016</li>
+            <li>Jerry is the son of Amy Zhang, friend of Stephen & Shu-Hsien Lee</li>
+            <br/><br/>
+            <b>Spend a Day in Shanghai</b>
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph indent="true">
+          <text>
+            <![CDATA[
+            <b>Morning :	Shangde Experimental School Visit</b><br/>
+            上午去上海尚德实验学校参观，与老师座谈交流<br/>
+            <br/>
+            <b>Afternoon: Visit Liu family</b><br/>
+            下午到我们家小聚，了解一个普通上海家庭。我们家爷爷奶奶，爸爸妈妈及jerry一起举办一个小的自助餐会。做几样家乡特色菜，品点红酒，聊聊天，
+            介绍中国，介绍我们的家乡文化。晚上送他们回酒店。<br/>
+            <br/>
+            ]]>
+          </text>
+        </paragraph>
+        <paragraph indent="false">
+          <text>
+          </text>
+        </paragraph>
+      </article>
+    </articles>
+    <sideBar>
+      <relatedLinks header="More 2013 Tour...">
+        <relatedLink iconUrl="/Images/world.png" title="2013 Tour Participlants" linkUrl="/public/tours/plan/2013/tourparticipants.html" />
+        <relatedLink iconUrl="/Images/pin_blue.png" title="2013 Tour Places" linkUrl="/public/tours/plan/2013/tourplaces.html" />
+        <relatedLink iconUrl="/Images/script.png" title="2013 Tour Schedule" linkUrl="/public/tours/plan/2013/tourschedule.html" />
+      </relatedLinks>
+      <barTiles>
+        <barTile caption="" imageUrl="/Content/Tours/Journey/2013/AnnieJohn/Photos/IMG_0184.jpg" linkUrl="" />
+        <barTile caption="" imageUrl="/Content/Tours/Journey/2013/AnnieJohn/Photos/IMG_0621.jpg" linkUrl="" />
+        <barTile caption="Tour photos" imageUrl="/Content/Tours/Journey/2013/AnnieJohn/Photos/IMG_0535.jpg" linkUrl="" captionPosition="bottom" />
+      </barTiles>
+    </sideBar>
+  </page>
+</ce>

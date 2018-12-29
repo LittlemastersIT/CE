@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Rejected</status>
+		<entryDate>02/10/2016 17:55:59</entryDate>
+		<processDate>03/03/2016 21:46:46</processDate>
+		<contact>
+			<name>Didi Yang</name>
+			<email>didiyang90@hotmail.com</email>
+			<phone>248-792-1574</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamLanguage</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>K2</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Harry</firstName>
+				<lastName>Yang</lastName>
+				<chineseName>杨哈力</chineseName>
+				<birthday>07/21/2009</birthday>
+				<email>didiyang90@hotmail.com</email>
+				<academicSchool>Woodridge elementary school</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>1</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>harry.yang.07-21-2009</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

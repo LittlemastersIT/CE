@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/29/2016 15:11:48</entryDate>
+		<processDate>03/20/2016 11:47:31</processDate>
+		<contact>
+			<name>yan liu</name>
+			<email>liuyan518@yahoo.com</email>
+			<phone>425-214-1823</phone>
+		</contact>
+		<competition teamName="">
+			<category>Speech</category>
+			<subcategory></subcategory>
+			<class>ClassA</class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Edward</firstName>
+				<lastName>XU</lastName>
+				<chineseName>刘天歌</chineseName>
+				<birthday>04/24/2003</birthday>
+				<email>liuyan518@yahoo.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>7</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>edward.xu.04-24-2003</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

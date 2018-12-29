@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>01/30/2016 17:57:38</entryDate>
+		<processDate>03/20/2016 12:02:05</processDate>
+		<contact>
+			<name>Veronica Bae</name>
+			<email>vero.bae0628@gmail.com</email>
+			<phone>425-757-0757</phone>
+		</contact>
+		<competition teamName="">
+			<category>Speech</category>
+			<subcategory></subcategory>
+			<class>ClassB</class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Veronica</firstName>
+				<lastName>Bae</lastName>
+				<chineseName>裴挺彬</chineseName>
+				<birthday>06/28/2000</birthday>
+				<email>vero.bae0628@gmail.com</email>
+				<academicSchool>Newport High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>veronica.bae.06-28-2000</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

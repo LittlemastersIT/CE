@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>10</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/29/2016 18:48:58</entryDate>
+		<processDate>03/20/2016 18:02:49</processDate>
+		<contact>
+			<name>Sheue - Lan Shyu</name>
+			<email>LeeAndShyu@gmail.com</email>
+			<phone>360-754-0973</phone>
+		</contact>
+		<competition teamName="Fun_Fun">
+			<category>TeamLanguage</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Audrey</firstName>
+				<lastName>Shen</lastName>
+				<chineseName></chineseName>
+				<birthday>08/09/2005</birthday>
+				<email>LeeAndShyu@gmail.com</email>
+				<academicSchool>Pioneer Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>audrey.shen.08-09-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Jack</firstName>
+				<lastName>Mou</lastName>
+				<chineseName></chineseName>
+				<birthday>04/11/2005</birthday>
+				<email>LeeAndShyu@gmail.com</email>
+				<academicSchool>McKenny Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jack.mou.04-11-2005</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

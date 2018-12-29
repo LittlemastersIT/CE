@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/21/2016 23:51:37</entryDate>
+		<processDate>03/12/2016 17:20:15</processDate>
+		<contact>
+			<name>Sun Burford</name>
+			<email>teachersun@hotmail.com</email>
+			<phone>206-280-7108</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Glory</firstName>
+				<lastName>Burford</lastName>
+				<chineseName>天爱</chineseName>
+				<birthday>09/27/2002</birthday>
+				<email>teachersun@hotmail.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>8</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>glory.burford.09-27-2002</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

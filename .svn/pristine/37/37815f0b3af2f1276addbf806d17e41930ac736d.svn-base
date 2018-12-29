@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <page>
+    <articles>
+      <article title="Talent Competition Materials">
+        <paragraph indent="false">
+          <text>
+            <![CDATA[
+              <p>For those who are interested in participating our annual talent competition, please use <a style="color:blue;" href="/public/talent/guidelines/ceguidelines.html">this link</a> 
+                 to find out more about schedule and guidelines for our 2014 talent competition.</p><br/>
+                 You can also use the links on the left to get more details information about the rules of each competition category.
+            ]]>
+          </text>
+        </paragraph>
+      </article>
+    </articles>
+    <sideBar>
+      <relatedLinks header="Downloadable Files">
+        <relatedLink iconUrl="/Images/pin.png" title="2014 Online Registration" linkUrl="/documents/talent/2014 On-line Registration Instruction.docx" />
+        <relatedLink iconUrl="/Images/pin.png" title="2013 Flyer" linkUrl="/documents/talent/2013_flyer.pdf" />
+        <relatedLink iconUrl="/Images/pin.png" title="Competition Schedule" linkUrl="/documents/talent/Talent_2013_schedule.pdf" />
+        <relatedLink iconUrl="/Images/pin.png" title="Rules (Chinese)" linkUrl="/documents/talent/Talent_2013_rules_cn.doc" />
+        <relatedLink iconUrl="/Images/pin.png" title="Rules (English)" linkUrl="/documents/talent/Talent_2013_rules_us.doc" />
+        <relatedLink iconUrl="/Images/pin.png" title="FAQs" linkUrl="/documents/talent/Talent_2013_FAQs.docx" />
+      </relatedLinks>
+      <relatedLinks header="Group Categories">
+        <relatedLink iconUrl="/Images/pin.png" title="Knowledge Bowl&lt;br/&gt;&lt;span style=&quot;font-size:smaller;&quot;&gt;(middle and high school only)&lt;b/span&gt;" linkUrl="/public/talent/guidelines/knowledgerules.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Singing" linkUrl="/public/talent/guidelines/singrules.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Talent Show" linkUrl="/public/talent/guidelines/talentrules.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Poetry" linkUrl="/public/talent/guidelines/grouppoetryrules.html" />
+      </relatedLinks>
+      <relatedLinks header="Indivisual Categories">
+        <relatedLink iconUrl="/Images/pin.png" title="Drawing" linkUrl="/public/talent/guidelines/drawingrules.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Story Telling" linkUrl="/public/talent/guidelines/storyrules.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Poetry" linkUrl="/public/talent/guidelines/poetryrules.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Speech" linkUrl="/public/talent/guidelines/speechrules.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Chess" linkUrl="/public/talent/guidelines/chessrules.html" />
+      </relatedLinks>
+      <relatedLinks header="Competition Assignments">
+        <relatedLink iconUrl="/Images/pin.png" title="Poems" linkUrl="/public/talent/guidelines/assignedpoems.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Knowledge Questions" linkUrl="/public/talent/guidelines/knowledgebowlquestions.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Chess Rules" linkUrl="/public/talent/guidelines/additionalchessrules.html" />
+      </relatedLinks>
+    </sideBar>
+  </page>
+</ce>

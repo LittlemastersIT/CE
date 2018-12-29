@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <email>
+    <talent id="apply" subject="Submitted - Washington State Chinese Language and Talent Competition Registration" format="html" attachment="false">
+      <message>
+        <![CDATA[
+        <br/><br/>
+        Dear {%contact%},
+        <br/><br/>
+        Thank you for submitting your registration for the 2019 WA Chinese Language and Talent Competition scheduled on 3/24/2019 (Sunday) at Chief Sealth 
+        International High School.  Please see below for the category you have signed up:
+        <br/><br/>
+        <ul>
+        <li>Type: {%type%}</li>
+        <li>Category: {%category%}</li>
+        <li>Division: {%division%}</li>
+        <li>Class: {%class%}</li>
+        <li>Registration ID: {%studentId%}</li>
+        <li>Contestants: {%contestants%}</li>
+        <li>Payment method: {%payment%}</li>
+        <li>Payment amount: {%amount%}</li>
+        </ul>
+        <br/>
+        If you notice any errors on the list, please contact <a style="color:blue;text-decoration:underline;" href="mailto:haoemma@gmail.com?Subject=CE%20Registration">Ms. Emma Hao</a> as soon as possible. If we don’t hear from you, your registration will be automatically confirmed in 24 hours.  
+        <br/><br/>
+        Sincerely,
+         <br/><br/>
+        Competition Administration Team 
+      ]]>
+      </message>
+    </talent>
+    <talent id="reminder" subject="Payment Reminder - Washington State Chinese Language and Talent Competition Registration" format="html" attachment="false">
+      <message>
+        <![CDATA[
+        <br/><br/>
+        Dear {%contact%},
+        <br/><br/>
+        Thank you for submitting your registration for the 2019 WA Chinese Language and Talent Competition scheduled on 3/24/2019 (Sunday) at Chief Sealth International High School. Please see below for the category you have signed up:
+        <br/><br/>
+        <ul>
+        <li>Type: {%type%}</li>
+        <li>Category: {%category%}</li>
+        <li>Division: {%division%}</li>
+        <li>Class: {%class%}</li>
+        <li>Registration ID: {%studentId%}</li>
+        <li>Contestants: {%contestants%}</li>
+        </ul>
+        <br/>
+        If you notice any errors on the list, please contact <a style="color:blue;text-decoration:underline;" href="mailto:haoemma@gmail.com?Subject=CE%20Registration">Ms. Emma Hao</a> as soon as possible.  
+        <br/><br/>
+        Also, as a reminder we haven’t received your registration fee, please go to www.paypal.com to make payment to culturalexploration@hotmail.com. 
+          Then email back the payment confirmation page to <a style="color:blue;text-decoration:underline;" href="mailto:haoemma@gmail.com?Subject=CE%20Registration">Ms. Emma Hao</a>.
+            <br/><br/>           
+          Please note that the fee must be received within 10 days of registration and before the registration deadline, or your registration will be cancelled. 
+          If this mail is sent by error, please <a href="mailto:ce2019competition@littlemastersclub.org?Subject=CE%20Registration">contact us</a>.  Thank you!
+         <br/><br/><br/>  
+        Sincerely,
+         <br/><br/>
+        Competition Administration Team 
+      ]]>
+      </message>
+    </talent>
+    <talent id="rejected" subject="Rejected - Washington State Chinese Language and Talent Competition Registration" format="html" attachment="false">
+      <message>
+        <![CDATA[
+        <br/><br/>
+        Dear {%contact%},
+        <br/><br/>
+        Thank you for submitting your registration for the 2019 WA Chinese Language and Talent Competition scheduled on 3/24/2019 (Sunday) at Chief Sealth 
+        International High School.  You have signed up:
+        <br/><br/>
+        <ul>
+        <li>Type: {%type%}</li>
+        <li>Category: {%category%}</li>
+        <li>Division: {%division%}</li>
+        <li>Class: {%class%}</li>
+        <li>Registration ID: {%studentId%}</li>
+        <li>Contestants: {%contestants%}</li>
+        </ul>
+        <br/>
+        Since as of today we haven’t received your registration fee, regretfully we have to cancel your registration. Please contact <a style="color:blue;text-decoration:underline;" href="mailto:haoemma@gmail.com?Subject=CE%20Registration">Ms. Emma Hao</a> 
+        if you have any question about our decision. Thanks for your time.
+        <br/><br/>
+        Sincerely,
+        <br/><br/>
+        Competition Administration Team
+        ]]>
+      </message>
+    </talent>
+    <talent id="approved" subject="Confirmation - Washington State Chinese Language and Talent Competition Registration" format="html" attachment="false">
+      <message>
+        <![CDATA[
+        <br/><br/>
+        Dear {%contact%}:
+        <br/><br/>
+        This is to confirm your registration for the 2019 WA Chinese Language and Talent Competition scheduled on 3/24/2019 (Sunday) at Chief Sealth 
+        International High School.  Please see below for a list of the categories you have signed up:
+        <br/><br/>
+        <ul>
+        <li>Type: {%type%}</li>
+        <li>Category: {%category%}</li>
+        <li>Division: {%division%}</li>
+        <li>Class: {%class%}</li>
+        <li>Registration ID: {%studentId%}</li>
+        <li>Contestants: {%contestants%}</li>
+        </ul>
+        <br/>
+        If you notice any errors on the list, please <a href="mailto:ce2019competition@littlemastersclub.org?Subject=CE%20Registration">contact us</a>.
+        <br/><br/>
+        To ensure a smooth experience for everyone, please review the following important announcements. If you are a parent or teacher, please be 
+        sure your students or children know about these announcements as well.
+        <br/><br/>
+        <ol>
+        <li>Please check in at the school entrance to receive a packet that contains your competition schedule, room assignment, name tag, and participation award. 
+            Please come early to avoid long waiting lines.  Parking might be limited, please carpool as much as possible.</li>
+        <li>Contestant must report to the assigned room 15 minutes before competition begins. If there is more than one category scheduled for the same time, 
+            please report to the assigned room based on the order listed in the sign in sheet you receive when you check in. For more information about the competition order, 
+            please refer to Q2 in the Frequently Asked Questions (FAQs) on the CE website or check with our information desk at the school entrance when you come in.</li>
+        <li>The awards ceremony will be held on the same day as the competition, beginning at 2:30PM at Chief Sealth International High School’s auditorium. Unless noted otherwise, the top three performers in each category, division, and class will be awarded with trophies, certificates, ribbons (team competition only), 
+            as well as scholarships ($50 for individual, and $100 for the team competition). Please feel free to invite your family members and friends to join us for this recognition event.
+            To help make this award ceremony enjoyable and orderly while we honor the winners' accomplishments, we ask everyone (except the winners and staff) to remain seated until the award ceremony is completed.
+            We will arrange several designated photographers to take photos on the stage for the winners. These photos will be shared for download on the CE website a few days after the ceremony.
+            Also, your children will have the opportunity to be photographed with the VIPs (including the representatives from the Office of Superintendent of Public Instruction and school principals from many school districts) on the stage after the award ceremony. 
+            Family or group pictures can be taken in front of the stage after the ceremony.</li>   
+        <li>For those who are participating in the Drawing contest, please remember to bring your own drawing tools such as oil, acrylic, pastel, charcoal, water color, colored pencil, marker or ink.  
+            The event organizer will only provide drawing papers (including the rice paper for Chinese brush painting).  Please be sure to pick up your drawing by the school entrance (where you check in) after the award ceremony.</li>
+        <li>For your convenience, there will be a food stand on site offering lunch selections, snacks, and drinks at a reasonable price.  There will also 
+            be a resting area for the contestants and parents to wait and relax.  Please feel free to bring family and friends to come and join the audience .  
+            If there is anything else we can do to make your participation more comfortable, please don’t hesitate to let us know.</li>
+        </ol>
+        <br/>
+        Thank you for your participation and we hope you will have a rewarding experience at the competition. If you have any questions, please <a href="mailto:ce2019competition@littlemastersclub.org?Subject=CE%20Registration">contact us</a>.
+        <br/><br/>
+        Sincerely,
+        <br/><br/>
+        Competition Administration Team
+        ]]>
+      </message>
+    </talent>
+    <tour id="apply" subject="Received - Cultural Exploration Tour 2019 Application" format="html" attachment="false">
+      <cc>
+      	<email>yvettelee@culturalexploration.org</email>
+      	<email>roberttung@culturalexploration.org</email>
+      	<email>jimmyjou@culturalexploration.org</email>
+      </cc>
+      <message>
+        <![CDATA[
+        Dear {%contact%}:<br/><br/>
+		    Thank you for submitting your application. In addition to the information you have entered in the form, we have also received the following attached 
+		    files for your application:<br/><br/>
+		    {%attachedFiles%}<br/>
+		    If the information above is not correct, please contact us by responding to this email.<br/><br/>
+		    Our selection panel will review your application and get back to you in late March 2019 about the status and possible interview.<br/><br/>
+		    Regards<br/><br/>
+        CE 2019 Selection Committee
+        ]]>
+      </message>
+    </tour>
+    <tour id="interview" subject="Cultural Exploration Tour Application: Status update" format="html" attachment="false">
+      <cc>
+      	<email>yvettelee@culturalexploration.org</email>
+      	<email>roberttung@culturalexploration.org</email>
+      	<email>jimmyjou@culturalexploration.org</email>
+      </cc>
+      <message>
+        Congratulation! We have selected you as one of our cutural exploration tour candidates. Please respond to this email to set up a personal interview 
+        at your convinient time. We are excited to meet you to explain the opportunity further understand your objectives. Thanks for participating.
+      </message>
+    </tour>
+    <tour id="rejected" subject="Cultural Exploration Tour Application: Status update" format="html" attachment="false">
+      <message>
+        We are sorry to inform you that your are not being selected as one of our cutural exploration tour candidates. Plese try again next year. Thanks for participating.
+      </message>
+    </tour>
+    <tour id="awarded" subject="Cultural Exploration Tour Application: Status update" format="html" attachment="false">
+      <cc>
+      	<email>yvettelee@culturalexploration.org</email>
+      	<email>roberttung@culturalexploration.org</email>
+      	<email>jimmyjou@culturalexploration.org</email>
+     </cc>
+     <message>
+        Congratulation! We like to offer you the opportunity to participate in our cutural exploration tour for 2019 season. 
+        Please respond to this email if you plan to accept our offer. We look forward to hear from your favorite decision soon. Thanks for participating.
+      </message>
+    </tour>
+    <tour id="review" subject="Cultural Exploration Tour Application: Status update" format="html" attachment="false">
+      <message>
+        We like to let you know that your cutural exploration tour application is under review. You don't need to do anything at this moment while our
+        review process takes its course. At the end of our review process, we will inform each candidate of our decision by email. Thanks for participating.
+      </message>
+    </tour>
+    <tour id="withdraw" subject="Cultural Exploration Tour Application: Status update" format="html" attachment="false">
+      <message>
+        We have received your email to withdraw from our consideration for cutural exploration tour. At your request, we have removed your name from our consideration.
+        Thanks for participating.
+      </message>
+    </tour>
+    <volunteer id="apply" subject="Cultural Exploration Volunteer Application" format="html" attachment="false">
+      <cc>
+        <email>yvettelee@culturalexploration.org</email>
+        <email>jimmyjou@culturalexploration.org</email>
+      </cc>
+      <message>
+        <![CDATA[
+        <br/><br/>
+        Dear {%contact%},
+        <br/><br/>
+        We have received the following information from you to become a voluntteer for Cultural Exploration organization:
+        <br/><br/>
+        <ul>
+        <li>Name: {%contact%}</li>
+        <li>Email: {%email%}</li>
+        <li>Phone: {%phone%}</li>
+        <li>Why you are interested in volunteering?: {%why%}</li>
+        <li>What area would you be interested in helping?: {%what%}</li>
+        </ul>
+        <br/>
+        We will be contacting you soon to share our passion and goals with you. Thanks for volunteering.
+        <br/><br/>
+        Sincerely,
+        <br/><br/>
+        Cultural Exploration Management Team
+        ]]>
+      </message>
+    </volunteer>
+    <sponsor id="apply" subject="Cultural Exploration Corporate Sponsor Application" format="html" attachment="false">
+      <cc>
+        <email>yvettelee@culturalexploration.org</email>
+        <email>jimmyjou@culturalexploration.org</email>
+      </cc>
+      <message>
+        <![CDATA[
+        <br/><br/>
+        Dear {%contact%},
+        <br/><br/>
+        We have received the following information from you to become a corporate sponsor for Cultural Exploration organization:
+        <br/><br/>
+        <ul>
+        <li>Company: {%company%}</li>
+        <li>Name: {%contact%}</li>
+        <li>Email: {%email%}</li>
+        <li>Phone: {%phone%}</li>
+        </ul>
+        <br/>
+        We will be contacting you soon to share our passion and goals with you. Thanks for sponsoring us.
+        <br/><br/>
+        Sincerely,
+        <br/><br/>
+        Cultural Exploration Management Team
+        ]]>
+      </message>
+    </sponsor>
+    <contactUs id="apply" subject="Message you sent to Cultural Exploration" format="html" attachment="false">
+      <cc>
+        <email>yvettelee@culturalexploration.org</email>
+        <email>jimmyjou@culturalexploration.org</email>
+      </cc>
+      <message>
+        <![CDATA[
+        <br/><br/>
+        Dear {%contact%},
+        <br/><br/>
+        We have received the following message from you:
+        <br/><br/>
+        <ul>
+        <li>Name: {%contact%}</li>
+        <li>Email: {%email%}</li>
+        <li>Phone: {%phone%}</li>
+        <li>Your message: {%message%}</li>
+        </ul>
+        <br/>
+        Thank you for contacting us.
+        <br/><br/>
+        Sincerely,
+        <br/><br/>
+        Cultural Exploration Management Team
+        ]]>
+      </message>
+    </contactUs>
+    <report id="contestant" subject="Final Confirmation - 2019 Washington State Chinese Language and Talent Competition" format="html" attachment="true">
+      <cc>
+      </cc>
+      <message>
+        <![CDATA[
+        <b>Dear Contestants, Parents, and Teachers:</b>
+        <br/><br/>
+        <b>To ensure a smooth experience for everyone, please review the following important announcements and reminders. 
+        If you are a parent or teacher, please be sure your students or children know about these announcements as well.</b>
+        <ul>
+        <li>
+        Attached please find the <b>final confirmation</b> for the competitions you sign up.  If you see any discrepancies, 
+        please contact us at ce2019competition@littlemastersclub.org  as soon as possible.  Also, as a reminder, 
+        please be sure to check-in at the school entrance <b>at least</b> 15 minutes before your first competition.  
+        School parking is limited, please car pool as much as possible. You may find additional parking by the football 
+        field across the street from school.(请确认报名资料的正确性)
+        </li>
+        <li>
+	The room for the Chinese Chess 中國象棋 tournament will be changed to 241 for the entire tournament. (中国象棋的场地在教室 241)
+        </li>
+        <li>
+        In order to finish all the competitions in one day, unavoidably some of the categories must overlap.  
+        However, that doesn’t mean the contestants are limited to compete.  . If there is more than one category 
+        scheduled for the same time, please report to the assigned room based on the order listed in the sign in 
+        sheet you receive when you check in. If you need to leave early for another competition, 
+	please be sure to let the event facilitator know. You will be put on to perform as soon as it can be arranged. (比赛时间有冲突时,请尽早告诉比赛主持人).
+        </li>
+        <li>
+        Please be reminded that for the individual language related competitions, the judges have the right to promote 
+        contestants whose Chinese language skills are much higher than expected for Class C or Class B to again compete 
+        in Class A or Class B and <b>the scores that they earned in Class C or Class B will be voided</b>. Please check the 
+        promotion list posted at the administrative center 10 minutes after the competition.. (語言類的比賽A,B組有晉級的規定)
+        </li>
+        <li>
+        Please note, as stated in the regulation, <b>any assistances or cues from the parents or teachers to the 
+        contestants while performing on the stage are strictly prohibited</b>. The violation of this rule will result in 
+        a disqualification.(比賽进行中請勿在场边协助参赛者表演)
+        </li>
+        <li>
+        To help make this award ceremony enjoyable and orderly while we honor the winners' accomplishments, we ask everyone (except the winners and staff) 
+	to <b>remain seated until the award ceremony is completed</b>.  We will arrange designated photographers to take photos on the stage for the winners.  
+	These photos will be shared for download on the CE website a few days after the ceremony.  
+	Also, your children will have the opportunity to be photographed with the VIPs (including the representatives from the Office of Superintendent of Public Instruction and school principals from many school districts) 
+	on the stage after the award ceremony.   Family or group pictures can be taken in front of the stage after the ceremony. (颁奖典礼进行中家长请勿到前台照相)
+        </li>
+        <li>
+	There should be <b>no drink or food in the auditorium</b>.  Please keep the place clean and orderly to avoid adding additional work to the volunteers after the event. (请保持礼堂的清洁与整齐)
+        </li>
+        </ul>
+        <b>Thank you and we wish you a wonderful experience on Sunday, 3/24/2019.</b>
+        <br/><br/>
+        <b>Sincerely,</b>
+        <br/><br/>
+        <b>Competition Planning Committee</b>
+        ]]>
+      </message>
+    </report>
+  </email>
+</ce>

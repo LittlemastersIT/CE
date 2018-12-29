@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>03/02/2016 17:16:50</entryDate>
+		<processDate>03/21/2016 11:33:50</processDate>
+		<contact>
+			<name>Juei-chuan Hung</name>
+			<email>jhung@universityprep.org</email>
+			<phone>206-681-8775</phone>
+		</contact>
+		<competition teamName="">
+			<category>Speech</category>
+			<subcategory></subcategory>
+			<class>ClassB</class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Isabel</firstName>
+				<lastName>Swope</lastName>
+				<chineseName>施永惠</chineseName>
+				<birthday>12/17/1997</birthday>
+				<email>iswope@universityprep.org</email>
+				<academicSchool>University Prep</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>12</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>isabel.swope.12-17-1997</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

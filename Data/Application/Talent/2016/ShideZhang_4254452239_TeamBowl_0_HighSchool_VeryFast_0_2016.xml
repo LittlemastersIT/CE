@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>20</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/22/2016 20:29:35</entryDate>
+		<processDate>03/20/2016 11:45:00</processDate>
+		<contact>
+			<name>Shide Zhang</name>
+			<email>mikezhangdcut@gmail.com</email>
+			<phone>425-445-2239</phone>
+		</contact>
+		<competition teamName="VeryFast">
+			<category>TeamBowl</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>HighSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Shide</firstName>
+				<lastName>Zhang</lastName>
+				<chineseName>张世德</chineseName>
+				<birthday>05/28/2000</birthday>
+				<email>mikezhangdcut@gmail.com</email>
+				<academicSchool>Skyline High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>shide.zhang.05-28-2000</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Aaron</firstName>
+				<lastName>Wang</lastName>
+				<chineseName>王安润</chineseName>
+				<birthday>10/19/1999</birthday>
+				<email>Anrunw@gmail.com</email>
+				<academicSchool>Skyline High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>aaron.wang.10-19-1999</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Kaichen</firstName>
+				<lastName>Liu</lastName>
+				<chineseName>刘恺辰</chineseName>
+				<birthday>02/14/2000</birthday>
+				<email>kaichen.liu@hotmail.com</email>
+				<academicSchool>Skyline High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>kaichen.liu.02-14-2000</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Ben</firstName>
+				<lastName>Yu</lastName>
+				<chineseName>虞润川</chineseName>
+				<birthday>08/26/2000</birthday>
+				<email>uyneb2000@gmail.com</email>
+				<academicSchool>Skyline High School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>10</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>ben.yu.08-26-2000</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+  <videos header="Video for Cultural Exploration" description="">
+    <video title="2013 Scholastic Competition Videos" subtitle="Event held in Renton High School on mm-dd-yyyy" tab="Competition">
+      <clip title="Bejiing Endeavor" clipUrl="http://www.youtube.com/embed/CHNYXAK9SXc" />
+      <clip title="Shanghai Encounter" clipUrl="http://www.youtube.com/embed/WQX7szWXNT0" />
+    </video>
+    <video title="2013 Culture Tour Videos" subtitle="CE Culture Tour held between 7/24/13 - 8/7/13" tab="Culture Tour">
+      <clip title="Shanghai Encounter" clipUrl="http://www.youtube.com/embed/WQX7szWXNT0" />
+      <clip title="Bejiing Endeavor" clipUrl="http://www.youtube.com/embed/CHNYXAK9SXc" />
+    </video>
+    <sideBar>
+      <relatedLinks header="Downloadable Files">
+        <relatedLink iconUrl="/Images/pin.png" title="2014 Online Registration" linkUrl="/documents/talent/2014 On-line Registration Instruction.docx" />
+        <relatedLink iconUrl="/Images/pin.png" title="2013 Flyer" linkUrl="/documents/talent/2013_flyer.pdf" />
+        <relatedLink iconUrl="/Images/pin.png" title="Competition Schedule" linkUrl="/documents/talent/Talent_2013_schedule.pdf" />
+        <relatedLink iconUrl="/Images/pin.png" title="Rules (Chinese)" linkUrl="/documents/talent/Talent_2013_rules_cn.doc" />
+        <relatedLink iconUrl="/Images/pin.png" title="Rules (English)" linkUrl="/documents/talent/Talent_2013_rules_us.doc" />
+        <relatedLink iconUrl="/Images/pin.png" title="FAQs" linkUrl="/documents/talent/Talent_2013_FAQs.docx" />
+      </relatedLinks>
+      <barTiles>
+        <barTile caption="" imageUrl="/content/tours/journey/trentwieburg/photos/warriors for CE.jpg" linkUrl="" captionPosition="bottom" />
+        <barTile caption="Competition phtotos" imageUrl="/content/tours/journey/anniejohn/photos/IMG_0518.jpg" linkUrl="" captionPosition="bottom" />
+      </barTiles>
+    </sideBar>
+  </videos>
+</ce>

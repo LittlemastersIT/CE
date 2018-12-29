@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>ThirdPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>10</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/29/2016 22:09:12</entryDate>
+		<processDate>03/20/2016 13:23:18</processDate>
+		<contact>
+			<name>Johnson Wang</name>
+			<email>comfortcom@yahoo.com</email>
+			<phone>425-623-3694</phone>
+		</contact>
+		<competition teamName="NJ_Awesome">
+			<category>TeamTalent</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Nathaniel</firstName>
+				<lastName>Wang</lastName>
+				<chineseName>王恩临</chineseName>
+				<birthday>01/25/2006</birthday>
+				<email>comfortcom@yahoo.com</email>
+				<academicSchool>juanita elementary school</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>nathaniel.wang.01-25-2006</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Jeffrey</firstName>
+				<lastName>Wang</lastName>
+				<chineseName>王恩奇</chineseName>
+				<birthday>05/07/2007</birthday>
+				<email>comfortcom@yahoo.com</email>
+				<academicSchool>juanita elementary school</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>jeffrey.wang.05-07-2007</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

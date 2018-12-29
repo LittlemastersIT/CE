@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>10</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/29/2016 16:56:24</entryDate>
+		<processDate>03/12/2016 17:01:35</processDate>
+		<contact>
+			<name>Suiling Lin</name>
+			<email>wittybee@gmail.com</email>
+			<phone>206-422-9669</phone>
+		</contact>
+		<competition teamName="SouthPugetSoundBoys">
+			<category>TeamLanguage</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Maxwell</firstName>
+				<lastName>Kao</lastName>
+				<chineseName>高以洋</chineseName>
+				<birthday>08/19/2005</birthday>
+				<email>wittybee@gmail.com</email>
+				<academicSchool>Green Gables Elementary</academicSchool>
+				<extracurricularSchool>South Puget Sound Chinese School</extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>maxwell.kao.08-19-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Elsdon</firstName>
+				<lastName>Chang</lastName>
+				<chineseName>張竣翔</chineseName>
+				<birthday>11/21/2004</birthday>
+				<email>karentutu@aol.com</email>
+				<academicSchool>Rainier Christian School</academicSchool>
+				<extracurricularSchool>South Puget Sound Chinese School</extracurricularSchool>
+				<grade>5</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>elsdon.chang.11-21-2004</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

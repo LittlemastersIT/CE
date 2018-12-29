@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Rejected</status>
+		<entryDate>01/16/2016 07:49:20</entryDate>
+		<processDate>03/14/2016 00:07:00</processDate>
+		<contact>
+			<name>L McCarty</name>
+			<email>ldmccarty@q.com</email>
+			<phone>206-789-4069</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamLanguage</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Cate</firstName>
+				<lastName>McCarty</lastName>
+				<chineseName>Ma You Ling</chineseName>
+				<birthday>08/01/2004</birthday>
+				<email>catharine.mccarty@universityprep.org</email>
+				<academicSchool>University Prep</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>cate.mccarty.08-01-2004</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

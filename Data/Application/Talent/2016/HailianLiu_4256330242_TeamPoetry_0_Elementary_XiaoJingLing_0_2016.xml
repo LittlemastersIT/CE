@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>20</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>01/26/2016 22:13:07</entryDate>
+		<processDate>03/12/2016 17:50:21</processDate>
+		<contact>
+			<name>Hailian Liu</name>
+			<email>lian_lhl@hotmail.com</email>
+			<phone>425-633-0242</phone>
+		</contact>
+		<competition teamName="XiaoJingLing">
+			<category>TeamPoetry</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Maggie</firstName>
+				<lastName>Yan</lastName>
+				<chineseName>闫泽彤</chineseName>
+				<birthday>01/28/2007</birthday>
+				<email>ychen120@gmail.com</email>
+				<academicSchool>Grand Ridge Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>maggie.yan.01-28-2007</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Lily</firstName>
+				<lastName>Yu</lastName>
+				<chineseName>郁阳</chineseName>
+				<birthday>12/31/2005</birthday>
+				<email>xiaojingg@gmail.com</email>
+				<academicSchool>Grand Ridge Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>lily.yu.12-31-2005</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Tony</firstName>
+				<lastName>Liu</lastName>
+				<chineseName>刘其锐</chineseName>
+				<birthday>03/21/2006</birthday>
+				<email>yuanchengtu@gmail.com</email>
+				<academicSchool>Apollo Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>tony.liu.03-21-2006</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Lily</firstName>
+				<lastName>Geiger</lastName>
+				<chineseName></chineseName>
+				<birthday>12/03/2005</birthday>
+				<email>mrsjoehomebrew@hotmail.com</email>
+				<academicSchool>Apollo Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>lily.geiger.12-03-2005</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

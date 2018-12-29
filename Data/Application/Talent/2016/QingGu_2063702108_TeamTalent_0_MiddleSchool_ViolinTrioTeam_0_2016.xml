@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<award>SecondPlace</award>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>15</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>01/19/2016 21:06:20</entryDate>
+		<processDate>03/20/2016 12:14:51</processDate>
+		<contact>
+			<name>Qing Gu</name>
+			<email>tsinggu@hotmail.com</email>
+			<phone>206-370-2108</phone>
+		</contact>
+		<competition teamName="ViolinTrioTeam">
+			<category>TeamTalent</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>MiddleSchool</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Raelene</firstName>
+				<lastName>Jiang</lastName>
+				<chineseName>江瑞琳</chineseName>
+				<birthday>08/30/2004</birthday>
+				<email>zhen_jiang@yahoo.com</email>
+				<academicSchool>Tyee Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>raelene.jiang.08-30-2004</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Aidan</firstName>
+				<lastName>Chen</lastName>
+				<chineseName>陈瑞煊</chineseName>
+				<birthday>01/30/2004</birthday>
+				<email>tsinggu@hotmail.com</email>
+				<academicSchool>Evergreen Middle School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>6</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>aidan.chen.01-30-2004</studentId>
+			</contestant>
+			<contestant>
+				<firstName>Eddie</firstName>
+				<lastName>Yin</lastName>
+				<chineseName>殷起舞</chineseName>
+				<birthday>05/16/2006</birthday>
+				<email>yaqintao@gmail.com</email>
+				<academicSchool>Sunset Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>eddie.yin.05-16-2006</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ce>
+  <sitemap>
+    <site name="root" default="/Public/home.aspx" display="CE Home">
+      <page url="home.aspx" display="CE Home" />
+      <site name="AboutUs" default="/public/home/about/ceabout.html" Display="About Us">
+        <page url="/public/home/about/ceabout.html" display="About Us" />
+      </site>
+      <site name="ContactUs" default="/public/home/cecontactus.aspx" Display="Contact Us">
+        <page url="/public/home/cecontactus.aspx" display="Contact Us" />
+      </site>
+      <site name="talent" default="/Public/Talent/cetalent.html" display="Language &amp; Talent Competition">
+        <page url="/public/talent/cetalent.html" display="Language &amp; Talent Competition" />
+        <site name="guidelines">
+          <page url="/public/talent/guidelines/ceguidelines.html" display="Schedule &amp; Guidelines" />
+          <page url="/public/talent/guidelines/drawingrules.html" display="Drawing Rules" />
+          <page url="/public/talent/guidelines/grouppoetryrules.html" display="Group Poetry Rules" />
+          <page url="/public/talent/guidelines/knowledgerules.html" display="Knowledge Bowl Rules" />
+          <page url="/public/talent/guidelines/poetryrules.html" display="Individual Poetry Rules" />
+          <page url="/public/talent/guidelines/singrules.html" display="Singing Rules" />
+          <page url="/public/talent/guidelines/speechrules.html" display="Public Speaking Rules" />
+          <page url="/public/talent/guidelines/storyrules.html" display="Story Telling Rules" />
+          <page url="/public/talent/guidelines/talentrules.html" display="Talent Show Rules" />
+          <page url="/public/Talent/Guidelines/chessrules.html" display="Chess Rules" />
+        </site>
+        <site name="registration">
+          <page url="/public/talent/registration/TalentRegistration.aspx" display="Registration" />
+          <page url="/public/talent/registration/individualregistration.aspx" display="Individual Registration" />
+          <page url="/public/talent/registration/teamregistration.aspx" display="Team Registration" />
+        </site>
+        <site name="results">
+          <page url="/public/talent/results/ceresults.html" display="Competition Results" />
+          <page url="/public/talent/results/2015/ceresults.html" display="2015 Competition Results" />
+          <page url="/public/talent/results/2014/ceresults.html" display="2014 Competition Results" />
+          <page url="/public/talent/results/2013/ceresults.html" display="2013 Competition Results" />
+          <page url="/public/talent/2012/talent2012.aspx" display="Talent 2012" />
+          <page url="/public/talent/2011/talent2011.aspx" display="Talent 2011" />
+          <page url="/public/talent/2010/talent2010.aspx" display="Talent 2010" />
+        </site>
+      </site>
+      <site name="tours" default="/Public/Tours/cetour.html" display="Tours">
+        <page url="/public/tours/cetour.aspx" display="Tours" />
+        <site name="outline">
+          <page url="/public/tours/outline/ceoutline.html" display="Outline" />
+        </site>
+        <site name="album">
+          <page url="/public/tours/album/touralbum.html" display="Album" />
+        </site>
+        <site name="application">
+          <page url="/public/tours/application/ceapplication.aspx" display="Application" />
+        </site>
+        <site name="testimonies">
+          <page url="/public/tours/testimonies/cetestimonies.html" display="Testimonies 2013" />
+        </site>
+        <site name="journey">
+          <page url="/public/tours/journey/cejourney.aspx" display="Featured Journey" />
+          <page url="/public/tours/journey/tourjourney.aspx" display="All Journey" />
+        </site>
+        <site name="plan">
+          <page url="/public/tours/Ppan/tourparticipants.html" display="2014 Participants" />
+          <page url="/public/tours/plan/tourplaces.html" display="2014 Places" />
+          <page url="/public/tours/plan/tourschedule.html" display="2014 schedule" />
+          <page url="/public/tours/Plan/2013/tourparticipants.html" display="2013 Participants" />
+          <page url="/public/tours/plan/2013/tourplaces.html" display="2013 Places" />
+          <page url="/public/tours/plan/2013/tourschedule.html" display="2013 schedule" />
+        </site>
+        <site name="archive">
+          <page url="/public/tours/2012/tour2012.aspx" display="Tours 2012" />
+          <page url="/public/tours/2011/tour2011.aspx" display="Tours 2011" />
+          <page url="/public/tours/2010/tour2010.aspx" display="Tours 2010" />
+        </site>
+      </site>
+      <site name="resoruces" default="/Public/Resources/ceresources.aspx" display="Resources">
+        <page url="/public/resources/ceresources.aspx" display="Resources" />
+        <site name="curriculummaterial" default="/Public/Resources/curriculum/cecurriculum.html" display="Curriculum Materials">
+          <page url="/public/resources/competition/cecurriculum.html" display="Curriculum Materials" />
+        </site>
+        <site name="competitionmaterial" default="/Public/Resources/competition/cecompetition.html" display="Competition Materials">
+          <page url="/public/resources/competition/cecompetition.html" display="Competition Materials" />
+        </site>
+      </site>
+      <site name="support" default="/Public/support/cesupport.html" display="Support Us">
+        <page url="/public/support/cesupport.html" display="Support Us" />
+        <site name="Sponsorship" default="/Public/support/cesponsor.aspx" display="Coporate Spnonsorship">
+          <page url="/public/support/cesponsor.aspx" display="Corporate Spnonsorship" />
+        </site>
+        <site name="OnlineDonation" default="/Public/support/cedonate.aspx" display="Online Donation">
+          <page url="/public/support/cedonate.aspx" display="Online Donation" />
+        </site>
+        <site name="LiveAuctions" default="/Public/support/ceauction.html" display="Friendship Luncheon">
+          <page url="/public/support/ceauction.html" display="Friendship Luncheon" />
+        </site>
+        <site name="Volunteer" default="/Public/support/cevolunteer.aspx" display="Volunteer">
+          <page url="/public/support/cevolunteer.aspx" display="Volunteer" />
+        </site>
+      </site>
+      <site name="admin" default="/Admin/ceadmin.aspx" display="CE Admin">
+        <page url="/Admin/ceadmin.aspx" display="CE Admin" />
+        <site name="createpage">
+          <page url="/Admin/createpage.aspx" display="Create Page" />
+        </site>
+        <site name="reviewapplications">
+          <page url="/Admin/reviewapplications.aspx" display="Review Applications" />
+        </site>
+        <site name="reviewregistration">
+          <page url="/Admin/reviewregistration.aspx" display="Review Registration" />
+        </site>
+        <site name="howto">
+          <page url="/Admin/howto.aspx" display="How-To" />
+        </site>
+      </site>
+    </site>
+  </sitemap>
+</ce>

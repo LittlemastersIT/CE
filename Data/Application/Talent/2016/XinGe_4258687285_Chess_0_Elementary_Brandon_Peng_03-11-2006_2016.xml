@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>01/20/2016 15:54:53</entryDate>
+		<processDate>04/04/2016 13:28:50</processDate>
+		<contact>
+			<name>Xin Ge</name>
+			<email>xinge2007@gmail.com</email>
+			<phone>425-868-7285</phone>
+		</contact>
+		<competition teamName="">
+			<category>Chess</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Brandon</firstName>
+				<lastName>Peng</lastName>
+				<chineseName>博涯</chineseName>
+				<birthday>03/11/2006</birthday>
+				<email>xinge2007@gmail.com</email>
+				<academicSchool>Blackwell Elementary</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>brandon.peng.03-11-2006</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

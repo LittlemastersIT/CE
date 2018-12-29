@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/28/2016 00:30:31</entryDate>
+		<processDate>03/12/2016 17:07:07</processDate>
+		<contact>
+			<name>Xin fu</name>
+			<email>cindy.kexin@gmail.com</email>
+			<phone>917-868-4257</phone>
+		</contact>
+		<competition teamName="">
+			<category>Story</category>
+			<subcategory></subcategory>
+			<class>ClassC</class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Esther</firstName>
+				<lastName>Fang</lastName>
+				<chineseName>方一冰</chineseName>
+				<birthday>02/23/2006</birthday>
+				<email>cindy.kexin@gmail.com</email>
+				<academicSchool>Challenger Elementary School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>4</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>esther.fang.02-23-2006</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

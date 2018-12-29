@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/21/2016 13:23:29</entryDate>
+		<processDate>03/12/2016 17:21:30</processDate>
+		<contact>
+			<name>Allen Lebovitz</name>
+			<email>alebovitz@willapabay.org</email>
+			<phone>360-903-4809</phone>
+		</contact>
+		<competition teamName="">
+			<category>TeamSing</category>
+			<subcategory></subcategory>
+			<class></class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Alia</firstName>
+				<lastName>Lebovitz</lastName>
+				<chineseName>Aili</chineseName>
+				<birthday>09/01/2006</birthday>
+				<email>alebovitz@willapabay.org</email>
+				<academicSchool>Naselle-Grays River School</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>alia.lebovitz.09-01-2006</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>

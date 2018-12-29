@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ce>
+	<registration>
+		<paymentMethod>Paypal</paymentMethod>
+		<paymentAmount>5</paymentAmount>
+		<checkNumber></checkNumber>
+		<status>Approved</status>
+		<entryDate>02/29/2016 18:58:15</entryDate>
+		<processDate>03/12/2016 17:00:09</processDate>
+		<contact>
+			<name>Sheue - Lan Shyu</name>
+			<email>LeeAndShyu@gmail.com</email>
+			<phone>360-754-0973</phone>
+		</contact>
+		<competition teamName="">
+			<category>Story</category>
+			<subcategory></subcategory>
+			<class>ClassB</class>
+			<division>Elementary</division>
+		</competition>
+		<contestants>
+			<contestant>
+				<firstName>Matthew</firstName>
+				<lastName>Huang</lastName>
+				<chineseName></chineseName>
+				<birthday>04/03/2007</birthday>
+				<email>LeeAndShyu@gmail.com</email>
+				<academicSchool>Lake Elementary Lacey</academicSchool>
+				<extracurricularSchool></extracurricularSchool>
+				<grade>3</grade>
+				<lunchProgram>No</lunchProgram>
+				<studentId>matthew.huang.04-03-2007</studentId>
+			</contestant>
+		</contestants>
+	</registration>
+</ce>
