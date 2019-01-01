@@ -89,9 +89,14 @@
                             </tr>
                             <tr>
                                  <td class="ce-h6" style="padding-left:5px;padding-bottom:20px" colspan="2">
-                                    Note: <i>The Competition Class is based on the contestant’s individual language ability (not based on the contestant’s family background or birth of origin). Please be sure you read the Competition Information carefully before signing up.</i>
+                                    Note 1: <i>The Competition Class is based on the contestant’s individual language ability (not based on the contestant’s family background or birth of origin). Please be sure you read the Competition Information carefully before signing up.</i>
                                 </td>
-                                </tr>
+                            </tr>
+                            <tr>
+                                 <td class="ce-h6" style="padding-left:5px;padding-bottom:20px" colspan="2">
+                                    Note 2: <i>The contestant who registered for Chinese Bridge must also register for Public Speech and Individual Talent Show or Individual Chinese Singing at the same time.</i>
+                                </td>
+                            </tr>
                             <tr>
                                 <td colspan="2">
                                     <div class="reg-input-divider"></div>
