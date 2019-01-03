@@ -91,19 +91,10 @@
                                  <td class="ce-h6" style="padding-left:5px;padding-bottom:20px" colspan="2">
                                     Note 1: <i>The Competition Class is based on the contestant’s individual language ability (not based on the contestant’s family background or birth of origin). Please be sure you read the Competition Information carefully before signing up.</i>
                                 </td>
-                                <td class="ce-h6" style="padding-left:5px;padding-bottom:20px" colspan="2">
-                                    注释 1: <i>语言类比赛的比赛级别(Competition Class)是基于参赛者个人的中文语言能力，而不是参赛者家庭背景或者出生地。请确保报名前仔细阅读参赛信息和规则。</i>
-                                </td>
                             </tr>
                             <tr>
                                  <td class="ce-h6" style="padding-left:5px;padding-bottom:20px" colspan="2">
                                     Note 2: <i>The contestant who registered for Chinese Bridge must also register for Public Speech and Individual Talent Show or Individual Chinese Singing at the same time.</i>
-                                </td>
-                                <td class="ce-h6" style="padding-left:5px;padding-bottom:20px" colspan="2">
-                                    Note 2: <i><b>如欲参加「汉语桥高中生中文比赛」资格賽的甄选，参赛者必须还要报名参加以下两项高中组的比赛，优胜者将以三项比赛累计的总成绩决定。
-1. Talent Show 个人才艺竞赛 or/and.Chinese Singing 个人中文歌唱比赛
-（如果两項都参加，总成绩将以两项中較高的累计）
-2. Public Speaking (Class A or B) 演讲比赛 (A 级 或 B 级)</b></i>
                                 </td>
                             </tr>
                             <tr>
