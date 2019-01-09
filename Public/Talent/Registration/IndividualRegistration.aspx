@@ -94,7 +94,14 @@
                             </tr>
                             <tr>
                                  <td class="ce-h6" style="padding-left:5px;padding-bottom:20px" colspan="2">
-                                    Note 2: <i>The contestant who registered for Chinese Bridge must also register for Public Speech and Individual Talent Show or Individual Chinese Singing at the same time.</i>
+                                    Note 2: <i>If music is required, the contestant who registered for Chinese Singing or Talent Show can bring their own musical instruments (a piano will be available on the stage for use), or upload your music file before the March 4, 2019 registration deadline.
+                                    For Talent show, please upload music to <a href="http://www.littlemastersclub.org/music/talentshow">http://www.littlemastersclub.org/music/talentshow </a>.  
+                                    And for Chinese Singing, please upload music to  <a href="http://www.littlemastersclub.org/music/Singing">http://www.littlemastersclub.org/music/Singing </i>
+                                </td>
+                            </tr>
+                            <tr>
+                                 <td class="ce-h6" style="padding-left:5px;padding-bottom:20px" colspan="2">
+                                    Note 3: <i>The contestant who registered for Chinese Bridge must also register for Public Speech and Individual Talent Show or Individual Chinese Singing at the same time.</i>
                                 </td>
                             </tr>
                             <tr>

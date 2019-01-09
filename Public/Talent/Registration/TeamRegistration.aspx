@@ -85,6 +85,14 @@
                                     <asp:Literal ID="Page2ErrorText" runat="server" EnableViewState="False"></asp:Literal>
                                 </td>
                             </tr>
+                            <tr></tr>
+                             <tr>
+                                 <td class="ce-h6" style="padding-left:5px;padding-bottom:20px" colspan="2">
+                                    Note: <i>For Chinese Singing or Talent Show Competition. If music is required, The participants can bring their own musical instruments (a piano will be available on the stage for use), or upload your music file before the March 4, 2019 registration deadline.
+                                    For Talent show, please upload music to <a href="http://www.littlemastersclub.org/music/talentshow">http://www.littlemastersclub.org/music/talentshow </a>.  
+                                    And for Chinese Singing, please upload music to  <a href="http://www.littlemastersclub.org/music/Singing">http://www.littlemastersclub.org/music/Singing </i>
+                                </td>
+                            </tr>
                             <tr>
                                 <td colspan="2">
                                     <div class="reg-section-divider" style="background-color:#8C6E70;height:4px;"></div>
