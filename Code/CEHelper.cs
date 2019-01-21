@@ -190,7 +190,7 @@ namespace CE.Data
             {" Chinese Language Arts", TEAM_LANGUAGE},
             {" Drawing", DRAWING},
             {" Chinese Chess", CHESS},
-            {" Chinese Bridge", BRIDGE },
+            {" Chinese Bridge -- All About Chinese Test", BRIDGE },
             {" Public Speaking", SPEECH}
 
         };
