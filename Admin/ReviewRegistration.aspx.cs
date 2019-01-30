@@ -19,14 +19,14 @@ namespace CE.Pages
         private const string IMAGE_LINK_TEMPLATE = "<a href=\"javascript:loadApplicantData({0},'{1}');\"><img class=\"search-grid-icon\" src=\"{2}\" /></a>";
         private const int GRID_STATUS_COLUMN = 0;
         private const int GRID_DATE_COLUMN = 1;
-        private const int GRID_DIVISION_COLUMN = 5;
-        private const int GRID_TEAM_NAME_COLUMN = 6;
-        private const int GRID_METHOD_COLUMN = 8;
-        private const int GRID_PAYMENT_COLUMN = 9;
-        private const int GRID_LUNCH_COLUMN = 10;
-        private const int GRID_ID_COLUMN = 11; // this is the File cell
-        private const int GRID_STUDENT_COLUMN = 12; // this is the indiviudal contestant name column
-        private const int GRID_CLASS_COLUMN = 13;
+        private const int GRID_DIVISION_COLUMN = 6;
+        private const int GRID_TEAM_NAME_COLUMN = 7;
+        private const int GRID_METHOD_COLUMN = 9;
+        private const int GRID_PAYMENT_COLUMN = 10;
+        private const int GRID_LUNCH_COLUMN = 11;
+        private const int GRID_ID_COLUMN = 12; // this is the File cell
+        private const int GRID_STUDENT_COLUMN = 13; // this is the indiviudal contestant name column
+        private const int GRID_CLASS_COLUMN = 14;
         private const int GRID_PAGE_SIZE = 20;
         private const string ALL_SELECTION_TEXT = "All";
 
@@ -50,7 +50,7 @@ namespace CE.Pages
                 RebindGrid(registeredApplicants);
 
                 // initialize dropdown list to default selection
-                TeamCompetition.Checked = false;
+                TeamCompetition.Checked = false; 
                 IndivisualCompetition.Checked = false;
                 CategoryList.DataSource = CompetitionControlData.EmptySelection;
                 CategoryList.DataBind();

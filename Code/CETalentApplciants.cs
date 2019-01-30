@@ -24,7 +24,7 @@ namespace CE.Data
             get { return _talentApplicants; }
         }
 
-        private void RetrieveTourApplicants(bool excludeRejected)
+        private void RetrieveTourApplicants(bool excludeRejected)  //shall be TalentApplicants too
         {
             // ensure a fresh positive start
             if (_talentApplicants == null)
@@ -32,7 +32,7 @@ namespace CE.Data
             else
                 _talentApplicants.Clear();
 
-            // get the list of applicant data files from \data\application\tours folder
+            // get the list of applicant data files from \data\application\talent folder
             string talentApplicantFolder = CETalentApplciants.MakeRegistrationFolder();
             string[] applicantFiles = Directory.GetFiles(talentApplicantFolder, "*.xml", SearchOption.TopDirectoryOnly);
 
@@ -61,6 +61,7 @@ namespace CE.Data
                 registeredApplicant.ContactPhone = entry.Contact.ContactPhone;
                 registeredApplicant.ContactEmail = entry.Contact.ContactEmail;
                 registeredApplicant.Category = entry.Contact.Category;
+                registeredApplicant.SubCategory = entry.Contact.SubCategory;
                 registeredApplicant.Division = entry.Contact.Division;
                 registeredApplicant.IsTeam = entry.Contact.IsTeam;
                 registeredApplicant.TeamName = entry.Contact.TeamName;
@@ -483,6 +484,7 @@ namespace CE.Data
                     _contact.TeamName = CEHelper.GetSafeAttribute(competition, "teamName");
                     _contact.IsTeam = string.IsNullOrEmpty(_contact.TeamName) ? false : true;
                     _contact.Category = CEHelper.GetSafeElementText(competition.Element("category"));
+                    _contact.SubCategory = CEHelper.GetSafeElementText(competition.Element("subcategory"));
                     _contact.Class = CEHelper.GetSafeElementText(competition.Element("class"));
                     _contact.Division = CEHelper.GetSafeElementText(competition.Element("division"));
 

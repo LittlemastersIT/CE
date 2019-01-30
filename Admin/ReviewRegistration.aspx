@@ -110,6 +110,9 @@
                     <asp:BoundField ReadOnly="True" HeaderText="Category" InsertVisible="False" DataField="Category">
                         <ItemStyle HorizontalAlign="Center" Width="110px"></ItemStyle>
                     </asp:BoundField>
+                    <asp:BoundField ReadOnly="True" HeaderText="SubCategory" InsertVisible="False" DataField="SubCategory">
+                        <ItemStyle HorizontalAlign="Center" Width="110px"></ItemStyle>
+                    </asp:BoundField>
                     <asp:BoundField ReadOnly="True" HeaderText="Division" InsertVisible="False" DataField="Division" SortExpression="Division">
                         <ItemStyle HorizontalAlign="Center" Width="110px"></ItemStyle>
                     </asp:BoundField>
