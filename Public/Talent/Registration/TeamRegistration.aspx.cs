@@ -435,7 +435,7 @@ namespace CE.Pages
 
             compeititonEntry.AddContact(ContactNameBox.Text.Trim(), ContactEmailBox.Text.Trim(), ContactPhoneBox.Text.Trim());
 
-            compeititonEntry.AddCompetition(CompetitionCategoryList.SelectedItem.Value, string.Empty, CompetitionDivisionList.SelectedItem.Value, TeamNameBox.Text.Trim(), TalentShowSubCategory.Value);
+            compeititonEntry.AddCompetition(CompetitionCategoryList.SelectedItem.Value, string.Empty, CompetitionDivisionList.SelectedItem.Value, TeamNameBox.Text.Trim(), TalentShowSubCategory.Value, TalentShowIsPianoRequired.Value);
 
             compeititonEntry.AddStatus(RegistrationStatus.Apply);
 

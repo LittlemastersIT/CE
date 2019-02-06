@@ -494,7 +494,7 @@ namespace CE.Pages
             {
                 CECompetitionEntry competitionEntry = new CECompetitionEntry();
                 competitionEntry.AddContact(ContactNameBox.Text, ContactEmailBox.Text, ContactPhoneBox.Text);
-                competitionEntry.AddCompetition(category, CompetitionClassOptions.SelectedValue, CompetitionDivisionList.SelectedItem.Value, string.Empty, TalentShowSubCategory.Value);
+                competitionEntry.AddCompetition(category, CompetitionClassOptions.SelectedValue, CompetitionDivisionList.SelectedItem.Value, string.Empty, TalentShowSubCategory.Value, TalentShowIsPianoRequired.Value);
                 competitionEntry.AddStatus(RegistrationStatus.Apply);
                 string lastName = ContestantLastName.Text.Trim();
                 string firstName = ContestantFirstName.Text.Trim();

@@ -5,6 +5,7 @@
     <link type="text/css" rel="stylesheet" href="/CSS/jquery-ui-1.10.3.custom.min.css" media="all" />
     <link type="text/css" rel="stylesheet" href="/CSS/ceadmin.css" media="all" />
     <link type="text/css" rel="stylesheet" href="/CSS/themes/maroon/cepage.css" media="all" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
     <script type="text/javascript" src="/JS/jquery/jquery.colorbox-min.js"></script>
     <script type="text/javascript" src="/JS/jquery/jquery-ui-1.10.3.min.js"></script>
     <script type="text/javascript" src="/JS/jquery/jquery.inputmask.js"></script>
@@ -396,6 +397,7 @@
             // these are hidden fields; not UI fields
             var TalentShowSubCategoryID = '#<%= TalentShowSubCategory.ClientID %>';
             var TalentShowSubCategoryListID = '#<%= TalentShowSubCategoryList.ClientID %>';
+            var TalentShowIsPianoRequiredID = '#<%= TalentShowIsPianoRequired.ClientID %>';
             var isTalentShowSelected = false;
 
             $(document).ready(function () {
@@ -429,7 +431,8 @@
                     for (var i = 0; i < values.length; i++) {
                         subCategories += '<li style="line-height:20px"><input type="radio" name="talentShowSubcategory" value="' + values[i] + '"/> ' + values[i] + '</li>';
                     }
-                    subCategories += '</ul></div>';
+
+                    subCategories += '<li><input type="checkbox" id="isPianoRequired" name="isPianoRequired" /> Please check the box if you need Piano for the talent show. </li ></ul ></div >';
                     $talentShowId.append(subCategories);
 
                     if ($(TalentShowSubCategoryID).val() != '') {
@@ -438,6 +441,17 @@
 
                     $('input[name ^= talentShowSubcategory]').click(function () {
                         $(TalentShowSubCategoryID).val($('input[name ^= talentShowSubcategory]:checked').val());
+                    });
+
+                    $('#isPianoRequired').change(function () {
+                        if ($(this).is(":checked")) {
+                            var returnVal = confirm("Are you sure that you need a Piano for the talent show?");
+                            $(this).prop("checked", returnVal);
+                           
+                        }
+
+                        $(TalentShowIsPianoRequiredID).val($(this).is(':checked'));
+                        // alert($(TalentShowIsPianoRequiredID).val());  only needed for debugging purpose 
                     });
                 }
             }
@@ -524,6 +538,7 @@
                 $(CompetitionDivisionListID).prop('selectedIndex', 0);
                 $(CompetitionClassOptionsID + ' input:radio').prop('checked', false);
                 $('input[name="talentShowSubcategory"]').prop('checked', false); // clear subcategory UI
+                $(TalentShowIsPianoRequiredID).prop('checked', false);
                 $(TalentShowSubCategoryID).val(''); // clear subcategory when postback.
                 $(CompetitionClassOptionsID).hide();
                 $(CompetitionCategoryListID).hide();
@@ -717,6 +732,7 @@
                     $(CompetitionDivisionListID).val(formDataJson.division);
                     $(CompetitionClassOptionsID + ' input:radio[value=' + formDataJson.class + ']').prop('checked', true);
                     $(TalentShowSubCategoryID).val(formDataJson.subcategory);
+                    $(TalentShowIsPianoRequiredID).val(formDataJson.ispianorequired);
                     $(ContestantLastNameID).val(formDataJson.lastName);
                     $(ContestantFirstNameID).val(formDataJson.firstName);
                     $(ContestantChineseNameID).val(formDataJson.chineseName);
@@ -748,6 +764,7 @@
                         'category': categories,
                         'division': $(CompetitionDivisionListID).val(),
                         'subcategory': $(TalentShowSubCategoryID).val(),
+                        'ispianorequired': $(TalentShowIsPianoRequiredID.val()),
                         'class': $(CompetitionClassOptionsID + ' input:checked').val(),
                         'lastName': $(ContestantLastNameID).val(),
                         'firstName': $(ContestantFirstNameID).val(),
@@ -767,5 +784,6 @@
 
         <asp:HiddenField ID="TalentShowSubCategory" runat="Server" Value="" />
         <asp:HiddenField ID="TalentShowSubCategoryList" runat="Server" Value="" />
+        <asp:HiddenField ID="TalentShowIsPianoRequired" runat="server" />
     </div>
 </asp:Content>

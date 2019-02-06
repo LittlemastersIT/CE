@@ -511,7 +511,7 @@
                     for (var i = 0; i < values.length; i++) {
                         subCategories += '<li style="line-height:20px"><input type="radio" name="talentShowSubcategory" value="' + values[i] + '"/> ' + values[i] + '</li>';
                     }
-                    subCategories += '</ul>';
+                    subCategories += '<li><input type="checkbox" id="isPianoRequired" name="isPianoRequired" /> Please check the box if you need Piano for the talent show. </li ></ul ></div >';
                     $talentShowId.append(subCategories);
 
                     if ($(TalentShowSubCategoryID).val() != '') {
@@ -520,6 +520,17 @@
 
                     $('input[name ^= talentShowSubcategory]').click(function () {
                         $(TalentShowSubCategoryID).val($('input[name ^= talentShowSubcategory]:checked').val());
+                    });
+
+                    $('#isPianoRequired').change(function () {
+                        if ($(this).is(":checked")) {
+                            var returnVal = confirm("Are you sure that you need a Piano for the talent show?");
+                            $(this).prop("checked", returnVal);
+
+                        }
+
+                        $(TalentShowIsPianoRequiredID).val($(this).is(':checked'));
+                        // alert($(TalentShowIsPianoRequiredID).val());  only needed for debugging purpose 
                     });
                 }
                 else {
@@ -1049,6 +1060,7 @@
                     $(CompetitionCategoryListID).val(formDataJson.category);
                     $(CompetitionDivisionListID).val(formDataJson.division);
                     $(TalentShowSubCategoryID).val(formDataJson.subcategory);
+                    $(TalentShowIsPianoRequiredID).val(formDataJson.ispianorequired);
                     populateTeammates(formDataJson.teammates);
                     setContestantRowId();
 
@@ -1075,6 +1087,7 @@
                         'category': $(CompetitionCategoryListID).val(),
                         'division': $(CompetitionDivisionListID).val(),
                         'subcategory': $(TalentShowSubCategoryID).val(),
+                        'ispianorequired': $(TalentShowIsPianoRequiredID.val()),
                         'teammates': getTeammates()
                     });
 

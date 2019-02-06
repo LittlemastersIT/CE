@@ -269,7 +269,7 @@ namespace CE.Data
         private const string PAYMENT_TEMPLATE = "\t\t<paymentMethod>{0}</paymentMethod>\r\n\t\t<paymentAmount>{1}</paymentAmount>\r\n\t\t<checkNumber>{2}</checkNumber>\r\n";
         private const string STATUS_TEMPLATE = "\t\t<status>{0}</status>\r\n\t\t<entryDate>{1}</entryDate>\r\n\t\t<processDate>{2}</processDate>\r\n";
         private const string CONTACT_TEMPLATE = "\t\t<contact>\r\n\t\t\t<name>{0}</name>\r\n\t\t\t<email>{1}</email>\r\n\t\t\t<phone>{2}</phone>\r\n\t\t</contact>\r\n";
-        private const string COMPETITION_TEMPLATE = "\t\t<competition teamName=\"{0}\">\r\n\t\t\t<category>{1}</category>\r\n\t\t\t<subcategory>{2}</subcategory>\r\n\t\t\t<class>{3}</class>\r\n\t\t\t<division>{4}</division>\r\n\t\t</competition>\r\n";
+        private const string COMPETITION_TEMPLATE = "\t\t<competition teamName=\"{0}\">\r\n\t\t\t<category>{1}</category>\r\n\t\t\t<subcategory>{2}</subcategory>\r\n\t\t\t<class>{3}</class>\r\n\t\t\t<division>{4}</division>\r\n\t\t\t<ispianorequired>{5}</ispianorequired>\r\n\t\t</competition>\r\n";
         private const string CONTESTANT_BLOCK_BEGIN = "\t\t<contestants>";
         private const string CONTESTANT_TEMPLATE = "\t\t\t<contestant>\r\n\t\t\t\t<firstName>{0}</firstName>\r\n\t\t\t\t<lastName>{1}</lastName>\r\n\t\t\t\t<chineseName>{2}</chineseName>\r\n\t\t\t\t<birthday>{3}</birthday>\r\n\t\t\t\t<email>{4}</email>\r\n\t\t\t\t<academicSchool>{5}</academicSchool>\r\n\t\t\t\t<extracurricularSchool>{6}</extracurricularSchool>\r\n\t\t\t\t<grade>{7}</grade>\r\n\t\t\t\t<lunchProgram>{8}</lunchProgram>\r\n\t\t\t\t<studentId>{9}</studentId>\r\n\t\t\t</contestant>\r\n";
         private const string CONTESTANT_BLOCK_END = "\t\t</contestants>";
@@ -324,13 +324,16 @@ namespace CE.Data
             _contact.ContactPhone = phone.Trim();
         }
 
-        public void AddCompetition(string category, string classType, string division, string teamName, string subCategory)
+        public void AddCompetition(string category, string classType, string division, string teamName, string subCategory, string isPianoRequired = "false")
         {
             if (_contact == null) _contact = new CECompetitionContact();
             _contact.Category = category;
 
             if (category == CompetitionControlData.TEAM_TALENT)
+            {
                 _contact.SubCategory = subCategory;
+                _contact.IsPianoRequired = isPianoRequired; 
+            }
             else
                 _contact.SubCategory = string.Empty;
 
@@ -397,7 +400,7 @@ namespace CE.Data
             sb.AppendFormat(PAYMENT_TEMPLATE, new string[] { this.PaymentMethod.ToString(), this.PaymentAmount.ToString(), this.CheckNumber });
             sb.AppendFormat(STATUS_TEMPLATE, new string[] { this.Status.ToString(), this.EntryDate, this.ProcessDate });
             sb.AppendFormat(CONTACT_TEMPLATE, new string[] { this._contact.ContactName, this._contact.ContactEmail, this._contact.ContactPhone });
-            sb.AppendFormat(COMPETITION_TEMPLATE, new string[] { this._contact.TeamName, this._contact.Category, this._contact.SubCategory, this._contact.Class, this._contact.Division });
+            sb.AppendFormat(COMPETITION_TEMPLATE, new string[] { this._contact.TeamName, this._contact.Category, this._contact.SubCategory, this._contact.Class, this._contact.Division, this._contact.IsPianoRequired });
             sb.AppendLine(CONTESTANT_BLOCK_BEGIN);
             foreach (CEContestant contestant in this._contestants)
             {
@@ -485,6 +488,7 @@ namespace CE.Data
                     _contact.IsTeam = string.IsNullOrEmpty(_contact.TeamName) ? false : true;
                     _contact.Category = CEHelper.GetSafeElementText(competition.Element("category"));
                     _contact.SubCategory = CEHelper.GetSafeElementText(competition.Element("subcategory"));
+                    _contact.IsPianoRequired = CEHelper.GetSafeElementText(competition.Element("ispianorequired")) ;
                     _contact.Class = CEHelper.GetSafeElementText(competition.Element("class"));
                     _contact.Division = CEHelper.GetSafeElementText(competition.Element("division"));
 
@@ -546,6 +550,7 @@ namespace CE.Data
             IsTeam = false;
             Category = string.Empty;
             SubCategory = string.Empty;
+            IsPianoRequired = string.Empty;  
             Class = string.Empty;
             Division = string.Empty;
             TeamName = string.Empty;
@@ -558,6 +563,7 @@ namespace CE.Data
         public string TeamName { get; set; }
         public string Category { get; set; }
         public string SubCategory { get; set; }
+        public string IsPianoRequired { get; set; }
         public string Class { get; set; }
         public string Division { get; set; }
     }
