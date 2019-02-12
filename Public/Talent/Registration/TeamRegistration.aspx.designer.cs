@@ -373,7 +373,7 @@ namespace CE.Pages {
         protected global::System.Web.UI.WebControls.HiddenField TalentShowSubCategoryList;
         
         /// <summary>
-        /// HiddenField1 control.
+        /// TalentShowIsPianoRequired control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
