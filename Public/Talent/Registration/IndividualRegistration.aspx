@@ -432,7 +432,7 @@
                         subCategories += '<li style="line-height:20px"><input type="radio" name="talentShowSubcategory" value="' + values[i] + '"/> ' + values[i] + '</li>';
                     }
 
-                    subCategories += '<li><input type="checkbox" id="isPianoRequired" name="isPianoRequired" /> Please check the box if you need Piano for the talent show. </li ></ul ></div >';
+                    subCategories += '<li><input type="checkbox" id="isPianoRequired" name="isPianoRequired" /> Please check this box <mark>if you need a piano for the talent show. </mark> </li ></ul ></div >';
                     $talentShowId.append(subCategories);
 
                     if ($(TalentShowSubCategoryID).val() != '') {
@@ -443,16 +443,22 @@
                         $(TalentShowSubCategoryID).val($('input[name ^= talentShowSubcategory]:checked').val());
                     });
 
+                    if ($(TalentShowIsPianoRequiredID).val() == 'true') {
+                        $('#isPianoRequired').prop("checked", true);
+                    }
+                    else {
+                        $('#isPianoRequired').prop("checked", false);
+                    }
+ 
                     $('#isPianoRequired').change(function () {
                         if ($(this).is(":checked")) {
                             var returnVal = confirm("Are you sure that you need a Piano for the talent show?");
-                            $(this).prop("checked", returnVal);
-                           
+                            $(this).prop("checked", returnVal);                       
                         }
-
                         $(TalentShowIsPianoRequiredID).val($(this).is(':checked'));
-                        // alert($(TalentShowIsPianoRequiredID).val());  only needed for debugging purpose 
+                        console.log("TalentShowIsPianoRequiredID.val() = : " + $(TalentShowIsPianoRequiredID).val());
                     });
+
                 }
             }
 
@@ -671,6 +677,7 @@
 
             function getSelectedCategories() {
                 var count = $(CompetitionCategoryListID + ' input:checkbox:checked').length;
+                if ($(TalentShowIsPianoRequiredID).val() == 'true') count--;
                 return count;
             }
 
