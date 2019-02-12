@@ -350,6 +350,7 @@
         <asp:HiddenField ID="RegistrationFee" runat="server" Value="0" />
         <asp:HiddenField ID="TalentShowSubCategory" runat="Server" Value="" />
         <asp:HiddenField ID="TalentShowSubCategoryList" runat="Server" Value="" />
+        <asp:HiddenField ID="TalentShowIsPianoRequired" runat="server" />
     </div>
 
     <div id="modal-dialog" class="hide">
@@ -473,6 +474,7 @@
             // these are hidden fields; not UI fields
             var TalentShowSubCategoryID = '#<%= TalentShowSubCategory.ClientID %>';
             var TalentShowSubCategoryListID = '#<%= TalentShowSubCategoryList.ClientID %>';
+            var TalentShowIsPianoRequiredID = '#<%= TalentShowIsPianoRequired.ClientID %>';
             var isTalentShowSelected = false;
 
             $(document).ready(function () {
