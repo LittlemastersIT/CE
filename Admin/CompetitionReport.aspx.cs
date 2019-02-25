@@ -835,7 +835,8 @@ namespace CE.Admin
                 { CompetitionControlData.TEAM_SINGING + INDIVIDUAL, 21 },
                 { CompetitionControlData.TEAM_SINGING, 22 },
                 { CompetitionControlData.TEAM_POETRY, 23 },
-                { CompetitionControlData.TEAM_KNOWLEGE_BOWL, 24 }
+                { CompetitionControlData.TEAM_KNOWLEGE_BOWL, 24 },
+                { CompetitionControlData.BRIDGE, 25 }
             };
 
             // dictionary for competition division, column #
