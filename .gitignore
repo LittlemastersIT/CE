@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Project specific files
+Data/
+
 # User-specific files
 *.suo
 *.user
@@ -328,3 +331,11 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+Data/Application/ceteam.xml
+Data/Application/Talent/2019/Jas_4257490650_ChineseBridge_0_HighSchool_Jasmine_Bridge_12-10-2003_2019.xml
+Data/Application/Talent/2019/jeff_4257490650_TeamLanguage_0_MiddleSchool_Jeff_Zhu_12-19-2018_2019.xml
+Data/Application/Talent/2019/Jeff_4257490650_TeamSing_0_HighSchool_Jeff_Zhu_12-19-2018_2019.xml
+Data/Application/Talent/2019/jeffzhu_4257490650_TeamLanguage_0_Elementary_Jeff_Zhu_12-14-2011_2019.xml
+Data/Application/Talent/2019/jeffzhu_4257490650_TeamLanguage_0_Elementary_Jeff_Zhu_12-15-2010_2019.xml
+Data/Application/Talent/2019/JeffZhu_4257490650_TeamSing_0_MiddleSchool_Jeff_Zhu_12-07-2011_2019.xml
+Data/Report/2019/TalentCompetitionSchedule.xlsx
