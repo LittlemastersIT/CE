@@ -108,6 +108,14 @@
                     </asp:Label>
                 </div>
             </div>
+            <div class="howto-title">
+                <img src="/images/excel-48.png" style="margin-right:10px;" /><span><a class="ce-h5" href="/admin/CompetitionReport.aspx?action=participating&group=both">Create Competition Participating Certificates</a></span>
+                <div class="ce-h6">
+                    <asp:Label ID="Label4" runat="server">
+                        Generate official certificate for each competition winner. The certificate files are in '/data/report/<%= CompetitionYear %>/Participating Certificates' folder.
+                    </asp:Label>
+                </div>
+            </div>
         </div>
     </div>
 </asp:Content>

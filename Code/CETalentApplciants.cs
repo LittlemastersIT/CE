@@ -670,7 +670,8 @@ namespace CE.Data
         TeamLanguage,
         TeamPoetry,
         TeamSing,
-        TeamTalent
+        TeamTalent,
+        ChineseBridge
     }
 
     public enum IndividualCategoryType

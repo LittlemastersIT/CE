@@ -56,7 +56,8 @@ namespace CE.Data
             {STORY, "說 故 事" },
             {SPEECH, "演 講" },
             {POETRY, "個 人 詩 歌 朗 誦" },
-            {CHESS, "中 國 象 棋" }
+            {CHESS, "中 國 象 棋" },
+            {BRIDGE, "汉 语 桥" }
         };
 
         public static Dictionary<string, string> CategoryReportNames = new Dictionary<string, string>()
@@ -307,6 +308,7 @@ namespace CE.Data
         public const string CE_AWARD_PRESENTATION_TEMPLATE_XLSX = "AwardPresentationTemplate.xlsx";
         public const string CE_WINNER_TEMPLATE_XLSX = "TalentCompetitionWinnerTemplate.xlsx";
         public const string CE_CERTIFICATE_TEMPLATE_DOCX = "CompetitionWinnerCertificateTemplate.docx";
+        public const string CE_PARTICPATING_TEMPLATE_DOCX = "CompetitionParticipatingCertificateTemplate.docx";
         public const string CE_SCORE_TEMPLATE_BASE_XLSX = "ScoreSheetTemplate{0}.xlsx";
         public const string CE_TOUR_APPLICANT_FOLDER = @"\application\tours\";
         public const string CE_TALENT_CHAMPION_FOLDER = @"\application\talent";
@@ -318,6 +320,7 @@ namespace CE.Data
         public const string CE_CONTESTANT_SHEET_FOLDER = "Contestant Sheets";
         public const string CE_CONFLICT_SHEET_FOLDER = "Conflict Sheets";
         public const string CE_CERTIFICATE_FOLDER = "Winner Certificates";
+        public const string CE_PARTICIPATING_FOLDER = "Participant Certificates"; 
         public const string CE_DEFAULT_THEME = "black";
         public const string CE_TOUR_THEME = "blue";
         public const string CE_TALENT_THEME = "maroon";

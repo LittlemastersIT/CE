@@ -26,6 +26,7 @@ namespace CE.Admin
         private const string AWARDS = "awards";
         private const string WINNERS = "winners";
         private const string CERTIFICATE = "certificate";
+        private const string PARTICIPATING = "participating";
         private const string GROUP = "group";
         private const string INDIVIDUAL = "individual";
         private const string TEAM = "team";
@@ -62,7 +63,7 @@ namespace CE.Admin
                 string rootFolder = Path.Combine(CEHelper.GetDataPath() + CEConstants.CE_REPORT_FOLDER, reportYear);
                 if (((action == SIGNIN || action == SCORE) && (group == INDIVIDUAL || group == TEAM)) ||
                       action == HEADCOUNT || action == CONTESTANT || action == CONFLICT ||
-                      action == TROPHY || action == AWARDS || action == WINNERS || action == CERTIFICATE)
+                      action == TROPHY || action == AWARDS || action == WINNERS || action == CERTIFICATE || action == PARTICIPATING) 
                 {
                     int index = 0;
                     int totalSheets = 0;
@@ -130,6 +131,14 @@ namespace CE.Admin
                         FileInfo templateFile = new FileInfo(physicalPath);
                         totalSheets = GenerateCertificatesSheet(rootFolder, templateFile);
                         reportFolder = Path.Combine(rootFolder, CEConstants.CE_CERTIFICATE_FOLDER);
+                        index = reportFolder.IndexOf(CEConstants.CE_DATA_FOLDER) - 1;
+                    }
+                    else if(action == PARTICIPATING)
+                    {
+                        string physicalPath = Path.Combine(rootFolder, CEConstants.CE_PARTICPATING_TEMPLATE_DOCX);
+                        FileInfo templateFile = new FileInfo(physicalPath);
+                        totalSheets = GenerateParticipatingSheet(rootFolder, templateFile);
+                        reportFolder = Path.Combine(rootFolder, CEConstants.CE_PARTICIPATING_FOLDER);
                         index = reportFolder.IndexOf(CEConstants.CE_DATA_FOLDER) - 1;
                     }
 
@@ -1189,6 +1198,39 @@ namespace CE.Admin
             return totalCertificates;
         }
 
+        private int GenerateParticipatingSheet(string rootFolder, FileInfo templateFile)
+        {
+            string baseFolder = Path.Combine(rootFolder, CEConstants.CE_PARTICIPATING_FOLDER);
+            int totalCertificates = 0;
+
+            CETalentApplciants allApplicants = new CETalentApplciants(); // get all contestants from xml files in registration folder
+            //List<CECompetitionEntry> awardedApplicants = GetAwardedApplicants(allApplicants, true);
+
+            //if (awardedApplicants != null && awardedApplicants.Count <= 0) return 0;
+
+            //Word.Application application = null;
+            try
+            {
+                // generate contestant participating events files
+                //application = new Word.Application { Visible = false };
+                foreach (CECompetitionEntry participant in allApplicants.TalentApplicants)
+                {
+                    //totalCertificates += GenerateCertificateFile(application, baseFolder, templateFile.FullName, winner);
+                    totalCertificates += GenerateParticipatingFileWithOpenXml(baseFolder, templateFile.FullName, participant);
+                    //if (totalCertificates > 2) break;
+                }
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                //if (Application != null) ((Word._Application)application).Quit();
+            }
+
+            return totalCertificates;
+        }
+
         private int GenerateCertificateFile(Word.Application application, string reportFolder, string templateFile, CECompetitionEntry winner)
         {
             int certificateCount = 0;
@@ -1321,6 +1363,71 @@ namespace CE.Admin
                     throw;
                 }
                 finally 
+                {
+                }
+            }
+
+            return certificateCount;
+        }
+
+        private int GenerateParticipatingFileWithOpenXml(string reportFolder, string templateFile, CECompetitionEntry participant)
+        {
+            int certificateCount = 0;
+
+            foreach (CEContestant contestant in participant.Contestants)
+            {
+                try
+                {
+                    string certificateFile = Path.Combine(reportFolder, MakeCertificateFileName(participant, contestant, "docx"));
+                    if (File.Exists(certificateFile)) continue;
+
+
+                    string name = string.Format("{0} {1}", contestant.FirstName, contestant.LastName);
+                    string school = contestant.School;
+                    //string place = PlaceText(participant.Award, false);
+                    //string placeChinese = PlaceText(participant.Award, true);
+                    string category = CategoryText(participant.Contact);
+                    string categoryChinese = CompetitionControlData.CategoryChineseNames[participant.Contact.Category];
+
+                    File.Copy(templateFile, certificateFile);
+                    using (WordprocessingDocument certificateDoc = WordprocessingDocument.Open(certificateFile, true))
+                    {
+                        string docText = null;
+                        using (StreamReader sr = new StreamReader(certificateDoc.MainDocumentPart.GetStream()))
+                        {
+                            docText = sr.ReadToEnd();
+                        }
+
+                        Regex regexText = new Regex("{{Name}}");
+                        docText = regexText.Replace(docText, name);
+                        regexText = new Regex("{{School}}");
+                        docText = regexText.Replace(docText, school);
+                        //regexText = new Regex("{{Place}}");
+                        //if (place.Contains("Honorable"))
+                        //    docText = regexText.Replace(docText, place);
+                        //else
+                        //    docText = regexText.Replace(docText, place + " " + placeChinese);
+
+                        //regexText = new Regex("{{Place-Chinese}}");
+                        //docText = regexText.Replace(docText, placeChinese);
+                        regexText = new Regex("{{Category}}");
+                        docText = regexText.Replace(docText, category + " " + categoryChinese);
+                        //regexText = new Regex("{{Category-Chinese}}");
+                        //docText = regexText.Replace(docText, categoryChinese);
+
+                        using (StreamWriter sw = new StreamWriter(certificateDoc.MainDocumentPart.GetStream(FileMode.Create)))
+                        {
+                            sw.Write(docText);
+                        }
+                    }
+
+                    certificateCount++;
+                }
+                catch (Exception ex)
+                {
+                    throw;
+                }
+                finally
                 {
                 }
             }
