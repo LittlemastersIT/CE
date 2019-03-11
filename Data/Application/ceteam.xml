@@ -187,5 +187,6 @@
 	<team name="Team_Oompa_Loompa" category="TeamPoetry" division="HighSchool" />
 	<team name="superstar" category="TeamSing" division="HighSchool" />
 	<team name="Test1" category="TeamSing" division="Elementary" />
+	<team name="Dragon" category="TeamTalent" division="MiddleSchool" />
 </ce>
 
