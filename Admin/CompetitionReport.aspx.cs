@@ -322,6 +322,13 @@ namespace CE.Admin
             {
                 if (applicant.Contact.IsTeam) continue;
                 EventSchedule ceEvent = eventSchedule.GetEventSchedule(applicant);
+                if (ceEvent == null)
+                {
+                    string message = "No event is found for this applicant file: " + applicant.ContestantFile.ToString();
+                    message = message + "Please fix the issue in the xml file and regenerate the reports";
+                    ShowReportDialog(HttpUtility.JavaScriptStringEncode(message));
+                    continue;
+                }
                 contestantEvents.Add(applicant.Contestants[0].ID, applicant, ceEvent, 0);
             }
 
@@ -330,6 +337,13 @@ namespace CE.Admin
             {
                 if (!applicant.Contact.IsTeam) continue;
                 EventSchedule ceEvent = eventSchedule.GetEventSchedule(applicant);
+                if (ceEvent == null)
+                {
+                    string message = "No event is found for this applicant file: " + applicant.ContestantFile.ToString();
+                    message = message + "Please fix the issue in the xml file and regenerate the reports";
+                    ShowReportDialog(HttpUtility.JavaScriptStringEncode(message));
+                    continue;
+                }
                 for (int i = 0; i < applicant.Contestants.Count; i++)
                     contestantEvents.Add(applicant.Contestants[i].ID, applicant, ceEvent, i);
             }
@@ -361,6 +375,13 @@ namespace CE.Admin
             {
                 if (applicant.Contact.IsTeam) continue;
                 EventSchedule ceEvent = eventSchedule.GetEventSchedule(applicant);
+                if (ceEvent == null)
+                {
+                    string message = "No event is found for this applicant file: " + applicant.ContestantFile.ToString();
+                    message = message + "Please fix the issue in the xml file and regenerate the reports";
+                    ShowReportDialog(HttpUtility.JavaScriptStringEncode(message));
+                    continue;
+                }
                 contestantEvents.Add(applicant.Contestants[0].ID, applicant, ceEvent, 0);
             }
 
@@ -369,6 +390,13 @@ namespace CE.Admin
             {
                 if (!applicant.Contact.IsTeam) continue;
                 EventSchedule ceEvent = eventSchedule.GetEventSchedule(applicant);
+                if (ceEvent == null)
+                {
+                    string message = "No event is found for this applicant file: " + applicant.ContestantFile.ToString();
+                    message = message + "Please fix the issue in the xml file and regenerate the reports";
+                    ShowReportDialog(HttpUtility.JavaScriptStringEncode(message));
+                    continue;
+                }
                 for (int i = 0; i < applicant.Contestants.Count; i++)
                     contestantEvents.Add(applicant.Contestants[i].ID, applicant, ceEvent, i);
             }
@@ -440,6 +468,13 @@ namespace CE.Admin
                     if (!foundCategory)
                     {
                         EventSchedule ceEvent = eventSchedule.GetEventSchedule(applicant);
+                        if(ceEvent == null)
+                        {
+                            string message = "No event is found for this applicant file: " + applicant.ContestantFile.ToString();
+                            message = message + "Please fix the issue in the xml file and regenerate the reports"; 
+                            ShowReportDialog(HttpUtility.JavaScriptStringEncode(message)); 
+                            continue; 
+                        }
                         worksheet.Cells[3, 4].Value = CompetitionControlData.CategoryReportNames[category];
                         worksheet.Cells[4, 4].Value = CompetitionControlData.DivisionReportNames[division] + " " + CompetitionControlData.ClassReportNames[ceClass];
                         worksheet.Cells[5, 4, 5, 5].Value = ceEvent.Facilitator;
@@ -518,6 +553,13 @@ namespace CE.Admin
                     if (!foundCategory)
                     {
                         EventSchedule ceEvent = eventSchedule.GetEventSchedule(applicant);
+                        if (ceEvent == null)
+                        {
+                            string message = "No event is found for this applicant file: " + applicant.ContestantFile.ToString();
+                            message = message + "Please fix the issue in the xml file and regenerate the reports";
+                            ShowReportDialog(HttpUtility.JavaScriptStringEncode(message));
+                            continue;
+                        }
                         worksheet.Cells[2, 3].Value = CompetitionControlData.CategoryReportNames[category];
                         worksheet.Cells[3, 3].Value =  CompetitionControlData.DivisionReportNames[division] + " " + CompetitionControlData.ClassReportNames[ceClass];
                         worksheet.Cells[4, 3].Value = ceEvent.Facilitator;
@@ -844,7 +886,8 @@ namespace CE.Admin
                 { CompetitionControlData.TEAM_SINGING + INDIVIDUAL, 21 },
                 { CompetitionControlData.TEAM_SINGING, 22 },
                 { CompetitionControlData.TEAM_POETRY, 23 },
-                { CompetitionControlData.TEAM_KNOWLEGE_BOWL, 24 }
+                { CompetitionControlData.TEAM_KNOWLEGE_BOWL, 24 },
+                { CompetitionControlData.BRIDGE, 25 }
             };
 
             // dictionary for competition division, column #
@@ -1524,6 +1567,13 @@ namespace CE.Admin
             {
                 if (applicant.Contact.IsTeam) continue;
                 EventSchedule ceEvent = eventSchedule.GetEventSchedule(applicant);
+                if (ceEvent == null)
+                {
+                    string message = "No event is found for this applicant file: " + applicant.ContestantFile.ToString();
+                    message = message + "Please fix the issue in the xml file and regenerate the reports";
+                    ShowReportDialog(HttpUtility.JavaScriptStringEncode(message));
+                    continue;
+                }
                 contestantEvents.Add(applicant.Contestants[0].ID, applicant, ceEvent, 0);
             }
 
@@ -1532,6 +1582,13 @@ namespace CE.Admin
             {
                 if (!applicant.Contact.IsTeam) continue;
                 EventSchedule ceEvent = eventSchedule.GetEventSchedule(applicant);
+                if (ceEvent == null)
+                {
+                    string message = "No event is found for this applicant file: " + applicant.ContestantFile.ToString();
+                    message = message + "Please fix the issue in the xml file and regenerate the reports";
+                    ShowReportDialog(HttpUtility.JavaScriptStringEncode(message));
+                    continue;
+                }
                 for (int i = 0; i < applicant.Contestants.Count; i++)
                     contestantEvents.Add(applicant.Contestants[i].ID, applicant, ceEvent, i);
             }
