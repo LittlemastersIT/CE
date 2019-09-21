@@ -20,5 +20,6 @@
     <user name="bSheeAnderson" displayName="Bridget" password="CETour2015" role="tour" expired="false" since="09/16/2013" />
     <user name="pollyanna" displayName="Pollyanna" password="Bellevue2015" role="tour" expired="false" since="03/05/2015" />
     <user name="jeffzhu" displayName="Jeff" password="Bellevue2018" role="admin,talent" expired="false" since="09/16/2018" />
+    <user name="yilin" displayName="Yi" password="Bellevue2019" role="admin,talent" expired="false" since="09/17/2019" />
   </users>
 </ce>

@@ -61,6 +61,11 @@ namespace CE.Admin
                 string group = Request.QueryString[GROUP];
                 string reportYear = CEHelper.GetCompetitionYear();
                 string rootFolder = Path.Combine(CEHelper.GetDataPath() + CEConstants.CE_REPORT_FOLDER, reportYear);
+                if (!Directory.Exists(rootFolder))
+                {
+                    Directory.CreateDirectory(rootFolder);
+                }
+
                 if (((action == SIGNIN || action == SCORE) && (group == INDIVIDUAL || group == TEAM)) ||
                       action == HEADCOUNT || action == CONTESTANT || action == CONFLICT ||
                       action == TROPHY || action == AWARDS || action == WINNERS || action == CERTIFICATE || action == PARTICIPATING) 
@@ -237,6 +242,11 @@ namespace CE.Admin
         {
             CEEventSchedule eventSchedule = new CEEventSchedule();
             string baseFolder = Path.Combine(rootFolder, CEConstants.CE_SIGNIN_SHEET_FOLDER);
+            if (!Directory.Exists(baseFolder))
+            {
+                Directory.CreateDirectory(baseFolder);
+            }
+
             List<string> multiEventContestants = GetContestantListWithMultiEvents();
             int totalSheets = 0;
             foreach (string category in CompetitionControlData.AllCategories.Keys)
@@ -267,6 +277,11 @@ namespace CE.Admin
         {
             CEEventSchedule eventSchedule = new CEEventSchedule();
             string baseFolder = Path.Combine(rootFolder, CEConstants.CE_SCORE_SHEET_FOLDER);
+            if (!Directory.Exists(baseFolder))
+            {
+                Directory.CreateDirectory(baseFolder);
+            }
+
             List<string> multiEventContestants = GetContestantListWithMultiEvents();
             int totalSheets = 0;
             foreach (string category in CompetitionControlData.AllCategories.Keys)
@@ -313,6 +328,11 @@ namespace CE.Admin
 
             CEEventSchedule eventSchedule = new CEEventSchedule();
             string baseFolder = Path.Combine(rootFolder, CEConstants.CE_CONTESTANT_SHEET_FOLDER);
+            if (!Directory.Exists(baseFolder))
+            {
+                Directory.CreateDirectory(baseFolder);
+            }
+
             int totalSheets = 0;
             CETalentApplciants allApplicants = new CETalentApplciants();
             ContestantEvents contestantEvents = new ContestantEvents();
@@ -406,6 +426,11 @@ namespace CE.Admin
             FileInfo reportFile = new FileInfo(Path.Combine(baseFolder, conflictFile));
             int totalCount = 0;
 
+            if (!reportFile.Directory.Exists)
+            {
+                reportFile.Directory.Create();
+            }
+
             using (var package = new ExcelPackage(reportFile, templateFile))
             {
                 ExcelWorksheet worksheet = package.Workbook.Worksheets[CONFLICT];
@@ -445,6 +470,11 @@ namespace CE.Admin
 
         private int GenerateSignInFile(FileInfo reportFile, FileInfo templateFile, string group, string category, string division, string ceClass, CEEventSchedule eventSchedule, List<string> multiEventContestants)
         {
+            if (!reportFile.Directory.Exists)
+            {
+                reportFile.Directory.Create();
+            }
+
             using (var package = new ExcelPackage(reportFile, templateFile))
             {
                 ExcelWorksheet worksheet = package.Workbook.Worksheets[SIGNIN];
@@ -529,6 +559,11 @@ namespace CE.Admin
 
         private int GenerateScoreFile(FileInfo reportFile, FileInfo templateFile, string group, string category, string division, string ceClass, CEEventSchedule eventSchedule, List<string> multiEventContestants)
         {
+            if (!reportFile.Directory.Exists)
+            {
+                reportFile.Directory.Create();
+            }
+
             using (var package = new ExcelPackage(reportFile, templateFile))
             {
                 ExcelWorksheet worksheet = package.Workbook.Worksheets[SCORE];
@@ -713,6 +748,11 @@ namespace CE.Admin
             int totalTeamFirst = 0;
             int totalTeamSecond = 0;
             int totalTeamThird = 0;
+
+            if (!reportFile.Directory.Exists)
+            {
+                reportFile.Directory.Create();
+            }
 
             using (var package = new ExcelPackage(reportFile, templateFile))
             {
@@ -899,6 +939,11 @@ namespace CE.Admin
                 { CompetitionControlData.HIGH_SCHOOL, 5 }
             };
 
+            if (!reportFile.Directory.Exists)
+            {
+                reportFile.Directory.Create();
+            }
+
             using (var package = new ExcelPackage(reportFile, templateFile))
             {
                 ExcelWorksheet worksheet = package.Workbook.Worksheets[HEADCOUNT];
@@ -1006,6 +1051,11 @@ namespace CE.Admin
 
             if (awardedApplicants != null && awardedApplicants.Count <= 0) return 0;
 
+            if (!reportFile.Directory.Exists)
+            {
+                reportFile.Directory.Create();
+            }
+
             using (var package = new ExcelPackage(reportFile, templateFile))
             {
                 int firstDivisionRow = 7;
@@ -1092,6 +1142,11 @@ namespace CE.Admin
             List<CECompetitionEntry> awardedApplicants = GetAwardedApplicants(allApplicants, true);
 
             if (awardedApplicants != null && awardedApplicants.Count <= 0) return 0;
+
+            if (!reportFile.Directory.Exists)
+            {
+                reportFile.Directory.Create();
+            }
 
             using (var package = new ExcelPackage(reportFile, templateFile))
             {
@@ -1211,6 +1266,11 @@ namespace CE.Admin
         private int GenerateCertificatesSheet(string rootFolder, FileInfo templateFile)
         {
             string baseFolder = Path.Combine(rootFolder, CEConstants.CE_CERTIFICATE_FOLDER);
+            if (!Directory.Exists(baseFolder))
+            {
+                Directory.CreateDirectory(baseFolder);
+            }
+
             int totalCertificates = 0;
 
             CETalentApplciants allApplicants = new CETalentApplciants(); // get all contestants from xml files in registration folder
@@ -1244,6 +1304,11 @@ namespace CE.Admin
         private int GenerateParticipatingSheet(string rootFolder, FileInfo templateFile)
         {
             string baseFolder = Path.Combine(rootFolder, CEConstants.CE_PARTICIPATING_FOLDER);
+            if (!Directory.Exists(baseFolder))
+            {
+                Directory.CreateDirectory(baseFolder);
+            }
+
             int totalCertificates = 0;
 
             CETalentApplciants allApplicants = new CETalentApplciants(); // get all contestants from xml files in registration folder
@@ -1480,6 +1545,11 @@ namespace CE.Admin
 
         private int GenerateContestantFile(FileInfo reportFile, FileInfo templateFile, List<ContestantEvent> events)
         {
+            if (!reportFile.Directory.Exists)
+            {
+                reportFile.Directory.Create();
+            }
+
             using (var package = new ExcelPackage(reportFile, templateFile))
             {
                 ExcelWorksheet worksheet = package.Workbook.Worksheets[CONTESTANT];
