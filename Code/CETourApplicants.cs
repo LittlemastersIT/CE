@@ -66,6 +66,11 @@ namespace CE.Data
 
             // get the list of applicant data files from \data\application\tours folder
             string tourApplicantFolder = CETourApplicants.MakeApplicationFolder();
+            if (!Directory.Exists(tourApplicantFolder))
+            {
+                Directory.CreateDirectory(tourApplicantFolder);
+            }
+
             string[] applicantFiles = Directory.GetFiles(tourApplicantFolder, "*.xml", SearchOption.TopDirectoryOnly);
 
             // read each one to assemble the applicant list
@@ -199,6 +204,11 @@ namespace CE.Data
             sb.AppendLine(CEConstants.APPLICATION_XML_END_TEMPLATE);
 
             string tourApplicantFolder = CETourApplicants.MakeApplicationFolder();
+            if (!Directory.Exists(tourApplicantFolder))
+            {
+                Directory.CreateDirectory(tourApplicantFolder);
+            }
+
             string xmlFile = Path.Combine(tourApplicantFolder, ApplicantFile);
             return CEHelper.WaitAndWrite(xmlFile, sb.ToString(), false, true);
         }

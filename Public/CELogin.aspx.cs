@@ -32,7 +32,8 @@ namespace CE.Pages
             else
             {
                 errorMessage.Visible = true;
-                ErrorText.Text = "Your user name and password do not match. Please try again.";
+                string physicalPath = CEHelper.GetDataPath() + @"\users\siteusers.xml";
+                ErrorText.Text = physicalPath + "\nYour user name and password do not match. Please try again.";
             }
         }
 

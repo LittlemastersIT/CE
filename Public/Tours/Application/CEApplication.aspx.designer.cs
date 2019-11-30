@@ -526,6 +526,24 @@ namespace CE.Pages {
         protected global::System.Web.UI.WebControls.TextBox ApplicantResume;
         
         /// <summary>
+        /// resumeImg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage resumeImg;
+        
+        /// <summary>
+        /// resumeRemoveImg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage resumeRemoveImg;
+        
+        /// <summary>
         /// AttachResumeFile control.
         /// </summary>
         /// <remarks>
@@ -542,6 +560,24 @@ namespace CE.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox ApplicantTeachingPlan;
+        
+        /// <summary>
+        /// teachingPlanImg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage teachingPlanImg;
+        
+        /// <summary>
+        /// teachingPlanRemoveImg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage teachingPlanRemoveImg;
         
         /// <summary>
         /// AttachLessonPlan control.
@@ -571,6 +607,24 @@ namespace CE.Pages {
         protected global::System.Web.UI.WebControls.TextBox ApplicantFile1;
         
         /// <summary>
+        /// applicantFile1Img control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage applicantFile1Img;
+        
+        /// <summary>
+        /// userFile1RemoveImg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage userFile1RemoveImg;
+        
+        /// <summary>
         /// AttachApplicantFile1 control.
         /// </summary>
         /// <remarks>
@@ -587,6 +641,24 @@ namespace CE.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox ApplicantFile2;
+        
+        /// <summary>
+        /// applicantFile2Img control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage applicantFile2Img;
+        
+        /// <summary>
+        /// userFile2RemoveImg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage userFile2RemoveImg;
         
         /// <summary>
         /// AttachApplicantFile2 control.

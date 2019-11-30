@@ -2,8 +2,8 @@
 <%@ Register TagPrefix="CE" Namespace="CE.Pages" Assembly="CE.Application" %>
 
 <asp:Content ID="ScriptContent1" ContentPlaceHolderID="PlaceHolderScript" runat="server">
-    <link type="text/css" rel="stylesheet" href="/CSS/ceArticle.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/Themes/green/cepage.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/ceArticle.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/Themes/green/cepage.css")%>" media="all" />
     <script type="text/javascript" src="/JS/cepages.js"></script>
 </asp:Content>
 
@@ -13,7 +13,7 @@
             <table style="width:100%">
                 <tr>
                     <td class="ce-icon-cell">
-                        <img class="ce-icon" src="/Images/coding.jpg" />
+                        <img runat="server" class="ce-icon" src="~/Images/coding.jpg" />
                     </td>
                     <td class="ce-text-cell">
                         <div class="ce-text">

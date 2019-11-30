@@ -3,9 +3,9 @@
 <%@ Register TagPrefix="CE" Namespace="CE.Pages" Assembly="CE.Application" %>
 
 <asp:Content ID="ScriptContent1" ContentPlaceHolderID="PlaceHolderScript" runat="server">
-    <link type="text/css" rel="stylesheet" href="/CSS/ceArticle.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/themes/blue/cepage.css" media="all" />
-    <script type="text/javascript" src="/JS/cepages.js"></script>
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/ceArticle.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/themes/blue/cepage.css")%>" media="all" />
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/cepages.js")%>"></script>
 </asp:Content>
 
 <asp:Content ID="Content4" ContentPlaceHolderID="PlaceHolderMain" runat="server">
@@ -108,7 +108,7 @@
                 </div>
 
             </div>
-            <img class="CETourTestimonyImage" src="/Images/Tours/welcome.jpg" />
+            <img runat="server" class="CETourTestimonyImage" src="~/Images/Tours/welcome.jpg" />
             <div class="CETourTestimonyInfo">
                 <div class="CETourTestimonyName">Tonya Kusak</div>
                 <div class="CETourTestimonyYear">CE Tour 2007</div>
@@ -118,7 +118,7 @@
             <div class="CETourTestimonyText">
                 <p>Thank you so much for the tremendous opportunity to travel throughout China this summer. Your hospitality was remarkable and so very memorable. Our entire tour was very educational concerning China's history, art, food, peoples, traditions, and landscape. It was amazing being amongst historical sites and art created thousands of years prior. I now have such a greater understanding for China and its culture. This opportunity to build a greater understanding of China's culture will inevitably impact my teaching and have a positive effect on all of my future students. I now feel that I will be able to have a greater connection to my student's Chinese heritage and teach from a more refined multi-cultural perspective. </p>
             </div>
-            <img class="CETourTestimonyImage" src="/Images/Tours/welcome.jpg" />
+            <img runat="server" class="CETourTestimonyImage" src="~/Images/Tours/welcome.jpg" />
             <div class="CETourTestimonyInfo">
                 <div class="CETourTestimonyName">Jessica Heaton</div>
                 <div class="CETourTestimonyYear">CE Tour 2005</div>
@@ -128,7 +128,7 @@
             <div class="CETourTestimonyText">
                 <p>After attending the CE Fund Raise Tea Party on Sunday, it struck me that my participation with the Cultural Exchange program has been a double blessing. Not only was I incredibly lucky to have the opportunity to travel to China, Hong Kong and Taiwan, but what's even better is that I've been welcomed into your community. On Sunday I had a chance to catch up with many of the people who guided me through Taiwan, and it felt like visiting with old friends. I also met many new people, and every single person went out of their way to make me feel comfortable. Thank you so much for your sponsorship, and even more for your friendship - this I hope endures far into the future. </p>
             </div>
-            <img class="CETourTestimonyImage" src="/Images/Tours/welcome.jpg" />
+            <img runat="server" class="CETourTestimonyImage" src="~/Images/Tours/welcome.jpg" />
             <div class="CETourTestimonyInfo">
                 <div class="CETourTestimonyName">Alice Britt</div>
                 <div class="CETourTestimonyYear">CE Tour 2002</div>
@@ -139,7 +139,7 @@
                 <p>As our trip ended in Taipei, we said good-bye to Sam, Susan and their families and headed toward the airport. We were exhausted! This had been no vacation! We had arisen each morning to explore as much as we could on our own even before our tour guide arrived. At night we rarely fell into bed before midnight. We were indeed tired, but we were brimming with enthusiasm about our experiences in China and anxious to share what we learned with our students, parents, and colleagues. </p>
                 <p>So now we would like to thank you all for this wonderful opportunity and promise that we will do our best to keep the teaching of Chinese history and culture an integral part of your children's education. This is just the beginning. We look forward to a continued relationship with the Seattle Chinese School on behalf of your children. </p>
             </div>
-            <img class="CETourTestimonyImage" src="/Images/Tours/welcome.jpg" />
+            <img runat="server" class="CETourTestimonyImage" src="~/Images/Tours/welcome.jpg" />
             <div class="CETourTestimonyInfo">
                 <div class="CETourTestimonyName">Susan Brown</div>
                 <div class="CETourTestimonyYear">CE Tour 2001</div>
@@ -153,7 +153,7 @@
         </div>
         <div>
             <div class="CETourAboutDivider">
-                <img class="CETourImage" src="/Images/Tours/forestLandscape.jpg" />
+                <img runat="server" class="CETourImage" src="~/Images/Tours/forestLandscape.jpg" />
             </div>
         </div>
     </div>

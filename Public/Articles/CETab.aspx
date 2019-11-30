@@ -3,11 +3,11 @@
 <%@ Register TagPrefix="CE" Namespace="CE.Pages" Assembly="CE.Application" %>
 
 <asp:Content ID="ScriptContent1" ContentPlaceHolderID="PlaceHolderScript" runat="server">
-    <link type="text/css" rel="stylesheet" href="/CSS/colorbox.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/cetab.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/ceresults.css" media="all" />
-    <script type="text/javascript" src="/JS/jquery/jquery.colorbox-min.js"></script>
-    <script type="text/javascript" src="/JS/cetab.js"></script>
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/colorbox.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/cetab.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/ceresults.css")%>" media="all" />
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.colorbox-min.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/cetab.js")%>"></script>
 </asp:Content>
 
 <asp:Content ID="MainContent1" ContentPlaceHolderID="PlaceHolderMain" runat="server">
@@ -66,14 +66,14 @@
                 <div id='drawing-paging'>
                     <div class="ce-paging-view">
                         <div class="photo-paging-list center">
-                            <div class="button-left"><img class="photo-paging-icon" src="/Images/back.png" /></div>
+                            <div class="button-left"><img runat="server" class="photo-paging-icon" src="~/Images/back.png" /></div>
                             <asp:Repeater ID="AlbumPages" runat="server">
                                 <ItemTemplate>
                                     <div class="photo-paging-item"></div>
                                     <div class="photo-paging-spacing"></div>
                                 </ItemTemplate>
                             </asp:Repeater>
-                            <div class="button-right"><img class="photo-paging-icon" src="/Images/forward.png" /></div>
+                            <div class="button-right"><img runat="server" class="photo-paging-icon" src="~/Images/forward.png" /></div>
                         </div>
                     </div>
                 </div>
@@ -86,11 +86,11 @@
             $(document).ready(function () {
                 setArticleTab('#ce-tab-content', '#article-tab', 0);
                 if (window.location.href.toLowerCase().indexOf('/results&') > 0) {
-                    var pastResults = '<a href="/public/talent/results/2015/ceresults.html"><span>2015 Results</span></a>&nbsp;&nbsp;&nbsp;<a href="/public/talent/results/2014/ceresults.html"><span>2014 Results</span></a>&nbsp;&nbsp;&nbsp;<a href="/public/talent/results/2013/ceresults.html"><span>2013 Results</span></a>';
+                    var pastResults = '<a runat="server" href="~/public/talent/results/2015/ceresults.html"><span>2015 Results</span></a>&nbsp;&nbsp;&nbsp;<a runat="server" href="~/public/talent/results/2014/ceresults.html"><span>2014 Results</span></a>&nbsp;&nbsp;&nbsp;<a runat="server" href="~/public/talent/results/2013/ceresults.html"><span>2013 Results</span></a>';
                     $('#article-archive').html(pastResults);
                 }
                 else {
-                    var currentResults = '<a href="/public/talent/results/ceresults.html"><span>2016 Results</span></a>';
+                    var currentResults = '<a runat="server" href="~/public/talent/results/ceresults.html"><span>2016 Results</span></a>';
                     $('#article-archive').html(currentResults);
                 }
             });

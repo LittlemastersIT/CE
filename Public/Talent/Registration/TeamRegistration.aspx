@@ -2,14 +2,14 @@
 <%@ Register TagPrefix="CE" Namespace="CE.Pages" Assembly="CE.Application" %>
 
 <asp:Content ID="ScriptContent1" ContentPlaceHolderID="PlaceHolderScript" runat="server">
-    <link type="text/css" rel="stylesheet" href="/CSS/jquery-ui-1.10.3.custom.min.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/ceadmin.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/themes/maroon/cepage.css" media="all" />
-    <script type="text/javascript" src="/JS/jquery/jquery.colorbox-min.js"></script>
-    <script type="text/javascript" src="/JS/jquery/jquery-ui-1.10.3.min.js"></script>
-    <script type="text/javascript" src="/JS/jquery/jquery.inputmask.js"></script>
-    <script type="text/javascript" src="/JS/cecookie.js"></script>
-    <script type="text/javascript" src="/JS/cejson.js"></script>
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/jquery-ui-1.10.3.custom.min.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/ceadmin.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/themes/maroon/cepage.css")%>" media="all" />
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.colorbox-min.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery-ui-1.10.3.min.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.inputmask.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/cecookie.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/cejson.js")%>"></script>
 </asp:Content>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="PlaceHolderMain" runat="server">
@@ -167,13 +167,13 @@
                                 <tr>
                                     <td class="reg-button-cell" colspan="4">
                                         <asp:LinkButton ID="AddButton" runat="server" CssClass="action-button" OnClientClick="return addContestant();">
-                                            <img src="/images/edit_add.png" alt="Add Contestant" />&nbsp;&nbsp;<span>Add Contestant</span>
+                                            <img runat="server" src="~/images/edit_add.png" alt="Add Contestant" />&nbsp;&nbsp;<span>Add Contestant</span>
                                         </asp:LinkButton>&nbsp;&nbsp;&nbsp;&nbsp;
                                         <asp:LinkButton ID="RemoveButton" runat="server" CssClass="action-button" OnClientClick="return removeContestant();">
-                                            <img src="/images/erase.png" alt="Remove Contestant" />&nbsp;&nbsp;<span>Remove Contestant</span>
+                                            <img runat="server" src="~/images/erase.png" alt="Remove Contestant" />&nbsp;&nbsp;<span>Remove Contestant</span>
                                         </asp:LinkButton>&nbsp;&nbsp;&nbsp;&nbsp;
         <%--                                <asp:LinkButton ID="Page2ClearButton" runat="server" CssClass="action-button" OnClientClick="return clearContestantInput();">
-                                            <img src="/images/eraser_big.png" alt="Erase Contestant" />&nbsp;&nbsp;<span>Clear Contestant</span>
+                                            <img runat="server" src="~/images/eraser_big.png" alt="Erase Contestant" />&nbsp;&nbsp;<span>Clear Contestant</span>
                                         </asp:LinkButton>--%>
                                     </td>
                                 </tr>
@@ -292,7 +292,7 @@
                         <td class="reg-button-cell" colspan="2">
                             <asp:Button ID="Page2PreviousButton" runat="server" CssClass="action-button" Font-Bold="true" Text="  <<  Previous  " OnClientClick="return gotoPage(1);" />
                             <asp:Button ID="FeeWaiverButton" runat="server" CssClass="action-button" Font-Bold="true" Text="  Fee Waiver  " OnClick="OnFeeWaiverPayment" />&nbsp;&nbsp;
-                            <asp:LinkButton ID="PaypalPaymentButton" runat="server" CssClass="paypal-button" OnClick="OnPaypalPayment"><img title="Paypal online payment" src="/images/paypal_paynow_small.gif" /></asp:LinkButton>
+                            <asp:LinkButton ID="PaypalPaymentButton" runat="server" CssClass="paypal-button" OnClick="OnPaypalPayment"><img runat="server" title="Paypal online payment" src="~/images/paypal_paynow_small.gif" /></asp:LinkButton>
                         </td>
                     </tr>
                     <tr>
@@ -310,7 +310,7 @@
                         <td colspan="2">
                             <div class="paypal-logo" style="float:right;">
                                 <a href="#" onclick="javascript:window.open('https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/popup/OLCWhatIsPayPal-outside','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=350');">
-                                    <img src="/images/paypal_payment_logo.gif" border="0" alt="Now Accepting PayPal">
+                                    <img runat="server" src="~/images/paypal_payment_logo.gif" border="0" alt="Now Accepting PayPal">
                                 </a>
                             </div>
                         </td>
@@ -359,7 +359,7 @@
             <div class="application-result-text ce-h4">
                 <table>
                     <tr>
-                        <td style="width:60px;"><img src="/images/confirm.png" /></td>
+                        <td style="width:60px;"><img runat="server" src="~/images/confirm.png" /></td>
                         <td>
                             Thanks for filling out the talent competition registration form with us. We have sent an email to confirm that we have received your registration.
                             Please check your email for further instruction about our process and how to proceed going forward.
@@ -380,7 +380,7 @@
             <div class="application-result-text ce-h4">
                 <table>
                     <tr>
-                        <td style="width:60px;"><img src="/images/confirm.png" /></td>
+                        <td style="width:60px;"><img runat="server" src="~/images/confirm.png" /></td>
                         <td>
                             Thanks for filling out the talent competition registration form with us. We have sent an email to confirm that we have received your registration.
                             Please check your email for further instruction about our process and how to proceed going forward.
@@ -401,7 +401,7 @@
             <div class="application-result-text ce-h4">
                 <table>
                     <tr>
-                        <td style="width:60px;"><img src="/images/error.png" /></td>
+                        <td style="width:60px;"><img runat="server" src="~/images/error.png" /></td>
                         <td>
                             The registration you filled out already exists. Please change one of the following input data and resumit it again: <br />
                             contact name, phone, category, division, and team name.
@@ -422,7 +422,7 @@
             <div class="application-result-text ce-h4">
                 <table>
                     <tr>
-                        <td style="width:60px;"><img src="/images/error.png" /></td>
+                        <td style="width:60px;"><img runat="server" src="~/images/error.png" /></td>
                         <td>
                             The team name you specified already exists. Please use a different name. <br />
                         </td>

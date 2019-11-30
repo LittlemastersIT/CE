@@ -6,7 +6,7 @@
             <table style="width:100%">
                 <tr>
                     <td class="ce-icon-cell">
-                        <img class="ce-icon" src="/Images/coding.jpg" />
+                        <img runat="server" class="ce-icon" src="~/Images/coding.jpg" />
                     </td>
                     <td class="ce-text-cell">
                         <div class="ce-text">

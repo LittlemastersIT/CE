@@ -3,13 +3,13 @@
 <%@ Register TagPrefix="CE" Namespace="CE.Pages" Assembly="CE.Application" %>
 
 <asp:Content ID="ScriptContent1" ContentPlaceHolderID="PlaceHolderScript" runat="server">
-    <link type="text/css" rel="stylesheet" href="/CSS/jquery-ui-1.10.3.custom.min.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/ceadmin.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/ceArticle.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/Themes/red/cepage.css" media="all" />
-    <script type="text/javascript" src="/JS/jquery/jquery.colorbox-min.js"></script>
-    <script type="text/javascript" src="/JS/jquery/jquery-ui-1.10.3.min.js"></script>
-    <script type="text/javascript" src="/JS/jquery/jquery.inputmask.js"></script>
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/jquery-ui-1.10.3.custom.min.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/ceadmin.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/ceArticle.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/Themes/red/cepage.css")%>" media="all" />
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.colorbox-min.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery-ui-1.10.3.min.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.inputmask.js")%>"></script>
 </asp:Content>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="PlaceHolderMain" runat="server">
@@ -35,7 +35,7 @@
                                     <div style="padding-bottom: 50px; padding-top: 20px;">
                                         <ul>
                                             <li style="display: inline;">
-                                                <img src="/images/support/sponsor5.png" width="300px" alt="su development" /></li>
+                                                <img runat="server" src="~/images/support/sponsor5.png" width="300px" alt="su development" /></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -45,11 +45,11 @@
                                     <div style="padding-bottom: 50px; padding-top: 20px;">
                                         <ul>
                                             <li style="display: inline;">
-                                                <img src="/images/support/sponsor2.png" width="300px" alt="Breffni House" /></li>
+                                                <img runat="server" src="~/images/support/sponsor2.png" width="300px" alt="Breffni House" /></li>
                                             <li style="display: inline;">
-                                                <img src="/images/support/sponsor3.jpg" width="300px" alt="Crowley" /></li>
+                                                <img runat="server" src="~/images/support/sponsor3.jpg" width="300px" alt="Crowley" /></li>
                                             <li style="display: inline;">
-                                                <img src="/images/support/sponsor4.jpg" width="300px" alt="The Tina Chang Group" /></li>
+                                                <img runat="server" src="~/images/support/sponsor4.jpg" width="300px" alt="The Tina Chang Group" /></li>
                                         </ul>
                                     </div>
 
@@ -165,7 +165,7 @@
             <div class="application-result-text ce-h4">
                 <table>
                     <tr>
-                        <td style="width: 60px;"><img src="/images/confirm.png" /></td>
+                        <td style="width: 60px;"><img runat="server" src="~/images/confirm.png" /></td>
                         <td>Thank you for filling out the Corporate Sponsor form to become a supporting member of our oganization. We will contact you soon to share our passion and goals with you.</td>
                     </tr>
                 </table>

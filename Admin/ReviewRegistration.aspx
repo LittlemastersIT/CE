@@ -4,10 +4,10 @@
 <%@ Register TagPrefix="CE" Namespace="CE.Data" Assembly="CE.Application" %>
 
 <asp:Content ID="ScriptContent1" ContentPlaceHolderID="PlaceHolderScript" runat="server">
-    <link type="text/css" rel="stylesheet" href="/CSS/cearticle.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/themes/maroon/cepage.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/ceadmin.css" media="all" />
-    <script type="text/javascript" src="/JS/jquery/jquery.colorbox-min.js"></script>
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/cearticle.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/themes/maroon/cepage.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/ceadmin.css")%>" media="all" />
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.colorbox-min.js")%>"></script>
 </asp:Content>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="PlaceHolderMain" runat="server">
@@ -55,7 +55,7 @@
                     </td>
                     <td style="padding-left:10px;">
                         <asp:LinkButton ID="SearchButton" runat="server" CssClass="search-button" OnClick="OnSearchApplicants">
-                            <img src="/images/search.png" alt="search for registration entries based on criteria given" /><span>Search</span>
+                            <img runat="server" src="~/images/search.png" alt="search for registration entries based on criteria given" /><span>Search</span>
                         </asp:LinkButton>
                     </td>
                     <td>
@@ -146,10 +146,10 @@
                         ShowFirstAndLast="True"
                         ShowNextAndPrevious="True"
                         PageLinksToShow="10"
-                        NextImageUrl="<img src='/images/mewa_rightb.gif'/>"
-                        PreviousImageUrl="<img src='/images/mewa_leftb.gif'/>"
-                        FirstImageUrl="<img src='/images/mewa_leftPageb.gif'/>"
-                        LastImageUrl="<img src='/images/mewa_rightPageb.gif'/>"
+                        NextImageUrl="<img runat='server' src='~/images/mewa_rightb.gif'/>"
+                        PreviousImageUrl="<img runat='server' src='~/images/mewa_leftb.gif'/>"
+                        FirstImageUrl="<img runat='server' src='~/images/mewa_leftPageb.gif'/>"
+                        LastImageUrl="<img runat='server' src='~/images/mewa_rightPageb.gif'/>"
                         />
                 </PagerTemplate>
                 <EmptyDataTemplate>
@@ -163,7 +163,7 @@
                 <div class="review-application-page">
                     <div class="review-title-bar ce-h3">
                         <div>Review Talent Competition Registration for <asp:Label ID="Applicant" runat="server" /></div>
-                        <div class="review-exit-button"><img src="/images/close_gray.png" alt="close dialog" onclick="exitDialog();" /></div>
+                        <div class="review-exit-button"><img runat="server" src="~/images/close_gray.png" alt="close dialog" onclick="exitDialog();" /></div>
                     </div>
                     <div id="review-panel">
                         <table>
@@ -298,7 +298,7 @@
                 <table>
                     <tr>
                         <td style="width: 60px;">
-                            <img src="/images/colorpen.png" /></td>
+                            <img runat="server" src="~/images/colorpen.png" /></td>
                         <td>
                             <div id="decisionText"></div>
                         </td>
@@ -318,7 +318,7 @@
             <div class="application-result-text ce-h4">
                 <table>
                     <tr>
-                        <td style="width:60px;"><img src="/images/confirm.png" /></td>
+                        <td style="width:60px;"><img runat="server" src="~/images/confirm.png" /></td>
                         <td>
                             <div id="success-message">The applicant status has been changed. An automatic email has been sent to the applicant for the change.</div>
                         </td>
@@ -335,7 +335,7 @@
             <div class="application-result-text ce-h4">
                 <table>
                     <tr>
-                        <td style="width:60px;"><img src="/images/error.png" /></td>
+                        <td style="width:60px;"><img runat="server" src="~/images/error.png" /></td>
                         <td>
                             <div id="error-message">There is problem processing the registration entry. Please try again. If the problem persists, please contact site administrator.</div>
                         </td>

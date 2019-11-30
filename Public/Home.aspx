@@ -3,9 +3,9 @@
 <%@ Register TagPrefix="CE" Namespace="CE.Pages" Assembly="CE.Application" %>
 
 <asp:Content ID="ScriptContent1" ContentPlaceHolderID="PlaceHolderScript" runat="server">
-    <link type="text/css" rel="stylesheet" href="/CSS/cehome.css" media="all" />
-    <script type="text/javascript" src="/JS/cepages.js"></script>
-    <script type="text/javascript" src="/JS/swipe.js"></script>
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/cehome.css")%>" media="all" />
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/cepages.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/swipe.js")%>"></script>
 </asp:Content>
 
 <asp:Content ID="MainContent1" ContentPlaceHolderID="PlaceHolderMain" runat="server">
@@ -26,7 +26,7 @@
                     <div class="news-pane">
                         <div class="news-pane-header">
                             <span class="ce-h3"><asp:Literal ID="NewsHeader" runat="server" /></span>
-                            <img src="/Images/crossBlue.png" onclick="closeAnnouncement();" />
+                            <img runat="server" src="~/Images/crossBlue.png" onclick="closeAnnouncement();" />
                         </div>
                         <div id="news-content-pane" data-role="content" data-transition="slide">
                             <div id="news-all-content">
@@ -52,13 +52,13 @@
                             <div id="news-paging-content">
                                 <div class="news-paging-view">
                                     <div class="news-paging-list center">
-                                        <div class="button-left"><img class="news-paging-icon" src="/Images/back.png" /></div>
+                                        <div class="button-left"><img runat="server" class="news-paging-icon" src="~/Images/back.png" /></div>
                                             <asp:Repeater ID="NewsPages" runat="server">
                                                 <ItemTemplate>
                                                     <div class="news-paging-item"></div>
                                                 </ItemTemplate>
                                             </asp:Repeater>
-                                        <div class="button-right"><img class="news-paging-icon" src="/Images/forward.png" /></div>
+                                        <div class="button-right"><img runat="server" class="news-paging-icon" src="~/Images/forward.png" /></div>
                                     </div>
                                 </div>
                             </div>

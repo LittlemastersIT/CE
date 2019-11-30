@@ -4,11 +4,11 @@
 <%@ Register TagPrefix="JT3" Namespace="JT3Portfolio" Assembly="JT3Portfolio.Application" %>
 
 <asp:Content ID="ScriptContent1" ContentPlaceHolderID="PlaceHolderScript" runat="server">
-    <link type="text/css" rel="stylesheet" href="/CSS/colorbox.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/ceAlbum.css" media="all" />
-    <script type="text/javascript" src="/JS/jquery/jquery.colorbox-min.js"></script>
-    <script type="text/javascript" src="/JS/swipe.js"></script>
-    <script type="text/javascript" src="/JS/cealbum.js"></script>
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/colorbox.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/ceAlbum.css")%>" media="all" />
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.colorbox-min.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/swipe.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/cealbum.js")%>"></script>
 </asp:Content>
 
 <asp:Content ID="MainContent1" ContentPlaceHolderID="PlaceHolderMain" runat="server">
@@ -43,7 +43,7 @@
                                         <ul>
                                             <asp:Repeater ID="AlbumPhotos" runat="server">
                                                 <ItemTemplate>
-                                                    <li class="photo-tile"><img src="<%# Eval("ImageUrl") %>"/></li>
+                                                    <li class="photo-tile"><img runat="server" src="<%# Eval("ImageUrl") %>"/></li>
                                                 </ItemTemplate>
                                             </asp:Repeater>
                                         </ul>
@@ -54,14 +54,14 @@
                         <div id="paging<%# Eval("Index") %>">
                             <div class="ce-paging-view">
                                 <div class="photo-paging-list center">
-                                    <div class="button-left"><img class="photo-paging-icon" src="/Images/back.png" /></div>
+                                    <div class="button-left"><img runat="server" class="photo-paging-icon" src="~/Images/back.png" /></div>
                                     <asp:Repeater ID="AlbumPages" runat="server">
                                         <ItemTemplate>
                                             <div class="photo-paging-item"></div>
                                             <div class="photo-paging-spacing"></div>
                                         </ItemTemplate>
                                     </asp:Repeater>
-                                    <div class="button-right"><img class="photo-paging-icon" src="/Images/forward.png" /></div>
+                                    <div class="button-right"><img runat="server" class="photo-paging-icon" src="~/Images/forward.png" /></div>
                                 </div>
                             </div>
                         </div>

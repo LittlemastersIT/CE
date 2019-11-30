@@ -4,14 +4,14 @@
 <%@ Register TagPrefix="CE" Namespace="CE.Data" Assembly="CE.Application" %>
 
 <asp:Content ID="ScriptContent1" ContentPlaceHolderID="PlaceHolderScript" runat="server">
-    <link type="text/css" rel="stylesheet" href="/CSS/jquery-ui-1.10.3.custom.min.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/cearticle.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/ceadmin.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/cetab.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/themes/blue/cepage.css" media="all" />
-    <script type="text/javascript" src="/JS/jquery/jquery-ui-1.10.3.min.js"></script>
-    <script type="text/javascript" src="/JS/jquery/jquery.colorbox-min.js"></script>
-    <script type="text/javascript" src="/JS/cetab.js"></script>
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/jquery-ui-1.10.3.custom.min.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/cearticle.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/ceadmin.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/cetab.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/themes/blue/cepage.css")%>" media="all" />
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery-ui-1.10.3.min.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.colorbox-min.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/cetab.js")%>"></script>
 </asp:Content>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="PlaceHolderMain" runat="server">
@@ -41,7 +41,7 @@
                     </td>
                     <td style="padding-left:10px;">
                         <asp:LinkButton ID="SearchButton" runat="server" CssClass="search-button" OnClick="OnSearchApplicants">
-                            <img src="/images/search.png" alt="search for registration entries based on criteria given" /><span>Search</span>
+                            <img runat="server src="~/images/search.png" alt="search for registration entries based on criteria given" /><span>Search</span>
                         </asp:LinkButton>
                     </td>
                     <td>
@@ -117,10 +117,10 @@
                         ShowFirstAndLast="True"
                         ShowNextAndPrevious="True"
                         PageLinksToShow="10"
-                        NextImageUrl="<img src='/images/mewa_rightb.gif'/>"
-                        PreviousImageUrl="<img src='/images/mewa_leftb.gif'/>"
-                        FirstImageUrl="<img src='/images/mewa_leftPageb.gif'/>"
-                        LastImageUrl="<img src='/images/mewa_rightPageb.gif'/>"
+                        NextImageUrl="<img runat='server' src='~/images/mewa_rightb.gif'/>"
+                        PreviousImageUrl="<img runat='server' src='~/images/mewa_leftb.gif'/>"
+                        FirstImageUrl="<img runat='server' src='~/images/mewa_leftPageb.gif'/>"
+                        LastImageUrl="<img runat='server' src='~/images/mewa_rightPageb.gif'/>"
                         />
                 </PagerTemplate>
                 <EmptyDataTemplate>
@@ -134,7 +134,7 @@
                 <div class="review-application-page">
                     <div class="form-title-bar ce-h3">
                         Review Cultural Tour Application for <asp:Label ID="Applicant" runat="server" />
-                        <div class="review-exit-button"><img src="/images/close_gray.png" alt="close dialog" onclick="popoffDialog();" /></div>
+                        <div class="review-exit-button"><img runat="server" src="~/images/close_gray.png" alt="close dialog" onclick="popoffDialog();" /></div>
                     </div>
                     <div id="review-panel">
                         <table>
@@ -294,14 +294,14 @@
                             </table>
                         </div>
                         <div id="tab5" class="tab-articles-item tab-popup hide">
-                            <div><asp:LinkButton CssClass="form-cell-text" runat="server" OnClick="OnDownloadResume"><img src="/images/pdf_48x48.png" /><span style="position:relative;top:-20px;"> Download Applicant's Resume File</span></asp:LinkButton>
+                            <div><asp:LinkButton CssClass="form-cell-text" runat="server" OnClick="OnDownloadResume"><img runat="server" src="~/images/pdf_48x48.png" /><span style="position:relative;top:-20px;"> Download Applicant's Resume File</span></asp:LinkButton>
                                 <div id="resumeDownloadError"></div>
                             </div>
-                            <div><asp:LinkButton CssClass="form-cell-text" runat="server" OnClick="OnDownloadLessonPlan"><img src="/images/pdf_48x48.png" /><span style="position:relative;top:-20px;"> Download Applicant's Lesson Plan Sample File</span></asp:LinkButton>
+                            <div><asp:LinkButton CssClass="form-cell-text" runat="server" OnClick="OnDownloadLessonPlan"><img runat="server" src="~/images/pdf_48x48.png" /><span style="position:relative;top:-20px;"> Download Applicant's Lesson Plan Sample File</span></asp:LinkButton>
                                 <div id="lessPlanDownloadError"></div>
                             </div>
-                            <div id="ApplicantFileDownload1" runat="server"><asp:LinkButton CssClass="form-cell-text" runat="server" OnClick="OnDownloadApplicantFile1"><img src="/images/pdf_48x48.png" /><span style="position:relative;top:-20px;"> Download Applicant's Additional File #1</span></asp:LinkButton></div>
-                            <div id="ApplicantFileDownload2" runat="server"><asp:LinkButton CssClass="form-cell-text" runat="server" OnClick="OnDownloadApplicantFile2"><img src="/images/pdf_48x48.png" /><span style="position:relative;top:-20px;"> Download Applicant's Additional File #2</span></asp:LinkButton></div>
+                            <div id="ApplicantFileDownload1" runat="server"><asp:LinkButton CssClass="form-cell-text" runat="server" OnClick="OnDownloadApplicantFile1"><img runat="server" src="~/images/pdf_48x48.png" /><span style="position:relative;top:-20px;"> Download Applicant's Additional File #1</span></asp:LinkButton></div>
+                            <div id="ApplicantFileDownload2" runat="server"><asp:LinkButton CssClass="form-cell-text" runat="server" OnClick="OnDownloadApplicantFile2"><img runat="server" src="~/images/pdf_48x48.png" /><span style="position:relative;top:-20px;"> Download Applicant's Additional File #2</span></asp:LinkButton></div>
                             <div class="form-cell-title" style="padding-top:40px;">Additional applicant comment:</div>
                             <div class="form-cell-text"><asp:TextBox ID="UserComment" MaxLength="4096" CssClass="ce-h4" Height="200px" Width="800px" TextMode="MultiLine" runat="server" ReadOnly="true" /></div>
                         </div>
@@ -375,7 +375,7 @@
                 <table>
                     <tr>
                         <td style="width: 60px;">
-                            <img src="/images/colorpen.png" /></td>
+                            <img runat="server" src="~/images/colorpen.png" /></td>
                         <td>
                             <div id="decisionText"></div>
                         </td>
@@ -395,7 +395,7 @@
             <div class="application-result-text ce-h4">
                 <table>
                     <tr>
-                        <td style="width:60px;"><img src="/images/confirm.png" /></td>
+                        <td style="width:60px;"><img runat="server" src="~/images/confirm.png" /></td>
                         <td>
                             <div id="success-message">The applicant status has been changed. An automatic email has been sent to the applicant for the change.</div>
                         </td>
@@ -412,7 +412,7 @@
             <div class="application-result-text ce-h4">
                 <table>
                     <tr>
-                        <td style="width:60px;"><img src="/images/error.png" /></td>
+                        <td style="width:60px;"><img runat="server" src="~/images/error.png" /></td>
                         <td>
                             <div id="form-error-message">There is a problem downloading the file '{0}' you are requesting. Please try again. If this persists, please contact site administrator.</div>
                         </td>
@@ -429,7 +429,7 @@
             <div class="application-result-text ce-h4">
                 <table>
                     <tr>
-                        <td style="width:60px;"><img src="/images/error.png" /></td>
+                        <td style="width:60px;"><img runat="server" src="~/images/error.png" /></td>
                         <td>
                             <div id="operation-error-message">There is a problem performing function you are requesting. Please try again. If this persists, please contact site administrator.</div>
                         </td>
