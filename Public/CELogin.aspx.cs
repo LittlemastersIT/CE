@@ -27,12 +27,12 @@ namespace CE.Pages
                 CEHelper.SetCookie(CEConstants.CE_USER_COOKIE_ID, CEConstants.CE_USER_COOKIE_NAME, user.UserName, 10);
                 CEHelper.SetCookie(CEConstants.CE_DISPLAYNAME_COOKIE_ID, CEConstants.CE_DISPLAYNAME_COOKIE_NAME, user.DisplayName, 10);
                 CEHelper.SetCookie(CEConstants.CE_ROLE_COOKIE_ID, CEConstants.CE_ROLE_COOKIE_NAME, user.Role, 10);
-                Response.Redirect(CEConstants.CE_ADMIN_PAGE);
+                Response.Redirect(CEHelper.GetSiteRootUrl() + CEConstants.CE_ADMIN_PAGE);
             }
             else
             {
                 errorMessage.Visible = true;
-                string physicalPath = CEHelper.GetDataPath() + @"\users\siteusers.xml";
+                string physicalPath = CEHelper.GetSiteRootUrl();
                 ErrorText.Text = physicalPath + "\nYour user name and password do not match. Please try again.";
             }
         }
@@ -47,7 +47,7 @@ namespace CE.Pages
 
         protected void OnCancel(object sender, EventArgs e)
         {
-            Response.Redirect(CEConstants.CE_HOME_PAGE);
+            Response.Redirect(CEHelper.GetSiteRootUrl() + CEConstants.CE_HOME_PAGE);
         }
     }
 }

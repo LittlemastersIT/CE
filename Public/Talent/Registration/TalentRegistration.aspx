@@ -16,7 +16,7 @@
                     <asp:Label ID="RegistrationNoteText" runat="server">
                        <%= CompetitionYear %> Washington State Language and Talent competition is now open for registration. Contestants who are interested in 
                        participating should register online using this page. Please be sure you have read the information provided on the 
-                       <a runat="server" style="text-decoration:underline;color:blue !important;" href="~/public/talent/guidelines/ceguidelines.html">Schedule & Guidelines</a>  
+                       <a style="text-decoration:underline;color:blue !important;" href="<%=ResolveUrl("~/public/talent/guidelines/ceguidelines.html")%>">Schedule & Guidelines</a>  
                        page for the rules applied to the competition categories you register.
                     </asp:Label>
                     <br /><br />
@@ -51,7 +51,7 @@
                 <div class="ce-temp-note ce-h4" style="color:#050143;border-color:red;">
                     <asp:Label ID="CompetitionEndNoteText" runat="server">
                         <%= CompetitionYear %> talent competition has been held and completed. Have a wonderful <%= CompetitionYear %> and we will see you next year.
-                        Please refer to <a runat="server" href="~/Public/Articles/cearticle.aspx?theme=black&path=/home/about&content=ceabout" style="font-size:16px;text-decoration:underline;color:black !important;">CE Status August 2016</a> for CE Talent Competition current status.
+                        Please refer to <a href="<%=ResolveUrl("~/Public/Articles/cearticle.aspx?theme=black&path=/home/about&content=ceabout")%>" style="font-size:16px;text-decoration:underline;color:black !important;">CE Status August 2016</a> for CE Talent Competition current status.
                     </asp:Label>
                     <br /><br />
                 </div>
@@ -59,7 +59,7 @@
             <asp:Panel ID="CompetitionTermiateNote" runat="server">
                 <div class="ce-temp-note ce-h4" style="color:#050143;border-color:red;">
                     <asp:Label ID="CompetitionTermiateNoteText" runat="server">
-                        Please refer to <a runat="server" href="~/Public/Articles/cearticle.aspx?theme=black&path=/home/about&content=ceabout" style="font-size:16px;text-decoration:underline;color:black !important;">CE Status August 2016</a> for CE Talent Competition current status.
+                        Please refer to <a href="<%=ResolveUrl("~/Public/Articles/cearticle.aspx?theme=black&path=/home/about&content=ceabout")%>" style="font-size:16px;text-decoration:underline;color:black !important;">CE Status August 2016</a> for CE Talent Competition current status.
                     </asp:Label>
                     <br /><br />
                 </div>
@@ -75,7 +75,7 @@
                             <div class="talent-competition-label ce-h3">Select a competition type: </div>
                         </li>
                         <li class="talent-competition-type">
-                            <a runat="server" href="~/public/talent/registration/individualregistration.aspx">
+                            <a href="<%=ResolveUrl("~/public/talent/registration/individualregistration.aspx")%>">
                                 <img runat="server" class="talent-competition-icon" src="~/images/single-constestant.png" alt="individual competition regisgtration" /><br /><br />
                                 <span class="talent-competition-caption ce-h3">Individual</span>
                             </a>
@@ -84,7 +84,7 @@
                             <div class="talent-competition-spacing">&nbsp;</div>
                         </li>
                         <li class="talent-competition-type">
-                        <a runat="server" href="~/public/talent/registration/teamregistration.aspx">
+                        <a href="<%=ResolveUrl("~/public/talent/registration/teamregistration.aspx")%>">
                             <img runat="server" class="talent-competition-icon" src="~/images/team-contestants.png" alt="individual competition regisgtration" /><br /><br />
                                 <span class="talent-competition-caption ce-h3">Team</span>
                             </a>

@@ -48,7 +48,7 @@ function adjustSignIn() {
         $('#ce-sign-in').html('<span><a href="javascript:signout();">Logout</a></span>');
     }
     else {
-        $('#ce-sign-in').html('<span><a href="/public/celogin.aspx">Login</a></span>');
+        $('#ce-sign-in').html('<span><a href="' + baseUrl + '/public/celogin.aspx">Login</a></span >');
     }
 }
 
@@ -56,7 +56,7 @@ function signout() {
     removeCookies();
     alert('You have successfully signed out.');
     if (window.location.href.toLowerCase().indexOf("/admin/") >= 0)
-        window.location.replace('/public/home.aspx');
+        window.location.replace(baseUrl + '/public/home.aspx');
     else
         window.location.replace(window.location.href);
 }
@@ -158,7 +158,7 @@ function isValidName(name) {
 }
 
 function goHome() {
-    window.location.replace('/public/home.aspx');
+    window.location.replace(baseUrl + '/public/home.aspx');
     return true;
 }
 
@@ -189,7 +189,7 @@ function modalDialog(id) {
 
 function closeDialog() {
     $.colorbox.close();
-    window.location.href = '/public/home.aspx';
+    window.location.href = baseUrl + '/public/home.aspx';
     return true;
 }
 
@@ -202,4 +202,8 @@ function redirectDialog(url) {
     $.colorbox.close();
     window.location.href = url;
     return true;
+}
+
+function toAbsoluteUrl(url) {
+    return baseUrl + url;
 }

@@ -17,7 +17,7 @@
             <asp:Panel ID="TourApplicationStartNote" runat="server">
                 <div class="ce-temp-note ce-h4" style="color:#050143;border-color:red;">
                     <asp:Label ID="TourApplicationStartNoteText" runat="server">
-                        Please refer to <a runat="server" href="~/Public/Articles/cearticle.aspx?theme=black&path=/home/about&content=ceabout" style="font-size:16px;text-decoration:underline;color:black !important;">CE Status August 2016</a> for CE Tour current status.
+                        Please refer to <a href="<%=ResolveUrl("~/Public/Articles/cearticle.aspx?theme=black&path=/home/about&content=ceabout")%>" style="font-size:16px;text-decoration:underline;color:black !important;">CE Status August 2016</a> for CE Tour current status.
                     </asp:Label>
                     <br /><br />
                 </div>

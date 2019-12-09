@@ -17,7 +17,7 @@
             </div>
             <div class="howto-divider"> </div>
             <div class="howto-title">
-                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a runat="server" class="ce-h5" href="~/admin/CompetitionReport.aspx?action=signin&group=individual">Create Individual Talent Competition Sign-In Sheets</a></span>
+                <img src="<%=ResolveUrl("~/images/excel-48.png")%>" style="margin-right:10px;" /><span><a class="ce-h5" href="<%=ResolveUrl("~/admin/CompetitionReport.aspx?action=signin&group=individual")%>">Create Individual Talent Competition Sign-In Sheets</a></span>
                 <div class="ce-h6">
                     <asp:Label ID="Report1" runat="server">
                         Generate Sign-in Sheet for each contestant participating in talent competition. Each sign-in sheet is an Excel file in '/data/report/<%= CompetitionYear %>/SignIn Sheets/Individual' folder
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="howto-title">
-                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a runat="server" class="ce-h5" href="~/admin/CompetitionReport.aspx?action=signin&group=team">Create Team Talent Competition Sign-In Sheets</a></span>
+                <img src="<%=ResolveUrl("~/images/excel-48.png")%>" style="margin-right:10px;" /><span><a class="ce-h5" href="<%=ResolveUrl("~/admin/CompetitionReport.aspx?action=signin&group=team")%>">Create Team Talent Competition Sign-In Sheets</a></span>
                 <div class="ce-h6">
                     <asp:Label ID="Report2" runat="server">
                         Generate Sign-in Sheet for each team participating in talent competition. Each sign-in sheet is an Excel file in '/data/report/<%= CompetitionYear %>/SignIn Sheets/Team' folder
@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="howto-title">
-                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a runat="server" class="ce-h5" href="~/admin/CompetitionReport.aspx?action=score&group=individual">Create Individual Talent Competition Score Sheets</a></span>
+                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a class="ce-h5" href="<%=ResolveUrl("~/admin/CompetitionReport.aspx?action=score&group=individual")%>">Create Individual Talent Competition Score Sheets</a></span>
                 <div class="ce-h6">
                     <asp:Label ID="Report3" runat="server">
                         Generate Score Sheet for each contestant participating in talent competition event. Each score sheet is an Excel file in '/data/report/<%= CompetitionYear %>/Score Sheets' folder
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="howto-title">
-                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a runat="server" class="ce-h5" href="~/admin/CompetitionReport.aspx?action=score&group=team">Create Team Talent Competition Score Sheets</a></span>
+                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a class="ce-h5" href="<%=ResolveUrl("~/admin/CompetitionReport.aspx?action=score&group=team")%>">Create Team Talent Competition Score Sheets</a></span>
                 <div class="ce-h6">
                     <asp:Label ID="Report4" runat="server">
                         Generate Score Sheet for each team participating in talent competition event. Each score sheet is an Excel file in '/data/report/<%= CompetitionYear %>/Score Sheets' folder
@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div class="howto-title">
-                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a runat="server" class="ce-h5" href="~/admin/CompetitionReport.aspx?action=contestant&group=both">Create Participating Competitions Per Contestant Report</a></span>
+                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a class="ce-h5" href="<%=ResolveUrl("~/admin/CompetitionReport.aspx?action=contestant&group=both")%>">Create Participating Competitions Per Contestant Report</a></span>
                 <div class="ce-h6">
                     <asp:Label ID="Report6" runat="server">
                         Generate competition list Sheet for each participant. The sheet is an Excel file in '/data/report/<%= CompetitionYear %>/Contestant Sheets' folder.
@@ -61,7 +61,7 @@
                 </div>
             </div>
             <div class="howto-title">
-                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a runat="server" class="ce-h5" href="~/admin/CompetitionReport.aspx?action=headcount&group=both">Create Talent Competition Head Count Report</a></span>
+                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a class="ce-h5" href="<%=ResolveUrl("~/admin/CompetitionReport.aspx?action=headcount&group=both")%>">Create Talent Competition Head Count Report</a></span>
                 <div class="ce-h6">
                     <asp:Label ID="Report5" runat="server">
                         Generate Head and Team Count Sheet for talent competition event. The Excel file is '/data/report/<%= CompetitionYear %>/<%= string.Format(HeadCountFileFormat, CompetitionYear) %>'.
@@ -69,7 +69,7 @@
                 </div>
             </div>
             <div class="howto-title">
-                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a runat="server" class="ce-h5" href="~/admin/CompetitionReport.aspx?action=conflict&group=individual">Create Conflicting Competitions Report</a></span>
+                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a class="ce-h5" href="<%=ResolveUrl("~/admin/CompetitionReport.aspx?action=conflict&group=individual")%>">Create Conflicting Competitions Report</a></span>
                 <div class="ce-h6">
                     <asp:Label ID="Report7" runat="server">
                         Generate an Excel file for all contestants who have conflict competition schedule. The Excel file is '/data/report/<%= CompetitionYear %>/<%= string.Format(ConflictFileFormat, CompetitionYear) %>'.
@@ -77,7 +77,7 @@
                 </div>
             </div>
             <div class="howto-title">
-                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a runat="server" class="ce-h5" href="~/admin/CompetitionReport.aspx?action=trophy&group=both">Create Throphy Count Report</a></span>
+                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a class="ce-h5" href="<%=ResolveUrl("~/admin/CompetitionReport.aspx?action=trophy&group=both")%>">Create Throphy Count Report</a></span>
                 <div class="ce-h6">
                     <asp:Label ID="Report8" runat="server">
                         Generate an Excel file for trophy counts. The Excel file is '/data/report/<%= CompetitionYear %>/<%= string.Format(TrophyFileFormat, CompetitionYear) %>'.
@@ -85,7 +85,7 @@
                 </div>
             </div>
             <div class="howto-title">
-                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a runat="server" class="ce-h5" href="~/admin/CompetitionReport.aspx?action=awards&group=both">Create Competition Award Presentation Report</a></span>
+                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a class="ce-h5" href="<%=ResolveUrl("~/admin/CompetitionReport.aspx?action=awards&group=both")%>">Create Competition Award Presentation Report</a></span>
                 <div class="ce-h6">
                     <asp:Label ID="Label1" runat="server">
                         Generate an Excel file for competition award presentation. The Excel file is '/data/report/<%= CompetitionYear %>/<%= string.Format(CompetitionAwardFormat, CompetitionYear) %>'.
@@ -93,7 +93,7 @@
                 </div>
             </div>
             <div class="howto-title">
-                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a runat="server" class="ce-h5" href="~/admin/CompetitionReport.aspx?action=winners&group=both">Create Competition Winners List</a></span>
+                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a class="ce-h5" href="<%=ResolveUrl("~/admin/CompetitionReport.aspx?action=winners&group=both")%>">Create Competition Winners List</a></span>
                 <div class="ce-h6">
                     <asp:Label ID="Label2" runat="server">
                         Generate an Excel file for competition winners. The Excel file is '/data/report/<%= CompetitionYear %>/<%= string.Format(CompetitionWinnerFormat, CompetitionYear) %>'.
@@ -101,7 +101,7 @@
                 </div>
             </div>
             <div class="howto-title">
-                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a runat="server" class="ce-h5" href="~/admin/CompetitionReport.aspx?action=certificate&group=both">Create Competition Winner Certificates</a></span>
+                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a class="ce-h5" href="<%=ResolveUrl("~/admin/CompetitionReport.aspx?action=certificate&group=both")%>">Create Competition Winner Certificates</a></span>
                 <div class="ce-h6">
                     <asp:Label ID="Label3" runat="server">
                         Generate official certificate for each competition winner. The certificate files are in '/data/report/<%= CompetitionYear %>/Winner Certificates' folder.
@@ -109,7 +109,7 @@
                 </div>
             </div>
             <div class="howto-title">
-                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a runat="server" class="ce-h5" href="~/admin/CompetitionReport.aspx?action=participating&group=both">Create Competition Participating Certificates</a></span>
+                <img runat="server" src="~/images/excel-48.png" style="margin-right:10px;" /><span><a class="ce-h5" href="<%=ResolveUrl("~/admin/CompetitionReport.aspx?action=participating&group=both")%>">Create Competition Participating Certificates</a></span>
                 <div class="ce-h6">
                     <asp:Label ID="Label4" runat="server">
                         Generate official certificate for each competition winner. The certificate files are in '/data/report/<%= CompetitionYear %>/Participating Certificates' folder.

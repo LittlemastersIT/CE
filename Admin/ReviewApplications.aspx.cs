@@ -610,7 +610,7 @@ namespace CE.Pages
 
         protected void OnCancel(object sender, EventArgs e)
         {
-            Response.Redirect(CEConstants.CE_ADMIN_PAGE);
+            Response.Redirect(CEHelper.GetSiteRootUrl() + CEConstants.CE_ADMIN_PAGE);
         }
 
         protected void OnApplicantStatusChanged(object sender, EventArgs e)

@@ -62,7 +62,8 @@ namespace CE.Content
         public Headline(string title, string imageUrl, string position, string expiration)
         {
             Title = title;
-            ImageUrl = imageUrl;
+            if (!imageUrl.StartsWith("http://")) ImageUrl = CEHelper.GetSiteRootUrl() + imageUrl;
+            else ImageUrl = imageUrl;
             Position = position;
             if (string.IsNullOrEmpty(expiration)) expiration = "12/31/2050"; // meant to not expired
             ExpiredDate = DateTime.Parse(expiration, System.Globalization.CultureInfo.InvariantCulture);
@@ -80,7 +81,8 @@ namespace CE.Content
         public HomeTile(string title, string imageUrl, string text)
         {
             Title = title;
-            ImageUrl = imageUrl;
+            if (!imageUrl.StartsWith("http://")) ImageUrl = CEHelper.GetSiteRootUrl() + imageUrl;
+            else ImageUrl = imageUrl;
             Text = text;
         }
 
@@ -95,13 +97,17 @@ namespace CE.Content
         public HomeAnnouncement(string title, string iconUrl, string summary, string linkUrl, string expiration)
         {
             Title = title;
-            IconUrl = iconUrl;
-            LinkUrl = linkUrl;
+            if (!iconUrl.StartsWith("http://")) IconUrl = CEHelper.GetSiteRootUrl() + iconUrl;
+            else IconUrl = iconUrl;
+            
+            if (!linkUrl.ToLower().StartsWith("http://")) LinkUrl = CEHelper.GetSiteRootUrl() + linkUrl;
+            else LinkUrl = linkUrl;
+
             string target = "_self";
             if (!string.IsNullOrEmpty(linkUrl))
             {
                 if (linkUrl.ToLower().StartsWith("http://")) target = "_blank";
-                Summary = summary + string.Format(LEARN_MORE_TEMPLATE, linkUrl, target);
+                Summary = summary + string.Format(LEARN_MORE_TEMPLATE, LinkUrl, target);
             }
             else
             {
@@ -131,7 +137,7 @@ namespace CE.Content
             HomeContent homeContent = new HomeContent();
             try
             {
-                string physicalPath = HttpContext.Current.Request.PhysicalApplicationPath + pageContentXml;
+                string physicalPath = CEHelper.GetSiteRootPath() + pageContentXml;
                 XDocument xdoc = XDocument.Load(physicalPath);
                 if (xdoc != null)
                 {

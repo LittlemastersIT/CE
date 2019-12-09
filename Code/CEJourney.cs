@@ -151,7 +151,7 @@ namespace CE.Content
                     journeyContent.TitleInfo.Align = CEHelper.GetSafeAttribute(journey, "align");
                     journeyContent.RootUrl = CEHelper.GetSafeAttribute(journey, "rootUrl");
                     string journeyRootFolder = (HttpContext.Current.Request.PhysicalApplicationPath + journeyContent.RootUrl).Replace('/', '\\').Replace("\\\\", "\\") + "\\";
-                    string imageRiootUrl = !journeyContent.RootUrl.EndsWith("/") ? journeyContent.RootUrl + "/" : journeyContent.RootUrl;
+                    string imageRootUrl = !journeyContent.RootUrl.EndsWith("/") ? journeyContent.RootUrl + "/" : journeyContent.RootUrl;
 
                     // retrieve bio
                     XElement bio = journey.Element("bio");
@@ -179,7 +179,7 @@ namespace CE.Content
                             if (ALLOW_IMAGE_TYPS.Contains(System.IO.Path.GetExtension(file).ToLower()))
                             {
                                 if (file.ToLower().Contains(cebio.FolderName.ToLower() + ".")) continue;
-                                string imageUrl = imageRiootUrl + folder + "/" + System.IO.Path.GetFileName(file);
+                                string imageUrl = imageRootUrl + folder + "/" + System.IO.Path.GetFileName(file);
                                 cealbum.AddImage(imageUrl);
                             }
                         }

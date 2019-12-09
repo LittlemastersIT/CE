@@ -73,7 +73,7 @@ namespace CE.Pages
 
         protected void OnCancel(object sender, EventArgs e)
         {
-            Response.Redirect(CEConstants.CE_HOME_PAGE);
+            Response.Redirect(CEHelper.GetSiteRootUrl() + CEConstants.CE_HOME_PAGE);
         }
 
         protected void OnApplciationSubmit(object sender, EventArgs e)

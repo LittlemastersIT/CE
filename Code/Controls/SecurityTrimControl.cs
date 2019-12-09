@@ -51,7 +51,7 @@ namespace CE.Controls
             }
             else if (!HttpContext.Current.Request.Url.AbsoluteUri.ToLower().Contains(CEConstants.CE_PUBLIC_ROOT_URL))
             {
-                HttpContext.Current.Response.Redirect(CEConstants.CE_ACCESS_DENIED_PAGE);
+                HttpContext.Current.Response.Redirect(CEHelper.GetSiteRootUrl() + CEConstants.CE_ACCESS_DENIED_PAGE);
             }
         }
     }

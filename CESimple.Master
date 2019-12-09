@@ -6,22 +6,28 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <title></title>
-    <link type="text/css" rel="stylesheet" href="/CSS/cemain.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/Themes/Black/cepage.css" media="all" />
-    <script type="text/javascript" src="/JS/cemain.js"></script>
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/cemain.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/Themes/Black/cepage.css")%>" media="all" />
+    <script type="text/javascript">
+        var baseUrl = "<%= ResolveUrl("~/") %>";
+        toAbsoluteUrlHref = function (linkUrl) {
+            location.href = baseUrl + linkUrl;
+        }
+    </script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/cemain.js")%>"></script>
     <asp:ContentPlaceHolder ID="PlaceHolderScript" runat="server" />
 </head>
 <body>
     <form id="form1" enctype="multipart/form-data" runat="server">
      <div id="ce-page">
         <!-- header and banner area -->
-        <div class="ce-login" ><span><a href="/public/celogin.aspx">Login</a</span></div>
+        <div class="ce-login" ><span><a href='javascript:toAbsoluteUrlHref("/public/celogin.aspx")'>Login</a></span></div>
         <!-- header and banner area -->
         <div class="ce-header">
             <div class="ce-header">
                 <div class="ce-headerContainer">
                     <div>
-                        <img id="ce-logo" src="/Images/CE_logo_final.jpg"/>
+                        <img id="ce-logo" src="<%=ResolveClientUrl("~/Images/CE_logo_final.jpg")%>"/>
                     </div>
                     <div class="ce-banner">
                         <div class="ce-title center">CULTURAL EXPLORATION OF GREATER CHINA</div>              

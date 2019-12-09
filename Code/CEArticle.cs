@@ -129,7 +129,8 @@ namespace CE.Content
         }
         public void AddPicture(string url, string position, string caption)
         {
-            PictureUrl = url;
+            if (!url.StartsWith("http://") && !url.StartsWith("https://")) PictureUrl = CEHelper.GetSiteRootUrl() + url;
+            else PictureUrl = url;
             PicturePosition = position;
             PictureCaption = caption;
         }
@@ -197,8 +198,10 @@ namespace CE.Content
         public BarTile(string caption, string imageUrl, string position, string linkUrl)
         {
             Caption = caption;
-            LinkUrl = linkUrl;
-            ImageUrl = imageUrl;
+            if (!linkUrl.StartsWith("http://") && !linkUrl.StartsWith("https://")) LinkUrl = CEHelper.GetSiteRootUrl() + linkUrl;
+            else LinkUrl = linkUrl;
+            if (!imageUrl.StartsWith("http://") && !imageUrl.StartsWith("https://")) ImageUrl = CEHelper.GetSiteRootUrl() + imageUrl;
+            else ImageUrl = imageUrl;
 
             if (string.Compare(position, "bottom", true) == 0)
             {
@@ -222,9 +225,11 @@ namespace CE.Content
         public Testimony(string caption, string position, string iconUrl, string text, string linkUrl)
         {
             Caption = caption;
-            IconUrl = iconUrl;
+            if (!iconUrl.StartsWith("http://") && !iconUrl.StartsWith("https://")) IconUrl = CEHelper.GetSiteRootUrl() + iconUrl;
+            else IconUrl = iconUrl;
             Text = text;
-            LinkUrl = linkUrl;
+            if (!linkUrl.StartsWith("http://") && !linkUrl.StartsWith("https://")) LinkUrl = CEHelper.GetSiteRootUrl() + linkUrl;
+            else LinkUrl = linkUrl;
 
             if (string.Compare(position, "bottom", true) == 0)
             {
@@ -249,7 +254,8 @@ namespace CE.Content
         public VideoClip(string caption, string clipUrl)
         {
             Caption = caption;
-            ClipUrl = clipUrl;
+            if (!clipUrl.StartsWith("http://") && !clipUrl.StartsWith("https://")) ClipUrl = CEHelper.GetSiteRootUrl() + clipUrl;
+            else ClipUrl = clipUrl;
         }
         public string Caption { get; set; }
         public string ClipUrl { get; set; }
@@ -281,9 +287,11 @@ namespace CE.Content
     {
         public RelatedLink(string iconUrl, string title, string linkUrl, string target)
         {
-            IconUrl = iconUrl;
+            if (!iconUrl.StartsWith("http://") && !iconUrl.StartsWith("https://")) IconUrl = CEHelper.GetSiteRootUrl() + iconUrl;
+            else IconUrl = iconUrl;
             Title = title;
-            LinkUrl = linkUrl;
+            if (!linkUrl.StartsWith("http://") && !linkUrl.StartsWith("https://")) LinkUrl = CEHelper.GetSiteRootUrl() + linkUrl;
+            else LinkUrl = linkUrl;
             Target = target;
         }
         public string IconUrl { get; set; }
@@ -351,9 +359,10 @@ namespace CE.Content
                     XElement pictureElem = paragraph.Element("picture");
                     if (pictureElem != null)
                     {
-                        paragraphItem.PictureUrl = CEHelper.GetSafeAttribute(pictureElem, "url");
-                        paragraphItem.PicturePosition = CEHelper.GetSafeAttribute(pictureElem, "position", "left");
-                        paragraphItem.PictureCaption = CEHelper.GetSafeAttribute(pictureElem, "caption");
+                        string url = CEHelper.GetSafeAttribute(pictureElem, "url");
+                        string position = CEHelper.GetSafeAttribute(pictureElem, "position", "left");
+                        string caption = CEHelper.GetSafeAttribute(pictureElem, "caption");
+                        paragraphItem.AddPicture(url, position, caption);
                     }
 
                     articleItem.AddParagraph(paragraphItem);

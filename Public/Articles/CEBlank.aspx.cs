@@ -20,7 +20,7 @@ namespace CE.Pages
                 string contentFile = Request.QueryString["content"];
                 if (string.IsNullOrEmpty(pageTag) || string.IsNullOrEmpty(contentFile))
                 {
-                    Response.Redirect(CEConstants.CE_PROBLEM_PAGE);
+                    Response.Redirect(CEHelper.GetSiteRootUrl() + CEConstants.CE_PROBLEM_PAGE);
                 }
                 else
                 {

@@ -5,13 +5,24 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Cutural Exploration</title>
-    <link type="text/css" rel="stylesheet" href="/CSS/cemain.css" media="all" />
-    <script type="text/javascript" src="/JS/jquery/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript" src="/JS/jquery/jquery.easing.1.3.min.js"></script>
-    <script type="text/javascript" src="/JS/jquery/jquery.cookie.js"></script>
-    <script type="text/javascript" src="/JS/cemenu.js"></script>
-    <script type="text/javascript" src="/JS/cemain.js"></script>
+    <title>Cultural Exploration</title>
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/cemain.css")%>" media="all" />
+    <script type="text/javascript">
+        var baseUrl = "<%= ResolveUrl("~/") %>";
+        toAbsoluteUrlHref = function (linkUrl) {
+            location.href = baseUrl + linkUrl;
+        }
+    </script>
+    <script type='text/javascript'>
+        getRefreshContent = function (url) {
+            return '0; url=' + baseUrl + url;
+        }
+    </script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery-1.9.1.min.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.easing.1.3.min.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.cookie.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/cemenu.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/cemain.js")%>"></script>
     <asp:ContentPlaceHolder ID="PlaceHolderScript" runat="server" />
 </head>
 <body>
@@ -20,16 +31,16 @@
     <div class="ce-security"><CE:SecurityTrimControl Mode="live" runat="server" /></div>
     <div id="ce-page">
         <!-- header and banner area -->
-        <div id="ce-sign-in" class="ce-login"><span><a href="/public/celogin.aspx">Login</a></span></div>
+        <div id="ce-sign-in" class="ce-login"><span><a href='javascript:toAbsoluteUrlHref("/public/celogin.aspx")'>Login</a></span></div>
         <div class="ce-header">
             <div class="ce-header">
                 <div class="ce-headerContainer">
                     <div class="ce-logo-container">
-                        <img id="ce-logo" src="/Images/CE_logo_final.png"/>
+                        <img id="ce-logo" src="<%=ResolveUrl("~/Images/CE_logo_final.png")%>"/>
                     </div>
                     <div class="ce-banner">
                         <div class="ce-title ce-h1 center">CULTURAL EXPLORATION OF GREATER CHINA</div>              
-<%--                        <div class="ce-facebook" style="display:block;"><img src="/Images/FaceBook_32x32.png" width="16" /><a href="https://www.facebook.com/groups/224549771000190/" target="_blank">Facebook</a></div>--%>
+<%--                        <div class="ce-facebook" style="display:block;"><img src="<%=ResolveUrl("~/Images/FaceBook_32x32.png")%>" width="16" /><a href="https://www.facebook.com/groups/224549771000190/" target="_blank">Facebook</a></div>--%>
                         <div id="ce-nav-bar">
                             <div class="ce-nav-container">
                                 <CE:MenuControl ID="CEMenu" runat="server" />

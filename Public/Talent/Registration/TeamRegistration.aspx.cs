@@ -107,7 +107,7 @@ namespace CE.Pages
                 {
                     if (endDate < DateTime.Now && !hasCookie)
                     {
-                        Response.Redirect(CEConstants.CE_TALENT_COMPETITION_PAGE);
+                        Response.Redirect(CEHelper.GetSiteRootUrl() + CEConstants.CE_TALENT_COMPETITION_PAGE);
                         return;
                     }
                 }
@@ -169,7 +169,7 @@ namespace CE.Pages
                 }
                 else
                 {
-                    Response.Redirect(CEConstants.CE_TALENT_COMPETITION_PAGE);
+                    Response.Redirect(CEHelper.GetSiteRootUrl() + CEConstants.CE_TALENT_COMPETITION_PAGE);
                 }
             }
         }

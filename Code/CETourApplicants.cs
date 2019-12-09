@@ -53,7 +53,13 @@ namespace CE.Data
 
         public static string MakeApplicationFolder()
         {
-            return CEHelper.GetDataPath() + CEConstants.CE_TOUR_APPLICANT_FOLDER + CEHelper.GetCompetitionYear();
+            string folder = CEHelper.GetDataPath() + CEConstants.CE_TOUR_APPLICANT_FOLDER + CEHelper.GetCompetitionYear();
+            if (!Directory.Exists(folder))
+            {
+                Directory.CreateDirectory(folder);
+            }
+
+            return folder;
         }
 
         private void RetrieveTourApplicants()

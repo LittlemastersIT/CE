@@ -17,8 +17,12 @@ namespace CE.Data
         public List<CEChampion> Load()
         {
             string applicantFolder = Path.Combine(CEHelper.GetDataPath() + CEConstants.CE_TALENT_CHAMPION_FOLDER, CEHelper.GetProgramYear());
-            string physicalPath = Path.Combine(applicantFolder, CEConstants.CE_CHAMPION_XLSX);
+            if (!Directory.Exists(applicantFolder))
+            {
+                Directory.CreateDirectory(applicantFolder);
+            }
 
+            string physicalPath = Path.Combine(applicantFolder, CEConstants.CE_CHAMPION_XLSX);
             List<CEChampion> champions = new List<CEChampion>();
             var championFile = new FileInfo(physicalPath);
             using (var package = new ExcelPackage(championFile))

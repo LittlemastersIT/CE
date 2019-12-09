@@ -24,7 +24,7 @@
                         <div class="journey-summary ce-h6 <%# Eval("Align") %>"><%# Eval("Teaser") %></div>
                     </ItemTemplate>
                 </asp:DataList>
-                <div id="journey-more-link"><a runat="server" href="~/public/tours/journey/tourjourney.aspx"><img runat="server" src="~/images/script.png" /> More journey...</a></div>
+                <div id="journey-more-link"><a href="<%=ResolveUrl("~/public/tours/journey/tourjourney.aspx")%>"><img runat="server" src="~/images/script.png" /> More journey...</a></div>
             </div>
 
             <div id="journey-tab" class="ce-large">

@@ -86,11 +86,11 @@
             $(document).ready(function () {
                 setArticleTab('#ce-tab-content', '#article-tab', 0);
                 if (window.location.href.toLowerCase().indexOf('/results&') > 0) {
-                    var pastResults = '<a runat="server" href="~/public/talent/results/2015/ceresults.html"><span>2015 Results</span></a>&nbsp;&nbsp;&nbsp;<a runat="server" href="~/public/talent/results/2014/ceresults.html"><span>2014 Results</span></a>&nbsp;&nbsp;&nbsp;<a runat="server" href="~/public/talent/results/2013/ceresults.html"><span>2013 Results</span></a>';
+                    var pastResults = '<a href=' + baseUrl + '"/public/talent/results/2015/ceresults.html" > <span>2015 Results</span></a >& nbsp;& nbsp;& nbsp; <a href=' + baseUrl + '"/public/talent/results/2014/ceresults.html" > <span>2014 Results</span></a > & nbsp;& nbsp;& nbsp; <a href=' + baseUrl + '"/public/talent/results/2013/ceresults.html" > <span>2013 Results</span></a > ';
                     $('#article-archive').html(pastResults);
                 }
                 else {
-                    var currentResults = '<a runat="server" href="~/public/talent/results/ceresults.html"><span>2016 Results</span></a>';
+                    var currentResults = '<a href=' + baseUrl + '"/public/talent/results/ceresults.html" > <span>2016 Results</span></a > ';
                     $('#article-archive').html(currentResults);
                 }
             });

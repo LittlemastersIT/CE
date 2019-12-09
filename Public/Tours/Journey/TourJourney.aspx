@@ -9,6 +9,23 @@
     <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/themes/blue/cepage.css")%>" media="all" />
     <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery-ui-1.10.3.min.js")%>"></script>
     <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/cepages.js")%>"></script>
+    <script type="text/javascript">
+        ToAbsoluteUrl = function (linkUrl) {
+            location.href = baseUrl + linkUrl;
+        }
+        setHrefLink1 = function (folderName, year) {
+            location.href = baseUrl + '/public/articles/cejourney.aspx?theme=blue&author=' + folderName +'&year=' + year;
+        }
+        setHrefLink2 = function (folderName, year) {
+            location.href = baseUrl + '/public/articles/cejourney.aspx?theme=blue&path=/tours/journey/' + year + '&author=' + folderName;
+        }
+        setHrefLink3 = function (folderName) {
+            location.href = baseUrl + '/public/articles/cejourney.aspx?theme=blue&author=' + folderName;
+        }
+        setHrefLink4 = function (tourYear) {
+            location.href = baseUrl + '/public/tours/journey/tourjourney.aspx?year=' + tourYear;
+        }
+    </script>
 </asp:Content>
 
 <asp:Content ID="Content4" ContentPlaceHolderID="PlaceHolderMain" runat="server">
@@ -27,10 +44,10 @@
                                 <ItemTemplate>
                                     <div class="journey-author"><%# Eval("DisplayName") %> - <%# Eval("School") %>, <%# Eval("Year") %></div>
                                     <div>
-                                        <a runat="server" href="~/public/articles/cejourney.aspx?theme=blue&author=<%# Eval("FolderName") %>&year=<%# Eval("Year") %>">
+                                        <a href="javascript:setHrefLink1(<%# Eval("FolderName") %>, <%# Eval("Year") %>)">
                                             <img class="ce-paragraph-picture-left" src="<%# Eval("Photo") %>" align="left" />
                                         </a>
-                                        <%# Eval("About") %> <span class="journey-readmore"><a runat="server" href="~/public/articles/cejourney.aspx?theme=blue&path=/tours/journey/<%# Eval("Year") %>&author=<%# Eval("FolderName") %>">...Read full journey</a></span>
+                                        <%# Eval("About") %> <span class="journey-readmore"><a href="javascript:setHrefLink2(<%# Eval("FolderName") %>, <%# Eval("Year") %>)">...Read full journey</a></span>
                                         <br />
                                     </div>
                                 </ItemTemplate>
@@ -43,7 +60,7 @@
                 <td class="ce-sidebar-cell">
                     <div class="ce-sidebar-zone">
                         <asp:Panel ID="CurrentJourneyPanel" runat="server">
-                            <div><a runat="server" href="~/public/tours/journey/tourjourney.aspx"><span class="sidebar-header"><asp:label ID="ProgramYear" runat="server"></asp:label> Tour Teachers</span></a></div>
+                            <div><a href="<%=ResolveClientUrl("~/public/tours/journey/tourjourney.aspx")%>"><span class="sidebar-header"><asp:label ID="ProgramYear" runat="server"></asp:label> Tour Teachers</span></a></div>
                             <div class="sidebar-divider"></div>
                             <div class="ce-page-sidebar-tile">
                                 <table>
@@ -51,7 +68,7 @@
                                         <ItemTemplate>
                                             <tr>
                                                 <td class="sidebar-smallicon-cell"><img runat="server" class="sidebar-icon-small" src="~/Images/script.png" /></td>
-                                                <td class="related-link-cell"><a runat="server" href="~/public/articles/cejourney.aspx?theme=blue&author=<%# Eval("FolderName") %>"><span><%# Eval("DisplayName") %></span></a></td>
+                                                <td class="related-link-cell"><a href="javascript:setHrefLink3(<%# Eval("FolderName") %>)"><span><%# Eval("DisplayName") %></span></a></td>
                                             </tr>
                                         </ItemTemplate>
                                     </asp:Repeater>
@@ -69,13 +86,13 @@
                                         <ItemTemplate>
                                             <tr id="teacherBios<%# Eval("TourYear") %>">
                                                 <td class="sidebar-smallicon-cell"><img runat="server" class="sidebar-icon-small" src="~/Images/script.png" /></td>
-                                                <td class="related-link-cell"><a runat="server" href="~/public/tours/journey/tourjourney.aspx?year=<%# Eval("TourYear") %>"><span><%# Eval("TourYear") %> Tour Teachers</span></a></td>
+                                                <td class="related-link-cell"><a runat="server" href="javascript:setHrefLink4(<%# Eval("TourYear") %>)"><span><%# Eval("TourYear") %> Tour Teachers</span></a></td>
                                             </tr>
                                         </ItemTemplate>
                                     </asp:Repeater>
                                     <tr>
                                         <td class="sidebar-smallicon-cell"><img runat="server" class="sidebar-icon-small" src="~/Images/team-contestants.png" /></td>
-                                        <td class="related-link-cell"><a runat="server" href="~/public/tours/plan/2013/tourParticipants.html"><span>2013 Tour Participants</span></a></td>
+                                        <td class="related-link-cell"><a href='javascript:setHrefLink("/public/tours/plan/2013/tourParticipants.html")'><span>2013 Tour Participants</span></a></td>
                                     </tr>
                                     <tr>
                                         <td class="sidebar-smallicon-cell"><img runat="server" class="sidebar-icon-small" src="~/Images/world.png" /></td>

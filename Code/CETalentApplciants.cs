@@ -161,7 +161,13 @@ namespace CE.Data
 
         public static string MakeRegistrationFolder()
         {
-            return CEHelper.GetDataPath() + CEConstants.CE_TALENT_REGISTRATION_FOLDER + CEHelper.GetCompetitionYear();
+            string folder = CEHelper.GetDataPath() + CEConstants.CE_TALENT_REGISTRATION_FOLDER + CEHelper.GetCompetitionYear();
+            if (!Directory.Exists(folder))
+            {
+                Directory.CreateDirectory(folder);
+            }
+
+            return folder;
         }
     }
 

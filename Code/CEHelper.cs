@@ -5,6 +5,7 @@ using System.Linq;
 using System.Xml;
 using System.Xml.Linq;
 using System.Net.Mail;
+using System.IO;
 
 namespace CE.Data
 {
@@ -256,11 +257,11 @@ namespace CE.Data
     {
         public const string CE_HOME_URL = "https://www.culturalexploration.org";
         public const string CE_HOME_SHORT_NAME = "CE";
-        public const string CE_HOME_PAGE = "/public/home.aspx";
-        public const string CE_TALENT_COMPETITION_PAGE = "/Public/Talent/Registration/TalentRegistration.aspx";
-        public const string CE_ADMIN_PAGE = "/admin/ceadmin.aspx";
-        public const string CE_PROBLEM_PAGE = "/public/problem.aspx";
-        public const string CE_ACCESS_DENIED_PAGE = "/public/accessdenied.aspx";
+        public const string CE_HOME_PAGE = "public/home.aspx";
+        public const string CE_TALENT_COMPETITION_PAGE = "Public/Talent/Registration/TalentRegistration.aspx";
+        public const string CE_ADMIN_PAGE = "admin/ceadmin.aspx";
+        public const string CE_PROBLEM_PAGE = "public/problem.aspx";
+        public const string CE_ACCESS_DENIED_PAGE = "public/accessdenied.aspx";
         public const string CE_PAYMENT_COOKIE_ID = "CE_PAYMENT";
         public const string CE_FEEWAIVED_COOKIE_ID = "CE_FEEWAIVED_PAYMENT";
         public const string CE_CHAMPION_COOKIE_ID = "CE_CHAMPION_CACHE";
@@ -428,7 +429,7 @@ namespace CE.Data
             if (!path.StartsWith("/")) path = "/" + path;
             if (!path.EndsWith("/")) path += "/";
             if (page.StartsWith("/")) page = page.Substring(1);
-            return CEConstants.CE_PUBLIC_ROOT_URL + path + page;
+            return CEHelper.GetSiteRootUrl() + CEConstants.CE_PUBLIC_ROOT_URL + path + page;
         }
         public static bool IsExpired(string datestr)
         {
@@ -460,23 +461,36 @@ namespace CE.Data
             if (!s.EndsWith("/")) s += @"\";
             return s;
         }
+
+        public static string GetSiteRootUrl()
+        {
+            string url = System.Web.VirtualPathUtility.ToAbsolute("~/");
+            if (!url.EndsWith("/"))
+            {
+                return url + "/";
+            }
+
+            return url;
+        }
+
         public static string GetSiteRootPath()
         {
             return HttpContext.Current.Request.PhysicalApplicationPath;
         }
         public static string GetDataPath()
         {
-            string webHomeFolder = HttpContext.Current.Request.PhysicalApplicationPath;
-            if (HttpContext.Current.IsDebuggingEnabled == true)
+            string folder = HttpContext.Current.Request.PhysicalApplicationPath + CEConstants.CE_DATA_FOLDER;
+            if (!Directory.Exists(folder))
             {
-                return System.IO.Directory.GetParent(webHomeFolder) + "\\" + CEConstants.CE_DATA_FOLDER;
+                Directory.CreateDirectory(folder);
             }
-            return System.IO.Directory.GetParent(webHomeFolder).Parent.FullName + "\\" + CEConstants.CE_DATA_FOLDER;
+
+            return folder;
         }
         public static string GetContentPath()
         {
             string webHomeFolder = HttpContext.Current.Request.PhysicalApplicationPath;
-            return System.IO.Directory.GetParent(webHomeFolder).Parent.FullName + "\\" + CEConstants.CE_CONTENT_ROOT_FOLDER;
+            return webHomeFolder + CEConstants.CE_CONTENT_ROOT_FOLDER;
         }
         public static string GetPageUrl()
         {
@@ -616,6 +630,11 @@ namespace CE.Data
             try
             {
                 string applicantFolder = CEHelper.GetDataPath() + CEConstants.CE_REVIEW_FOLDER;
+                if (!Directory.Exists(applicantFolder))
+                {
+                    Directory.CreateDirectory(applicantFolder);
+                }
+
                 string physicalPath = System.IO.Path.Combine(applicantFolder, CEConstants.CE_EMAIL_CONFIGURATION_XML);
                 XDocument xdoc = XDocument.Load(physicalPath);
                 if (xdoc != null)

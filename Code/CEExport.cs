@@ -619,8 +619,12 @@ namespace CE.Data
         public void Load()
         {
             string applicantFolder = Path.Combine(CEHelper.GetDataPath() + CEConstants.CE_REPORT_FOLDER, CEHelper.GetCompetitionYear());
-            string physicalPath = Path.Combine(applicantFolder, CEConstants.CE_SCHEDULE_XLSX);
+            if (!Directory.Exists(applicantFolder))
+            {
+                Directory.CreateDirectory(applicantFolder);
+            }
 
+            string physicalPath = Path.Combine(applicantFolder, CEConstants.CE_SCHEDULE_XLSX);
             _eventScheduleList = new List<EventSchedule>();
             var eventScheduleFile = new FileInfo(physicalPath);
             using (var package = new ExcelPackage(eventScheduleFile))

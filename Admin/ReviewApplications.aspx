@@ -41,7 +41,7 @@
                     </td>
                     <td style="padding-left:10px;">
                         <asp:LinkButton ID="SearchButton" runat="server" CssClass="search-button" OnClick="OnSearchApplicants">
-                            <img runat="server src="~/images/search.png" alt="search for registration entries based on criteria given" /><span>Search</span>
+                            <img runat="server" src="~/images/search.png" alt="search for registration entries based on criteria given" /><span>Search</span>
                         </asp:LinkButton>
                     </td>
                     <td>

@@ -17,8 +17,8 @@ namespace CE.Controls
     [ToolboxData("<{0}:SiteMapControl runat=server></{0}:SiteMapControl>")]
     public class SiteMapControl : WebControl
     {
-        private const string SITEMAP_NODE_TEMMPLATE = "<a href=\"{0}\">{1}</a>";
-        private const string DEFAULT_HOME_NODE = "<a href=\"/Public/home.aspx\">CE Home</a>";
+        private const string SITEMAP_NODE_TEMMPLATE = "<a href=\"{0}{1}\">{2}</a>";
+        private const string DEFAULT_HOME_NODE_TEMPLATE = "<a href=\"{0}Public/home.aspx\">CE Home</a>";
         private const string SITE_MAP_XML = "\\Content\\SiteMap.xml";
         private const string SITE_MAP_CONNECTOR = "<span> > </span>";
         private const string TOUR_JOURNEY_PAGE = "cejourney.aspx";
@@ -51,7 +51,7 @@ namespace CE.Controls
         }
         protected override void RenderContents(HtmlTextWriter output)
         {
-            string sitemap = DEFAULT_HOME_NODE;
+            string sitemap = string.Format(DEFAULT_HOME_NODE_TEMPLATE, CEHelper.GetSiteRootUrl());
             try
             {
                 string currentUrl = HttpContext.Current.Request.Url.AbsoluteUri.ToLower();
@@ -89,7 +89,7 @@ namespace CE.Controls
                                 if (url.Contains(TOUR_JOURNEY_PAGE)) url = currentUrl;
                                 string displayName = CEHelper.GetSafeAttribute(matchedPage, "display");
                                 string parentMap = GetSiteMapString(matchedPage.Parent);
-                                sitemap = parentMap + string.Format(SITEMAP_NODE_TEMMPLATE, url, displayName);
+                                sitemap = parentMap + string.Format(SITEMAP_NODE_TEMMPLATE, CEHelper.GetSiteRootUrl(), url, displayName);
                             }
                         }
                     }
@@ -141,7 +141,7 @@ namespace CE.Controls
                 string displayName = CEHelper.GetSafeAttribute(parentSite, "display");
                 if (!string.IsNullOrEmpty(url) && !string.IsNullOrEmpty(displayName))
                 {
-                    string pageLink = string.Format(SITEMAP_NODE_TEMMPLATE, url, displayName);
+                    string pageLink = string.Format(SITEMAP_NODE_TEMMPLATE, CEHelper.GetSiteRootUrl(), url, displayName);
                     return GetSiteMapString(parentSite) + pageLink + SITE_MAP_CONNECTOR;
                 }
             }
