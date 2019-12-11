@@ -27,10 +27,10 @@
             <div class="ce-header">
                 <div class="ce-headerContainer">
                     <div>
-                        <img id="ce-logo" src="<%=ResolveClientUrl("~/Images/CE_logo_final.jpg")%>"/>
+                        <img id="ce-logo" src="<%=ResolveClientUrl("~/Images/logo_XS_V2.jpg")%>"/>
                     </div>
                     <div class="ce-banner">
-                        <div class="ce-title center">CULTURAL EXPLORATION OF GREATER CHINA</div>              
+                        <div class="ce-title ce-h3 center">CHINESE LANGUAGE AND TALENT COMPETITION</div>              
                     </div>
                 </div>
             </div>
@@ -46,7 +46,7 @@
         <div id="ce-footer">
             <div class="footer-panel">
                 <div class="footer center">
-                    <div id="footer-copyright"> <span>&copy; 2013 Cultural Exploration. All rights reserved.</span></div>
+                    <div id="footer-copyright"> <span>&copy; All copyrights reserved (c) Little Masters Club 2015</span></div>
                 </div>
             </div>
         </div>

@@ -97,6 +97,7 @@ namespace CE.Content
         public const string TEXT_END_TEMPLATE = "</ul>";
         private List<string> _texts = null;
         private string _textBlock = string.Empty;
+        private string pictureUrl;
 
         public Paragraph(string indent)
         {
@@ -111,7 +112,17 @@ namespace CE.Content
             get { return Indent == true ? "ce-indent" : string.Empty; }
         }
         public string Text { get; set; }
-        public string PictureUrl { get; set; }
+        public string PictureUrl {
+            get
+            {
+                return pictureUrl;
+            }
+            set
+            {
+                if (!value.StartsWith("http://") && !value.StartsWith("https://")) pictureUrl = CEHelper.GetSiteRootUrl() + value;
+                else pictureUrl = value;
+            }
+        }
         public string PicturePosition { get; set; }
         public string PictureCaption { get; set; }
         public string TextBlock
@@ -129,8 +140,7 @@ namespace CE.Content
         }
         public void AddPicture(string url, string position, string caption)
         {
-            if (!url.StartsWith("http://") && !url.StartsWith("https://")) PictureUrl = CEHelper.GetSiteRootUrl() + url;
-            else PictureUrl = url;
+            PictureUrl = url;
             PicturePosition = position;
             PictureCaption = caption;
         }
@@ -195,13 +205,14 @@ namespace CE.Content
     }
     public class BarTile
     {
+        private string linkUrl;
+        private string imageUrl;
+
         public BarTile(string caption, string imageUrl, string position, string linkUrl)
         {
             Caption = caption;
-            if (!linkUrl.StartsWith("http://") && !linkUrl.StartsWith("https://")) LinkUrl = CEHelper.GetSiteRootUrl() + linkUrl;
-            else LinkUrl = linkUrl;
-            if (!imageUrl.StartsWith("http://") && !imageUrl.StartsWith("https://")) ImageUrl = CEHelper.GetSiteRootUrl() + imageUrl;
-            else ImageUrl = imageUrl;
+            LinkUrl = linkUrl;
+            ImageUrl = imageUrl;
 
             if (string.Compare(position, "bottom", true) == 0)
             {
@@ -215,21 +226,44 @@ namespace CE.Content
             }
         }
         public string Caption{ get; set; }
-        public string ImageUrl { get; set; }
+        public string ImageUrl
+        {
+            get
+            {
+                return imageUrl;
+            }
+            set
+            {
+                if (!value.StartsWith("http://") && !value.StartsWith("https://")) imageUrl = CEHelper.GetSiteRootUrl() + value;
+                else imageUrl = value;
+            }
+        }
         public string CaptionTop { get; set; }
         public string CaptionBottom { get; set; }
-        public string LinkUrl { get; set; }
+        public string LinkUrl
+        {
+            get
+            {
+                return linkUrl;
+            }
+            set
+            {
+                if (!value.StartsWith("http://") && !value.StartsWith("https://")) linkUrl = CEHelper.GetSiteRootUrl() + value;
+                else linkUrl = value;
+            }
+        }
     }
     public class Testimony
     {
+        private string iconUrl;
+        private string linkUrl;
+
         public Testimony(string caption, string position, string iconUrl, string text, string linkUrl)
         {
             Caption = caption;
-            if (!iconUrl.StartsWith("http://") && !iconUrl.StartsWith("https://")) IconUrl = CEHelper.GetSiteRootUrl() + iconUrl;
-            else IconUrl = iconUrl;
+            IconUrl = iconUrl;
             Text = text;
-            if (!linkUrl.StartsWith("http://") && !linkUrl.StartsWith("https://")) LinkUrl = CEHelper.GetSiteRootUrl() + linkUrl;
-            else LinkUrl = linkUrl;
+            LinkUrl = linkUrl;
 
             if (string.Compare(position, "bottom", true) == 0)
             {
@@ -245,20 +279,54 @@ namespace CE.Content
         public string Caption { get; set; }
         public string CaptionTop { get; set; }
         public string CaptionBottom { get; set; }
-        public string IconUrl { get; set; }
+        public string IconUrl
+        {
+            get
+            {
+                return iconUrl;
+            }
+            set
+            {
+                if (!value.StartsWith("http://") && !value.StartsWith("https://")) iconUrl = CEHelper.GetSiteRootUrl() + value;
+                else iconUrl = value;
+            }
+        }
         public string Text { get; set; }
-        public string LinkUrl { get; set; }
+        public string LinkUrl
+        {
+            get
+            {
+                return linkUrl;
+            }
+            set
+            {
+                if (!value.StartsWith("http://") && !value.StartsWith("https://")) linkUrl = CEHelper.GetSiteRootUrl() + value;
+                else linkUrl = value;
+            }
+        }
     }
     public class VideoClip
     {
+        private string clipUrl;
+
         public VideoClip(string caption, string clipUrl)
         {
             Caption = caption;
-            if (!clipUrl.StartsWith("http://") && !clipUrl.StartsWith("https://")) ClipUrl = CEHelper.GetSiteRootUrl() + clipUrl;
-            else ClipUrl = clipUrl;
+            ClipUrl = clipUrl;
         }
         public string Caption { get; set; }
-        public string ClipUrl { get; set; }
+        public string ClipUrl
+        {
+            get
+            {
+                return clipUrl;
+            }
+            set
+            {
+                if (!value.StartsWith("http://") && !value.StartsWith("https://")) clipUrl = CEHelper.GetSiteRootUrl() + value;
+                else clipUrl = value;
+            }
+        }
     }
 
     [Serializable]
@@ -285,18 +353,41 @@ namespace CE.Content
     [Serializable]
     public class RelatedLink
     {
+        private string iconUrl;
+        private string linkUrl;
+
         public RelatedLink(string iconUrl, string title, string linkUrl, string target)
         {
-            if (!iconUrl.StartsWith("http://") && !iconUrl.StartsWith("https://")) IconUrl = CEHelper.GetSiteRootUrl() + iconUrl;
-            else IconUrl = iconUrl;
+            IconUrl = iconUrl;
             Title = title;
-            if (!linkUrl.StartsWith("http://") && !linkUrl.StartsWith("https://")) LinkUrl = CEHelper.GetSiteRootUrl() + linkUrl;
-            else LinkUrl = linkUrl;
+            LinkUrl = linkUrl;
             Target = target;
         }
-        public string IconUrl { get; set; }
+        public string IconUrl
+        {
+            get
+            {
+                return iconUrl;
+            }
+            set
+            {
+                if (!value.StartsWith("http://") && !value.StartsWith("https://")) iconUrl = CEHelper.GetSiteRootUrl() + value;
+                else iconUrl = value;
+            }
+        }
         public string Title { get; set; }
-        public string LinkUrl { get; set; }
+        public string LinkUrl
+        {
+            get
+            {
+                return linkUrl;
+            }
+            set
+            {
+                if (!value.StartsWith("http://") && !value.StartsWith("https://")) linkUrl = CEHelper.GetSiteRootUrl() + value;
+                else linkUrl = value;
+            }
+        }
         public string Target { get; set; }
     }
     #endregion

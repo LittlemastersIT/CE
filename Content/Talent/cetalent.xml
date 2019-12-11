@@ -80,7 +80,7 @@
         <videoClip title="" clipUrl="https://www.youtube.com/embed/NLXBOQO-qnc" />
       </videoClips>
       <relatedLinks header="2019 Event Organizers&lt;br/&gt;主辦單位">
-        <relatedLink iconUrl="/Images/pin.png" title="Cultural Exploration of Greater China Foundation&lt;br/&gt;中華文化之旅基金會" linkUrl="/public/home.aspx" />
+        <!--<relatedLink iconUrl="/Images/pin.png" title="Cultural Exploration of Greater China Foundation&lt;br/&gt;中華文化之旅基金會" linkUrl="/public/home.html" />-->
         <relatedLink iconUrl="/Images/pin.png" title="Confucius Institute of the State of Washington&lt;br/&gt;華州孔子學院" linkUrl="http://confucius.washington.edu" target="_blank" />
         <relatedLink iconUrl="/Images/pin.png" title="Chinese Language Teachers Association Washington State&lt;br/&gt;華州中文教師學會" linkUrl="http://www.clta-wa.org" target="_blank" />
         <relatedLink iconUrl="/Images/pin.png" title="Chief Sealth International High School (CSIHS) &lt;br/&gt;希尔斯国际高中" linkUrl="http://chiefsealthhs.seattleschools.org/" target="_blank" />

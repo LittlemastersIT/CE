@@ -1,4 +1,4 @@
-﻿<%@ Page Title="CE Tours" Language="C#" MasterPageFile="~/CEMain.Master" AutoEventWireup="true" CodeBehind="CETour.aspx.cs" Inherits="CE.Pages.CETourPage" %>
+﻿<%@ Page Title="Little Master Club Chinese Language and Talent Competition Tours" Language="C#" MasterPageFile="~/CEMain.Master" AutoEventWireup="true" CodeBehind="CETour.aspx.cs" Inherits="CE.Pages.CETourPage" %>
 
 <%@ Register TagPrefix="CE" Namespace="CE.Pages" Assembly="CE.Application" %>
 

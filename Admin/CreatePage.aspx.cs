@@ -105,7 +105,7 @@ namespace CE.Admin
 
         protected void OnCancel(object sender, EventArgs e)
         {
-            Response.Redirect(CEHelper.GetSiteRootUrl() + CEConstants.CE_HOME_PAGE);
+            Response.Redirect(CEHelper.GetSiteRootUrl() + CEConstants.CE_TALENT_COMPETITION_PAGE);
         }
 
         protected void OnTemplateChanged(object sender, EventArgs e)

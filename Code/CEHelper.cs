@@ -257,8 +257,8 @@ namespace CE.Data
     {
         public const string CE_HOME_URL = "https://www.culturalexploration.org";
         public const string CE_HOME_SHORT_NAME = "CE";
-        public const string CE_HOME_PAGE = "public/home.aspx";
-        public const string CE_TALENT_COMPETITION_PAGE = "Public/Talent/Registration/TalentRegistration.aspx";
+        public const string CE_HOME_PAGE = "public/home.html";
+        public const string CE_TALENT_COMPETITION_PAGE = "/Public/Home.aspx";
         public const string CE_ADMIN_PAGE = "admin/ceadmin.aspx";
         public const string CE_PROBLEM_PAGE = "public/problem.aspx";
         public const string CE_ACCESS_DENIED_PAGE = "public/accessdenied.aspx";

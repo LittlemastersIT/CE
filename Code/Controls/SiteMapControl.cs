@@ -18,7 +18,7 @@ namespace CE.Controls
     public class SiteMapControl : WebControl
     {
         private const string SITEMAP_NODE_TEMMPLATE = "<a href=\"{0}{1}\">{2}</a>";
-        private const string DEFAULT_HOME_NODE_TEMPLATE = "<a href=\"{0}Public/home.aspx\">CE Home</a>";
+        private const string DEFAULT_HOME_NODE_TEMPLATE = "<a href=\"{0}/Public/Home.aspx\">Home</a>";
         private const string SITE_MAP_XML = "\\Content\\SiteMap.xml";
         private const string SITE_MAP_CONNECTOR = "<span> > </span>";
         private const string TOUR_JOURNEY_PAGE = "cejourney.aspx";

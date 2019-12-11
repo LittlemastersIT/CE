@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ce>
-  <menu id="1" name="Home" linkUrl="/Public/Home.aspx">
+  <menu id="1" name="2020 Registration" linkUrl="">
     <!--<submenu name="About Us" linkUrl="/Public/home/about/ceabout.html"></submenu>
-    <submenu name="Contact Us" linkUrl="/Public/home/cecontactus.aspx"></submenu> -->
+    <submenu name="Contact Us" linkUrl="/Public/home/cecontactus.aspx"></submenu>-->
   </menu>
   <!-- <menu id="2" name="Cultural Exploration Tour" linkUrl="/Public/Tours/cetour.html">
     <submenu name="Tour Outline" linkUrl="/Public/Tours/Outline/ceoutline.html"></submenu>
     <submenu name="2016 Tour Application" linkUrl="/Public/Tours/Application/CEApplication.aspx"></submenu>
     <submenu name="2015 Tour" linkUrl="/Public/Tours/Journey/TourJourney.aspx?year=2015"></submenu>
   </menu> -->
-  <menu id="3" name="Language &amp; Talent Competition" linkUrl="/Public/Talent/cetalent.html">
-    <submenu name="Schedule &amp; Guidelines" linkUrl="/Public/Talent/guidelines/ceguidelines.html"></submenu>
-    <submenu name="2020 Registration" linkUrl="/Public/Talent/Registration/TalentRegistration.aspx"></submenu>
-    <submenu name="2020 Results" linkUrl="/Public/Talent/Results/CEResults.html"></submenu>
+  <menu id="2" name="Language &amp; Talent Competition" linkUrl="/Public/Talent/cetalent.html">
   </menu>
+  <menu id="3" name="Schedule &amp; Guidelines" linkUrl="/Public/Talent/guidelines/ceguidelines.html"></menu>
+  <menu id="4" name="2020 Results" linkUrl="/Public/Talent/Results/CEResults.html"></menu>
+    
   <!--<menu id="4" name="Resources" linkUrl="/Public/Resources/ceresources.html">
     <submenu name="Curriculum Materials" linkUrl="/Public/resources/curriculum/cecurriculum.html"></submenu>
     <submenu name="Cultural Exploration Materials" linkUrl="/Public/resources/competition/cematerials.html"></submenu>

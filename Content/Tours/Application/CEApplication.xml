@@ -105,7 +105,7 @@
         <relatedLink iconUrl="/Images/at.png" title="2009 Tours" linkUrl="/public/articles/cearticle.aspx?theme=blue&amp;tag=tour&amp;path=/tours&amp;content=cetour.xml&amp;page=cetour.html" />
       </relatedLinks>
       <barTiles>
-        <barTile caption="The image has a link" imageUrl="/Images/Tours/citystreet.jpg" linkUrl="/public/home.aspx" captionPosition="bottom" />
+        <!--<barTile caption="The image has a link" imageUrl="/Images/Tours/citystreet.jpg" linkUrl="/public/home.html" captionPosition="bottom" />-->
         <barTile caption="&lt;b&gt;This is a bold caption&lt;/b&gt;" imageUrl="/Images/Tours/scenery2.jpg" linkUrl="" captionPosition="bottom" />
         <barTile caption="&lt;i&gt;This is an italic caption that is a bit longer&lt;/i&gt;" imageUrl="/Images/Tours/scenery1.jpg" linkUrl="" captionPosition="bottom" />
       </barTiles>

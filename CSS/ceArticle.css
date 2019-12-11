@@ -1,6 +1,6 @@
 ﻿.ce-content-container {width:998px;padding-bottom:20px;border-left:1px solid lightgray;border-right:1px solid lightgray;border-bottom:1px solid lightgray;}
 .ce-content-cell {vertical-align:top;padding-left:20px;padding-right:20px;}
-.ce-divider-cell {width:12px;background-image:url('/Images/blueDiv.jpg');background-repeat:no-repeat;}
+.ce-divider-cell {width:12px;background-image:url('../Images/blueDiv.jpg');background-repeat:no-repeat;}
 .ce-sidebar-cell {width:200px;padding-left:10px;padding-top:10px;vertical-align:top;}
 .ce-content-zone {}
 .ce-sidebar-zone {}

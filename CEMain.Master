@@ -5,18 +5,10 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Cultural Exploration</title>
+    <title>Little Master Club</title>
     <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/cemain.css")%>" media="all" />
     <script type="text/javascript">
         var baseUrl = "<%= ResolveUrl("~/") %>";
-        toAbsoluteUrlHref = function (linkUrl) {
-            location.href = baseUrl + linkUrl;
-        }
-    </script>
-    <script type='text/javascript'>
-        getRefreshContent = function (url) {
-            return '0; url=' + baseUrl + url;
-        }
     </script>
     <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery-1.9.1.min.js")%>"></script>
     <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.easing.1.3.min.js")%>"></script>
@@ -31,15 +23,15 @@
     <div class="ce-security"><CE:SecurityTrimControl Mode="live" runat="server" /></div>
     <div id="ce-page">
         <!-- header and banner area -->
-        <div id="ce-sign-in" class="ce-login"><span><a href='javascript:toAbsoluteUrlHref("/public/celogin.aspx")'>Login</a></span></div>
+        <div id="ce-sign-in" class="ce-login"><span><a href='javascript:setAbsoluteUrlHref("/public/celogin.aspx")'>Login</a></span></div>
         <div class="ce-header">
             <div class="ce-header">
                 <div class="ce-headerContainer">
                     <div class="ce-logo-container">
-                        <img id="ce-logo" src="<%=ResolveUrl("~/Images/CE_logo_final.png")%>"/>
+                        <img id="ce-logo" src="<%=ResolveUrl("~/Images/logo_XS_V2.jpg")%>"/>
                     </div>
                     <div class="ce-banner">
-                        <div class="ce-title ce-h1 center">CULTURAL EXPLORATION OF GREATER CHINA</div>              
+                        <div class="ce-title ce-h3 center">CHINESE LANGUAGE AND TALENT COMPETITION</div>              
 <%--                        <div class="ce-facebook" style="display:block;"><img src="<%=ResolveUrl("~/Images/FaceBook_32x32.png")%>" width="16" /><a href="https://www.facebook.com/groups/224549771000190/" target="_blank">Facebook</a></div>--%>
                         <div id="ce-nav-bar">
                             <div class="ce-nav-container">
@@ -65,7 +57,7 @@
         <div id="ce-footer">
             <div class="footer-panel">
                 <div class="footer center">
-                    <div id="footer-copyright"> <span>&copy; 2013 Cultural Exploration. All rights reserved.</span></div>
+                    <div id="footer-copyright"> <span>&copy; All copyrights reserved (c) Little Masters Club 2015</span></div>
                 </div>
             </div>
         </div>
@@ -78,8 +70,8 @@
                 $('#ce-sub-nav').css('top', '0px');
             }
 
-            showTopMenu();
             adjustSignIn();
+            showTopMenu();
         });
     </script>
 </body>

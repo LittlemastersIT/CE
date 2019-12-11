@@ -44,7 +44,7 @@
     </articles>
     <sideBar>
       <barTiles header="Related Images">
-        <barTile caption="The image has a link" imageUrl="/Images/Tours/forestLandscape.jpg" linkUrl="/public/home.aspx" captionPosition="bottom" />
+        <barTile caption="The image has a link" imageUrl="/Images/Tours/forestLandscape.jpg" linkUrl="/public/home.html" captionPosition="bottom" />
       </barTiles>
     </sideBar>
   </page>

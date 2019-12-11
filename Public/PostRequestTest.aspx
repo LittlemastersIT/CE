@@ -1,4 +1,4 @@
-﻿<%@ Page Title="CE POST" Language="C#" MasterPageFile="~/CESimple.Master" AutoEventWireup="true" CodeBehind="PostRequestTest.aspx.cs" Inherits="CE.Pages.PostRequestTestPage" %>
+﻿<%@ Page Title="Little Master Club Chinese Language and Talent Competition POST" Language="C#" MasterPageFile="~/CESimple.Master" AutoEventWireup="true" CodeBehind="PostRequestTest.aspx.cs" Inherits="CE.Pages.PostRequestTestPage" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="PlaceHolderMain" runat="server">
     <div class="ce-simple-content">

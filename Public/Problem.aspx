@@ -1,4 +1,4 @@
-﻿<%@ Page Title="CE Error" Language="C#" MasterPageFile="~/CEMain.Master" AutoEventWireup="true" CodeBehind="Problem.aspx.cs" Inherits="CE.Pages.ProblemPage" %>
+﻿<%@ Page Title="Little Master Club Chinese Language and Talent Competition Error" Language="C#" MasterPageFile="~/CEMain.Master" AutoEventWireup="true" CodeBehind="Problem.aspx.cs" Inherits="CE.Pages.ProblemPage" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="PlaceHolderMain" runat="server">
     <div class="ce-simple-content">

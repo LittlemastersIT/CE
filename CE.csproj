@@ -167,15 +167,20 @@
     <Content Include="Content\Support\cevolunteer.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Content\Talent\Guidelines\additionalchessrules.xml" />
+    <Content Include="Content\Talent\Guidelines\additionalchessrules.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Content\Talent\Guidelines\ceguidelines.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Content\Talent\Guidelines\cn\RelatedLinks.xml" />
+    <Content Include="Content\Talent\Guidelines\RelatedLinks.xml" />
     <Content Include="Content\Talent\Results\2013\CEResults.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Content\Talent\Results\2014\CEResults.xml" />
+    <Content Include="Content\Talent\Results\2015\CEResults.xml" />
+    <Content Include="Content\Talent\Results\2016\CEResults.xml" />
     <Content Include="Content\Tours\Album\TourAlbum.xml" />
     <Content Include="Content\Resources\CEResources.xml">
       <SubType>Designer</SubType>
@@ -256,6 +261,11 @@
     <Content Include="Data\Users\siteusers.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Documents\Talent\2013\2013 Result P1.html" />
+    <Content Include="Documents\Talent\2013\2013 Result P2 - Copy.html" />
+    <Content Include="Documents\Talent\2013\2013 Result P2.html" />
+    <Content Include="Documents\Talent\2013\2013 Result P3.html" />
+    <Content Include="Documents\Talent\2019 Competition Schedule.htm" />
     <Content Include="Images\Apply.png" />
     <Content Include="Images\arrow_down.gif" />
     <Content Include="Images\arrow_right.gif" />
@@ -300,6 +310,7 @@
     <Content Include="Images\eraser_small.png" />
     <Content Include="Images\error.jpg" />
     <Content Include="Images\error.png" />
+    <Content Include="Images\excel-48.png" />
     <Content Include="Images\FaceBook_32x32.png" />
     <Content Include="Images\fillout.gif" />
     <Content Include="Images\Forward.png" />
@@ -350,6 +361,7 @@
     <Content Include="Images\CEBlueBack.jpg" />
     <Content Include="Images\howto.png" />
     <Content Include="Images\loading.gif" />
+    <Content Include="Images\logo_XS_V2.jpg" />
     <Content Include="Images\love.png" />
     <Content Include="Images\mailin.png" />
     <Content Include="Images\maroondiv.jpg" />
@@ -438,6 +450,8 @@
     <Content Include="Public\Articles\CERules.aspx" />
     <Content Include="Public\Articles\CETab.aspx" />
     <Content Include="Public\Articles\CEVideo.aspx" />
+    <Content Include="Public\Home.aspx" />
+    <Content Include="Public\home.html" />
     <Content Include="Public\PostRequestTest.aspx" />
     <Content Include="Public\Home\About\ceabout.html" />
     <Content Include="Public\Home\cecontactus.aspx" />
@@ -457,10 +471,13 @@
     <Content Include="Public\Support\cevolunteer.aspx" />
     <Content Include="Public\Talent\cetalent.html" />
     <Content Include="Public\Talent\Guidelines\additionalchessrules.html" />
+    <Content Include="Public\Talent\Guidelines\chinesebridge.html" />
     <Content Include="Public\Talent\Guidelines\cn\chessrules.html" />
+    <Content Include="Public\Talent\Guidelines\cn\chinesebridge.html" />
     <Content Include="Public\Talent\Guidelines\cn\drawingrules.html" />
     <Content Include="Public\Talent\Guidelines\cn\grouppoetryrules.html" />
     <Content Include="Public\Talent\Guidelines\cn\knowledgerules.html" />
+    <Content Include="Public\Talent\Guidelines\cn\languageartsrules.html" />
     <Content Include="Public\Talent\Guidelines\cn\poetryrules.html" />
     <Content Include="Public\Talent\Guidelines\cn\singrules.html" />
     <Content Include="Public\Talent\Guidelines\cn\speechrules.html" />
@@ -469,6 +486,7 @@
     <Content Include="Public\Talent\Guidelines\competitionRules.html" />
     <Content Include="Public\Talent\Guidelines\ceguidelines.html" />
     <Content Include="Public\Talent\Guidelines\chessrules.html" />
+    <Content Include="Public\Talent\Guidelines\languageartsrules.html" />
     <Content Include="Public\Talent\Guidelines\poetryrules.html" />
     <Content Include="Public\Talent\Guidelines\storyrules.html" />
     <Content Include="Public\Talent\Guidelines\speechrules.html" />
@@ -503,7 +521,6 @@
     <Content Include="CSS\ceArticle.css" />
     <Content Include="CSS\cehome.css" />
     <Content Include="Public\Tours\CETour.aspx" />
-    <Content Include="Public\Home.aspx" />
     <Content Include="Images\divider.png" />
     <Content Include="JS\cemain.js" />
     <Content Include="JS\cepages.js" />
@@ -679,6 +696,13 @@
     <Compile Include="Public\CELogin.aspx.designer.cs">
       <DependentUpon>CELogin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Public\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Public\PostRequestTest.aspx.cs">
       <DependentUpon>PostRequestTest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -777,13 +801,6 @@
     <Compile Include="Public\Tours\CETour.aspx.designer.cs">
       <DependentUpon>CETour.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Public\Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Public\Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Public\Resources\CEResources.aspx.cs">
       <DependentUpon>CEResources.aspx</DependentUpon>
@@ -871,6 +888,57 @@
     <Content Include="Data\Report\2019\TalentCompetitionSchedule.xlsx" />
     <Content Include="Data\Report\2019\TalentCompetitionWinnerTemplate.xlsx" />
     <Content Include="Data\Report\2019\TrophyTemplate.xlsx" />
+    <Content Include="Content\Talent\Guidelines\RulesAndRegulations.xlsx" />
+    <Content Include="Content\Talent\Guidelines\cn\RulesAndRegulations.xlsx" />
+    <Content Include="Documents\Talent\2019 Poster_rev02.pdf" />
+    <Content Include="Documents\Talent\2016 Assigned_poems_poetry_recitation.pdf" />
+    <Content Include="Documents\Talent\2016 China Knowledge Bowl Questions Bank.pdf" />
+    <Content Include="Documents\Talent\2016 Competition Schedule.pdf" />
+    <Content Include="Documents\Talent\2016 General Information_Chinese version.pdf" />
+    <Content Include="Documents\Talent\2016 General Information_English version.pdf" />
+    <Content Include="Documents\Talent\2016 Poster_rev03.pdf" />
+    <Content Include="Documents\Talent\2016 Rules and Regulations_Chinese version.pdf" />
+    <Content Include="Documents\Talent\2016 Rules and Regulations_English version.pdf" />
+    <Content Include="Documents\Talent\2016_Frequently_Asked_Questions.pdf" />
+    <Content Include="Documents\Talent\2015 Lunch Waiver Form.pdf" />
+    <Content Include="Documents\Talent\2016\032516_World Journal_470130325.pdf" />
+    <Content Include="Documents\Talent\2016\2016 Competition Winner List.xlsx" />
+    <Content Include="Documents\Talent\2014\2014 Competition Certified Winner List.xlsx" />
+    <Content Include="Documents\Talent\2014\2014 Competition Winner List.xlsx" />
+    <Content Include="Documents\Talent\2015\2015 Competition Winner List - original.xlsx" />
+    <Content Include="Documents\Talent\2013\2013StudentSignInSheet.pdf" />
+    <Content Include="Documents\Talent\2013\2013_flyer.pdf" />
+    <Content Include="Documents\Talent\2013\2013_General_Information.docx" />
+    <Content Include="Documents\Talent\2013\Score Sheet1.pdf" />
+    <Content Include="Documents\Talent\2013\Score Sheet2.pdf" />
+    <Content Include="Documents\Talent\2013\Score Sheet3.pdf" />
+    <Content Include="Documents\Talent\2013\Talent_2013_FAQs.docx" />
+    <Content Include="Documents\Talent\2013\Talent_2013_rules_cn.doc" />
+    <Content Include="Documents\Talent\2013\Talent_2013_rules_us.doc" />
+    <Content Include="Documents\Talent\2013\Talent_2013_schedule.pdf" />
+    <Content Include="Documents\Talent\2019 CSIHS Map with classroom assignments.pdf" />
+    <Content Include="Documents\Talent\2018-19 China Knowledge Bowl.pdf" />
+    <Content Include="Documents\Talent\2019 Assigned_poems_poetry_recitation.pdf" />
+    <Content Include="Documents\Talent\2019 Fee Waiver Form.pdf" />
+    <Content Include="Documents\Talent\2019 General Information_Chinese version.pdf" />
+    <Content Include="Documents\Talent\2019 General Information_English version.pdf" />
+    <Content Include="Documents\Talent\2019 Questions for Hanyuqiao.pdf" />
+    <Content Include="Documents\Talent\2019 Rules and Regulations_Chinese version.pdf" />
+    <Content Include="Documents\Talent\2019 Rules and Regulations_English version.pdf" />
+    <Content Include="Documents\Talent\2019_Frequently_Asked_Questions.pdf" />
+    <Content Include="Data\Report\2020\AwardPresentationTemplate.xlsx" />
+    <Content Include="Data\Report\2020\CompetitionWinnerCertificateTemplate.docx" />
+    <Content Include="Data\Report\2020\ContestantParticipatedEventsTemplate.xlsx" />
+    <Content Include="Data\Report\2020\ContestantsWithConflictScheduleTemplate.xlsx" />
+    <Content Include="Data\Report\2020\HeadCountTemplate.xlsx" />
+    <Content Include="Data\Report\2020\ScoreSheetTemplate.xlsx" />
+    <Content Include="Data\Report\2020\ScoreSheetTemplate3.xlsx" />
+    <Content Include="Data\Report\2020\ScoreSheetTemplate4.xlsx" />
+    <Content Include="Data\Report\2020\ScoreSheetTemplate5.xlsx" />
+    <Content Include="Data\Report\2020\StudentSignInSheetTemplate.xlsx" />
+    <Content Include="Data\Report\2020\TalentCompetitionSchedule.xlsx" />
+    <Content Include="Data\Report\2020\TalentCompetitionWinnerTemplate.xlsx" />
+    <Content Include="Data\Report\2020\TrophyTemplate.xlsx" />
     <None Include="Properties\PublishProfiles\Cultural Exploration.pubxml" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\lmcbeta1 - FTP.pubxml" />
@@ -890,6 +958,7 @@
     <Folder Include="Content\Tours\Journey\2014\" />
     <Folder Include="Controls\" />
     <Folder Include="Data\Application\Talent\2019\" />
+    <Folder Include="Data\Report\2020\SignIn Sheets\individual\" />
     <Folder Include="Documents\Resources\" />
     <Folder Include="Images\TalentShow\" />
     <Folder Include="Public\Resources\Video\" />

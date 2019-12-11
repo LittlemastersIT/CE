@@ -39,7 +39,7 @@ namespace CE.Pages
                         path = path.Replace("{year}", CEHelper.GetProgramYear());
                     }
 
-                    PageTheme.Text = "<link rel=\"stylesheet\" type=\"text/css\" href=\"/CSS/Themes/" + theme + "/cepage.css\" media=\"all\" />";
+                    PageTheme.Text = "<link rel=\"stylesheet\" type=\"text/css\" href=\"" + CEHelper.GetSiteRootUrl() + "/CSS/Themes/" + theme + "/cepage.css\" media=\"all\" />";
 
                     string contentUrl = CEHelper.GetContentUrl(path, contentFile);
                     ArticleContent pageContent = ArticleContentRetriever.GeArticlePageContent(contentUrl, pageTag);

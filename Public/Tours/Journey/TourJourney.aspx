@@ -10,9 +10,6 @@
     <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery-ui-1.10.3.min.js")%>"></script>
     <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/cepages.js")%>"></script>
     <script type="text/javascript">
-        ToAbsoluteUrl = function (linkUrl) {
-            location.href = baseUrl + linkUrl;
-        }
         setHrefLink1 = function (folderName, year) {
             location.href = baseUrl + '/public/articles/cejourney.aspx?theme=blue&author=' + folderName +'&year=' + year;
         }
