@@ -2,13 +2,14 @@
 <%@ Register TagPrefix="CE" Namespace="CE.Pages" Assembly="CE.Application" %>
 
 <asp:Content ID="ScriptContent1" ContentPlaceHolderID="PlaceHolderScript" runat="server">
-    <link type="text/css" rel="stylesheet" href="/CSS/ceadmin.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/cemain.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/ceadmin.css")%>" media="all" />
 </asp:Content>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="PlaceHolderMain" runat="server">
     <div id="ce-admin-content">
         <div class="ce-login-page">
-            <div class="page-title ce-h2">Cultural Exploration Site Login</div>
+            <div class="page-title ce-h3">Little Master Club Chinese Language and Talent Competition Site Login</div>
             <div class="page-section-divider2"></div>
             <table>
                 <tr>

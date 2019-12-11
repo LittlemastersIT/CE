@@ -52,7 +52,7 @@
     </articles>
     <sideBar>
       <barTiles header="Related Images">
-        <barTile caption="The image has a link" imageUrl="/Images/Tours/forestLandscape.jpg" linkUrl="/public/home.aspx" captionPosition="bottom" />
+        <barTile caption="The image has a link" imageUrl="/Images/Tours/forestLandscape.jpg" linkUrl="/Public/Talent/cetalent.html" captionPosition="bottom" />
       </barTiles>
       <testimonies header="what Said About Us...">
         <testimory caption="Jimmy, Redmond 2012:" text="Cultural Exploration provides me a real opportunity to export China culture." iconUrl="/Images/talk.png" linkUrl="/public/Testimony.aspx?id=jimmy" captionPosition="top" />

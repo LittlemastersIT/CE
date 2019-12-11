@@ -3,12 +3,12 @@
 <%@ Register TagPrefix="CE" Namespace="CE.Pages" Assembly="CE.Application" %>
 
 <asp:Content ID="ScriptContent1" ContentPlaceHolderID="PlaceHolderScript" runat="server">
-    <link type="text/css" rel="stylesheet" href="/CSS/ceadmin.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/themes/blue/cepage.css" media="all" />
-    <script type="text/javascript" src="/JS/jquery/jquery.colorbox-min.js"></script>
-    <script type="text/javascript" src="/JS/jquery/jquery.inputmask.js"></script>
-    <script type="text/javascript" src="/JS/cecookie.js"></script>
-    <script type="text/javascript" src="/JS/cejson.js"></script>
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/ceadmin.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/themes/blue/cepage.css")%>" media="all" />
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.colorbox-min.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.inputmask.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/cecookie.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/cejson.js")%>"></script>
 </asp:Content>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="PlaceHolderMain" runat="server">
@@ -17,7 +17,7 @@
             <asp:Panel ID="TourApplicationStartNote" runat="server">
                 <div class="ce-temp-note ce-h4" style="color:#050143;border-color:red;">
                     <asp:Label ID="TourApplicationStartNoteText" runat="server">
-                        Please refer to <a href="/Public/Articles/cearticle.aspx?theme=black&path=/home/about&content=ceabout" style="font-size:16px;text-decoration:underline;color:black !important;">CE Status August 2016</a> for CE Tour current status.
+                        Please refer to <a href="<%=ResolveUrl("~/Public/Articles/cearticle.aspx?theme=black&path=/home/about&content=ceabout")%>" style="font-size:16px;text-decoration:underline;color:black !important;">CE Status August 2016</a> for CE Tour current status.
                     </asp:Label>
                     <br /><br />
                 </div>
@@ -279,8 +279,8 @@
                                 <div>
                                     <asp:TextBox ID="ApplicantResume" runat="server" CssClass="form-upload-file" Enabled="false" />
                                     <div class="form-upload">
-                                        <img id="resumeImg" src="/images/pin_blue.png" />
-                                        <img id="resumeRemoveImg" src="/images/eraser_small.png" onclick="clearFilename(1);" />
+                                        <img runat="server" id="resumeImg" src="~/images/pin_blue.png" />
+                                        <img runat="server" id="resumeRemoveImg" src="~/images/eraser_small.png" onclick="clearFilename(1);" />
                                     </div>
                                 </div>
                                 <div id="resumeSizeError"></div>
@@ -296,8 +296,8 @@
                                 <div>
                                     <asp:TextBox ID="ApplicantTeachingPlan" runat="server" CssClass="form-upload-file" Enabled="false" />
                                     <div class="form-upload">
-                                        <img id="teachingPlanImg" src="/images/pin_blue.png" />
-                                        <img id="teachingPlanRemoveImg" src="/images/eraser_small.png" onclick="clearFilename(2);" />
+                                        <img runat="server" id="teachingPlanImg" src="~/images/pin_blue.png" />
+                                        <img runat="server" id="teachingPlanRemoveImg" src="~/images/eraser_small.png" onclick="clearFilename(2);" />
                                     </div>
                                 </div>
                                 <div id="teachingPlanSizeError"></div>
@@ -327,8 +327,8 @@
                                 <div>
                                     <asp:TextBox ID="ApplicantFile1" runat="server" CssClass="form-upload-file" Enabled="false" />
                                     <div class="form-upload">
-                                        <img id="applicantFile1Img" src="/images/pin_blue.png" />
-                                        <img id="userFile1RemoveImg" src="/images/eraser_small.png" onclick="clearFilename(3);" />
+                                        <img runat="server" id="applicantFile1Img" src="~/images/pin_blue.png" />
+                                        <img runat="server" id="userFile1RemoveImg" src="~/images/eraser_small.png" onclick="clearFilename(3);" />
                                     </div>
                                     <div id="userFile1SizeError"></div>
                                 </div>
@@ -336,8 +336,8 @@
                                     <div>
                                     <asp:TextBox ID="ApplicantFile2" runat="server" CssClass="form-upload-file" Enabled="false" />
                                     <div class="form-upload">
-                                        <img id="applicantFile2Img" src="/images/pin_blue.png" />
-                                        <img id="userFile2RemoveImg" src="/images/eraser_small.png" onclick="clearFilename(4);" />
+                                        <img runat="server" id="applicantFile2Img" src="~/images/pin_blue.png" />
+                                        <img runat="server" id="userFile2RemoveImg" src="~/images/eraser_small.png" onclick="clearFilename(4);" />
                                     </div>
                                     <div id="userFile2SizeError"></div>
                                 </div>
@@ -382,7 +382,7 @@
             <div class="application-result-text ce-h4">
                 <table>
                     <tr>
-                        <td style="width:60px;"><img src="/images/confirm.png" /></td>
+                        <td style="width:60px;"><img runat="server" src="~/images/confirm.png" /></td>
                         <td>
                             Thanks for fill out the cultural tour application with us. We have sent an email to confirm that we have received your application.
                             Please check your email for further instruction about our process and how to proceed going forward.
@@ -399,7 +399,7 @@
             <div class="application-result-text ce-h4">
                 <table>
                     <tr>
-                        <td style="width:60px;"><img src="/images/error.png" /></td>
+                        <td style="width:60px;"><img runat="server" src="~/images/error.png" /></td>
                         <td>
                             There is a problem saving your attached file(s) to our server. Please ensure the filename is valid and try again. 
                             If the problem persists, please send all your input and attachments to <a href="mailto:ceadmin@culturalExploration.org">CE Administrator</a>.

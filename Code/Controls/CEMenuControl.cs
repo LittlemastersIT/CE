@@ -81,7 +81,7 @@ namespace CE.Controls
             //sb.Append("<div id=\"ce-top-nav\">");
             //sb.Append("<ul>");
             //sb.Append("<li id=\"ce-top-nav-1\">");
-            //sb.Append("<div class=\"ce-nav-item nosubmenu\" nodeurl=\"/public/home.aspx\" onmouseover=\"showSubNav('1',false)\" onmouseout=\"hideSubNav('1',true)\" onclick=\"linkMenu('1')\">");
+            //sb.Append("<div class=\"ce-nav-item nosubmenu\" nodeurl=\"/public/home.html\" onmouseover=\"showSubNav('1',false)\" onmouseout=\"hideSubNav('1',true)\" onclick=\"linkMenu('1')\">");
             //sb.Append("Home");
             //sb.Append("</div>");
             //sb.Append("</li>");

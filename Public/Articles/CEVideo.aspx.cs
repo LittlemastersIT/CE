@@ -24,7 +24,7 @@ namespace CE.Pages
 
                 if (string.IsNullOrEmpty(contentFile))
                 {
-                    Response.Redirect(CEConstants.CE_PROBLEM_PAGE);
+                    Response.Redirect(CEHelper.GetSiteRootUrl() + CEConstants.CE_PROBLEM_PAGE);
                 }
                 else
                 {

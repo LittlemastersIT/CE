@@ -21,6 +21,8 @@
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
     <Use64BitIISExpress />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -46,12 +48,58 @@
     </Reference>
     <Reference Include="EPPlus, Version=4.5.3.2, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
       <HintPath>packages\EPPlus.4.5.3.2\lib\net40\EPPlus.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ApplicationInsights.Agent.Intercept.2.4.0\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.11.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ApplicationInsights.DependencyCollector.2.11.2\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.11.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.11.2\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.11.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.11.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.11.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ApplicationInsights.Web.2.11.2\lib\net45\Microsoft.AI.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.11.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ApplicationInsights.WindowsServer.2.11.2\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.11.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ApplicationInsights.2.11.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.TelemetryCorrelation, Version=1.0.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.TelemetryCorrelation.1.0.7\lib\net45\Microsoft.AspNet.TelemetryCorrelation.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>packages\Microsoft.Office.Interop.Word.15.0.4797.1003\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="PresentationCore" />
+    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.4.0\lib\netstandard1.1\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.DiagnosticSource.4.6.0\lib\net45\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.3\lib\netstandard1.1\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
@@ -92,9 +140,6 @@
     <Content Include="Content\Home\About\ceabout.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Content\Home\cecontact.xml">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="Content\journey-template.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -122,54 +167,20 @@
     <Content Include="Content\Support\cevolunteer.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Content\Talent\Guidelines\additionalchessrules.xml" />
+    <Content Include="Content\Talent\Guidelines\additionalchessrules.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Content\Talent\Guidelines\ceguidelines.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Content\Talent\Guidelines\chessrules.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="Content\Talent\Guidelines\cn\chessrules.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="Content\Talent\Guidelines\cn\drawingrules.xml" />
-    <Content Include="Content\Talent\Guidelines\cn\grouppoetryrules.xml" />
-    <Content Include="Content\Talent\Guidelines\cn\knowledgerules.xml" />
-    <Content Include="Content\Talent\Guidelines\cn\poetryrules.xml" />
     <Content Include="Content\Talent\Guidelines\cn\RelatedLinks.xml" />
-    <Content Include="Content\Talent\Guidelines\cn\singrules.xml" />
-    <Content Include="Content\Talent\Guidelines\cn\speechrules.xml" />
-    <Content Include="Content\Talent\Guidelines\cn\storyrules.xml" />
-    <Content Include="Content\Talent\Guidelines\cn\talentrules.xml" />
-    <Content Include="Content\Talent\Guidelines\drawingrules.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="Content\Talent\Guidelines\grouppoetryrules.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="Content\Talent\Guidelines\knowledgerules.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="Content\Talent\Guidelines\poetryrules.xml">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="Content\Talent\Guidelines\RelatedLinks.xml" />
-    <Content Include="Content\Talent\Guidelines\singrules.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="Content\Talent\Guidelines\speechrules.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="Content\Talent\Guidelines\storyrules.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="Content\Talent\Guidelines\talentrules.xml">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="Content\Talent\Results\2013\CEResults.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Content\Talent\Results\2014\CEResults.xml" />
+    <Content Include="Content\Talent\Results\2015\CEResults.xml" />
+    <Content Include="Content\Talent\Results\2016\CEResults.xml" />
     <Content Include="Content\Tours\Album\TourAlbum.xml" />
     <Content Include="Content\Resources\CEResources.xml">
       <SubType>Designer</SubType>
@@ -250,6 +261,11 @@
     <Content Include="Data\Users\siteusers.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Documents\Talent\2013\2013 Result P1.html" />
+    <Content Include="Documents\Talent\2013\2013 Result P2 - Copy.html" />
+    <Content Include="Documents\Talent\2013\2013 Result P2.html" />
+    <Content Include="Documents\Talent\2013\2013 Result P3.html" />
+    <Content Include="Documents\Talent\2019 Competition Schedule.htm" />
     <Content Include="Images\Apply.png" />
     <Content Include="Images\arrow_down.gif" />
     <Content Include="Images\arrow_right.gif" />
@@ -294,6 +310,7 @@
     <Content Include="Images\eraser_small.png" />
     <Content Include="Images\error.jpg" />
     <Content Include="Images\error.png" />
+    <Content Include="Images\excel-48.png" />
     <Content Include="Images\FaceBook_32x32.png" />
     <Content Include="Images\fillout.gif" />
     <Content Include="Images\Forward.png" />
@@ -344,6 +361,7 @@
     <Content Include="Images\CEBlueBack.jpg" />
     <Content Include="Images\howto.png" />
     <Content Include="Images\loading.gif" />
+    <Content Include="Images\logo_XS_V2.jpg" />
     <Content Include="Images\love.png" />
     <Content Include="Images\mailin.png" />
     <Content Include="Images\maroondiv.jpg" />
@@ -432,6 +450,8 @@
     <Content Include="Public\Articles\CERules.aspx" />
     <Content Include="Public\Articles\CETab.aspx" />
     <Content Include="Public\Articles\CEVideo.aspx" />
+    <Content Include="Public\Home.aspx" />
+    <Content Include="Public\home.html" />
     <Content Include="Public\PostRequestTest.aspx" />
     <Content Include="Public\Home\About\ceabout.html" />
     <Content Include="Public\Home\cecontactus.aspx" />
@@ -451,10 +471,13 @@
     <Content Include="Public\Support\cevolunteer.aspx" />
     <Content Include="Public\Talent\cetalent.html" />
     <Content Include="Public\Talent\Guidelines\additionalchessrules.html" />
+    <Content Include="Public\Talent\Guidelines\chinesebridge.html" />
     <Content Include="Public\Talent\Guidelines\cn\chessrules.html" />
+    <Content Include="Public\Talent\Guidelines\cn\chinesebridge.html" />
     <Content Include="Public\Talent\Guidelines\cn\drawingrules.html" />
     <Content Include="Public\Talent\Guidelines\cn\grouppoetryrules.html" />
     <Content Include="Public\Talent\Guidelines\cn\knowledgerules.html" />
+    <Content Include="Public\Talent\Guidelines\cn\languageartsrules.html" />
     <Content Include="Public\Talent\Guidelines\cn\poetryrules.html" />
     <Content Include="Public\Talent\Guidelines\cn\singrules.html" />
     <Content Include="Public\Talent\Guidelines\cn\speechrules.html" />
@@ -463,6 +486,7 @@
     <Content Include="Public\Talent\Guidelines\competitionRules.html" />
     <Content Include="Public\Talent\Guidelines\ceguidelines.html" />
     <Content Include="Public\Talent\Guidelines\chessrules.html" />
+    <Content Include="Public\Talent\Guidelines\languageartsrules.html" />
     <Content Include="Public\Talent\Guidelines\poetryrules.html" />
     <Content Include="Public\Talent\Guidelines\storyrules.html" />
     <Content Include="Public\Talent\Guidelines\speechrules.html" />
@@ -497,11 +521,12 @@
     <Content Include="CSS\ceArticle.css" />
     <Content Include="CSS\cehome.css" />
     <Content Include="Public\Tours\CETour.aspx" />
-    <Content Include="Public\Home.aspx" />
     <Content Include="Images\divider.png" />
     <Content Include="JS\cemain.js" />
     <Content Include="JS\cepages.js" />
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="CESimple.Master" />
     <Content Include="Documents\Talent\Final Flyer Format Chinese.pdf" />
     <Content Include="Documents\Talent\Final Flyer Format English.pdf" />
@@ -671,6 +696,13 @@
     <Compile Include="Public\CELogin.aspx.designer.cs">
       <DependentUpon>CELogin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Public\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Public\PostRequestTest.aspx.cs">
       <DependentUpon>PostRequestTest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -769,13 +801,6 @@
     <Compile Include="Public\Tours\CETour.aspx.designer.cs">
       <DependentUpon>CETour.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Public\Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Public\Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Public\Resources\CEResources.aspx.cs">
       <DependentUpon>CEResources.aspx</DependentUpon>
@@ -863,7 +888,62 @@
     <Content Include="Data\Report\2019\TalentCompetitionSchedule.xlsx" />
     <Content Include="Data\Report\2019\TalentCompetitionWinnerTemplate.xlsx" />
     <Content Include="Data\Report\2019\TrophyTemplate.xlsx" />
+    <Content Include="Content\Talent\Guidelines\RulesAndRegulations.xlsx" />
+    <Content Include="Content\Talent\Guidelines\cn\RulesAndRegulations.xlsx" />
+    <Content Include="Documents\Talent\2019 Poster_rev02.pdf" />
+    <Content Include="Documents\Talent\2016 Assigned_poems_poetry_recitation.pdf" />
+    <Content Include="Documents\Talent\2016 China Knowledge Bowl Questions Bank.pdf" />
+    <Content Include="Documents\Talent\2016 Competition Schedule.pdf" />
+    <Content Include="Documents\Talent\2016 General Information_Chinese version.pdf" />
+    <Content Include="Documents\Talent\2016 General Information_English version.pdf" />
+    <Content Include="Documents\Talent\2016 Poster_rev03.pdf" />
+    <Content Include="Documents\Talent\2016 Rules and Regulations_Chinese version.pdf" />
+    <Content Include="Documents\Talent\2016 Rules and Regulations_English version.pdf" />
+    <Content Include="Documents\Talent\2016_Frequently_Asked_Questions.pdf" />
+    <Content Include="Documents\Talent\2015 Lunch Waiver Form.pdf" />
+    <Content Include="Documents\Talent\2016\032516_World Journal_470130325.pdf" />
+    <Content Include="Documents\Talent\2016\2016 Competition Winner List.xlsx" />
+    <Content Include="Documents\Talent\2014\2014 Competition Certified Winner List.xlsx" />
+    <Content Include="Documents\Talent\2014\2014 Competition Winner List.xlsx" />
+    <Content Include="Documents\Talent\2015\2015 Competition Winner List - original.xlsx" />
+    <Content Include="Documents\Talent\2013\2013StudentSignInSheet.pdf" />
+    <Content Include="Documents\Talent\2013\2013_flyer.pdf" />
+    <Content Include="Documents\Talent\2013\2013_General_Information.docx" />
+    <Content Include="Documents\Talent\2013\Score Sheet1.pdf" />
+    <Content Include="Documents\Talent\2013\Score Sheet2.pdf" />
+    <Content Include="Documents\Talent\2013\Score Sheet3.pdf" />
+    <Content Include="Documents\Talent\2013\Talent_2013_FAQs.docx" />
+    <Content Include="Documents\Talent\2013\Talent_2013_rules_cn.doc" />
+    <Content Include="Documents\Talent\2013\Talent_2013_rules_us.doc" />
+    <Content Include="Documents\Talent\2013\Talent_2013_schedule.pdf" />
+    <Content Include="Documents\Talent\2019 CSIHS Map with classroom assignments.pdf" />
+    <Content Include="Documents\Talent\2018-19 China Knowledge Bowl.pdf" />
+    <Content Include="Documents\Talent\2019 Assigned_poems_poetry_recitation.pdf" />
+    <Content Include="Documents\Talent\2019 Fee Waiver Form.pdf" />
+    <Content Include="Documents\Talent\2019 General Information_Chinese version.pdf" />
+    <Content Include="Documents\Talent\2019 General Information_English version.pdf" />
+    <Content Include="Documents\Talent\2019 Questions for Hanyuqiao.pdf" />
+    <Content Include="Documents\Talent\2019 Rules and Regulations_Chinese version.pdf" />
+    <Content Include="Documents\Talent\2019 Rules and Regulations_English version.pdf" />
+    <Content Include="Documents\Talent\2019_Frequently_Asked_Questions.pdf" />
+    <Content Include="Data\Report\2020\AwardPresentationTemplate.xlsx" />
+    <Content Include="Data\Report\2020\CompetitionWinnerCertificateTemplate.docx" />
+    <Content Include="Data\Report\2020\ContestantParticipatedEventsTemplate.xlsx" />
+    <Content Include="Data\Report\2020\ContestantsWithConflictScheduleTemplate.xlsx" />
+    <Content Include="Data\Report\2020\HeadCountTemplate.xlsx" />
+    <Content Include="Data\Report\2020\ScoreSheetTemplate.xlsx" />
+    <Content Include="Data\Report\2020\ScoreSheetTemplate3.xlsx" />
+    <Content Include="Data\Report\2020\ScoreSheetTemplate4.xlsx" />
+    <Content Include="Data\Report\2020\ScoreSheetTemplate5.xlsx" />
+    <Content Include="Data\Report\2020\StudentSignInSheetTemplate.xlsx" />
+    <Content Include="Data\Report\2020\TalentCompetitionSchedule.xlsx" />
+    <Content Include="Data\Report\2020\TalentCompetitionWinnerTemplate.xlsx" />
+    <Content Include="Data\Report\2020\TrophyTemplate.xlsx" />
     <None Include="Properties\PublishProfiles\Cultural Exploration.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\lmcbeta1 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\lmcbeta1 - ReadOnly - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\lmcbeta1 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
@@ -878,6 +958,7 @@
     <Folder Include="Content\Tours\Journey\2014\" />
     <Folder Include="Controls\" />
     <Folder Include="Data\Application\Talent\2019\" />
+    <Folder Include="Data\Report\2020\SignIn Sheets\individual\" />
     <Folder Include="Documents\Resources\" />
     <Folder Include="Images\TalentShow\" />
     <Folder Include="Public\Resources\Video\" />
@@ -907,6 +988,21 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <Import Project="packages\Microsoft.ApplicationInsights.DependencyCollector.2.11.2\build\Microsoft.ApplicationInsights.DependencyCollector.targets" Condition="Exists('packages\Microsoft.ApplicationInsights.DependencyCollector.2.11.2\build\Microsoft.ApplicationInsights.DependencyCollector.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.ApplicationInsights.DependencyCollector.2.11.2\build\Microsoft.ApplicationInsights.DependencyCollector.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.ApplicationInsights.DependencyCollector.2.11.2\build\Microsoft.ApplicationInsights.DependencyCollector.targets'))" />
+    <Error Condition="!Exists('packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.11.2\build\Microsoft.ApplicationInsights.PerfCounterCollector.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.11.2\build\Microsoft.ApplicationInsights.PerfCounterCollector.targets'))" />
+    <Error Condition="!Exists('packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.11.0\build\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.11.0\build\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.targets'))" />
+    <Error Condition="!Exists('packages\Microsoft.ApplicationInsights.WindowsServer.2.11.2\build\Microsoft.ApplicationInsights.WindowsServer.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.ApplicationInsights.WindowsServer.2.11.2\build\Microsoft.ApplicationInsights.WindowsServer.targets'))" />
+    <Error Condition="!Exists('packages\Microsoft.ApplicationInsights.Web.2.11.2\build\Microsoft.ApplicationInsights.Web.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.ApplicationInsights.Web.2.11.2\build\Microsoft.ApplicationInsights.Web.targets'))" />
+  </Target>
+  <Import Project="packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.11.2\build\Microsoft.ApplicationInsights.PerfCounterCollector.targets" Condition="Exists('packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.11.2\build\Microsoft.ApplicationInsights.PerfCounterCollector.targets')" />
+  <Import Project="packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.11.0\build\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.targets" Condition="Exists('packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.11.0\build\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.targets')" />
+  <Import Project="packages\Microsoft.ApplicationInsights.WindowsServer.2.11.2\build\Microsoft.ApplicationInsights.WindowsServer.targets" Condition="Exists('packages\Microsoft.ApplicationInsights.WindowsServer.2.11.2\build\Microsoft.ApplicationInsights.WindowsServer.targets')" />
+  <Import Project="packages\Microsoft.ApplicationInsights.Web.2.11.2\build\Microsoft.ApplicationInsights.Web.targets" Condition="Exists('packages\Microsoft.ApplicationInsights.Web.2.11.2\build\Microsoft.ApplicationInsights.Web.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

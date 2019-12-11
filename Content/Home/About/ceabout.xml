@@ -98,7 +98,7 @@
         </paragraph>
         <paragraph>
           <text>
-            <![CDATA[<div style="padding:20px 30px 20px 30px;"><img src="/images/home/cemission.png" width="300px"/></div>]]>
+            <![CDATA[<div style="padding:20px 30px 20px 30px;"><img runat="server" src="~/images/home/cemission.png" width="300px"/></div>]]>
           </text>
         </paragraph>
       </article>

@@ -13,57 +13,120 @@ namespace CE.Pages {
     public partial class HomePage {
         
         /// <summary>
-        /// HeadlineSlides control.
+        /// RegistrationNote control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater HeadlineSlides;
+        protected global::System.Web.UI.WebControls.Panel RegistrationNote;
         
         /// <summary>
-        /// NewsAndAnnouncements control.
+        /// RegistrationNoteText control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel NewsAndAnnouncements;
+        protected global::System.Web.UI.WebControls.Label RegistrationNoteText;
         
         /// <summary>
-        /// NewsHeader control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal NewsHeader;
+        protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// NewsView control.
+        /// RegistrationCloseNote control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater NewsView;
+        protected global::System.Web.UI.WebControls.Panel RegistrationCloseNote;
         
         /// <summary>
-        /// NewsPages control.
+        /// RegistrationCloseNoteText control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater NewsPages;
+        protected global::System.Web.UI.WebControls.Label RegistrationCloseNoteText;
         
         /// <summary>
-        /// HomeTiles control.
+        /// RegistrationStartNote control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater HomeTiles;
+        protected global::System.Web.UI.WebControls.Panel RegistrationStartNote;
+        
+        /// <summary>
+        /// RegistrationStartNoteText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label RegistrationStartNoteText;
+        
+        /// <summary>
+        /// CompetitionEndNote control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel CompetitionEndNote;
+        
+        /// <summary>
+        /// CompetitionEndNoteText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label CompetitionEndNoteText;
+        
+        /// <summary>
+        /// CompetitionTermiateNote control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel CompetitionTermiateNote;
+        
+        /// <summary>
+        /// CompetitionTermiateNoteText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label CompetitionTermiateNoteText;
+        
+        /// <summary>
+        /// RegistationSelection control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel RegistationSelection;
+        
+        /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
     }
 }

@@ -1,159 +1,98 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/CEMain.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="CE.Pages.HomePage" %>
-
+﻿<%@ Page Language="C#" MasterPageFile="~/CEMain.Master" AutoEventWireup="true" validateRequest="false" CodeBehind="Home.aspx.cs" Inherits="CE.Pages.HomePage" %>
 <%@ Register TagPrefix="CE" Namespace="CE.Pages" Assembly="CE.Application" %>
 
 <asp:Content ID="ScriptContent1" ContentPlaceHolderID="PlaceHolderScript" runat="server">
-    <link type="text/css" rel="stylesheet" href="/CSS/cehome.css" media="all" />
-    <script type="text/javascript" src="/JS/cepages.js"></script>
-    <script type="text/javascript" src="/JS/swipe.js"></script>
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/cemain.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/ceadmin.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/themes/maroon/cepage.css")%>" media="all" />
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.colorbox-min.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery-ui-1.10.3.min.js")%>"></script>
 </asp:Content>
 
-<asp:Content ID="MainContent1" ContentPlaceHolderID="PlaceHolderMain" runat="server">
-    <div class="ce-content">
-        <div id="ce-headlines">
-            <div id="ce-headline-slides">
-                <asp:Repeater ID="HeadlineSlides" runat="server">
-                    <ItemTemplate>
-                        <div class="ce-headline-item">
-                            <img class="ce-headline-image" src="<%# Eval("ImageUrl") %>" />
-                            <div class="ce-headline-banner ce-h2 <%# Eval("Position") %> <%# Eval("Display") %>"><%# Eval("Title") %></div>
-                        </div>
-                    </ItemTemplate>
-                </asp:Repeater>
-            </div>
-            <asp:Panel ID="NewsAndAnnouncements" runat="server">
-                <div id="ce-announcements">
-                    <div class="news-pane">
-                        <div class="news-pane-header">
-                            <span class="ce-h3"><asp:Literal ID="NewsHeader" runat="server" /></span>
-                            <img src="/Images/crossBlue.png" onclick="closeAnnouncement();" />
-                        </div>
-                        <div id="news-content-pane" data-role="content" data-transition="slide">
-                            <div id="news-all-content">
-                                <asp:Repeater ID="NewsView" runat="server">
-                                    <ItemTemplate>
-                                        <div class="news-view">
-                                            <div class="news-tile">
-                                                <div class="news-title">
-                                                    <table>
-                                                        <tr>
-                                                            <td class="news-icon-cell">
-                                                                <img class="news-icon" src="<%# Eval("IconUrl") %>" /></td>
-                                                            <td class="news-title-cell"><span class="ce-h4"><%# Eval("Title") %></span></td>
-                                                        </tr>
-                                                    </table>
-                                                </div>
-                                                <div class="news-summary ce-nromal"><%# Eval("Summary") %></div>
-                                            </div>
-                                        </div>
-                                    </ItemTemplate>
-                                </asp:Repeater>
-                            </div>
-                            <div id="news-paging-content">
-                                <div class="news-paging-view">
-                                    <div class="news-paging-list center">
-                                        <div class="button-left"><img class="news-paging-icon" src="/Images/back.png" /></div>
-                                            <asp:Repeater ID="NewsPages" runat="server">
-                                                <ItemTemplate>
-                                                    <div class="news-paging-item"></div>
-                                                </ItemTemplate>
-                                            </asp:Repeater>
-                                        <div class="button-right"><img class="news-paging-icon" src="/Images/forward.png" /></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<asp:Content ID="Content1" ContentPlaceHolderID="PlaceHolderMain" runat="server">
+    <div id="ce-admin-content">
+        <div class="ce-registration-page">
+            <asp:Panel ID="RegistrationNote" runat="server">
+                <div class="ce-temp-note ce-h4" style="color:#050143;border-color:red;">
+                    <asp:Label ID="RegistrationNoteText" runat="server">
+                       <%= CompetitionYear %> Washington State Language and Talent competition is now open for registration. Contestants who are interested in 
+                       participating should register online using this page. Please be sure you have read the information provided on the 
+                       <a style="text-decoration:underline;color:blue !important;" href="<%=ResolveUrl("~/public/talent/guidelines/ceguidelines.html")%>">Schedule & Guidelines</a>  
+                       page for the rules applied to the competition categories you register.
+                    </asp:Label>
+                    <br /><br />
+                    <asp:Label ID="Label2" runat="server">
+                       We will be offering only Paypal payment service for paying registration fee online going forward. 
+                       The registration fee is $5 <u>per person</u> <u>per competition</u> registered.  
+                       The registration fee is refundable if you withdraw before the registration deadline (<%= CompetitonRegistrationEndDate %>).  
+                       10% of the administration fee will be deducted from the refund.
+                    </asp:Label>
+                    <br /><br />
+                    <p>The event organizers reserve the right to use the photos and videos taken at the event for promotional purpose.</p><br />
+                    <p>Please choose the appropriate competition type that applies to you to begin the registration process.</p>
+                </div>
+            </asp:Panel>
+            <asp:Panel ID="RegistrationCloseNote" runat="server">
+                <div class="ce-temp-note ce-h4" style="color:#050143;border-color:red;">
+                    <asp:Label ID="RegistrationCloseNoteText" runat="server">
+                        The registration for <%= CompetitionYear %> Washington State Language and Talent competition is closed. 
+                        The competition event will be held at Chief Sealth International High School on <%= CompetitonEventDate %> from 9:00AM to 3:00PM.
+                        We are looking forward to your participation.
+                    </asp:Label>
+                    <br /><br />
+                </div>
+            </asp:Panel>
+            <asp:Panel ID="RegistrationStartNote" runat="server">
+                <div class="ce-temp-note ce-h4" style="color:#050143;border-color:red;">
+                    <asp:Label ID="RegistrationStartNoteText" runat="server"><%= CompetitionYear %> registration will begin on <%= CompetitonRegisrationStartDate %>.  We look forward to your participation.</asp:Label>
+                    <br /><br />
+                </div>
+            </asp:Panel>
+            <asp:Panel ID="CompetitionEndNote" runat="server">
+                <div class="ce-temp-note ce-h4" style="color:#050143;border-color:red;">
+                    <asp:Label ID="CompetitionEndNoteText" runat="server">
+                        <%= CompetitionYear %> talent competition has been held and completed. Have a wonderful <%= CompetitionYear %> and we will see you next year.
+                        Please refer to <a href="<%=ResolveUrl("~/Public/Articles/cearticle.aspx?theme=black&path=/home/about&content=ceabout")%>" style="font-size:16px;text-decoration:underline;color:black !important;">CE Status August 2016</a> for CE Talent Competition current status.
+                    </asp:Label>
+                    <br /><br />
+                </div>
+            </asp:Panel>
+            <asp:Panel ID="CompetitionTermiateNote" runat="server">
+                <div class="ce-temp-note ce-h4" style="color:#050143;border-color:red;">
+                    <asp:Label ID="CompetitionTermiateNoteText" runat="server">
+                        Please refer to <a href="<%=ResolveUrl("~/Public/Articles/cearticle.aspx?theme=black&path=/home/about&content=ceabout")%>" style="font-size:16px;text-decoration:underline;color:black !important;">CE Status August 2016</a> for CE Talent Competition current status.
+                    </asp:Label>
+                    <br /><br />
+                </div>
+            </asp:Panel>
+            <asp:Panel ID="RegistationSelection" runat="server">
+                <div class="page-title ce-h2" style="display: inline;">
+                    <asp:Label ID="Label1" runat="server"><%= CompetitionYear %> Competitions Registration</asp:Label>
+                </div>
+                <div class="reg-section-divider"></div>
+                <div id="competition-selection">
+                    <ul>
+                        <li class="talent-competition-type">
+                            <div class="talent-competition-label ce-h3">Select a competition type: </div>
+                        </li>
+                        <li class="talent-competition-type">
+                            <a href="<%=ResolveUrl("~/public/talent/registration/individualregistration.aspx")%>">
+                                <img runat="server" class="talent-competition-icon" src="~/images/single-constestant.png" alt="individual competition regisgtration" /><br /><br />
+                                <span class="talent-competition-caption ce-h3">Individual</span>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="talent-competition-spacing">&nbsp;</div>
+                        </li>
+                        <li class="talent-competition-type">
+                        <a href="<%=ResolveUrl("~/public/talent/registration/teamregistration.aspx")%>">
+                            <img runat="server" class="talent-competition-icon" src="~/images/team-contestants.png" alt="individual competition regisgtration" /><br /><br />
+                                <span class="talent-competition-caption ce-h3">Team</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </asp:Panel>
         </div>
-        <div class="ce-home-tiles">
-            <table class="ce-tile-container">
-                <tr>
-                    <asp:Repeater ID="HomeTiles" runat="server">
-                        <ItemTemplate>
-                            <td class="ce-tile">
-                                <div class="ce-tile-title ce-h2"><%# Eval("Title") %></div>
-                                <div class="ce-tile-divider"></div>
-                                <div class="ce-tile-image">
-                                    <img src="<%# Eval("ImageUrl") %>" />
-                                </div>
-                                <div class="ce-tile-text">
-                                    <%# Eval("Text") %>
-                                </div>
-                            </td>
-                        </ItemTemplate>
-                    </asp:Repeater>
-                </tr>
-            </table>
-        </div>
-    </div>
-    <div>
-        <script type="text/javascript">
-            var c = 0;
-            $(document).ready(function () {
-                var ceNewsPane = new Swipeable('#news-content-pane', '#news-all-content', '.news-view', '#news-paging-content', '.news-paging-item', '.button-left', '.button-right');
-                ceNewsPane.init();
-                adjustHeadlineTitle();
-                adjustNewsPagingForIE();
-
-                // play slide show for headline content if it has more than 1
-                if ($('#ce-headline-slides .ce-headline-item').length > 1) {
-                    $('.ce-headline-item:gt(0)').hide();
-                    setInterval(function () {
-                        $('#ce-headline-slides > div:first')
-                          .fadeOut(5000)
-                          .next()
-                          .fadeIn(5000)
-                          .end()
-                          .appendTo('#ce-headline-slides');
-                    }, 15000);
-                }
-            });
-
-            function closeAnnouncement() {
-                $('#ce-announcements').hide();
-            }
-
-            function toggleNewsPane() {
-                var src = $('.news-pane-header img').attr('src');
-                if (src != null && src.indexOf('cross') > 0) {
-                    $('.news-pane-header img').attr('src', '/Images/plusBlue.png');
-                    $('#news-content-pane').hide();
-                }
-                else {
-                    $('.news-pane-header img').attr('src', '/Images/crossBlue.png');
-                    $('#news-content-pane').show();
-                }
-            }
-
-            function adjustHeadlineTitle() {
-                var rightTexts = $('.ce-headline-banner.bottom-right');
-                if (rightTexts != null) {
-                    $('.ce-headline-banner.bottom-right').each(function (i, e) {
-                        var font = 'normal 24px ' + $(this).css('font-family');
-                        var text = $(this).html();
-                        var width = getTextWidth(text, font);
-                        $(this).css('left', (970 - width) + 'px');
-                    });
-                }
-            }
-
-            function adjustNewsPagingForIE() {
-                var pageItems = $('#news-paging-content .news-paging-list .news-paging-item');
-                var isOdd = (pageItems.length % 2);
-                var left = 184;
-                var half = Math.floor(pageItems.length / 2);
-                if (isOdd) left = 178;
-                left -= 18 * half;
-
-                $('.news-paging-list > div').css('position', 'absolute');
-                for (var i = 0; i < pageItems.length; i++) {
-                    pageItems.get(i).style.left = '' + left + 'px';
-                    pageItems.get(i).style.top = '10px';
-                    left += 18;
-                }
-            }
-        </script>
     </div>
 </asp:Content>

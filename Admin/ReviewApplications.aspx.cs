@@ -246,6 +246,11 @@ namespace CE.Pages
         private string MakeFullXmlPath(string xmlFile)
         {
             string talentApplicantFolder = CETourApplicants.MakeApplicationFolder();
+            if (!Directory.Exists(talentApplicantFolder))
+            {
+                Directory.CreateDirectory(talentApplicantFolder);
+            }
+
             return Path.Combine(talentApplicantFolder, xmlFile);
         }
 
@@ -605,7 +610,7 @@ namespace CE.Pages
 
         protected void OnCancel(object sender, EventArgs e)
         {
-            Response.Redirect(CEConstants.CE_ADMIN_PAGE);
+            Response.Redirect(CEHelper.GetSiteRootUrl() + CEConstants.CE_ADMIN_PAGE);
         }
 
         protected void OnApplicantStatusChanged(object sender, EventArgs e)
@@ -783,6 +788,11 @@ namespace CE.Pages
         private string MakeTourApplicantionFullPath(string filename)
         {
             string tourApplicantFolder = CETourApplicants.MakeApplicationFolder();
+            if (!Directory.Exists(tourApplicantFolder))
+            {
+                Directory.CreateDirectory(tourApplicantFolder);
+            }
+
             return Path.Combine(tourApplicantFolder, Path.GetFileName(filename));
         }
 

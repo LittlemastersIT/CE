@@ -3,12 +3,12 @@
 <%@ Register TagPrefix="CE" Namespace="CE.Pages" Assembly="CE.Application" %>
 
 <asp:Content ID="ScriptContent1" ContentPlaceHolderID="PlaceHolderScript" runat="server">
-    <link type="text/css" rel="stylesheet" href="/CSS/colorbox.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/cearticle.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/cejourney.css" media="all" />
-    <script type="text/javascript" src="/JS/jquery/jquery.colorbox-min.js"></script>
-    <script type="text/javascript" src="/JS/swipe.js"></script>
-    <script type="text/javascript" src="/JS/cealbum.js"></script>
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/colorbox.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/cearticle.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/cejourney.css")%>" media="all" />
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.colorbox-min.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/swipe.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/cealbum.js")%>"></script>
 </asp:Content>
 
 <asp:Content ID="MainContent1" ContentPlaceHolderID="PlaceHolderMain" runat="server">
@@ -24,7 +24,7 @@
                         <div class="journey-summary ce-h6 <%# Eval("Align") %>"><%# Eval("Teaser") %></div>
                     </ItemTemplate>
                 </asp:DataList>
-                <div id="journey-more-link"><a href="/public/tours/journey/tourjourney.aspx"><img src="/images/script.png" /> More journey...</a></div>
+                <div id="journey-more-link"><a href="<%=ResolveUrl("~/public/tours/journey/tourjourney.aspx")%>"><img runat="server" src="~/images/script.png" /> More journey...</a></div>
             </div>
 
             <div id="journey-tab" class="ce-large">
@@ -83,7 +83,7 @@
                     <div class="ce-paging-view">
                         <div class="photo-paging-list center">
                             <div class="button-left">
-                                <img class="photo-paging-icon" src="/Images/back.png" />
+                                <img runat="server" class="photo-paging-icon" src="~/Images/back.png" />
                             </div>
                             <asp:Repeater ID="AlbumPages" runat="server">
                                 <ItemTemplate>
@@ -92,7 +92,7 @@
                                 </ItemTemplate>
                             </asp:Repeater>
                             <div class="button-right">
-                                <img class="photo-paging-icon" src="/Images/forward.png" />
+                                <img runat="server" class="photo-paging-icon" src="~/Images/forward.png" />
                             </div>
                         </div>
                     </div>

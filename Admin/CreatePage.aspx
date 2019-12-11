@@ -3,7 +3,7 @@
 <%@ Register TagPrefix="CE" Namespace="CE.Pages" Assembly="CE.Application" %>
 
 <asp:Content ID="ScriptContent1" ContentPlaceHolderID="PlaceHolderScript" runat="server">
-    <link type="text/css" rel="stylesheet" href="/CSS/ceadmin.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/ceadmin.css")%>" media="all" />
 </asp:Content>
 
 <asp:Content ID="MainContent1" ContentPlaceHolderID="PlaceHolderMain" runat="server">

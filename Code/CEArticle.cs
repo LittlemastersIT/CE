@@ -97,6 +97,7 @@ namespace CE.Content
         public const string TEXT_END_TEMPLATE = "</ul>";
         private List<string> _texts = null;
         private string _textBlock = string.Empty;
+        private string pictureUrl;
 
         public Paragraph(string indent)
         {
@@ -111,7 +112,17 @@ namespace CE.Content
             get { return Indent == true ? "ce-indent" : string.Empty; }
         }
         public string Text { get; set; }
-        public string PictureUrl { get; set; }
+        public string PictureUrl {
+            get
+            {
+                return pictureUrl;
+            }
+            set
+            {
+                if (!value.StartsWith("http://") && !value.StartsWith("https://")) pictureUrl = CEHelper.GetSiteRootUrl() + value;
+                else pictureUrl = value;
+            }
+        }
         public string PicturePosition { get; set; }
         public string PictureCaption { get; set; }
         public string TextBlock
@@ -194,6 +205,9 @@ namespace CE.Content
     }
     public class BarTile
     {
+        private string linkUrl;
+        private string imageUrl;
+
         public BarTile(string caption, string imageUrl, string position, string linkUrl)
         {
             Caption = caption;
@@ -212,13 +226,38 @@ namespace CE.Content
             }
         }
         public string Caption{ get; set; }
-        public string ImageUrl { get; set; }
+        public string ImageUrl
+        {
+            get
+            {
+                return imageUrl;
+            }
+            set
+            {
+                if (!value.StartsWith("http://") && !value.StartsWith("https://")) imageUrl = CEHelper.GetSiteRootUrl() + value;
+                else imageUrl = value;
+            }
+        }
         public string CaptionTop { get; set; }
         public string CaptionBottom { get; set; }
-        public string LinkUrl { get; set; }
+        public string LinkUrl
+        {
+            get
+            {
+                return linkUrl;
+            }
+            set
+            {
+                if (!value.StartsWith("http://") && !value.StartsWith("https://")) linkUrl = CEHelper.GetSiteRootUrl() + value;
+                else linkUrl = value;
+            }
+        }
     }
     public class Testimony
     {
+        private string iconUrl;
+        private string linkUrl;
+
         public Testimony(string caption, string position, string iconUrl, string text, string linkUrl)
         {
             Caption = caption;
@@ -240,19 +279,54 @@ namespace CE.Content
         public string Caption { get; set; }
         public string CaptionTop { get; set; }
         public string CaptionBottom { get; set; }
-        public string IconUrl { get; set; }
+        public string IconUrl
+        {
+            get
+            {
+                return iconUrl;
+            }
+            set
+            {
+                if (!value.StartsWith("http://") && !value.StartsWith("https://")) iconUrl = CEHelper.GetSiteRootUrl() + value;
+                else iconUrl = value;
+            }
+        }
         public string Text { get; set; }
-        public string LinkUrl { get; set; }
+        public string LinkUrl
+        {
+            get
+            {
+                return linkUrl;
+            }
+            set
+            {
+                if (!value.StartsWith("http://") && !value.StartsWith("https://")) linkUrl = CEHelper.GetSiteRootUrl() + value;
+                else linkUrl = value;
+            }
+        }
     }
     public class VideoClip
     {
+        private string clipUrl;
+
         public VideoClip(string caption, string clipUrl)
         {
             Caption = caption;
             ClipUrl = clipUrl;
         }
         public string Caption { get; set; }
-        public string ClipUrl { get; set; }
+        public string ClipUrl
+        {
+            get
+            {
+                return clipUrl;
+            }
+            set
+            {
+                if (!value.StartsWith("http://") && !value.StartsWith("https://")) clipUrl = CEHelper.GetSiteRootUrl() + value;
+                else clipUrl = value;
+            }
+        }
     }
 
     [Serializable]
@@ -279,6 +353,9 @@ namespace CE.Content
     [Serializable]
     public class RelatedLink
     {
+        private string iconUrl;
+        private string linkUrl;
+
         public RelatedLink(string iconUrl, string title, string linkUrl, string target)
         {
             IconUrl = iconUrl;
@@ -286,9 +363,31 @@ namespace CE.Content
             LinkUrl = linkUrl;
             Target = target;
         }
-        public string IconUrl { get; set; }
+        public string IconUrl
+        {
+            get
+            {
+                return iconUrl;
+            }
+            set
+            {
+                if (!value.StartsWith("http://") && !value.StartsWith("https://")) iconUrl = CEHelper.GetSiteRootUrl() + value;
+                else iconUrl = value;
+            }
+        }
         public string Title { get; set; }
-        public string LinkUrl { get; set; }
+        public string LinkUrl
+        {
+            get
+            {
+                return linkUrl;
+            }
+            set
+            {
+                if (!value.StartsWith("http://") && !value.StartsWith("https://")) linkUrl = CEHelper.GetSiteRootUrl() + value;
+                else linkUrl = value;
+            }
+        }
         public string Target { get; set; }
     }
     #endregion
@@ -351,9 +450,10 @@ namespace CE.Content
                     XElement pictureElem = paragraph.Element("picture");
                     if (pictureElem != null)
                     {
-                        paragraphItem.PictureUrl = CEHelper.GetSafeAttribute(pictureElem, "url");
-                        paragraphItem.PicturePosition = CEHelper.GetSafeAttribute(pictureElem, "position", "left");
-                        paragraphItem.PictureCaption = CEHelper.GetSafeAttribute(pictureElem, "caption");
+                        string url = CEHelper.GetSafeAttribute(pictureElem, "url");
+                        string position = CEHelper.GetSafeAttribute(pictureElem, "position", "left");
+                        string caption = CEHelper.GetSafeAttribute(pictureElem, "caption");
+                        paragraphItem.AddPicture(url, position, caption);
                     }
 
                     articleItem.AddParagraph(paragraphItem);

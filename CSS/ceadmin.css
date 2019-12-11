@@ -173,6 +173,6 @@ span.review-tour-item-text {font-weight:bold;padding-right:15px;}
 .memeber-review-action {padding-top:20px;padding-bottom:10px;}
 
 /* grid column sorting */
-.ce-grid-header-asc {padding:0 4px 0 15px;color:#ffffff !important;background:url(/images/arrow_down.gif) no-repeat;}
-.ce-grid-header-desc {padding:0 4px 0 15px;color:#ffffff !important;background:url(/images/arrow_down.gif) no-repeat;}
+.ce-grid-header-asc {padding:0 4px 0 15px;color:#ffffff !important;background:url(../images/arrow_down.gif) no-repeat;}
+.ce-grid-header-desc {padding:0 4px 0 15px;color:#ffffff !important;background:url(../images/arrow_down.gif) no-repeat;}
 #search-result th a {color:#ffffff !important;}

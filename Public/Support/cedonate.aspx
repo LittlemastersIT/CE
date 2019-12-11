@@ -2,9 +2,9 @@
 <%@ Register TagPrefix="CE" Namespace="CE.Pages" Assembly="CE.Application" %>
 
 <asp:Content ID="ScriptContent1" ContentPlaceHolderID="PlaceHolderScript" runat="server">
-    <link type="text/css" rel="stylesheet" href="/CSS/ceadmin.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/Themes/red/cepage.css" media="all" />
-    <script type="text/javascript" src="/JS/jquery/jquery.colorbox-min.js"></script>
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/ceadmin.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/Themes/red/cepage.css")%>" media="all" />
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.colorbox-min.js")%>"></script>
 </asp:Content>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="PlaceHolderMain" runat="server">
@@ -53,14 +53,14 @@
                     </tr>
                 <tr>
                     <td class="reg-button-cell" colspan="2">
-                        <asp:LinkButton ID="PaypalPaymentButton" runat="server" CssClass="paypal-button" OnClick="OnPaypalPayment"><img title="Paypal online donation" src="/images/paypal_donate.gif" /></asp:LinkButton>
+                        <asp:LinkButton ID="PaypalPaymentButton" runat="server" CssClass="paypal-button" OnClick="OnPaypalPayment"><img runat="server" title="Paypal online donation" src="~/images/paypal_donate.gif" /></asp:LinkButton>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
                         <div class="paypal-logo" style="float:right;">
                             <a href="#" onclick="javascript:window.open('https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/popup/OLCWhatIsPayPal-outside','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=350');">
-                                <img src="/images/paypal_donate_cc.gif" border="0" alt="Now Accepting PayPal">
+                                <img runat="server" src="~/images/paypal_donate_cc.gif" border="0" alt="Now Accepting PayPal">
                             </a>
                         </div>
                     </td>
@@ -75,7 +75,7 @@
             <div class="application-result-text ce-h4">
                 <table>
                     <tr>
-                        <td style="width:60px;"><img src="/images/confirm.png" /></td>
+                        <td style="width:60px;"><img runat="server" src="~/images/confirm.png" /></td>
                         <td>
                             Thank you note text goes here.
                         </td>

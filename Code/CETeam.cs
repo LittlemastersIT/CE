@@ -6,6 +6,7 @@ using System.Xml;
 using System.Xml.Linq;
 using System.Web;
 using CE.Data;
+using System.IO;
 
 namespace CE.Data
 {
@@ -23,6 +24,11 @@ namespace CE.Data
             if (_teams == null || _teams.Count <= 0)
             {
                 string applicantFolder = CEHelper.GetDataPath() + CEConstants.CE_REVIEW_FOLDER;
+                if (!Directory.Exists(applicantFolder))
+                {
+                    Directory.CreateDirectory(applicantFolder);
+                }
+
                 string physicalPath = System.IO.Path.Combine(applicantFolder, CEConstants.CE_TEAM_XML);
                 XDocument xdoc = XDocument.Load(physicalPath);
                 if (xdoc != null)
@@ -92,6 +98,11 @@ namespace CE.Data
             sb.AppendLine(TEAM_XML_END_TEMPLATE);
 
             string applicantFolder = CEHelper.GetDataPath() + CEConstants.CE_REVIEW_FOLDER;
+            if (!Directory.Exists(applicantFolder))
+            {
+                Directory.CreateDirectory(applicantFolder);
+            }
+
             string xmlFile = System.IO.Path.Combine(applicantFolder, CEConstants.CE_TEAM_XML);
             return CEHelper.WaitAndWrite(xmlFile, sb.ToString(), false, true);
         }

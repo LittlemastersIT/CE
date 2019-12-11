@@ -28,7 +28,7 @@ namespace CE.Controls
                 string contentSource = Request.QueryString["content"];
                 if (string.IsNullOrEmpty(pageTag) || string.IsNullOrEmpty(contentSource))
                 {
-                    Response.Redirect(CEConstants.CE_PROBLEM_PAGE);
+                    Response.Redirect(CEHelper.GetSiteRootUrl() + CEConstants.CE_PROBLEM_PAGE);
                 }
                 else
                 {

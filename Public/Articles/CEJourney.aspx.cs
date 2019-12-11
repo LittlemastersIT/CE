@@ -27,7 +27,7 @@ namespace CE.Pages
                 string year = Request.QueryString["year"];
                 if (string.IsNullOrEmpty(author))
                 {
-                    Response.Redirect(CEConstants.CE_PROBLEM_PAGE);
+                    Response.Redirect(CEHelper.GetSiteRootUrl() + CEConstants.CE_PROBLEM_PAGE);
                 }
                 else
                 {

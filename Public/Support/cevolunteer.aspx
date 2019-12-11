@@ -3,13 +3,13 @@
 <%@ Register TagPrefix="CE" Namespace="CE.Pages" Assembly="CE.Application" %>
 
 <asp:Content ID="ScriptContent1" ContentPlaceHolderID="PlaceHolderScript" runat="server">
-    <link type="text/css" rel="stylesheet" href="/CSS/jquery-ui-1.10.3.custom.min.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/ceadmin.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/ceArticle.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/Themes/red/cepage.css" media="all" />
-    <script type="text/javascript" src="/JS/jquery/jquery.colorbox-min.js"></script>
-    <script type="text/javascript" src="/JS/jquery/jquery-ui-1.10.3.min.js"></script>
-    <script type="text/javascript" src="/JS/jquery/jquery.inputmask.js"></script>
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/jquery-ui-1.10.3.custom.min.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/ceadmin.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/ceArticle.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/Themes/red/cepage.css")%>" media="all" />
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.colorbox-min.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery-ui-1.10.3.min.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.inputmask.js")%>"></script>
 </asp:Content>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="PlaceHolderMain" runat="server">
@@ -107,7 +107,7 @@
             <div class="form-result-text ce-h4">
                 <table>
                     <tr>
-                        <td style="width: 60px;"><img src="/images/confirm.png" /></td>
+                        <td style="width: 60px;"><img runat="server" src="~/images/confirm.png" /></td>
                         <td>Thank you for filling out the volunteer form to become a member of our oganization. We will contact you soon to share our passion and goals with you.
                         </td>
                     </tr>

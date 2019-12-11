@@ -3,10 +3,10 @@
 <%@ Register TagPrefix="CE" Namespace="CE.Pages" Assembly="CE.Application" %>
 
 <asp:Content ID="ScriptContent1" ContentPlaceHolderID="PlaceHolderScript" runat="server">
-    <link type="text/css" rel="stylesheet" href="/CSS/colorbox.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/cearticle.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="/CSS/cevideo.css" media="all" />
-    <script type="text/javascript" src="/JS/jquery/jquery.colorbox-min.js"></script>
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/colorbox.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/cearticle.css")%>" media="all" />
+    <link type="text/css" rel="stylesheet" href="<%=ResolveClientUrl("~/CSS/cevideo.css")%>" media="all" />
+    <script type="text/javascript" src="<%=ResolveClientUrl("~/JS/jquery/jquery.colorbox-min.js")%>"></script>
 </asp:Content>
 
 <asp:Content ID="MainContent1" ContentPlaceHolderID="PlaceHolderMain" runat="server">

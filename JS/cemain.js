@@ -17,17 +17,14 @@ function getQueryString(name) {
 function showTopMenu() {
     var path = getEffectivePagePath();
     var id = 1;
-    if (path.indexOf('/tours') >= 0)
-        id = 2;
-    else if (path.indexOf('/talent') >= 0)
+    if (path.indexOf('/guidelines') >= 0)
         id = 3;
-    else if (path.indexOf('/resources') >= 0)
-        id = 4;
-    else if (path.indexOf('/support') >= 0)
-        id = 5;
+    else if (path.indexOf('/talent') >= 0)
+        id = 2;
     else if (path.indexOf('/admin') >= 0)
         id = 6;
-
+    else if (path.indexOf('/Results') >= 0)
+        id = 4;
     $('#ce-top-nav-' + id + ' div').addClass('ce-top-nav-selected');
     // show the submenu for 3 seconds so that tablet can see the submenu
     showSubNav(id, 1);
@@ -48,7 +45,7 @@ function adjustSignIn() {
         $('#ce-sign-in').html('<span><a href="javascript:signout();">Logout</a></span>');
     }
     else {
-        $('#ce-sign-in').html('<span><a href="/public/celogin.aspx">Login</a></span>');
+        $('#ce-sign-in').html('<span><a href="' + baseUrl + '/public/celogin.aspx">Login</a></span >');
     }
 }
 
@@ -56,7 +53,7 @@ function signout() {
     removeCookies();
     alert('You have successfully signed out.');
     if (window.location.href.toLowerCase().indexOf("/admin/") >= 0)
-        window.location.replace('/public/home.aspx');
+        window.location.replace(baseUrl + '/Public/Talent/cetalent.html');
     else
         window.location.replace(window.location.href);
 }
@@ -158,7 +155,7 @@ function isValidName(name) {
 }
 
 function goHome() {
-    window.location.replace('/public/home.aspx');
+    window.location.replace(baseUrl);
     return true;
 }
 
@@ -189,7 +186,7 @@ function modalDialog(id) {
 
 function closeDialog() {
     $.colorbox.close();
-    window.location.href = '/public/home.aspx';
+    window.location.href = baseUrl;
     return true;
 }
 
@@ -202,4 +199,12 @@ function redirectDialog(url) {
     $.colorbox.close();
     window.location.href = url;
     return true;
+}
+
+function toAbsoluteUrl(url) {
+    return baseUrl + url;
+}
+
+function setAbsoluteUrlHref(url) {
+    window.location.href = baseUrl + url;
 }

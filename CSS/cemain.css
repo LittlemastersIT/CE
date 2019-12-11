@@ -29,12 +29,12 @@ div, div a {font-family: arial, helvetica, 'Tw Cen MT';font-size:14px;}
 .ce-margin8 {margin-top:8px;}
 
 /* base theme: black */
-html, body { height:100%;background-image:url('/Images/CEBlackBack.jpg');background-repeat:repeat-x;}
-.ce-headerContainer {background-color:black;margin-left:10px;width:130px;height:130px;}
-.ce-banner {background-color:black;margin-left:130px;width:850px;height:130px;}
-.ce-title {background-color:black;width:850px;line-height:80px;max-height:80px;color:white;overflow:hidden;}
+html, body { height:100%;background-image:url('../Images/CEBlackBack.jpg');background-repeat:repeat-x;}
+.ce-headerContainer {background-color:black;margin-left:10px;width:490px;height:130px;}
+.ce-banner {background-color:black;margin-left:490px;width:490px;height:130px;}
+.ce-title {background-color:black;width:490px;line-height:80px;max-height:80px;color:white;overflow:hidden;}
 .ce-article-title-divider {background-color:gray;height:2px;width:100%;}
-.ce-divider-cell {width:12px;background-image:url('/Images/divider.png');background-repeat:no-repeat;}
+.ce-divider-cell {width:12px;background-image:url('../Images/divider.png');background-repeat:no-repeat;}
 .sidebar-divider {background-color:gray;height:2px;width:95%;margin-top:5px;margin-bottom:5px;}
 
 /* header, banner, and general layouts */
@@ -44,7 +44,7 @@ html, body { height:100%;background-image:url('/Images/CEBlackBack.jpg');backgro
 .ce-login a {color:dimgray;}
 .ce-header {position:relative;background-color:white;margin:0 auto;width:1000px;}
 .ce-logo-container { }
-#ce-logo {position:absolute;margin-left:5px;margin-top:5px;width:120px;height:120px;background-color:white;}
+#ce-logo {position:absolute;margin-left:5px;margin-top:5px;width:480px;height:80px;background-color:white;}
 .ce-donate {position:absolute;top:106px;left:910px;color:white;font-weight:bold;}
 .ce-donate a {color:white !important;}
 .ce-facebook {position:absolute;top:106px;left:890px;color:white;font-weight:bold;}

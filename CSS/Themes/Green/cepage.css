@@ -1,4 +1,4 @@
-﻿html, body { height:100%;background-image: url('/Images/CEGreenBack.jpg');background-repeat: repeat-x;}
+﻿html, body { height:100%;background-image: url('../../../Images/CEGreenBack.jpg');background-repeat: repeat-x;}
 .ce-headerContainer {background-color:#043501;}
 .ce-banner {background-color:#043501;}
 .ce-title {background-color:#043501;}

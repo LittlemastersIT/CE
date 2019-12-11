@@ -36,7 +36,8 @@ namespace CE.Content
         {
             ID = id;
             Name = name;
-            LinkUrl = linkUrl;
+            if (!linkUrl.StartsWith("http://") && !linkUrl.StartsWith("https://")) LinkUrl = CEHelper.GetSiteRootUrl() + linkUrl;
+            else LinkUrl = linkUrl;
         }
 
         public string ID { get; set; }
@@ -59,7 +60,8 @@ namespace CE.Content
         {
             ID = parentId;
             Name = name;
-            LinkUrl = linkUrl;
+            if (!linkUrl.StartsWith("http://") && !linkUrl.StartsWith("https://")) LinkUrl = CEHelper.GetSiteRootUrl() + linkUrl;
+            else LinkUrl = linkUrl;
         }
 
         public string ID { get; set; }

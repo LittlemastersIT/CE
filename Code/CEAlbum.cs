@@ -76,7 +76,8 @@ namespace CE.Content
     {
         public CEImage(string imageUrl)
         {
-            ImageUrl = imageUrl;
+            if (!imageUrl.StartsWith("http://") && !imageUrl.StartsWith("https://")) ImageUrl = CEHelper.GetSiteRootUrl() + imageUrl;
+            else ImageUrl = imageUrl;
         }
         public string ImageUrl { get; set; }
     }
@@ -126,7 +127,7 @@ namespace CE.Content
                     albumContent.DefaultTitle = CEHelper.GetSafeAttribute(journey, "title");
                     albumContent.RootUrl = CEHelper.GetSafeAttribute(journey, "rootUrl");
                     string albumRootFolder = (HttpContext.Current.Request.PhysicalApplicationPath + albumContent.RootUrl).Replace('/', '\\').Replace("\\\\", "\\") + "\\";
-                    string imageRiootUrl = !albumContent.RootUrl.EndsWith("/") ? albumContent.RootUrl + "/" : albumContent.RootUrl;
+                    string imageRootUrl = !albumContent.RootUrl.EndsWith("/") ? albumContent.RootUrl + "/" : albumContent.RootUrl;
 
                     IEnumerable<XElement> albumItems = journey.Elements("album");
                     int index = 0;
@@ -148,7 +149,7 @@ namespace CE.Content
                         {
                             if (ALLOW_IMAGE_TYPS.Contains(System.IO.Path.GetExtension(file).ToLower()))
                             {
-                                string imageUrl = imageRiootUrl + folder + "/" + System.IO.Path.GetFileName(file);
+                                string imageUrl = imageRootUrl + folder + "/" + System.IO.Path.GetFileName(file);
                                 cealbum.AddImage(imageUrl);
                             }
                         }

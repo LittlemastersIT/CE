@@ -26,6 +26,11 @@ namespace CE.Application.Public.Talent.Registration
             // read data from schools List.xslx
             string physicalPath = string.Format(SchoolFilePathTemplate, CEHelper.GetDataPath(), CEConstants.CE_SCHOOL_LIST_FILE);
             var schoolListFile = new FileInfo(physicalPath);
+            if (!schoolListFile.Directory.Exists)
+            {
+                schoolListFile.Directory.Create();
+            }
+
             using (var package = new ExcelPackage(schoolListFile))
             {
                 ExcelWorkbook workBook = package.Workbook;
