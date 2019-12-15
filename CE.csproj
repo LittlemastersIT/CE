@@ -939,8 +939,15 @@
     <Content Include="Data\Report\2020\TalentCompetitionSchedule.xlsx" />
     <Content Include="Data\Report\2020\TalentCompetitionWinnerTemplate.xlsx" />
     <Content Include="Data\Report\2020\TrophyTemplate.xlsx" />
+    <Content Include="Documents\Talent\2020 Fee Waiver Form.pdf" />
     <None Include="Properties\PublishProfiles\Cultural Exploration.pubxml" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\LittleMastersWA - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\LittleMastersWA - ReadOnly - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\LittleMastersWA - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\LMCBeta - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\LMCBeta - ReadOnly - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\LMCBeta - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\lmcbeta1 - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\lmcbeta1 - ReadOnly - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\lmcbeta1 - Web Deploy.pubxml" />
