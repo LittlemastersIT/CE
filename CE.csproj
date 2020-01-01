@@ -266,6 +266,7 @@
     <Content Include="Documents\Talent\2013\2013 Result P2.html" />
     <Content Include="Documents\Talent\2013\2013 Result P3.html" />
     <Content Include="Documents\Talent\2019 Competition Schedule.htm" />
+    <Content Include="Documents\Talent\2020 Flyer.jpg" />
     <Content Include="Images\Apply.png" />
     <Content Include="Images\arrow_down.gif" />
     <Content Include="Images\arrow_right.gif" />
@@ -501,6 +502,7 @@
     <Content Include="Public\Talent\Registration\TeamRegistration.aspx" />
     <Content Include="Public\Talent\Results\2014\ceresults.html" />
     <Content Include="Public\Talent\Results\2015\ceresults.html" />
+    <Content Include="Public\Talent\Results\2016\ceresults.html" />
     <Content Include="Public\Talent\Results\ceresults.html" />
     <Content Include="Public\Talent\Results\2013\ceresults.html" />
     <Content Include="Public\Tours\Album\TourAlbum.html" />
@@ -940,6 +942,20 @@
     <Content Include="Data\Report\2020\TalentCompetitionWinnerTemplate.xlsx" />
     <Content Include="Data\Report\2020\TrophyTemplate.xlsx" />
     <Content Include="Documents\Talent\2020 Fee Waiver Form.pdf" />
+    <Content Include="Documents\Talent\2019\032419_World Journal.pdf" />
+    <Content Include="Documents\Talent\2019\2019 Talent Competition Winner List.xlsx" />
+    <Content Include="Documents\Talent\2020 China Knowledge Bowl Study Guide.pdf" />
+    <Content Include="Documents\Talent\2020 Competition Guide_Chinese version.pdf" />
+    <Content Include="Documents\Talent\2020 Competition Guide_English version.pdf" />
+    <Content Include="Documents\Talent\2020 Competition Schedule.pdf" />
+    <Content Include="Documents\Talent\2020 Competition Schedule.xlsx" />
+    <Content Include="Documents\Talent\2020 CSIHS Map.pdf" />
+    <Content Include="Documents\Talent\2020 CSIHS Map.xlsx" />
+    <Content Include="Documents\Talent\2020 Rules and Regulations_Chinese version.pdf" />
+    <Content Include="Documents\Talent\2020 Rules and Regulations_English  version.pdf" />
+    <Content Include="Documents\Talent\2020_Frequently_Asked_Questions-Chinese.pdf" />
+    <Content Include="Documents\Talent\2020诗歌朗诵比赛指定诗.pdf" />
+    <Content Include="Documents\Talent\2020 Frequently_Asked_Questions English Version.pdf" />
     <None Include="Properties\PublishProfiles\Cultural Exploration.pubxml" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\LittleMastersWA - FTP.pubxml" />

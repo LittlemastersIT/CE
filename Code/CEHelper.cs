@@ -218,17 +218,17 @@ namespace CE.Data
         // for grade indices
         public static Dictionary<string, string> GradeRange = new Dictionary<string, string>()
         {
-            {LOWER_ELEMENTARY, "1,4"},
-            {UPPER_ELEMENTARY, "1,7"},
-            {MIDDLE_SCHOOL, "1,10"},
-            {HIGH_SCHOOL, "1,14"},
+            {LOWER_ELEMENTARY, "2,4"},
+            {UPPER_ELEMENTARY, "5,7"},
+            {MIDDLE_SCHOOL, "8,10"},
+            {HIGH_SCHOOL, "11,14"},
             {ALL_GRADES, "1,14"}
         };
         public static Dictionary<string, string> K12Grades = new Dictionary<string, string>()
         {
             {"Select one...", ""},
-            {"K-1", "K1"},
-            {"K-2", "K2"},
+            {"Pre-K", "K1"},
+            {"Kindergarten", "K2"},
             {"1st grade", "1"},
             {"2nd grade", "2"},
             {"3rd grade", "3"},

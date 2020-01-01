@@ -6,18 +6,21 @@
         <paragraph>
           <text>
             <![CDATA[
-            <p>More than 10 years ago, at a corner of a Bellevue middle school cafeteria, a few parents of Chinese Americans 
-               after dropping off their kids to the Saturday Chinese language porgam, often sit together and brainstormed on 
-               how to bridge cultural gaps for young generations.  As the result, CE was born in 2000 and started offering Greater Seattle area 
-               teachers a 2-weeks long summer trip each year to China, Hong Kong and Taiwan.  As we established into an 
-               independent non-profit organization in 2008, we also expanded our efforts to other activity in a hope to 
-               promote a better understanding of Chinese culture and language.</p>
+            <p>The Chinese Language and Talent Competition was established in 2010 by Culture Exploration of Greater China, 
+               which is a non-profit organization dedicated to promoting a better understanding of greater China and Chinese culture by 
+               offering cultural learning opportunities to local American educators. Under their spirit of cultural communication, 
+               the CE built the Chinese Language and Talent Competition as the platform where people integrated Chinese language and 
+               culture into local culture and life.</p>
             <br/>
-            <p>Today we are happy to announce our sixth annual Washington State Chinese Language and Talent Competition with 
-               Qualification Events for “Chinese Bridge” Chinese Proficiency Competition. All K-12 students in this state 
-               from public and private schools as well as students from Chinese heritage schools and home tutoring institutes 
-               are welcome to participate.  We hope this event will provide a venue where students with diverse cultural background 
-               can come together to share their knowledge and experience.</p>
+            <p>Since then the competition has  become a tradition in Washington state for the Chinese language learning community. 
+               Students throughout the states participated to show their knowledge and talent in Chinese Language and Chinese culture. 
+               Each competition draws hundreds of students and the teachers.  This event greatly promotes the Chinese learningIin Washington State.</p>
+             <br/>
+             <p>To continue this great tradition, the Little Masters Club worked closely with CE and other participating organizations 
+                and completed the transition of leadership in 2019.  Today we are happy to announce 2020 Washington State Chinese Language 
+                and Talent Competition is open for registration. K to 12th Grade students in both public and private schools of Washington 
+                State as well as those from Chinese heritage schools and home children institutes are welcome to participate. we hope this 
+                event will provide a venue where students with diverse cultural backgrounds get together to share their knowledge and experience.</p>
             ]]>
           </text>
         </paragraph>
@@ -26,7 +29,6 @@
         <paragraph indent="false">
           <item>To acknowledge and reward the achievements of the students and teachers in learning Chinese.</item>
           <item>To provide a positive venue for students with diverse backgrounds to come together and share knowledge of Chinese culture and Chinese learning experience.</item>
-          <item>To select qualified candidates for the “Chinese Bridge Chinese Proficiency Competition for Foreign High School Students” Preliminary.</item>
         </paragraph>
       </article>
       <article title="Competition Levels &amp; Categories">
@@ -54,7 +56,6 @@
                 <p>Drawing 繪畫比賽</p>
                 <p>Chinese Chess 象棋</p>
                 <p>China Knowledge Bowl  中國常識競答</p>
-                <p>Chinese Bridge  汉语桥中学生中文比赛</p>
                 <br />
             ]]>
           </text>
@@ -66,8 +67,6 @@
             <![CDATA[
               <p>All contestants can pick up a commemorate gift at the assignment center on the same day for their participation in the competition. The top three in each competition will receive scholarships ($50 for individual contestants and $100 for team contestants) and awards from the World Languages Division of the OSPI.  </p>
               </br> 
-			  <p>In addition, each of the top three winners of the “Chinese Bridge” Qualifying Tournament will receive a trophy, and each of the top two will receive a full scholarship to participate in the Chinese Bridge Competition Preliminary in California	.</p>
-			  </br>   
               <p>The awards ceremony will be held at the auditorium of the Chief Sealth International High School at 2:30 pm on the day of the competition.  Families and friends in the community are welcome to attend the awards ceremony. </p>
             ]]>
           </text>
@@ -79,12 +78,14 @@
         <videoClip title="" clipUrl="https://www.youtube.com/embed/OHzx9QaPPDQ" />
         <videoClip title="" clipUrl="https://www.youtube.com/embed/NLXBOQO-qnc" />
       </videoClips>
-      <relatedLinks header="2019 Event Organizers&lt;br/&gt;主辦單位">
+      <relatedLinks header="2020 Event Organizers&lt;br/&gt;主辦單位">
         <!--<relatedLink iconUrl="/Images/pin.png" title="Cultural Exploration of Greater China Foundation&lt;br/&gt;中華文化之旅基金會" linkUrl="/public/home.html" />-->
+        <relatedLink iconUrl="/Images/pin.png" title="Little Masters Club&lt;br/&gt;小大师俱乐部" linkUrl="http://littlemasterswa.azurewebsites.net" target="_blank" />
+      </relatedLinks>
+      <relatedLinks header="Proudly Sponsored By&lt;br/&gt;赞助单位">
         <relatedLink iconUrl="/Images/pin.png" title="Confucius Institute of the State of Washington&lt;br/&gt;華州孔子學院" linkUrl="http://confucius.washington.edu" target="_blank" />
         <relatedLink iconUrl="/Images/pin.png" title="Chinese Language Teachers Association Washington State&lt;br/&gt;華州中文教師學會" linkUrl="http://www.clta-wa.org" target="_blank" />
         <relatedLink iconUrl="/Images/pin.png" title="Chief Sealth International High School (CSIHS) &lt;br/&gt;希尔斯国际高中" linkUrl="http://chiefsealthhs.seattleschools.org/" target="_blank" />
-        <relatedLink iconUrl="/Images/pin.png" title="Little Masters Club&lt;br/&gt;小大师聚乐部" linkUrl="http://www.littlemastersclub.org/" target="_blank" />
         <relatedLink iconUrl="/Images/pin.png" title="Office of Superintendent of Public Instruction World Languages Program&lt;br/&gt;華州教育部世界語言組" linkUrl="http://www.k12.wa.us/WorldLanguages/" target="_blank" />
       </relatedLinks>
     </sideBar>

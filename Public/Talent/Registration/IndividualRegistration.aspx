@@ -53,7 +53,7 @@
                             </tr>
                             <tr>
                                 <td class="ce-h6" style="padding-left:5px;padding-bottom:20px" colspan="2">
-                                    Note: <i>The cost of each competition category is $5.</i>
+                                    Note: <i>The cost of each competition category is $10.</i>
                                 </td>
                             </tr>
                             <tr>
@@ -95,15 +95,15 @@
                             </tr>
                             <tr>
                                  <td class="ce-h6" style="padding-left:5px;padding-bottom:20px" colspan="2">
-                                    Note 2: <i>If music is required, the contestant who registered for Chinese Singing or Talent Show can bring their own musical instruments (a piano will be available on the stage for use), or upload your music file before the March 4, 2019 registration deadline.
+                                    Note 2: <i>If music is required, the contestant who registered for Chinese Singing or Talent Show can bring their own musical instruments (a piano will be available on the stage for use), or upload your music file before the March 2, 2020 registration deadline.
                                     For Talent show, please upload music to <a href="http://www.littlemastersclub.org/music/talentshow">http://www.littlemastersclub.org/music/talentshow </a>.  
                                     And for Chinese Singing, please upload music to  <a href="http://www.littlemastersclub.org/music/Singing">http://www.littlemastersclub.org/music/Singing </i>
                                 </td>
                             </tr>
                             <tr>
                                  <td class="ce-h6" style="padding-left:5px;padding-bottom:20px" colspan="2">
-                                    Note 3: <i>The contestant who registered for Chinese Bridge must also register for Public Speech and Individual Talent Show or Individual Chinese Singing at the same time.</i>
-                                </td>
+                                    Note 3: Each person is limited to participate in a maximum of 3 competitions, including group and individual ones.
+                                 </td>
                             </tr>
                             <tr>
                                 <td colspan="2">
@@ -199,12 +199,12 @@
                             <div class="registration-fee">
                                 <asp:DropDownList ID="PaymentAmountList" runat="server" Enabled="false">
                                     <asp:ListItem Text="0 competition category $0" Value="0" />
-                                    <asp:ListItem Text="1 competition category $5" Value="5" />
-                                    <asp:ListItem Text="2 competition categories $10" Value="10" />
-                                    <asp:ListItem Text="3 competition categories $15" Value="15" />
-                                    <asp:ListItem Text="4 competition categories $20" Value="20" />
-                                    <asp:ListItem Text="5 competition categories $25" Value="25" />
-                                    <asp:ListItem Text="6 competition categories $30" Value="30" />
+                                    <asp:ListItem Text="1 competition category $10" Value="10" />
+                                    <asp:ListItem Text="2 competition categories $20" Value="20" />
+                                    <asp:ListItem Text="3 competition categories $30" Value="30" />
+                                    <asp:ListItem Text="4 competition categories $40" Value="40" />
+                                    <asp:ListItem Text="5 competition categories $50" Value="50" />
+                                    <asp:ListItem Text="6 competition categories $60" Value="60" />
                                 </asp:DropDownList>
                             </div>
                         </td>
@@ -233,8 +233,8 @@
                                 <li style="padding-bottom:5px;">If you need to go back to previous input screen, please use the <b>Previous</b> button above instead of browser's Back button.</li>
                                 <li style="padding-bottom:5px;">For the student participates in Free and Reduced-Price Meal Program, you are eligible for scholarships to cover your entrance fee 
                                     to the competition.  Please select <u><b>Fee Waiver</b></u> for payment and mail the completed Fee Waiver form within 10 days of registration 
-                                    and before the registration deadline. The Fee Waive form can be downloaded from <a style="color:blue !important;text-decoration:underline;" href="http://www.culturalexploration.org/documents/talent/2014%20Fee%20Waiver.pdf" target="_blank">this link</a>.</li>
-                                <li style="padding-bottom:5px;color:red;">Please click <u><b>Return to Cultural Exploration of Greater China</b></u> link from <u>within Paypal site</u> after you have completed Paypal transaction.</li>
+                                    and before the registration deadline. The Fee Waive form can be downloaded from <a style="color:blue !important;text-decoration:underline;" href="../../../documents/talent/2020%20Fee%20Waiver%20Form.pdf" target="_blank">this link</a>.</li>
+                                <li style="padding-bottom:5px;color:red;">Please Return to Little Masters Club after you have completed Paypal transaction.</li>
                             </ol>
                         </td>
                     </tr>
@@ -656,7 +656,7 @@
                 var count = getSelectedCategories();
                 var freeLunch = $(YesLunchID).prop('checked') == true;
                 if (count > 0 && !freeLunch) {
-                    var fee = '' + (count * 5);
+                    var fee = '' + (count * 10);
                     $(PaymentAmountListID).val(fee);
                     $(RegistrationFeeID).val(fee);
                     $(PaypalPaymentButtonID).show();
@@ -784,6 +784,7 @@
                         'lunchProgram': $(YesLunchID).prop('checked')
                     });
                 if (formJson != null) CEApp.Cookie.setCookie({ 'cookieName': 'CE_INDIVIDUAL_ENTRY' }, JSON.stringify(formJson));
+
                 return false;
             }
 

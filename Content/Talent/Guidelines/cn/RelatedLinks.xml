@@ -2,34 +2,32 @@
 <ce>
   <include>
     <relatedLinks header="Downloadable Files">
-      <relatedLink iconUrl="/Images/pin.png" title="Flyer (Chinese) 宣传单" linkUrl="/documents/talent/Final Flyer Format Chinese.pdf" target="_blank" />
-      <relatedLink iconUrl="/Images/pin.png" title="Flyer (English) 宣传单" linkUrl="/documents/talent/Final Flyer Format English.pdf" target="_blank" />
-      <relatedLink iconUrl="/Images/pin.png" title="Schedule 比赛时间表" linkUrl="/documents/talent/2014_Chinese_Scholastic_Competition_Schedule.pdf" target="_blank" />
-      <relatedLink iconUrl="/Images/pin.png" title="Guides(Chinese) 比赛简章" linkUrl="/documents/talent/2014GeneralInformation_Chinese version - final.pdf" target="_blank" />
-      <relatedLink iconUrl="/Images/pin.png" title="Guides (English) 比赛简章" linkUrl="/documents/talent/2014 General Information_English version - final.pdf" target="_blank" />
-      <relatedLink iconUrl="/Images/pin.png" title="Rules (Chinese) 比赛规则" linkUrl="/documents/talent/2014 Rules and Regulations_Chinese version.pdf" target="_blank" />
-      <relatedLink iconUrl="/Images/pin.png" title="Rules (English) 比赛规则" linkUrl="/documents/talent/2014 Rules and Regulations_English version.pdf" target="_blank" />
-      <relatedLink iconUrl="/Images/pin.png" title="Fee Waiver 减免报名费" linkUrl="/documents/talent/2014 Fee Waiver.pdf" target="_blank" />
-      <relatedLink iconUrl="/Images/pin.png" title="FAQs" linkUrl="/documents/talent/2014_Frequently_Asked_Questions.pdf" target="_blank" />
+        <relatedLink iconUrl="/Images/pin.png" title="Flyer 宣传单" linkUrl="/documents/talent/2020 Flyer.jpg" target="_blank" />
+        <relatedLink iconUrl="/Images/pin.png" title="Schedule 比赛时间表" linkUrl="/documents/talent/2020 Competition Schedule.pdf" target="_blank" />
+        <relatedLink iconUrl="/Images/pin.png" title="CSIHS Map 比赛场地地图" linkUrl="/documents/talent/2020 CSIHS Map.pdf" target="_blank" />
+        <relatedLink iconUrl="/Images/pin.png" title="Guides(Chinese) 比赛简章" linkUrl="/documents/talent/2020 Competition Guide_Chinese version.pdf" target="_blank" />
+        <relatedLink iconUrl="/Images/pin.png" title="Rules (Chinese) 比赛规则" linkUrl="/documents/talent/2020 Rules and Regulations_Chinese version.pdf" target="_blank" />
+        <relatedLink iconUrl="/Images/pin.png" title="Fee Waiver 减免报名费" linkUrl="/documents/talent/2020 Fee Waiver Form.pdf" target="_blank" />
+        <relatedLink iconUrl="/Images/pin.png" title="FAQs (Chinese) 常問問題" linkUrl="/documents/talent/2020_Frequently_Asked_Questions-Chinese.pdf" target="_blank" />
     </relatedLinks>
     <relatedLinks header="Team Categories">
-      <relatedLink iconUrl="/Images/pin.png" title="Knowledge Bowl&lt;br/&gt;&lt;span style=&quot;font-size:10px;&quot;&gt;(middle and high school only)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/knowledgerules.html" />
-      <relatedLink iconUrl="/Images/pin.png" title="Chinese Singing &lt;span style=&quot;font-size:10px;&quot;&gt;(all ages)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/singrules.html" />
-      <relatedLink iconUrl="/Images/pin.png" title="Talent Show &lt;span style=&quot;font-size:10px;&quot;&gt;(all ages)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/talentrules.html" />
-      <relatedLink iconUrl="/Images/pin.png" title="Language Arts &lt;span style=&quot;font-size:10px;&quot;&gt;(all ages)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/languageartsrules.html" />
-      <relatedLink iconUrl="/Images/pin.png" title="Poetry &lt;span style=&quot;font-size:10px;&quot;&gt;(all ages)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/grouppoetryrules.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Knowledge Bowl&lt;br/&gt;&lt;span style=&quot;font-size:10px;&quot;&gt;(middle and high school only)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/knowledgerules.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Chinese Singing &lt;span style=&quot;font-size:10px;&quot;&gt;(all ages)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/singrules.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Talent Show &lt;span style=&quot;font-size:10px;&quot;&gt;(all ages)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/talentrules.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Language Arts &lt;span style=&quot;font-size:10px;&quot;&gt;(all ages)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/languageartsrules.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Poetry - Group &lt;span style=&quot;font-size:10px;&quot;&gt;(all ages)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/grouppoetryrules.html" />
     </relatedLinks>
     <relatedLinks header="Individual Categories">
-      <relatedLink iconUrl="/Images/pin.png" title="Drawing &lt;span style=&quot;font-size:10px;&quot;&gt;(all ages)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/drawingrules.html" />
-      <relatedLink iconUrl="/Images/pin.png" title="Story Telling &lt;span style=&quot;font-size:10px;&quot;&gt;(grades 3-5 only)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/storyrules.html" />
-      <relatedLink iconUrl="/Images/pin.png" title="Poetry &lt;span style=&quot;font-size:10px;&quot;&gt;(K-2 only)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/poetryrules.html" />
-      <relatedLink iconUrl="/Images/pin.png" title="Public Speaking &lt;br/&gt;&lt;span style=&quot;font-size:10px;&quot;&gt;(grades 6-12 only)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/speechrules.html" />
-      <relatedLink iconUrl="/Images/pin.png" title="Chinese Chess &lt;span style=&quot;font-size:10px;&quot;&gt;(all ages)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/chessrules.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Drawing &lt;span style=&quot;font-size:10px;&quot;&gt;(all ages)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/drawingrules.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Story Telling &lt;span style=&quot;font-size:10px;&quot;&gt;(grades 3-5 only)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/storyrules.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Poetry &lt;span style=&quot;font-size:10px;&quot;&gt;(K-2 only)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/poetryrules.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Public Speaking &lt;br/&gt;&lt;span style=&quot;font-size:10px;&quot;&gt;(grades 6-12 only)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/speechrules.html" />
+        <relatedLink iconUrl="/Images/pin.png" title="Chinese Chess &lt;span style=&quot;font-size:10px;&quot;&gt;(all ages)&lt;/span&gt;" linkUrl="/public/talent/guidelines/cn/chessrules.html" />
     </relatedLinks>
     <relatedLinks header="Competition Assignments">
-      <relatedLink iconUrl="/images/icon/pin.png" title="Poems" linkUrl="/documents/talent/2016 Assigned_poems_poetry_recitation.pdf" target="_blank" />
-      <relatedLink iconUrl="/images/icon/pin.png" title="Knowledge Questions" linkUrl="/documents/talent/2016 China Knowledge Bowl Questions Bank.pdf" target="_blank" />
-      <relatedLink iconUrl="/images/icon/pin.png" title="Chinese Chess Rules" linkUrl="/documents/talent/2016 Chinese Chess-Rules.pdf" target="_blank" />
+        <relatedLink iconUrl="/Images/pin.png" title="Poems" linkUrl="/documents/talent/2020诗歌朗诵比赛指定诗.pdf" target="_blank" />
+        <relatedLink iconUrl="/Images/pin.png" title="Knowledge Bowl Questions" linkUrl="/documents/talent/2020 China Knowledge Bowl Study Guide.pdf" target="_blank" />
+        <relatedLink iconUrl="/images/icon/pin.png" title="Chinese Chess Rules" linkUrl="/documents/talent/2015 Chinese Chess-Rules.pdf" target="_blank" />
     </relatedLinks>
   </include>
 </ce>

@@ -261,7 +261,7 @@ namespace CE.Pages
             else
             {
                 TotalCompetitionCost.Visible = true;
-                TotalCompetitionCost.Text = "Total cost of selected competition categories is $" + (count * 5).ToString();
+                TotalCompetitionCost.Text = "Total cost of selected competition categories is $" + (count * 10).ToString();
             }
 
             string birthday = Request.Form[ContestantBirthday.UniqueID];

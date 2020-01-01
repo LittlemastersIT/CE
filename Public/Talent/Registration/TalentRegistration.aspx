@@ -22,9 +22,9 @@
                     <br /><br />
                     <asp:Label ID="Label2" runat="server">
                        We will be offering only Paypal payment service for paying registration fee online going forward. 
-                       The registration fee is $5 <u>per person</u> <u>per competition</u> registered.  
+                       The registration fee is $10 <u>per person</u> <u>per competition</u> registered.  
                        The registration fee is refundable if you withdraw before the registration deadline (<%= CompetitonRegistrationEndDate %>).  
-                       10% of the administration fee will be deducted from the refund.
+                       40% of the administration fee will be deducted from the refund.
                     </asp:Label>
                     <br /><br />
                     <p>The event organizers reserve the right to use the photos and videos taken at the event for promotional purpose.</p><br />
@@ -51,15 +51,13 @@
                 <div class="ce-temp-note ce-h4" style="color:#050143;border-color:red;">
                     <asp:Label ID="CompetitionEndNoteText" runat="server">
                         <%= CompetitionYear %> talent competition has been held and completed. Have a wonderful <%= CompetitionYear %> and we will see you next year.
-                        Please refer to <a href="<%=ResolveUrl("~/Public/Articles/cearticle.aspx?theme=black&path=/home/about&content=ceabout")%>" style="font-size:16px;text-decoration:underline;color:black !important;">CE Status August 2016</a> for CE Talent Competition current status.
                     </asp:Label>
                     <br /><br />
                 </div>
             </asp:Panel>
             <asp:Panel ID="CompetitionTermiateNote" runat="server">
-                <div class="ce-temp-note ce-h4" style="color:#050143;border-color:red;">
+                <div class="ce-temp-note ce-h4" style="color:#050143;border-color:red;display:none">
                     <asp:Label ID="CompetitionTermiateNoteText" runat="server">
-                        Please refer to <a href="<%=ResolveUrl("~/Public/Articles/cearticle.aspx?theme=black&path=/home/about&content=ceabout")%>" style="font-size:16px;text-decoration:underline;color:black !important;">CE Status August 2016</a> for CE Talent Competition current status.
                     </asp:Label>
                     <br /><br />
                 </div>
