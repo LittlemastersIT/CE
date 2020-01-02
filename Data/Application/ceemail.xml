@@ -7,7 +7,7 @@
         <br/><br/>
         Dear {%contact%},
         <br/><br/>
-        Thank you for submitting your registration for the 2019 WA Chinese Language and Talent Competition scheduled on 3/24/2019 (Sunday) at Chief Sealth 
+        Thank you for submitting your registration for the 2020 WA Chinese Language and Talent Competition scheduled on 3/22/2020 (Sunday) at Chief Sealth 
         International High School.  Please see below for the category you have signed up:
         <br/><br/>
         <ul>
@@ -35,7 +35,7 @@
         <br/><br/>
         Dear {%contact%},
         <br/><br/>
-        Thank you for submitting your registration for the 2019 WA Chinese Language and Talent Competition scheduled on 3/24/2019 (Sunday) at Chief Sealth International High School. Please see below for the category you have signed up:
+        Thank you for submitting your registration for the 2020 WA Chinese Language and Talent Competition scheduled on 3/22/2020 (Sunday) at Chief Sealth International High School. Please see below for the category you have signed up:
         <br/><br/>
         <ul>
         <li>Type: {%type%}</li>
@@ -52,7 +52,7 @@
           Then email back the payment confirmation page to <a style="color:blue;text-decoration:underline;" href="mailto:haoemma@gmail.com?Subject=CE%20Registration">Ms. Emma Hao</a>.
             <br/><br/>           
           Please note that the fee must be received within 10 days of registration and before the registration deadline, or your registration will be cancelled. 
-          If this mail is sent by error, please <a href="mailto:ce2019competition@littlemastersclub.org?Subject=CE%20Registration">contact us</a>.  Thank you!
+          If this mail is sent by error, please <a href="mailto:cltc@littlemastersclub.org?Subject=CE%20Registration">contact us</a>.  Thank you!
          <br/><br/><br/>  
         Sincerely,
          <br/><br/>
@@ -66,7 +66,7 @@
         <br/><br/>
         Dear {%contact%},
         <br/><br/>
-        Thank you for submitting your registration for the 2019 WA Chinese Language and Talent Competition scheduled on 3/24/2019 (Sunday) at Chief Sealth 
+        Thank you for submitting your registration for the 2020 WA Chinese Language and Talent Competition scheduled on 3/22/2020 (Sunday) at Chief Sealth 
         International High School.  You have signed up:
         <br/><br/>
         <ul>
@@ -93,7 +93,7 @@
         <br/><br/>
         Dear {%contact%}:
         <br/><br/>
-        This is to confirm your registration for the 2019 WA Chinese Language and Talent Competition scheduled on 3/24/2019 (Sunday) at Chief Sealth 
+        This is to confirm your registration for the 2020 WA Chinese Language and Talent Competition scheduled on 3/22/2020 (Sunday) at Chief Sealth 
         International High School.  Please see below for a list of the categories you have signed up:
         <br/><br/>
         <ul>
@@ -105,7 +105,7 @@
         <li>Contestants: {%contestants%}</li>
         </ul>
         <br/>
-        If you notice any errors on the list, please <a href="mailto:ce2019competition@littlemastersclub.org?Subject=CE%20Registration">contact us</a>.
+        If you notice any errors on the list, please <a href="mailto:cltc@littlemastersclub.org?Subject=CE%20Registration">contact us</a>.
         <br/><br/>
         To ensure a smooth experience for everyone, please review the following important announcements. If you are a parent or teacher, please be 
         sure your students or children know about these announcements as well.
@@ -129,7 +129,7 @@
             If there is anything else we can do to make your participation more comfortable, please don’t hesitate to let us know.</li>
         </ol>
         <br/>
-        Thank you for your participation and we hope you will have a rewarding experience at the competition. If you have any questions, please <a href="mailto:ce2019competition@littlemastersclub.org?Subject=CE%20Registration">contact us</a>.
+        Thank you for your participation and we hope you will have a rewarding experience at the competition. If you have any questions, please <a href="mailto:cltc@littlemastersclub.org?Subject=CE%20Registration">contact us</a>.
         <br/><br/>
         Sincerely,
         <br/><br/>
@@ -137,7 +137,7 @@
         ]]>
       </message>
     </talent>
-    <tour id="apply" subject="Received - Cultural Exploration Tour 2019 Application" format="html" attachment="false">
+    <tour id="apply" subject="Received - Cultural Exploration Tour 2020 Application" format="html" attachment="false">
       <cc>
       	<email>yvettelee@culturalexploration.org</email>
       	<email>roberttung@culturalexploration.org</email>
@@ -150,9 +150,9 @@
 		    files for your application:<br/><br/>
 		    {%attachedFiles%}<br/>
 		    If the information above is not correct, please contact us by responding to this email.<br/><br/>
-		    Our selection panel will review your application and get back to you in late March 2019 about the status and possible interview.<br/><br/>
+		    Our selection panel will review your application and get back to you in late March 2020 about the status and possible interview.<br/><br/>
 		    Regards<br/><br/>
-        CE 2019 Selection Committee
+        CE 2020 Selection Committee
         ]]>
       </message>
     </tour>
@@ -179,7 +179,7 @@
       	<email>jimmyjou@culturalexploration.org</email>
      </cc>
      <message>
-        Congratulation! We like to offer you the opportunity to participate in our cutural exploration tour for 2019 season. 
+        Congratulation! We like to offer you the opportunity to participate in our cutural exploration tour for 2020 season. 
         Please respond to this email if you plan to accept our offer. We look forward to hear from your favorite decision soon. Thanks for participating.
       </message>
     </tour>
@@ -277,7 +277,7 @@
         ]]>
       </message>
     </contactUs>
-    <report id="contestant" subject="Final Confirmation - 2019 Washington State Chinese Language and Talent Competition" format="html" attachment="true">
+    <report id="contestant" subject="Final Confirmation - 2020 Washington State Chinese Language and Talent Competition" format="html" attachment="true">
       <cc>
       </cc>
       <message>
@@ -289,7 +289,7 @@
         <ul>
         <li>
         Attached please find the <b>final confirmation</b> for the competitions you sign up.  If you see any discrepancies, 
-        please contact us at ce2019competition@littlemastersclub.org  as soon as possible.  Also, as a reminder, 
+        please contact us at cltc@littlemastersclub.org  as soon as possible.  Also, as a reminder, 
         please be sure to check-in at the school entrance <b>at least</b> 15 minutes before your first competition.  
         School parking is limited, please car pool as much as possible. You may find additional parking by the football 
         field across the street from school.(请确认报名资料的正确性)
@@ -326,7 +326,7 @@
 	There should be <b>no drink or food in the auditorium</b>.  Please keep the place clean and orderly to avoid adding additional work to the volunteers after the event. (请保持礼堂的清洁与整齐)
         </li>
         </ul>
-        <b>Thank you and we wish you a wonderful experience on Sunday, 3/24/2019.</b>
+        <b>Thank you and we wish you a wonderful experience on Sunday, 3/22/2020.</b>
         <br/><br/>
         <b>Sincerely,</b>
         <br/><br/>
