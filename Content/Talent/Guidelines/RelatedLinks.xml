@@ -27,7 +27,7 @@
     </relatedLinks>
     <relatedLinks header="Competition Assignments">
       <relatedLink iconUrl="/Images/pin.png" title="Poems" linkUrl="/documents/talent/2020诗歌朗诵比赛指定诗.pdf" target="_blank" />
-      <relatedLink iconUrl="/Images/pin.png" title="Knowledge Bowl Questions" linkUrl="/documents/talent/2020 China Knowledge Bowl Study Guide.pdf" target="_blank" />
+      <!--<relatedLink iconUrl="/Images/pin.png" title="Knowledge Bowl Questions" linkUrl="/documents/talent/2020 China Knowledge Bowl Study Guide.pdf" target="_blank" />-->
     </relatedLinks>
   </include>
 </ce>

@@ -21,7 +21,7 @@
         <li>Payment amount: {%amount%}</li>
         </ul>
         <br/>
-        If you notice any errors on the list, please contact <a style="color:blue;text-decoration:underline;" href="mailto:haoemma@gmail.com?Subject=CE%20Registration">Ms. Emma Hao</a> as soon as possible. If we don’t hear from you, your registration will be automatically confirmed in 24 hours.  
+        Please don't reply to this email because this email is not monitored. If you notice any errors on the list, please contact <a style="color:blue;text-decoration:underline;" href="mailto:cltc@littlemastersclub.org?Subject=CLTC%20Registration">Little Master Club Chinese Language and Talent Competition</a> as soon as possible. If we don’t hear from you, your registration will be automatically confirmed in 24 hours.  
         <br/><br/>
         Sincerely,
          <br/><br/>
@@ -46,13 +46,13 @@
         <li>Contestants: {%contestants%}</li>
         </ul>
         <br/>
-        If you notice any errors on the list, please contact <a style="color:blue;text-decoration:underline;" href="mailto:haoemma@gmail.com?Subject=CE%20Registration">Ms. Emma Hao</a> as soon as possible.  
+        Please don't reply to this email because this email is not monitored. If you notice any errors on the list, please contact <a style="color:blue;text-decoration:underline;" href="mailto:cltc@littlemastersclub.org?Subject=CLTC%20Registration">Little Master Club Chinese Language and Talent Competition</a> as soon as possible.
         <br/><br/>
-        Also, as a reminder we haven’t received your registration fee, please go to www.paypal.com to make payment to culturalexploration@hotmail.com. 
-          Then email back the payment confirmation page to <a style="color:blue;text-decoration:underline;" href="mailto:haoemma@gmail.com?Subject=CE%20Registration">Ms. Emma Hao</a>.
+        Also, as a reminder we haven’t received your registration fee, please go to www.paypal.com to make payment to treasurer@littlemastersclub.org. 
+          Then email back the payment confirmation page to <a style="color:blue;text-decoration:underline;" href="mailto:cltc@littlemastersclub.org?Subject=CLTC%20Registration">Little Master Club Chinese Language and Talent Competition</a>.
             <br/><br/>           
           Please note that the fee must be received within 10 days of registration and before the registration deadline, or your registration will be cancelled. 
-          If this mail is sent by error, please <a href="mailto:cltc@littlemastersclub.org?Subject=CE%20Registration">contact us</a>.  Thank you!
+          If this mail is sent by error, please <a href="mailto:cltc@littlemastersclub.org?Subject=CLTC%20Registration">contact us</a>.  Thank you!
          <br/><br/><br/>  
         Sincerely,
          <br/><br/>
@@ -78,7 +78,7 @@
         <li>Contestants: {%contestants%}</li>
         </ul>
         <br/>
-        Since as of today we haven’t received your registration fee, regretfully we have to cancel your registration. Please contact <a style="color:blue;text-decoration:underline;" href="mailto:haoemma@gmail.com?Subject=CE%20Registration">Ms. Emma Hao</a> 
+        Please don't reply to this email because this email is not monitored. Since as of today we haven’t received your registration fee, regretfully we have to cancel your registration. Please contact <a style="color:blue;text-decoration:underline;" href="mailto:cltc@littlemastersclub.org?Subject=CLTC%20Registration">Little Master Club Chinese Language and Talent Competition</a>.
         if you have any question about our decision. Thanks for your time.
         <br/><br/>
         Sincerely,
@@ -105,7 +105,7 @@
         <li>Contestants: {%contestants%}</li>
         </ul>
         <br/>
-        If you notice any errors on the list, please <a href="mailto:cltc@littlemastersclub.org?Subject=CE%20Registration">contact us</a>.
+        Please don't reply to this email because this email is not monitored. If you notice any errors on the list, please <a href="mailto:cltc@littlemastersclub.org?Subject=CLTC%20Registration">contact us</a>.
         <br/><br/>
         To ensure a smooth experience for everyone, please review the following important announcements. If you are a parent or teacher, please be 
         sure your students or children know about these announcements as well.
@@ -149,7 +149,7 @@
 		    Thank you for submitting your application. In addition to the information you have entered in the form, we have also received the following attached 
 		    files for your application:<br/><br/>
 		    {%attachedFiles%}<br/>
-		    If the information above is not correct, please contact us by responding to this email.<br/><br/>
+		    Please don't reply to this email because this email is not monitored. If the information above is not correct, please <a href="mailto:cltc@littlemastersclub.org?Subject=CE%20Registration">contact us</a> regarding to this email.<br/><br/>
 		    Our selection panel will review your application and get back to you in late March 2020 about the status and possible interview.<br/><br/>
 		    Regards<br/><br/>
         CE 2020 Selection Committee
@@ -163,9 +163,9 @@
       	<email>jimmyjou@culturalexploration.org</email>
       </cc>
       <message>
-        Congratulation! We have selected you as one of our cutural exploration tour candidates. Please respond to this email to set up a personal interview 
-        at your convinient time. We are excited to meet you to explain the opportunity further understand your objectives. Thanks for participating.
-      </message>
+        Congratulation! We have selected you as one of our cutural exploration tour candidates. Please <a href="mailto:cltc@littlemastersclub.org?Subject=CE%20Registration">contact us</a> regarding to this email to set up a personal interview
+      at your convinient time. We are excited to meet you to explain the opportunity further understand your objectives. Thanks for participating.
+  </message>
     </tour>
     <tour id="rejected" subject="Cultural Exploration Tour Application: Status update" format="html" attachment="false">
       <message>
@@ -180,8 +180,8 @@
      </cc>
      <message>
         Congratulation! We like to offer you the opportunity to participate in our cutural exploration tour for 2020 season. 
-        Please respond to this email if you plan to accept our offer. We look forward to hear from your favorite decision soon. Thanks for participating.
-      </message>
+        Please <a href="mailto:cltc@littlemastersclub.org?Subject=CE%20Registration">contact us</a> regarding to this email if you plan to accept our offer. We look forward to hear from your favorite decision soon. Thanks for participating.
+ </message>
     </tour>
     <tour id="review" subject="Cultural Exploration Tour Application: Status update" format="html" attachment="false">
       <message>
@@ -289,7 +289,7 @@
         <ul>
         <li>
         Attached please find the <b>final confirmation</b> for the competitions you sign up.  If you see any discrepancies, 
-        please contact us at cltc@littlemastersclub.org  as soon as possible.  Also, as a reminder, 
+        please <a href="mailto:cltc@littlemastersclub.org?Subject=CE%20Registration">contact us</a> regarding to this email as soon as possible.  Also, as a reminder, 
         please be sure to check-in at the school entrance <b>at least</b> 15 minutes before your first competition.  
         School parking is limited, please car pool as much as possible. You may find additional parking by the football 
         field across the street from school.(请确认报名资料的正确性)

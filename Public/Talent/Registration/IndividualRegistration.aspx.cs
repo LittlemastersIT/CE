@@ -60,7 +60,7 @@ namespace CE.Pages
                         if (payment == "1") // paypal successes
                         {
                             // we save the registration here in case the user forgot to click the completion button after Paypal returns
-                            ExportAllCompetitionCategories(competitionEntries, 5.0, PaymentType.Paypal);
+                            ExportAllCompetitionCategories(competitionEntries, 10.0, PaymentType.Paypal);
 
                             SendConfirmationEmail(competitionEntries, false, false);
 
@@ -331,7 +331,7 @@ namespace CE.Pages
                 Session[CEConstants.CE_FEEWAIVED_COOKIE_ID] = null;
 
                 // save the user record first in case the user's Paypal session does not come back to CE site
-                ExportAllCompetitionCategories(competitionEntries, 5.0, PaymentType.Pending);
+                ExportAllCompetitionCategories(competitionEntries, 10.0, PaymentType.Pending);
 
                 int categoryCount = 0;
                 string responseUrlTemplate = "?payment={0}&team={1}&division={2}&category={3}&id={4}";

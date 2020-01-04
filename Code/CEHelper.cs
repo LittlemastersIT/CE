@@ -579,7 +579,7 @@ namespace CE.Data
             {
                 if (string.IsNullOrEmpty(sender))
                 {
-                    sender = CEHelper.GetConfiguration(CEConstants.EMAIL_SENDER_KEY, "cltc@littlemastersclub.org");  //used to be ce@culturalexploration.org
+                    sender = CEHelper.GetConfiguration(CEConstants.EMAIL_SENDER_KEY, "ce2019competition@littlemastersclub.org");  //used to be ce@culturalexploration.org
                 }
 
                 MailMessage mail = new MailMessage();

@@ -254,26 +254,26 @@
                             <div class="registration-fee">
                                 <asp:DropDownList ID="PaymentAmountList" runat="server" Enabled="false">
                                     <asp:ListItem Text="0 paid contestant $0" Value="0" />
-                                    <asp:ListItem Text="1 paid contestant $5" Value="5" />
-                                    <asp:ListItem Text="2 paid contestants $10" Value="10" />
-                                    <asp:ListItem Text="3 paid contestants $15" Value="15" />
-                                    <asp:ListItem Text="4 paid contestants $20" Value="20" />
-                                    <asp:ListItem Text="5 paid contestants $25" Value="25" />
-                                    <asp:ListItem Text="6 paid contestants $30" Value="30" />
-                                    <asp:ListItem Text="7 paid contestants $35" Value="35" />
-                                    <asp:ListItem Text="8 paid contestants $40" Value="40" />
-                                    <asp:ListItem Text="9 paid contestants $45" Value="45" />
-                                    <asp:ListItem Text="10 paid contestants $50" Value="50" />
-                                    <asp:ListItem Text="11 paid contestants $55" Value="55" />
-                                    <asp:ListItem Text="12 paid contestants $60" Value="60" />
-                                    <asp:ListItem Text="13 paid contestants $65" Value="65" />
-                                    <asp:ListItem Text="14 paid contestants $70" Value="70" />
-                                    <asp:ListItem Text="15 paid contestants $75" Value="75" />
-                                    <asp:ListItem Text="16 paid contestants $80" Value="80" />
-                                    <asp:ListItem Text="17 paid contestants $85" Value="85" />
-                                    <asp:ListItem Text="18 paid contestants $90" Value="90" />
-                                    <asp:ListItem Text="19 paid contestants $95" Value="95" />
-                                    <asp:ListItem Text="20 paid contestants $100" Value="100" />
+                                    <asp:ListItem Text="1 paid contestant $10" Value="10" />
+                                    <asp:ListItem Text="2 paid contestants $20" Value="20" />
+                                    <asp:ListItem Text="3 paid contestants $30" Value="30" />
+                                    <asp:ListItem Text="4 paid contestants $40" Value="40" />
+                                    <asp:ListItem Text="5 paid contestants $50" Value="50" />
+                                    <asp:ListItem Text="6 paid contestants $60" Value="60" />
+                                    <asp:ListItem Text="7 paid contestants $70" Value="70" />
+                                    <asp:ListItem Text="8 paid contestants $80" Value="80" />
+                                    <asp:ListItem Text="9 paid contestants $90" Value="90" />
+                                    <asp:ListItem Text="10 paid contestants $100" Value="100" />
+                                    <asp:ListItem Text="11 paid contestants $110" Value="110" />
+                                    <asp:ListItem Text="12 paid contestants $120" Value="120" />
+                                    <asp:ListItem Text="13 paid contestants $130" Value="130" />
+                                    <asp:ListItem Text="14 paid contestants $140" Value="140" />
+                                    <asp:ListItem Text="15 paid contestants $150" Value="150" />
+                                    <asp:ListItem Text="16 paid contestants $160" Value="160" />
+                                    <asp:ListItem Text="17 paid contestants $170" Value="170" />
+                                    <asp:ListItem Text="18 paid contestants $180" Value="180" />
+                                    <asp:ListItem Text="19 paid contestants $190" Value="190" />
+                                    <asp:ListItem Text="20 paid contestants $200" Value="200" />
                                 </asp:DropDownList>
                             </div>
                         </td>
@@ -941,7 +941,7 @@
                     }
                 }
                 if (count > 0) {
-                    var fee = '' + (count * 5);
+                    var fee = '' + (count * 10);
                     $(PaymentAmountListID).val(fee);
                     $(RegistrationFeeID).val(fee);
                     $(PaypalPaymentButtonID).show();
