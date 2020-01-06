@@ -283,7 +283,7 @@ namespace CE.Pages
 
                 string redirecturl = CEHelper.GetConfiguration("PaypalUrl", CEConstants.PAYPAL_PAYMENT_URL);
                 redirecturl += "&business=" + CEHelper.GetConfiguration("PaypalBusiness", CEConstants.CE_PAYPAL_EMAIL);
-                redirecturl += "&item_name=Registration Fee";
+                redirecturl += "&item_name=Chinese Competition Registration Fee";
                 redirecturl += "&item_number=" + competitionEntry.Contact.TeamName;
                 redirecturl += "&amount=" + RegistrationFee.Value;
                 redirecturl += "&quantity=1";

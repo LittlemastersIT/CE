@@ -340,7 +340,7 @@ namespace CE.Pages
 
                 string redirecturl = CEHelper.GetConfiguration("PaypalUrl", CEConstants.PAYPAL_PAYMENT_URL);
                 redirecturl += "&business=" + CEHelper.GetConfiguration("PaypalBusiness", CEConstants.CE_PAYPAL_EMAIL);
-                redirecturl += "&item_name=Registration Fee";
+                redirecturl += "&item_name=Chinese Competition Registration Fee";
                 redirecturl += "&item_number=" + id;
                 redirecturl += "&amount=" + RegistrationFee.Value; // can't get PaymentAmountList selected value as it is disabled
                 redirecturl += "&quantity=1";
