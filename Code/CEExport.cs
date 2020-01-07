@@ -22,6 +22,8 @@ namespace CE.Data
 
                 using (ExcelPackage pck = new ExcelPackage())
                 {
+                    response.Clear();
+
                     //Create the worksheet
                     ExcelWorksheet ws = pck.Workbook.Worksheets.Add("CE Competition Registration");
 
@@ -34,6 +36,8 @@ namespace CE.Data
                     response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
                     response.AddHeader("content-disposition", "attachment;  filename=" + defautlFilename);
                     response.BinaryWrite(pck.GetAsByteArray());
+
+                    response.End();
                 }
                 ok = true;
             }
@@ -134,6 +138,8 @@ namespace CE.Data
 
                 using (ExcelPackage pck = new ExcelPackage())
                 {
+                    response.Clear();
+
                     DataTable dtFirstCut = CreateTourBaseTable(tourApplicants);
                     ExcelWorksheet wsFirstCut = pck.Workbook.Worksheets.Add("First Cut"); //Create the worksheet
                     wsFirstCut.Cells["A1"].LoadFromDataTable(dtFirstCut, true); //Load the datatable into the sheet, starting from cell A1. Print the column names on row 1
@@ -173,6 +179,8 @@ namespace CE.Data
                     response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
                     response.AddHeader("content-disposition", "attachment;  filename=" + defautlFilename);
                     response.BinaryWrite(pck.GetAsByteArray());
+
+                    response.End();
                 }
 
                 ok = true;
