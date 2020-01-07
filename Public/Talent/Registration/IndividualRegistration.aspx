@@ -469,7 +469,7 @@
                     showOn: 'both',
                     changeYear: true,
                     changeMonth: true,
-                    yearRange: '-20:+0',
+                    yearRange: '-30:+0',
                     buttonImage: '/images/calendar.png',
                     buttonImageOnly: true
                 });
