@@ -33,6 +33,7 @@ namespace CE.Pages
                 ContestantGradeList.DataValueField = "Value";
                 TalentShowSubCategory.Value = string.Empty;
                 TalentShowSubCategoryList.Value = string.Join(",", CompetitionControlData.TalentShowTypes.ToArray());
+                TalentShowIsPianoRequired.Value = string.Empty;
 
                 string payment = Request.QueryString["payment"];
                 string category = Request.QueryString["category"];
@@ -142,6 +143,7 @@ namespace CE.Pages
                         object formDivision = CEHelper.GetSafeDictionary(savedFormJson, "division");
                         object formCategory = CEHelper.GetSafeDictionary(savedFormJson, "category");
                         TalentShowSubCategory.Value = CEHelper.GetSafeDictionary(savedFormJson, "subcategory", string.Empty).ToString();
+                        TalentShowIsPianoRequired.Value = CEHelper.GetSafeDictionary(savedFormJson, "ispianorequired", string.Empty).ToString();
 
                         if (formCategory != null && !string.IsNullOrEmpty(formCategory.ToString()))
                         {

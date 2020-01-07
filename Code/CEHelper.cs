@@ -324,7 +324,7 @@ namespace CE.Data
         public const string CE_PARTICIPATING_FOLDER = "Participant Certificates"; 
         public const string CE_DEFAULT_THEME = "black";
         public const string CE_TOUR_THEME = "blue";
-        public const string CE_TALENT_THEME = "maroon";
+        public const string CE_TALENT_THEME = "blue";
         public const string CE_RESOURCE_THEME = "green";
         public const string CE_ADMIN_THEME = "black";
         public const string CE_DEFAULT_PAGE_TAG = "page";
