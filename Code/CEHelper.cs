@@ -4,8 +4,11 @@ using System.Web;
 using System.Linq;
 using System.Xml;
 using System.Xml.Linq;
-using System.Net.Mail;
 using System.IO;
+using MimeKit;
+using MailKit;
+using MailKit.Security;
+using MailKit.Net.Smtp;
 
 namespace CE.Data
 {
@@ -579,40 +582,33 @@ namespace CE.Data
             {
                 if (string.IsNullOrEmpty(sender))
                 {
-                    sender = CEHelper.GetConfiguration(CEConstants.EMAIL_SENDER_KEY, "ce2019competition@littlemastersclub.org");  //used to be ce@culturalexploration.org
+                    sender = CEHelper.GetConfiguration(CEConstants.EMAIL_SENDER_KEY, "cltclmc@gmail.com");  //used to be ce@culturalexploration.org
                 }
 
-                MailMessage mail = new MailMessage();
-                mail.From = new MailAddress(sender);
-                foreach (string recipient in recipients) mail.To.Add(new MailAddress(recipient));
-                if (CCs != null) foreach (string email in CCs) mail.CC.Add(email);
-                mail.Subject = subject;
-                mail.Body = message;
-                mail.IsBodyHtml = isHtml;
-                if (attachedFiles != null)
+                MimeMessage mailMsg = new MimeMessage();
+                // Feel free to add in ProtocolLogger here if you would like to get an smtp logger to output to a file. I removed it for this sample (and brevity).
+                // Example: 
+                // using (var client = new SmtpClient(new ProtocolLogger("D:\\home\LogFiles\\smtp.log")))
+                using (var client = new SmtpClient())
                 {
-                    foreach (string file in attachedFiles)
+                    // This is where you will input the email it is coming from (hint: your gmail address)
+                    mailMsg.From.Add(new MailboxAddress("CLTC Registration", sender));
+                    // This is where you add in the recipient email (hint: you can test using your own gmail address as well)
+                    foreach (string recipient in recipients)
                     {
-                        Attachment attachment = new Attachment(file);
-                        if (file.Contains("/")) attachment = new Attachment(HttpContext.Current.Server.MapPath(file));
-                        mail.Attachments.Add(attachment);
+                        mailMsg.To.Add(new MailboxAddress(recipient, recipient));
                     }
-                }
-                System.Net.Mail.SmtpClient smtp = new SmtpClient(); // use configuration settings
-                if (string.IsNullOrEmpty(host))
-                {
-                    host = CEHelper.GetConfiguration(CEConstants.EMAIL_HOST_KEY, "snare.arvixe.com");
-                    port = int.Parse(CEHelper.GetConfiguration(CEConstants.EMAIL_PORT_KEY, "25"));
-                }
-                smtp.Host = host;
-                smtp.Port = port <= 0 ? 25 : port;
-                string passCode = CEHelper.GetConfiguration(CEConstants.EMAIL_CODE_KEY, "Unknown");
+                    mailMsg.Subject = subject;
 
-                // arvixe host mail server needs to pass in credential to send mail
-                System.Net.NetworkCredential nc = new System.Net.NetworkCredential(sender, passCode);
-                smtp.Credentials = nc;
+                    client.Connect(host, port, SecureSocketOptions.SslOnConnect);
 
-                smtp.Send(mail);
+                    // Go to Google Profile to generate an app password rather than using your real password here
+                    client.Authenticate(sender, CEHelper.GetConfiguration(CEConstants.EMAIL_CODE_KEY, "Unknown"));
+
+                    client.Send(mailMsg);
+                    client.Disconnect(true);
+                }
+
                 sent = true;
             }
             catch
@@ -622,6 +618,7 @@ namespace CE.Data
             finally
             {
             }
+
             return sent;
         }
         public static EmailInfo GetEmailConfiguration(string messageType, string messageId)
