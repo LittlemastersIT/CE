@@ -25,7 +25,7 @@ namespace CE.Pages
                 TourYear.Text = tourYear;
 
                 string theme = CEConstants.CE_TOUR_THEME;
-                PageTheme.Text = "<link rel=\"stylesheet\" type=\"text/css\" href=\"/CSS/Themes/" + theme + "/cepage.css\" media=\"all\" />"; ;
+                PageTheme.Text = "<link rel=\"stylesheet\" type=\"text/css\" href=\"" + CEHelper.GetSiteRootUrl() + "/CSS/Themes/" + theme + "/cepage.css\" media=\"all\" />";
 
                 string[] journeyFolderList = Directory.GetDirectories(tourJourneyFolder, "*.*", SearchOption.TopDirectoryOnly);
                 string programYear = CEHelper.GetProgramYear();

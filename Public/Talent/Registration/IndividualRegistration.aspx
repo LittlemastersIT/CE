@@ -173,7 +173,7 @@
                         <td class="reg-button-cell">
                             <asp:Button ID="PaymentButton" runat="server" CssClass="action-button" Font-Bold="true" Text="  Next  >>  " OnClientClick="javascript: if(validateInput()) return gotoPage(2); else return false;" />
                             <asp:Button ID="Page1ClearAllButton" runat="server" CssClass="action-button" Text="  Clear Form  " OnClientClick="return clearInputForm();" />
-                            <asp:Button ID="SaveDataButton" runat="server" CssClass="action-button" Font-Bold="true" Text="  Save Form Data  " OnClientClick="javascript: return saveFormData();" />
+<%--                            <asp:Button ID="SaveDataButton" runat="server" CssClass="action-button" Font-Bold="true" Text="  Save Form Data  " OnClientClick="javascript: return saveFormData();" />--%>
                         </td>
                     </tr>
                 </table>
@@ -473,6 +473,8 @@
                     buttonImage: '/images/calendar.png',
                     buttonImageOnly: true
                 });
+
+                $(ContestantBirthdayID).datepicker('setDate', $(ContestantBirthdayID).val());
             }
 
             function bindPhoneMask() {

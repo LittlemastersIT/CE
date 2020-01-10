@@ -42,7 +42,7 @@ namespace CE.Pages
 
                     path = CEHelper.EnsureTrailingPathChar(path);
                     path += author + "/"; // the journey folder is organize per author
-                    PageTheme.Text = "<link rel=\"stylesheet\" type=\"text/css\" href=\"/CSS/Themes/" + theme + "/cepage.css\" media=\"all\" />"; ;
+                    PageTheme.Text = "<link rel=\"stylesheet\" type=\"text/css\" href=\"" + CEHelper.GetSiteRootUrl() + "/CSS/Themes/" + theme + "/cepage.css\" media=\"all\" />";
 
                     string contentFile = author + ".xml"; // each author has a journey file
                     string contentUrl = CEHelper.GetContentUrl(path, contentFile);

@@ -1063,6 +1063,15 @@
             bindFormDataFromCookie = function () {
                 var savedForm = CEApp.Cookie.getCookie({ 'cookieName': 'CE_TEAM_ENTRY' });
                 if (savedForm != null) {
+                    $(ContestantLastNameID).val('');
+                    $(ContestantFirstNameID).val('');
+                    $(ContestantChineseNameID).val('');
+                    $(ContestantBirthdayID).val('');
+                    $(ContestantSchool1ID).val('');
+                    $(ContestantSchool2ID).val('');
+                    $(ContestantEmailID).val('');
+                    $(ContestantGradeListID).val('');
+
                     var formDataJson = JSON.parse(savedForm);
                     $(ContactNameBoxID).val(formDataJson.contactName);
                     $(ContactEmailBoxID).val(formDataJson.contactEmail);
@@ -1074,15 +1083,6 @@
                     $(TalentShowIsPianoRequiredID).val(formDataJson.ispianorequired);
                     populateTeammates(formDataJson.teammates);
                     setContestantRowId();
-
-                    $(ContestantLastNameID).val('');
-                    $(ContestantFirstNameID).val('');
-                    $(ContestantChineseNameID).val('');
-                    $(ContestantBirthdayID).val('');
-                    $(ContestantSchool1ID).val('');
-                    $(ContestantSchool2ID).val('');
-                    $(ContestantEmailID).val('');
-                    $(ContestantGradeListID).val('');
                     $(YesLunchID).prop('checked', false);
                     $(NoLunchID).prop('checked', false);
                 }

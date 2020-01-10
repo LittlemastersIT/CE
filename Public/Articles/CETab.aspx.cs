@@ -33,7 +33,7 @@ namespace CE.Pages
                     if (string.IsNullOrEmpty(pageTag)) pageTag = CEConstants.CE_DEFAULT_TAB_TAG; // use default is it is not defined
                     if (string.IsNullOrEmpty(theme)) theme = "blue";
                     if (string.IsNullOrEmpty(path)) path = string.Empty;
-                    PageTheme.Text = "<link rel=\"stylesheet\" type=\"text/css\" href=\"/CSS/Themes/" + theme + "/cepage.css\" media=\"all\" />"; ;
+                    PageTheme.Text = "<link rel=\"stylesheet\" type=\"text/css\" href=\"" + CEHelper.GetSiteRootUrl() + "/CSS/Themes/" + theme + "/cepage.css\" media=\"all\" />";
 
                     string contentUrl = CEHelper.GetContentUrl(path, contentFile);
                     TabContent pageContent = new TabContent();

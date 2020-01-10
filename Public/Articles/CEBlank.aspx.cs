@@ -26,7 +26,7 @@ namespace CE.Pages
                 {
                     if (string.IsNullOrEmpty(theme)) theme = "blue";
                     if (string.IsNullOrEmpty(path)) path = "";
-                    PageTheme.Text = "<link rel=\"stylesheet\" type=\"text/css\" href=\"/CSS/Themes/" + theme + "/cepage.css\" media=\"all\" />"; ;
+                    PageTheme.Text = "<link rel=\"stylesheet\" type=\"text/css\" href=\"" + CEHelper.GetSiteRootUrl() + "/CSS/Themes/" + theme + "/cepage.css\" media=\"all\" />";
                 }
             }
         }
