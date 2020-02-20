@@ -15,6 +15,12 @@
             <asp:Panel ID="RegistrationNote" runat="server">
                 <div class="ce-temp-note ce-h4" style="color:#050143;border-color:red;">
                     <asp:Label ID="RegistrationNoteText" runat="server">
+                       <p style="color:red">
+                           The competition committee is closely watching out for the Coronavirus. The Washington State Chinese and Talent Competition will  be postponed to the end of April or beginning of May. We will announce the revised competition date ASAP once we confirm it with Chief Sealth International School.
+                           <br />
+                           中文竞赛组委会在密切关注Coronavirus发展情况，2020中文竞赛将会推迟到4月底或者5月初。我们和 Chief Sealth International School 确认后会尽快通知大家。
+                       </p>
+                       <br />
                        <%= CompetitionYear %> Washington State Language and Talent competition is now open for registration. Contestants who are interested in 
                        participating should register online using this page. Please be sure you have read the information provided on the 
                        <a style="text-decoration:underline;color:blue !important;" href="<%=ResolveUrl("~/public/talent/guidelines/ceguidelines.html")%>">Schedule & Guidelines</a>  
