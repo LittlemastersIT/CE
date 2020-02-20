@@ -4,8 +4,10 @@ using System.Web;
 using System.Linq;
 using System.Xml;
 using System.Xml.Linq;
-using System.Net.Mail;
 using System.IO;
+using MimeKit;
+using MailKit.Security;
+using MailkitSmtpClient = MailKit.Net.Smtp.SmtpClient;
 
 namespace CE.Data
 {
@@ -574,56 +576,109 @@ namespace CE.Data
         {
             if (recipients == null || recipients.Length == 0) return false;
 
-            bool sent = false;
+            MimeMessage mimeMsg = new MimeMessage();
+            string passCode = string.Empty;
+
             try
             {
                 if (string.IsNullOrEmpty(sender))
                 {
-                    sender = CEHelper.GetConfiguration(CEConstants.EMAIL_SENDER_KEY, "ce2019competition@littlemastersclub.org");  //used to be ce@culturalexploration.org
+                    sender = CEHelper.GetConfiguration(CEConstants.EMAIL_SENDER_KEY, "cltclmc@gmail.com");  //used to be ce@culturalexploration.org
                 }
 
-                MailMessage mail = new MailMessage();
-                mail.From = new MailAddress(sender);
-                foreach (string recipient in recipients) mail.To.Add(new MailAddress(recipient));
-                if (CCs != null) foreach (string email in CCs) mail.CC.Add(email);
-                mail.Subject = subject;
-                mail.Body = message;
-                mail.IsBodyHtml = isHtml;
-                if (attachedFiles != null)
-                {
-                    foreach (string file in attachedFiles)
-                    {
-                        Attachment attachment = new Attachment(file);
-                        if (file.Contains("/")) attachment = new Attachment(HttpContext.Current.Server.MapPath(file));
-                        mail.Attachments.Add(attachment);
-                    }
-                }
-                System.Net.Mail.SmtpClient smtp = new SmtpClient(); // use configuration settings
                 if (string.IsNullOrEmpty(host))
                 {
-                    host = CEHelper.GetConfiguration(CEConstants.EMAIL_HOST_KEY, "snare.arvixe.com");
-                    port = int.Parse(CEHelper.GetConfiguration(CEConstants.EMAIL_PORT_KEY, "25"));
+                    host = CEHelper.GetConfiguration(CEConstants.EMAIL_HOST_KEY, "smtp.gmail.com");
+                    port = int.Parse(CEHelper.GetConfiguration(CEConstants.EMAIL_PORT_KEY, "465"));
                 }
-                smtp.Host = host;
-                smtp.Port = port <= 0 ? 25 : port;
-                string passCode = CEHelper.GetConfiguration(CEConstants.EMAIL_CODE_KEY, "Unknown");
 
-                // arvixe host mail server needs to pass in credential to send mail
-                System.Net.NetworkCredential nc = new System.Net.NetworkCredential(sender, passCode);
-                smtp.Credentials = nc;
+                passCode = CEHelper.GetConfiguration(CEConstants.EMAIL_CODE_KEY, "jsgiybwyhvpntlsc");
 
-                smtp.Send(mail);
-                sent = true;
+                using (var client = new MailkitSmtpClient())
+                {
+                    // This is where you will input the email it is coming from (hint: your gmail address)
+                    mimeMsg.From.Add(new MailboxAddress("CLTC Registration", sender));
+                    // This is where you add in the recipient email (hint: you can test using your own gmail address as well)
+                    foreach (string recipient in recipients)
+                    {
+                        mimeMsg.To.Add(new MailboxAddress(recipient, recipient));
+                    }
+
+                    if (CCs != null)
+                    {
+                        foreach (string cc in CCs)
+                        {
+                            mimeMsg.Cc.Add(new MailboxAddress(cc, cc));
+                        }
+                    }
+
+                    mimeMsg.Subject = subject;
+
+                    var bodyBuilder = new BodyBuilder();
+
+                    if (isHtml)
+                    {
+                        bodyBuilder.HtmlBody = message;
+                    }
+                    else
+                    {
+                        bodyBuilder.TextBody = message;
+                    }
+
+                    if (attachedFiles != null)
+                    {
+                        foreach (string file in attachedFiles)
+                        {
+                            string fileName = file;
+                            if (file.Contains("/"))
+                            {
+                                fileName = HttpContext.Current.Server.MapPath(file);
+                            }
+
+                            bodyBuilder.Attachments.Add(HttpContext.Current.Server.MapPath(fileName));
+                        }
+                    }
+
+                    mimeMsg.Body = bodyBuilder.ToMessageBody();
+
+                    client.Connect(host, port, SecureSocketOptions.SslOnConnect);
+
+                    // Go to Google Profile to generate an app password rather than using your real password here
+                    client.Authenticate(sender, passCode);
+
+                    client.Send(mimeMsg);
+                    client.Disconnect(true);
+                }
             }
-            catch
+            catch (Exception ex)
             {
-                sent = false;
+                string logFile = Path.Combine(GetDataPath(), "log.txt");
+                if (!File.Exists(logFile))
+                {
+                    using (StreamWriter sw = File.CreateText(logFile))
+                    {
+                    }
+                }
+
+                using (StreamWriter sw = File.AppendText(logFile))
+                {
+                    sw.WriteLine($"recipients: {string.Join(", ", recipients)}");
+                    sw.WriteLine($"subject: {subject}");
+                    sw.WriteLine($"message: {message}");
+                    sw.WriteLine($"sender: {sender}");
+                    sw.WriteLine($"host: {host}");
+                    sw.WriteLine($"port: {port}");
+                    sw.WriteLine($"passCode: {passCode}");
+
+                    sw.WriteLine(ex.ToString());
+                }
+
+                return false;
             }
-            finally
-            {
-            }
-            return sent;
+
+            return true;
         }
+
         public static EmailInfo GetEmailConfiguration(string messageType, string messageId)
         {
             EmailInfo emailInfo = null;

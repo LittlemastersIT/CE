@@ -302,9 +302,9 @@
                                 <li style="padding-bottom:5px;">If you need to go back to previous input screen, please use the <b>Previous</b> button above instead of browser's Back button.</li>
                                 <li style="padding-bottom:5px;">The registration fee shown above excludes those students who are participating in the Free and Reduced-Price Meal Program.
                                     Please be sure to remind them to mail in the Fee Waive form, which can be downloaded from <a style="color:blue !important;text-decoration:underline;" href="../../../documents/talent/2020%20Fee%20Waiver%20Form.pdf" target="_blank">this link</a>.</li>
-                                <li style="padding-bottom:5px;color:red;">Please Return to Little Masters Club after you have completed Paypal transaction. A confirmation email from ce@culturalexploration.org will be sent to your registered email and please verify all information in it. If you don’t receive it, please check your junk or spam mail first. If you notice any errors on the list,  please contact  cltc@littlemastersclub.org as soon as possible. Please don't reply to ce@culturalexploration.org  because this email is not monitored. 
+                                <li style="padding-bottom:5px;color:red;">Please Return to Little Masters Club after you have completed Paypal transaction. A confirmation email from cltclmc@gmail.com will be sent to your registered email and please verify all information in it. If you don’t receive it, please check your junk or spam mail first. If you notice any errors on the list,  please contact  cltc@littlemastersclub.org as soon as possible. Please don't reply to cltclmc@gmail.com  because this email is not monitored. 
                                     <br>
-                                    在完成Paypal付款后，请回到小大师报名网页。从ce@culturalexploration.org 发出的报名确认函将发到您注册的邮箱。如果收件箱没有收到，请先检查垃圾邮件文件夹。如果您发现确认函上有任何信息不准确，请尽快联系cltc@littlemastersclub.org. 请不要回复ce@culturalexploration.org 因为这个邮箱没有人工管理。</li>
+                                    在完成Paypal付款后，请回到小大师报名网页。从cltclmc@gmail.com 发出的报名确认函将发到您注册的邮箱。如果收件箱没有收到，请先检查垃圾邮件文件夹。如果您发现确认函上有任何信息不准确，请尽快联系cltc@littlemastersclub.org. 请不要回复cltclmc@gmail.com 因为这个邮箱没有人工管理。</li>
                             </ol>
                         </td>
                     </tr>
