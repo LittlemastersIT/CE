@@ -88,7 +88,7 @@
                             <tr></tr>
                              <tr>
                                  <td class="ce-h6" style="padding-left:5px;padding-bottom:20px" colspan="2">
-                                    Note: <i>For Chinese Singing or Talent Show Competition. If music is required, The participants can bring their own musical instruments (a piano will be available on the stage for use), or upload your music file before the March 2, 2020 registration deadline.
+                                    Note: <i>For Chinese Singing or Talent Show Competition. If music is required, The participants can bring their own musical instruments (a piano will be available on the stage for use), or upload your music file before the April 13, 2020 registration deadline.
                                     For Talent show, please upload music to <a href="http://www.littlemastersclub.org/music/talentshow">http://www.littlemastersclub.org/music/talentshow </a>.  
                                     And for Chinese Singing, please upload music to  <a href="http://www.littlemastersclub.org/music/Singing">http://www.littlemastersclub.org/music/Singing </i>
                                 </td>
