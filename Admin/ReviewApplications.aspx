@@ -117,10 +117,10 @@
                         ShowFirstAndLast="True"
                         ShowNextAndPrevious="True"
                         PageLinksToShow="10"
-                        NextImageUrl="<img runat='server' src='~/images/mewa_rightb.gif'/>"
-                        PreviousImageUrl="<img runat='server' src='~/images/mewa_leftb.gif'/>"
-                        FirstImageUrl="<img runat='server' src='~/images/mewa_leftPageb.gif'/>"
-                        LastImageUrl="<img runat='server' src='~/images/mewa_rightPageb.gif'/>"
+                        NextImageUrl="<img runat='server' src='../images/mewa_rightb.gif'/>"
+                        PreviousImageUrl="<img runat='server' src='../images/mewa_leftb.gif'/>"
+                        FirstImageUrl="<img runat='server' src='../images/mewa_leftPageb.gif'/>"
+                        LastImageUrl="<img runat='server' src='../images/mewa_rightPageb.gif'/>"
                         />
                 </PagerTemplate>
                 <EmptyDataTemplate>
