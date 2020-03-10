@@ -15,9 +15,10 @@
                 <div class="ce-temp-note ce-h4" style="color:#050143;border-color:red;">
                     <asp:Label ID="RegistrationNoteText" runat="server">
                        <p style="color:red">
-                           The competition committee is closely watching out for the Coronavirus. The Washington State Chinese and Talent Competition will  be postponed to the end of April or beginning of May. We will announce the revised competition date ASAP once we confirm it with Chief Sealth International School.
+                           The competition committee is closely watching out for the coronavirus status. The Washington State Chinese and Talent Competition is temporarily scheduled on May 3, 2020. At this point, Seattle Public School is cancelling all big events until further notice. We will release the competition date once we confirm with Chief Sealth International School if the district allows the competition to proceed. Thank you for your support!
                            <br />
-                           中文竞赛组委会在密切关注Coronavirus发展情况，2020中文竞赛将会推迟到4月底或者5月初。我们和 Chief Sealth International School 确认后会尽快通知大家。
+                           <br />
+                           中文竞赛组委会在密切关注Coronavirus发展情况，2020中文竞赛暂时定在2020年5月3日。目前， 西雅图学区取消了所有大型活动。 如果学区有新的通知，我们将和 Chief Sealth International School 确认比赛日期并及早通知大家。 谢谢您对中文竞赛的支持和关注！
                        </p>
                        <br />
                        <%= CompetitionYear %> Washington State Language and Talent competition is now open for registration. Contestants who are interested in 
