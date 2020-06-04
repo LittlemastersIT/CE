@@ -16,10 +16,28 @@
                 <div class="ce-temp-note ce-h4" style="color:#050143;border-color:red;">
                     <asp:Label ID="RegistrationNoteText" runat="server">
                        <p style="color:red">
-                           The competition committee is closely watching out for the coronavirus status. The Washington State Chinese and Talent Competition is temporarily scheduled on November 5, 2020. At this point, OSPI cancelled all schools until the end of school year. We will release the competition date once we confirm with Chief Sealth International School. Thank you for your support!
+                           Dear students, families and teachers,
                            <br />
                            <br />
-                           中文竞赛组委会在密切关注Coronavirus发展情况，2020中文竞赛暂时定在2020年11月5日。目前，华州公立学校取消所有学年活动。我们将和 Chief Sealth International School 确认比赛日期并及早通知大家。 谢谢您对中文竞赛的支持和关注！
+                           As you know, we had postponed several times for the 2020 Washington State Chinese Language Art and Talent Competition.  With the recent development and uncertainty of the COVID-19 pandemic, after careful consideration, the competition organization committee had made the decision to cancel this year's competition.  This is not an easy decision, but we think this would allow us to focus our energy to plan for next year's activities.  We would refund all the registration fees for this year's competition.  
+                           <br />
+                           <br />
+                           However, even the competition is canceled, we encourage the students to keep learning Chinese language and culture as this would benefit for lifetime, not just for the preparation of a competition. We hope you understand our decision and wish you and your family stay safe.
+                           <br />
+                           <br />
+                           If you have any questions regarding the competition or need more information, please email cltc@littlemastersclub.org.
+                           <br />
+                           <br />
+                           亲爱的老师，学生及家长，
+                           <br />
+                           <br />
+                           如大家所知, 我们今年几次延期2020华州中文及才艺大赛。鉴于COVID-19发展的不确定性，经过认真考虑，大赛组委会决定取消今年的比赛。虽然我们很艰难做出这个决定，但是这样我们可以集中精力办好下一年的赛事。我们每年从6月就开始启动下一年的准备活动。我们将退还今年的报名费。
+                           <br />
+                           <br />
+                           虽然比赛取消了，我们希望学生在这个特殊时期可以坚持对中国语言和文化的学习，争取明年大赛取得更好成绩。我们希望得到大家的理解，祝愿每个家庭平安，健康！
+                           <br />
+                           <br />
+                           如有任何问题，请联系 cltc@littlemastersclub.org.
                        </p>
                        <br />
                        <%= CompetitionYear %> Washington State Language and Talent competition is now open for registration. Contestants who are interested in 
