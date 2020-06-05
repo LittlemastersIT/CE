@@ -39,11 +39,6 @@
                            <br />
                            如有任何问题，请联系 cltc@littlemastersclub.org.
                        </p>
-                       <br />
-                       <%= CompetitionYear %> Washington State Language and Talent competition is now open for registration. Contestants who are interested in 
-                       participating should register online using this page. Please be sure you have read the information provided on the 
-                       <a style="text-decoration:underline;color:blue !important;" href="<%=ResolveUrl("~/public/talent/guidelines/ceguidelines.html")%>">Schedule & Guidelines</a>  
-                       page for the rules applied to the competition categories you register.
                     </asp:Label>
                     <br /><br />
                     <asp:Label ID="Label2" runat="server">
